@@ -56,14 +56,40 @@ const Header = () => {
               Proyectos
             </NavLink>
           </li>
-          <li className='m-4'>
-            <NavLink
-              to='/join'
-              className={({ isActive }) => linkIsActive(isActive)}
+          <li className='nav-item dropdown m-4'>
+            <a
+              className='nav-link dropdown-toggle text-decoration-none text-gray'
+              href='#'
+              role='button'
+              data-bs-toggle='dropdown'
+              aria-expanded='false'
             >
               Involúcrate
-            </NavLink>
+            </a>
+            <ul className='dropdown-menu dropdown-menu-dark'>
+              <li>
+                <NavLink className='dropdown-item' to='/donation'>
+                  Dona
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className='dropdown-item' to='/courses'>
+                  Cursos
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className='dropdown-item' to='/sponsor'>
+                  Patrocinadores
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className='dropdown-item' to='/joinUs'>
+                  Reclutamiento
+                </NavLink>
+              </li>
+            </ul>
           </li>
+
           <li className='m-4'>
             <NavLink
               to='/contact'
