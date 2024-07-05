@@ -1,15 +1,16 @@
 import React from 'react'
-import logo from '@/assets/main_logo.svg'
+import logo1 from '@/assets/main_logo.svg'
+import logo2 from '@/assets/horizontal_logo.svg'
 
 const Descrpt = () => {
   return (
     <div className='container-fluid m-0 h-100 row d-flex justify-content-center align-items-center'>
       <div className='m-4 col-md-4'>
-        <img src={logo} alt='IPN Cuauhtemoc image' />
+        <img src={logo1} alt='IPN Cuauhtemoc image' />
       </div>
       <div className='text ms-5 text-light col-md-6 col-xs-12'>
         <h3>Somos</h3>
-        <h1>IPN CUAUHTÉMOC</h1>
+        <img src={logo2} alt='IPN Cuauhtemoc image' />
         <p>
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
