@@ -9,7 +9,7 @@ const Header = () => {
   }
 
   return (
-    <nav className='navbar navbar-expand-lg navbar-dark bg-dark py-1 px-5 container-fluid d-flex justify-content-between align-items-center'>
+    <nav className='navbar navbar-expand-lg navbar-dark bg-dark py-1 px-5 container-fluid d-flex justify-content-between align-items-center content'>
       <NavLink to='/' className='my-2'>
         <img src={logo} alt='IPN Cuauhtemoc Logo' />
       </NavLink>

@@ -24,8 +24,11 @@ $theme-colors: map-merge($theme-colors, $custome-theme-colors);
   transform: translateX(0) translateY(0);
   transition: transform 0.1s ease-out;
 }
-@import '../../node_modules/bootstrap/scss/bootstrap';
 
-body {
-  background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.content {
+  font-family: 'Josefin Sans', sans-serif !important;
 }
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
