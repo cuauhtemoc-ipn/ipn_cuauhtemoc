@@ -1,10 +1,11 @@
 import React from 'react'
+import Descrpt from '../components/Header/Description'
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <>
+      <Descrpt />
+    </>
   )
 }
 
