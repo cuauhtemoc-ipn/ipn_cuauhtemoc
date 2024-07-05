@@ -3,9 +3,9 @@ import Descrpt from '../components/Header/Description'
 
 const Home = () => {
   return (
-    <>
+    <div className='background-image'>
       <Descrpt />
-    </>
+    </div>
   )
 }
 
