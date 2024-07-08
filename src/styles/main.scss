@@ -17,6 +17,11 @@ $font-sizes: map-merge($font-sizes, (7: .75rem,
   8: 0.5rem
 ));
 
+
+$font-sizes: map-merge($font-sizes, (7: .75rem,
+  8: 0.5rem
+));
+
 .background-image {
   position: fixed;
   top: 0;
