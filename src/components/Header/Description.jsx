@@ -1,16 +1,17 @@
 import React from 'react'
 import logo1 from '@/assets/main_logo.svg'
-import logo2 from '@/assets/horizontal_logo.svg'
+import name from '@/assets/team_name.svg'
+import arrow from '@/assets/arrow.svg'
 
 const Descrpt = () => {
   return (
-    <div className='container-fluid m-0 h-100 row d-flex justify-content-center align-items-center'>
-      <div className='m-4 col-md-4'>
-        <img src={logo1} alt='IPN Cuauhtemoc image' />
+    <div className='container-fluid row mx-0 my-5 d-flex justify-content-center align-items-center h-100'>
+      <div className='mx-4 col-lg-5 col-md-6 col-s-12 col-xs-12'>
+        <img src={logo1} className='img-fluid mx-auto d-block' alt='IPN Cuauhtemoc image' />
       </div>
-      <div className='text ms-5 text-light col-md-6 col-xs-12'>
+      <div className='text text-light col-12 col-md-9 col-lg-4'>
         <h3>Somos</h3>
-        <img src={logo2} alt='IPN Cuauhtemoc image' />
+        <img src={name} className='img-fluid' alt='IPN Cuauhtemoc' />
         <p>
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -20,7 +21,16 @@ const Descrpt = () => {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum."
         </p>
-        <button className='bg-gray text-dark'>Saber más</button>
+        <div className='text-center'>
+          <button className='btn bg-gray text-dark py-1'>
+            Saber más
+            <img
+              src={arrow}
+              className='img-fluid mx-auto ps-2'
+              alt='arrow'
+            />
+          </button>
+        </div>
       </div>
     </div>
   )
