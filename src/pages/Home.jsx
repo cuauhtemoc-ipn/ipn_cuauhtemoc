@@ -4,8 +4,7 @@ import Proyect from '../components/Header/Projects'
 
 const Home = () => {
   return (
-    <div>
-      <div className='background-image overflow-auto' />
+    <div className='background-image overflow-auto'>
       <Descrpt />
       <Proyect />
     </div>
