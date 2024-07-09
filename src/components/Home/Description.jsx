@@ -5,7 +5,7 @@ import arrow from '@/assets/arrow.svg'
 
 const Descrpt = () => {
   return (
-    <div className='container-fluid row mx-0 my-5 d-flex justify-content-center align-items-center h-100'>
+    <div className='container-fluid row mx-0 my-5 d-flex justify-content-center align-items-center h-full'>
       <div className='mx-4 col-lg-5 col-md-6 col-s-12 col-xs-12'>
         <img src={logo1} className='img-fluid mx-auto d-block' alt='IPN Cuauhtemoc image' />
       </div>
