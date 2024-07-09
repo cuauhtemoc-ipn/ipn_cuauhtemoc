@@ -11,7 +11,7 @@ const image = (
       alt='Imagen de muesta de componentes'
     />
     <div className='text-center d-lg-none my-5'>
-      <button className='btn bg-light text-dark py-1'>
+      <button className='btn bg-gray text-dark py-1'>
         Ver todos nuestros proyectos
         <img src={arrow} className='img-fluid mx-auto ps-2' alt='arrow' />
       </button>
