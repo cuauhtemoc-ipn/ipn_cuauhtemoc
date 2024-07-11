@@ -9,6 +9,7 @@ const Home = () => {
       <div className='background-image' />
       <Descrpt />
       <News />
+      {/* <hr className='border border-light border-1 opacity-100' /> */}
       <Proyect />
     </div>
   )
