@@ -77,6 +77,6 @@ $font-sizes: map-merge($font-sizes, (7: .75rem,
   margin-top: -1em;
 }
 .h-full {
-  height: 100vh;
+  min-height: 100vh;
 }
 @import '../../node_modules/bootstrap/scss/bootstrap';
