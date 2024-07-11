@@ -22,7 +22,7 @@ const Descrpt = () => {
           culpa qui officia deserunt mollit anim id est laborum."
         </p>
         <div className='text-center'>
-          <button className='btn bg-gray text-dark py-1'>
+          <button className='btn bg-light text-dark py-1'>
             Saber más
             <img
               src={arrow}
