@@ -43,6 +43,7 @@ $font-sizes: map-merge($font-sizes, (7: .75rem,
 .news {
   display: grid;
   height: 100%;
+  
   .news__image {
     grid-row: 1;
     grid-column: 1;
