@@ -37,16 +37,15 @@ const cardcontent = (
       }}
     />
     <div className='text-center d-none d-lg-inline '>
-      <button className='btn bg-light text-dark py-1'>
+      <button className='btn btn-outline-light btn-lg px-5'>
         Ver todos nuestros proyectos
-        <img src={arrow} className='img-fluid mx-auto ps-2' alt='arrow' />
+        <img src={arrow} className='img-fluid mx-auto ps-2 pb-1' alt='arrow' />
       </button>
     </div>
   </div>
 )
 
 const Proyect = () => {
-  /*
   const [isLargeScreen, setLargeScreen] = useState(window.innerWidth >= 992)
 
   useEffect(() => {
@@ -63,58 +62,11 @@ const Proyect = () => {
     // Limpiar el listener cuando el componente se desmonte
     return () => window.removeEventListener('resize', handleResize)
   }, [])
-  */
-  return (
-  /*
-    <div className='container-fluid row mx-0 my-5 d-flex justify-content-end'>
-      <h1 className='text-light px-5'>Proyectos</h1>
-      <div className='card border-0 mx-5 col-xl-3 col-lg-4 col-md-4 col-10 px-0'>
-        <img
-          src={team}
-          className='card-img-top mx-auto d-block'
-          alt='IPN Cuauhtemoc image'
-        />
-        <div className='card-body bg-gray'>
-          <h4 className='card-title'>CanSat Competition</h4>
-          <p className='card-text'>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-          <div className='text-center'>
-            <button className='btn bg-dark text-light'>Ver más</button>
-          </div>
-        </div>
-      </div>
-      <div className='card border-0 mx-5 col-xl-3 col-lg-4 col-md-4 col-10 px-0'>
-        <img
-          src={team}
-          className='card-img-top mx-auto d-block'
-          alt='IPN Cuauhtemoc image'
-        />
-        <div className='card-body bg-gray'>
-          <h4 className='card-title'>CanSat Competition</h4>
-          <p className='card-text'>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-          <div className='text-center'>
-            <button className='btn bg-dark text-light'>Ver más</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  )
-}
-*/
 
-  /*
+  return (
     <div className='container-fluid my-4'>
+      <h1 className='display-3 text-light fw-semibold px-5'>Proyectos</h1>
       <div className='row mx-0 justify-content-center'>
-        <h1 className='display-3 text-light fw-semibold px-5'>Proyectos</h1>
         {isLargeScreen ? (
           <>
             {image}
@@ -126,21 +78,6 @@ const Proyect = () => {
             {image}
           </>
         )}
-      </div>
-    </div>
-*/
-
-    <div className='container-fluid my-4'>
-      <div className='row mx-0 justify-content-center'>
-        <h1 className='display-3 text-light fw-semibold px-5'>Proyectos</h1>
-        <div>
-          {image}
-          {cardcontent}
-        </div>
-        <div className='d-inline d-lg-none'>
-          {cardcontent}
-          {image}
-        </div>
       </div>
     </div>
   )
