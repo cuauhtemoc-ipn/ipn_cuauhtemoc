@@ -4,6 +4,7 @@ import News from '@/components/Home/News'
 import Proyect from '../components/Home/Projects'
 import Sponsor from '../components/Home/Sponsors'
 import Recruitment from '../components/Home/Recruitment'
+import Footer from '../components/Home/Footer'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Proyect />
       <Sponsor />
       <Recruitment />
+      <Footer />
 
     </div>
   )
