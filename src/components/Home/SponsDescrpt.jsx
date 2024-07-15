@@ -8,7 +8,7 @@ const SpDescrpt = ({ data }) => {
   }
 
   return (
-    <div className='text-center my-lg-4 col-md-10 col-lg-5 col-xl-3'>
+    <div className='text-center my-4 col-md-10 col-lg-5 col-xl-3'>
       <a href={data.href} target='_blank' className='tt'>
         <img src={data.src} className='col-md-4 h-75' alt='Imagen de sponsor' />
       </a>
