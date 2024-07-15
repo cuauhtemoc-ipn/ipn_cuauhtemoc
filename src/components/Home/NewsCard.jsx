@@ -3,7 +3,7 @@ import React from 'react'
 
 const NewsCard = ({ data }) => {
   return (
-    <div className='col-10 col-md-4 col-lg-4 news my-4 px-3 shadow'>
+    <div className='col-10 col-md-6 col-lg-4 news my-4 px-3 shadow'>
       <aside className='m-2 bg-light text-dark text-center p-1 news__date'>
         <div className='fs-6 mt-01'>2024</div>
         <div className='fw-semibold fs-1 mt-01'>12</div>
