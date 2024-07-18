@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import ProjectCard from './ProjectCard'
 import team from '@/assets/team.svg'
-import arrow from '@/assets/arrow.svg'
+import cucei from '@/assets/teamcucei.png'
 import mat from '@/assets/material.svg'
 
 const image = (
@@ -11,12 +11,6 @@ const image = (
       className='img-fluid col-md-12'
       alt='Imagen de muesta de componentes'
     />
-    <div className='text-center d-lg-none my-4'>
-      <button className='btn btn-outline-light btn-lg px-5'>
-        Ver todos nuestros proyectos
-        <img src={arrow} className='img-fluid mx-auto ps-2 pb-1' alt='arrow' />
-      </button>
-    </div>
   </div>
 )
 
@@ -26,14 +20,14 @@ const cardcontent = (
       data={{
         src: team,
         title: 'CanSat Competition',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis posuere morbi leo urna molestie at elementum eu facilisis. Odio ut sem nulla pharetra diam. Nisi porta lorem mollis aliquam ut. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Turpis egestas pretium aenean pharetra magna ac placerat. Est ullamcorper eget nulla facilisi. Lectus quam id leo in vitae turpis massa sed. Mollis aliquam ut porttitor leo. Turpis egestas maecenas pharetra convallis posuere. Vitae auctor eu augue ut lectus arcu bibendum. Odio morbi quis commodo odio. Felis eget velit aliquet sagittis id consectetur. Eget egestas purus viverra accumsan. Morbi tempus iaculis urna id volutpat lacus laoreet non. Tellus elementum sagittis vitae et.'
+        text: 'Descubre cómo se realiza a cabo la competencia internacional CanSat Competition donde hemos logramos posicionarmos como el mejor equipo de Latinoamérica y poner en alto el nombre de México así como de nuestra institución'
       }}
     />
     <ProjectCard
       data={{
-        src: team,
-        title: 'CanSat Competition',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis posuere morbi leo urna molestie at elementum eu facilisis. Odio ut sem nulla pharetra diam. Nisi porta lorem mollis aliquam ut. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Turpis egestas pretium aenean pharetra magna ac placerat. Est ullamcorper eget nulla facilisi. Lectus quam id leo in vitae turpis massa sed. Mollis aliquam ut porttitor leo. Turpis egestas maecenas pharetra convallis posuere. Vitae auctor eu augue ut lectus arcu bibendum. Odio morbi quis commodo odio. Felis eget velit aliquet sagittis id consectetur. Eget egestas purus viverra accumsan. Morbi tempus iaculis urna id volutpat lacus laoreet non. Tellus elementum sagittis vitae et.'
+        src: cucei,
+        title: 'CanSat CUCEI',
+        text: 'Acompáñanos a visualizar las veces que hemos participado en la competencia nacional CanSat CUCEI en la cual nos hemos posicionado dentro de los mejores lugares siendo capaces de obtener el primer lugar gracias a nuestro esfuerzo y dedicación'
       }}
     />
   </div>
@@ -58,7 +52,7 @@ const Proyect = () => {
   }, [])
 
   return (
-    <div className='container-fluid h-full py-4'>
+    <div className='container-xxl py-4'>
       <h2 className='display-3 text-light fw-semibold my-5'>Proyectos</h2>
       <div className='row mx-0 justify-content-center'>
         {isLargeScreen ? (
@@ -67,8 +61,7 @@ const Proyect = () => {
             {cardcontent}
             <div className='text-center d-none d-lg-inline my-4'>
               <button className='btn btn-outline-light btn-lg px-5'>
-                Ver todos nuestros proyectos
-                <img src={arrow} className='img-fluid mx-auto ps-2 pb-1' alt='arrow' />
+                Ver todos nuestros proyectos ➔
               </button>
             </div>
           </>
@@ -76,6 +69,11 @@ const Proyect = () => {
           <>
             {cardcontent}
             {image}
+            <div className='text-center d-lg-none my-4'>
+              <button className='btn btn-outline-light btn-lg px-5'>
+                Ver todos nuestros proyectos ➔
+              </button>
+            </div>
           </>
         )}
       </div>
