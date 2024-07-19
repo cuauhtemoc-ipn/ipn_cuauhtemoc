@@ -28,13 +28,18 @@ const Recruitment = () => {
             Únete a nosotros y forma parte de la próxima generación de líderes
             en ingeniería aeroespacial!
           </p>
-          <div className='container-full d-flex justify-content-center'>
+          <div className='container-full d-flex justify-content-center d-none d-md-block'>
             <button className='news__button btn btn-outline-light btn-lg px-5 m-3'>
               Ver la ultima convocatoria ➔
             </button>
           </div>
         </aside>
         <img src={image} alt='' className='col-12 col-md-6' />
+        <div className='container-full d-flex justify-content-center d-block d-md-none'>
+          <button className='news__button btn btn-outline-light btn-lg px-5 m-3 '>
+            Ver la ultima convocatoria ➔
+          </button>
+        </div>
       </div>
     </div>
   )
