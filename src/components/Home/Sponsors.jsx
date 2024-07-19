@@ -8,9 +8,9 @@ import spons5 from '@/assets/spons5.svg'
 
 const Sponsor = () => {
   return (
-    <div className='container-fluid py-4'>
+    <div className='container-xxl py-4'>
       <h2 className='display-3 text-light fw-semibold my-5'>Patrocinadores</h2>
-      <div className='row mx-0 justify-content-center'>
+      <div className='row mx-0 justify-content-center align-items-center'>
         <SpDescrpt
           data={{
             href: 'https://www.grupossc.com/',

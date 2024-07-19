@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='container-fluid p-5 mt-4 bg-dark'>
       <footer className='row justify-content-start align-items-center'>
-        <div className='col-md-4 px-4'>
+        <div className='col-md-4 px-3'>
           <div>
             <img
               src={logo1}
