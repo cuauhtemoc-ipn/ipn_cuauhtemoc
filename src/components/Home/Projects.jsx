@@ -69,7 +69,7 @@ const Proyect = () => {
           <>
             {cardcontent}
             {image}
-            <div className='text-center d-lg-none my-4'>
+            <div className='text-center d-lg-none p-0 my-4'>
               <button className='btn btn-outline-light btn-lg px-5'>
                 Ver todos nuestros proyectos ➔
               </button>

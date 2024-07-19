@@ -6,7 +6,7 @@ const Descrpt = () => {
   return (
     <div className='container-xxl d-flex h-full py-4'>
       <div className='row mx-0 justify-content-center align-items-center'>
-        <div className='mx-4 col-12 col-md-6 col-lg-4'>
+        <div className='text-center mx-4 col-12 col-md-6 col-lg-4'>
           <img src={logo1} className='img-fluid' alt='IPN Cuauhtemoc image' />
         </div>
         <div className='text-light col-12 col-md-9 col-lg-4'>

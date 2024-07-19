@@ -3,7 +3,7 @@ import React from 'react'
 
 const ProjectCard = ({ data }) => {
   return (
-    <div className='mx-sm-auto mx-lg-0 my-4 px-3 col-sm-10 col-md-6 col-lg-6 col-xl-6 mb-4'>
+    <div className='mx-auto mx-lg-0 my-4 px-3 col-10 col-md-6 col-lg-6 col-xl-6 mb-4'>
       <div className='card border-0'>
         <img
           src={data.src}
