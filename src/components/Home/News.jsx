@@ -4,25 +4,38 @@ import NewsCard from './NewsCard'
 const News = () => {
   return (
     <div className='container-xxl h-full py-4'>
-      <h2 className='display-3 text-light fw-semibold my-5'>Últimas noticias</h2>
+      <h2 className='display-3 text-light fw-semibold my-5'>
+        Últimas noticias
+      </h2>
       <div className='container-fluid row justify-content-center align-items-center m-0'>
         <div className='row justify-content-center'>
           <NewsCard
             data={{
               src: 'src/assets/instagram_1.png',
-              text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis posuere morbi leo urna molestie at elementum eu facilisis. Odio ut sem nulla pharetra diam. Nisi porta lorem mollis aliquam ut. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Turpis egestas pretium aenean pharetra magna ac placerat. Est ullamcorper eget nulla facilisi. Lectus quam id leo in vitae turpis massa sed. Mollis aliquam ut porttitor leo. Turpis egestas maecenas pharetra convallis posuere. Vitae auctor eu augue ut lectus arcu bibendum. Odio morbi quis commodo odio. Felis eget velit aliquet sagittis id consectetur. Eget egestas purus viverra accumsan. Morbi tempus iaculis urna id volutpat lacus laoreet non. Tellus elementum sagittis vitae et.'
+              text: 'tbt Cansat Competition 2024 🚀',
+              tags: '#ipn #estudiantes #cansat2024 #esime #mexico #ingeniería #aeronautica #competencia #cuauhtemoc',
+              url: 'https://www.instagram.com/p/C9VTdY_xtGR/',
+              date: '2024-07-11T00:00:00Z'
             }}
           />
           <NewsCard
             data={{
               src: 'src/assets/instagram_2.png',
-              text: 'Nullam vehicula ipsum a arcu cursus vitae. Sit amet nisl purus in mollis. Mauris nunc congue nisi vitae suscipit. Dictum non consectetur a erat nam at lectus. Sagittis aliquam malesuada bibendum arcu vitae. Purus in mollis nunc sed id. Neque ornare aenean euismod elementum nisi quis eleifend. Ut morbi tincidunt augue interdum velit. Imperdiet nulla malesuada pellentesque elit eget gravida. Et netus et malesuada fames ac turpis egestas maecenas.'
+              text: 'Un poco de lo que fue el flight day en Cansat Competition 2024.',
+              tags: '#ipn #ingenieria #estudiantes #competition #cansatcompetition #cansat2024 #mexico #esime #aeronautica',
+              url: 'https://www.instagram.com/p/C9QjwIkx3Sm/',
+              date: '2024-07-10T00:00:00Z'
             }}
           />
           <NewsCard
             data={{
               src: 'src/assets/instagram_3.png',
-              text: 'Viverra nam libero justo laoreet sit. Massa tempor nec feugiat nisl pretium fusce id velit. Tortor condimentum lacinia quis vel eros donec ac odio tempor. Magna etiam tempor orci eu lobortis.'
+              text: `Hace unas semanas, tuvimos la oportunidad de participar en la Cansat Competition 2024, una experiencia que no solo desafió nuestros conocimientos y habilidades, sino que también nos llevó a nuevos límites y horizontes.
+                    Desde el diseño y construcción de nuestro cansat , hasta el emocionante momento del lanzamiento, cada paso fue una mezcla de adrenalina, aprendizaje y trabajo en equipo.
+                    No fue fácil, pero cada obstáculo superado nos demostró que juntos somos capaces de alcanzar las estrellas.Gracias a todos los que nos apoyaron y creyeron en nosotros🫶🏼.`,
+              tags: '#Cansat2024 #Teamwork #Innovation #SpaceAdventure #ScienceAndTechnology #esime #ipn #ingeniería #estudiantes #competencia',
+              url: 'https://www.instagram.com/p/C9AzHoAxnZ_/?img_index=1',
+              date: '2024-07-11T00:00:00Z'
             }}
           />
         </div>
