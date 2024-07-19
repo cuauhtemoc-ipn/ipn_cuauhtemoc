@@ -40,7 +40,7 @@ const News = () => {
           />
         </div>
         <div className='row justify-content-center my-4'>
-          <div className='col-10 col-md-5 col-lg-3 justify-content-center'>
+          <div className='col-10 col-md-5 col-lg-3 d-flex justify-content-center'>
             <button className='news__button btn btn-outline-light btn-lg px-5'>
               Ver más ➔
             </button>
