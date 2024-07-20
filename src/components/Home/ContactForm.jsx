@@ -82,13 +82,13 @@ const ContactForm = () => {
             <label htmlFor='message' className='text-light'>
               Mensaje
             </label>
-            <input
-              type='text'
+            <textarea
               name='message'
               placeholder='Escribe tu mensaje'
               id='message'
               {...register('message')}
               className='rounded-3 my-2 p-2 border border-0'
+              rows='3'
             />
             <p className='text-gray text-center'>{errors.message?.message}</p>
           </div>
