@@ -30,7 +30,7 @@ const NewsCard = ({ data }) => {
       <div className='bg-light text-dark p-3 ratio ratio-21x9 ratio-md-16x9 ratio-lg-21x9 overflow-auto'>
         <div className='p-2'>
           {data.text.length > 255 ? data.text.slice(0, 255) + '...' : data.text}
-          <div className='text-primary fst-italic align-self-bottom'>{data.tags}</div>
+          <div className='text-dark fw-bold fst-italic align-self-bottom mt-2'>{data.tags}</div>
 
         </div>
       </div>
