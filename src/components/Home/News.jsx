@@ -1,5 +1,8 @@
 import React from 'react'
 import NewsCard from './NewsCard'
+import image1 from '@/assets/instagram_1.png'
+import image2 from '@/assets/instagram_2.png'
+import image3 from '@/assets/instagram_3.png'
 
 const News = () => {
   return (
@@ -11,7 +14,7 @@ const News = () => {
         <div className='row justify-content-center'>
           <NewsCard
             data={{
-              src: 'src/assets/instagram_1.png',
+              src: image1,
               text: 'tbt Cansat Competition 2024 🚀',
               tags: '#ipn #estudiantes #cansat2024 #esime #mexico #ingeniería #aeronautica #competencia #cuauhtemoc',
               url: 'https://www.instagram.com/p/C9VTdY_xtGR/',
@@ -20,7 +23,7 @@ const News = () => {
           />
           <NewsCard
             data={{
-              src: 'src/assets/instagram_2.png',
+              src: image2,
               text: 'Un poco de lo que fue el flight day en Cansat Competition 2024.',
               tags: '#ipn #ingenieria #estudiantes #competition #cansatcompetition #cansat2024 #mexico #esime #aeronautica',
               url: 'https://www.instagram.com/p/C9QjwIkx3Sm/',
@@ -29,13 +32,13 @@ const News = () => {
           />
           <NewsCard
             data={{
-              src: 'src/assets/instagram_3.png',
+              src: image3,
               text: `Hace unas semanas, tuvimos la oportunidad de participar en la Cansat Competition 2024, una experiencia que no solo desafió nuestros conocimientos y habilidades, sino que también nos llevó a nuevos límites y horizontes.
                     Desde el diseño y construcción de nuestro cansat , hasta el emocionante momento del lanzamiento, cada paso fue una mezcla de adrenalina, aprendizaje y trabajo en equipo.
                     No fue fácil, pero cada obstáculo superado nos demostró que juntos somos capaces de alcanzar las estrellas.Gracias a todos los que nos apoyaron y creyeron en nosotros🫶🏼.`,
               tags: '#Cansat2024 #Teamwork #Innovation #SpaceAdventure #ScienceAndTechnology #esime #ipn #ingeniería #estudiantes #competencia',
               url: 'https://www.instagram.com/p/C9AzHoAxnZ_/?img_index=1',
-              date: '2024-07-11T00:00:00Z'
+              date: '2024-07-09T00:00:00Z'
             }}
           />
         </div>
