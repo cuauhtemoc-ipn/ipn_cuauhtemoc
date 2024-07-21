@@ -4,7 +4,6 @@ import News from '@/components/Home/News'
 import Proyect from '../components/Home/Projects'
 import Sponsor from '../components/Home/Sponsors'
 import Recruitment from '../components/Home/Recruitment'
-import Footer from '../components/Home/Footer'
 import backgroundImage from '@/assets/background.png'
 import Contact from '../components/Home/Contact'
 
@@ -24,7 +23,6 @@ const Home = () => {
       <Sponsor />
       <Recruitment />
       <Contact />
-      <Footer />
     </div>
   )
 }

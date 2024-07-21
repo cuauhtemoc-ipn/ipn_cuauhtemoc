@@ -5,12 +5,12 @@ import { NavLink } from 'react-router-dom'
 import insta from '@/assets/instalogo.png'
 import linkedin from '@/assets/linkedinlogo.png'
 import face from '@/assets/facebooklogo.svg'
-import arrowup from '@/assets/arrow-up-circle-fill.svg'
+import ScrollTopButton from '../../routes/Scrollupbtn'
 
 const Footer = () => {
   return (
-    <div className='container-xxl py-5 mt-4 bg-dark'>
-      <footer className='row justify-content-center align-items-center mx-0'>
+    <div className='container-fluid py-5 mt-4 bg-dark'>
+      <footer className='row justify-content-center align-items-center mx-0 position-relative'>
         <div className='row justify-content-center col-7 col-md-4'>
           <div className='px-3 mb-5 mb-md-0 col-7 col-md-12'>
             <div>
@@ -28,16 +28,10 @@ const Footer = () => {
               />
             </div>
           </div>
-          <div className='d-inline d-md-none text-center text-light px-0 col-2'>
-            <NavLink to='/home'>
-              <img src={arrowup} className='col-8' alt='Red Social Instagram' />
-            </NavLink>
-            <p>Ir a inicio</p>
-          </div>
         </div>
         <div className='row justify-content-center mx-0 col-md-8'>
           <div className='px-2 mb-5 mb-md-0 text-light col-5 col-md-6'>
-            <h5 className='mb-4'>Menú rápido</h5>
+            <h5 className='text-center text-md-start mb-4'>Menú rápido</h5>
             <NavLink to='/' className='text-decoration-none text-light'>
               <li>Inicio</li>
             </NavLink>
@@ -85,19 +79,9 @@ const Footer = () => {
               <h5 className='mb-4 col-12 col-md-9'>
                 Síguenos en nuestras redes sociales
               </h5>
-              <div className='d-none d-md-inline text-center px-0 col-3'>
-                <NavLink to='/home'>
-                  <img
-                    src={arrowup}
-                    className='col-8'
-                    alt='Red Social Instagram'
-                  />
-                </NavLink>
-                <p>Ir a inicio</p>
-              </div>
             </div>
             <div className='row justify-content-center align-items-center mx-0 mb-3 col-12'>
-              <div className='p-0 p-lg-1 px-xl-2 col-12 col-md-2'>
+              <div className='p-0 p-lg-1 px-xl-3 col-12 col-md-2'>
                 <a
                   href='https://www.instagram.com/cuauhtemocipn/'
                   target='_blank'
@@ -114,7 +98,7 @@ const Footer = () => {
               </div>
             </div>
             <div className='row justify-content-center align-items-center mx-0 mb-3 col-12'>
-              <div className='p-0 p-lg-1 px-xl-2 col-12 col-md-2'>
+              <div className='p-0 p-lg-1 px-xl-3 col-12 col-md-2'>
                 <a
                   href='https://www.linkedin.com/company/cuauht%C3%A9moc-ipn-aeroespacial/'
                   target='_blank'
@@ -131,7 +115,7 @@ const Footer = () => {
               </div>
             </div>
             <div className='row justify-content-center align-items-center mx-0 mb-3 col-12'>
-              <div className='p-0 p-lg-1 px-xl-2 col-12 col-md-2'>
+              <div className='p-0 p-lg-1 px-xl-3 col-12 col-md-2'>
                 <a
                   href='https://www.facebook.com/CuauhtemocIPN'
                   target='_blank'
@@ -157,6 +141,9 @@ const Footer = () => {
               Todos los derechos reservados
             </p>
           </div>
+        </div>
+        <div className='row justify-content-center justify-content-md-end position-absolute top-0 end-0 mx-0 col-4 col-sm-3 col-md-2'>
+          <ScrollTopButton />
         </div>
       </footer>
     </div>

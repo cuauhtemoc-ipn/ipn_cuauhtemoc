@@ -10,10 +10,10 @@ const SpDescrpt = ({ data }) => {
   }
 
   return (
-    <div className='row justify-content-center py-2 my-md-4 col-md-5 col-lg-4 col-xl-3'>
-      <div className='text-center my-4 my-sm-auto col-10 col-sm-5 col-md-10 col-lg-8'>
+    <div className='row justify-content-center align-items-center py-3 my-md-4 col-md-5 col-lg-4 col-xl-3'>
+      <div className='text-center px-sm-4 px-md-0 my-4 col-5 col-sm-5 col-md-7'>
         <a href={data.href} target='_blank' className='tt'>
-          <img src={data.src} className='img-fluid' alt='Imagen de sponsor' />
+          <img src={data.src} className='img-fluid px-sm-4 px-md-0' alt='Imagen de sponsor' />
         </a>
         <Tooltip
           anchorSelect='.tt'
@@ -23,8 +23,8 @@ const SpDescrpt = ({ data }) => {
           <span dangerouslySetInnerHTML={dividetext(data.text)} />
         </Tooltip>
       </div>
-      <div className='text-light d-md-none col-12 col-sm-6'>
-        <p dangerouslySetInnerHTML={dividetext(data.text)} />
+      <div className='text-light d-md-none col-12 col-sm-7'>
+        <p className='my-auto' dangerouslySetInnerHTML={dividetext(data.text)} />
       </div>
     </div>
   )
