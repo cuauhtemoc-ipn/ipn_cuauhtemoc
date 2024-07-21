@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import arrowup from '@/assets/arrow-up-circle-fill.svg'
+import 'bootstrap-icons/font/bootstrap-icons.css'
 
 const ScrollTopButton = () => {
   const scrollToTop = () => {
@@ -13,7 +13,12 @@ const ScrollTopButton = () => {
   return (
     <div className='row text-light px-0 col-12'>
       <NavLink className='text-center' onClick={scrollToTop}>
-        <img src={arrowup} className='col-6 col-md-7 col-lg-6 col-xl-4' alt='Ir a arriba' />
+        {/*col-6 col-md-7 col-lg-6 col-xl-4*/}
+        <i
+          className='bi bi-arrow-up-circle col-6 col-md-7 col-lg-6 col-xl-4 h1'
+          alt='Ir a arriba'
+          style={{ color: 'white' }}
+        />
       </NavLink>
       <p className='text-center'>Ir a arriba</p>
     </div>
