@@ -10,22 +10,33 @@ const Mission = () => {
         <div className='row justify-content-center col-8'>
           <div
             id='Missioncarousel'
-            className='carousel slide carousel-fade col-12 col-md-6 col-lg-8'
+            className='carousel slide col-12 col-md-6 col-lg-8'
             data-bs-ride='carousel'
           >
             <div className='carousel-inner'>
               <div className='carousel-item active' data-bs-interval='4000'>
                 <img
                   src={cansat}
-                  className='d-block w-100 img-fluid col-7'
-                  alt='IPN Cuauhtemoc image'
+                  className='d-block w-100 col-7'
+                  style={{ height: '300px' }}
+                  alt='...'
                 />
               </div>
               <div className='carousel-item' data-bs-interval='4000'>
-                <img src={presen} className='d-block w-100 img-fluid col-7' alt='...' />
+                <img
+                  src={presen}
+                  className='d-block w-100 col-7'
+                  style={{ height: '300px' }}
+                  alt='...'
+                />
               </div>
               <div className='carousel-item' data-bs-interval='4000'>
-                <img src={pcb} className='d-block w-100 img-fluid col-7' alt='...' />
+                <img
+                  src={pcb}
+                  className='d-block w-100 col-7'
+                  style={{ height: '300px' }}
+                  alt='...'
+                />
               </div>
             </div>
             <button
@@ -91,22 +102,33 @@ const Mission = () => {
         <div className='row justify-content-center col-8'>
           <div
             id='Vissioncarousel'
-            className='carousel slide carousel-fade col-12 col-md-6 col-lg-8'
+            className='carousel slide col-12 col-md-6 col-lg-8'
             data-bs-ride='carousel'
           >
             <div className='carousel-inner'>
               <div className='carousel-item active' data-bs-interval='4000'>
                 <img
                   src={cansat}
-                  className='d-block w-100 img-fluid col-7'
-                  alt='IPN Cuauhtemoc image'
+                  className='d-block w-100 col-7'
+                  style={{ height: '300px' }}
+                  alt='...'
                 />
               </div>
               <div className='carousel-item' data-bs-interval='4000'>
-                <img src={presen} className='d-block w-100' alt='...' />
+                <img
+                  src={presen}
+                  className='d-block w-100 col-7'
+                  style={{ height: '300px' }}
+                  alt='...'
+                />
               </div>
               <div className='carousel-item' data-bs-interval='4000'>
-                <img src={pcb} className='d-block w-100' alt='...' />
+                <img
+                  src={pcb}
+                  className='d-block w-100 col-7'
+                  style={{ height: '300px' }}
+                  alt='...'
+                />
               </div>
             </div>
             <button
