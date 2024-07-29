@@ -6,7 +6,7 @@ const ProjectDetailHeader = ({ image, name, text }) => {
     window.open('https://www.google.com')
   }
   return (
-    <div className='container-xxl d-flex h-full pt-4 mt-5 my-lg-0 '>
+    <div className='container-xxl d-flex pt-5 mt-5 mb-5'>
       <div className='row mx-0 justify-content-center align-items-center'>
         <div className='text-center col-12 col-md-6 col-lg-5 my-5 my-lg-0 '>
           <img src={image} className='img-fluid' alt='Competition banner' />
