@@ -4,7 +4,8 @@ import { Carousel } from 'react-bootstrap'
 
 const Tabs = ({ data }) => {
   const [activeTab, setActiveTab] = useState(data.length - 1)
-  const [chunkSize, setChunksize] = useState(1)
+  const [chunkSize, setChunksize] = useState(3)
+  const [size, setSize] = useState(3)
 
   const handleTabClick = tab => {
     setActiveTab(tab)
@@ -15,10 +16,13 @@ const Tabs = ({ data }) => {
     const updateVariableValue = () => {
       if (window.innerWidth > 992) {
         setChunksize(3)
+        setSize(3)
       } else if (window.innerWidth > 768) {
         setChunksize(2)
+        setSize(5)
       } else {
         setChunksize(1)
+        setSize(8)
       }
     }
     // Event listener for window resize
@@ -163,20 +167,19 @@ const Tabs = ({ data }) => {
   const loadImages = entry => {
     const carouselRows = []
     const total = entry.images.length
-    let size = 10
-    if (chunkSize === 2) {
-      size = 5
-    } else if (chunkSize === 3) {
-      size = 3
-    }
     for (let i = 0; i < total; i += chunkSize) {
       const chunk = entry.images.slice(i, i + chunkSize)
       carouselRows.push(
         <Carousel.Item key={i}>
-          <div className='row justify-content-center py-3'>
+          <div className='row justify-content-evenly py-3'>
             {chunk.map(item => (
               <div className={`col-${size}`} key={item}>
-                <img src={item} alt='' className='w-100' />
+                <img
+                  src={item}
+                  alt=''
+                  className='d-block'
+                  style={{ height: '200px' }}
+                />
               </div>
             ))}
           </div>

@@ -48,14 +48,40 @@ const Header = () => {
             </NavLink>
           </li>
 
-          <li className='m-4'>
-            <NavLink
-              to='/projects'
-              className={({ isActive }) => linkIsActive(isActive)}
+          <li className='nav-item dropdown m-4'>
+            <a
+              className='nav-link dropdown-toggle text-decoration-none text-gray'
+              href='#'
+              role='button'
+              data-bs-toggle='dropdown'
+              aria-expanded='false'
             >
               Proyectos
-            </NavLink>
+            </a>
+            <ul className='dropdown-menu dropdown-menu-dark'>
+              <li>
+                <NavLink className='dropdown-item' to='/projects/cansat_competition'>
+                  CanSat Competition
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className='dropdown-item' to='/projects/cansat_cucei'>
+                  CanSat CUCEI
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className='dropdown-item' to='/projects/pico'>
+                  Picosatélites Puebla
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className='dropdown-item' to='/projects/enmice'>
+                  ENMICE
+                </NavLink>
+              </li>
+            </ul>
           </li>
+
           <li className='nav-item dropdown m-4'>
             <a
               className='nav-link dropdown-toggle text-decoration-none text-gray'
