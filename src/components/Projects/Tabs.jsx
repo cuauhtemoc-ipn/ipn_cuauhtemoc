@@ -1,11 +1,20 @@
 /* eslint-disable react/prop-types */
 import React, { useEffect, useState } from 'react'
-import { Carousel } from 'react-bootstrap'
+import { Carousel, Modal } from 'react-bootstrap'
 
 const Tabs = ({ data }) => {
   const [activeTab, setActiveTab] = useState(data.length - 1)
   const [chunkSize, setChunksize] = useState(3)
   const [size, setSize] = useState(3)
+  const [showModal, setShowModal] = useState(false)
+  const [currentImage, setCurrentImage] = useState('')
+
+  const handleImageClick = image => {
+    setCurrentImage(image)
+    setShowModal(true)
+  }
+
+  const handleCloseModal = () => setShowModal(false)
 
   const handleTabClick = tab => {
     setActiveTab(tab)
@@ -39,7 +48,7 @@ const Tabs = ({ data }) => {
     data.forEach((entry, index) => {
       tabs.push(
         <li
-          className='nav-item bg-gray rounded-top-2'
+          className='nav-item bg-gray rounded-top-2 border-start border-end'
           role='presentation'
           key={'title' + index}
         >
@@ -76,7 +85,7 @@ const Tabs = ({ data }) => {
           aria-labelledby={`tab${index}`}
           key={'content' + index}
         >
-          <h2 className='text-center p-3 pt-4 text-light display-3'>
+          <h2 className='text-center p-3 pt-4 text-light display-3  fw-bold'>
             {entry.name + ' ' + entry.edition}
           </h2>
           <div className='d-flex justify-content-center'>
@@ -93,8 +102,9 @@ const Tabs = ({ data }) => {
               ¿En qué consistió?
             </h3>
           </div>
-          <div className='row justify-content-center m-5'>
+          <div className='row justify-content-center m-0 m-lg-5'>
             {loadDescriptions(entry)}
+            {loadConclusion(entry)}
           </div>
           <div className='container-fluid justify-content-center my-5 bg-gray bg-opacity-25 py-1'>
             <div className=' border-bottom border-4 border-primary w-50 m-5'>
@@ -108,6 +118,17 @@ const Tabs = ({ data }) => {
             >
               {loadImages(entry)}
             </Carousel>
+
+            <Modal show={showModal} onHide={handleCloseModal} size='xl' className='align-self-center'>
+              <Modal.Body className='rounded'>
+                <img
+                  src={currentImage}
+                  alt='Expanded'
+                  className='d-block w-100'
+                  style={{ height: 'auto' }}
+                />
+              </Modal.Body>
+            </Modal>
           </div>
           <div className='d-flex justify-content-center'>
             <div className='border-bottom border-4 border-primary w-50 mx-5'>
@@ -133,7 +154,7 @@ const Tabs = ({ data }) => {
     const data = []
     entry.scores.forEach((score, index) => {
       data.push(
-        <p key={'score' + index} className='text-light h4 text-center p-2'>
+        <p key={'score' + index} className='text-light h2 text-center p-2'>
           {`${score.place}° lugar a nivel ${score.type}`}
         </p>
       )
@@ -145,13 +166,16 @@ const Tabs = ({ data }) => {
     entry.content.forEach((element, index) => {
       if (element.type === 'text') {
         data.push(
-          <div className='col-10 col-lg-6 p-4' key={'text' + index}>
-            <p className='text-light'>{element.value}</p>
+          <div
+            className='col-10 col-lg-6 p-2 p-lg-4 align-content-center'
+            key={'text' + index}
+          >
+            <p className='text-light lead lh-lg'>{element.value}</p>
           </div>
         )
       } else if (element.type === 'image') {
         data.push(
-          <div className='col-10 col-lg-6 p-4'>
+          <div className='col-10 col-lg-6 p-2 p-lg-4'>
             <img
               src={element.value}
               alt='Image'
@@ -164,6 +188,23 @@ const Tabs = ({ data }) => {
     })
     return data
   }
+  const loadConclusion = entry => {
+    const data = []
+
+    data.push(
+      <div className='col-10 col-lg-12 p-4 align-content-center'>
+        <p className='text-light lead lh-lg'>{entry.conclusion}</p>
+      </div>
+    )
+
+    data.push(
+      <div className='col-10 col-lg-8 p-4'>
+        <img src={entry.conclusionImage} alt='Image' className='w-100' />
+      </div>
+    )
+
+    return data
+  }
   const loadImages = entry => {
     const carouselRows = []
     const total = entry.images.length
@@ -171,14 +212,15 @@ const Tabs = ({ data }) => {
       const chunk = entry.images.slice(i, i + chunkSize)
       carouselRows.push(
         <Carousel.Item key={i}>
-          <div className='row justify-content-evenly py-3'>
+          <div className='row justify-content-around py-3 px-5'>
             {chunk.map(item => (
-              <div className={`col-${size}`} key={item}>
+              <div className={`col-${size} justify-content-center d-flex`} key={item}>
                 <img
                   src={item}
                   alt=''
                   className='d-block'
-                  style={{ height: '200px' }}
+                  style={{ height: '200px', cursor: 'pointer' }}
+                  onClick={() => handleImageClick(item)}
                 />
               </div>
             ))}

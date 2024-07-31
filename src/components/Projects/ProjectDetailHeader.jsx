@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
 
-const ProjectDetailHeader = ({ image, name, text }) => {
+const ProjectDetailHeader = ({ image, name, text, url }) => {
   function btnClick () {
-    window.open('https://www.google.com')
+    window.open('https://cansatcompetition.com/')
   }
   return (
     <div className='container-xxl d-flex pt-5 mt-5 mb-5'>
@@ -12,7 +12,7 @@ const ProjectDetailHeader = ({ image, name, text }) => {
           <img src={image} className='img-fluid' alt='Competition banner' />
         </div>
         <div className='text-light col-12 col-md-9 col-lg-7'>
-          <h1 className='display-2 mb-4'>{name}</h1>
+          <h1 className='display-2 mb-4  fw-bold'>{name}</h1>
           <p>{text}</p>
           <div className='text-center mt-4'>
             <button className='btn btn-outline-light btn-lg px-5' onClick={btnClick}>
