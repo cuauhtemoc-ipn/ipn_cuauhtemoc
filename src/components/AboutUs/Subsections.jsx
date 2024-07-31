@@ -96,24 +96,26 @@ const Subs = () => {
             Convallis posuere morbi leo urna molestie at elementum eu facilisis.
           </p>
         </div>
-        <div className='row buttons justify-content-center px-0 mt-4 mx-0'>
+        <div className='row d-flex buttons justify-content-center align-items-center px-0 mx-0 mt-4'>
           {Object.keys(sections).map(section => (
             <div
               key={section}
-              className='col-md-2 mb-3 d-flex justify-content-center px-0'
+              className='d-flex justify-content-center px-0 col-2'
             >
               <button
-                className={`btn btn-block btn-outline-light bg-gray ${
-                  selectedSection === section ? 'active' : ''
-                } d-flex flex-column align-items-center col-12 p-0`}
+                className={`btn btn-block btn-outline-light border-3 ${
+                  selectedSection === section ? 'active ' : ''
+                } d-flex flex-column align-items-center p-0 rounded-4 col-10`}
                 onClick={() => handleSectionChange(section)}
               >
-                <span>{section}</span>
-                <img
-                  src={sec}
-                  className='img-fluid mt-2 w-100'
-                  alt={`${section} image`}
-                />
+                <span className='m-1'>{section}</span>
+                <div className='ratio ratio-1x1'>
+                  <img
+                    src={sub1}
+                    className='img-fluid rounded-4'
+                    alt={`${section} image`}
+                  />
+                </div>
               </button>
             </div>
           ))}
