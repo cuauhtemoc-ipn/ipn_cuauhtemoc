@@ -82,3 +82,60 @@ $font-sizes: map-merge(
   min-height: 100vh;
 }
 @import '../../node_modules/bootstrap/scss/bootstrap';
+
+
+.card{
+  &-container{
+    width: 420px;
+    height: 550px;
+    background: rgba(2, 2, 2, 0.541);
+    clip-path: polygon(15% 0, 89% 0, 78% 100%, 4% 100%);
+    border: 2px solid white;
+    margin-bottom: 40px;
+
+    // Transición de las cards al pasar el mouse
+    &:hover{
+      transition: all .5s ease-in-out;
+      transform:scale(1.1);
+      z-index: 20;
+    }
+    &:not(:hover){
+      transition: all .5s ease-in-out;
+    }
+
+    a{
+      left: 40px;
+      bottom: 2px;
+    }
+  }
+  
+  &-img{
+    width: 100%;
+    height: 200px;
+  }
+
+  &-info{
+    padding: 0 40px;
+    padding-right: 55px;
+    padding-left: 20px;
+    padding-top: 10px;
+    line-height: 25px;
+    text-align: justify;
+  }
+}
+
+@media (min-width: 768px) { 
+  .card{
+    &-container{
+      width: 390px;
+      height: 530px;
+      margin: -40px;
+      margin-bottom: 80px;
+    }
+
+    &-info{
+      padding-left: 30px;
+      padding-right: 70px;
+    }
+  }
+}

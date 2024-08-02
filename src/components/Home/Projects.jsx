@@ -15,12 +15,26 @@ const image = (
 )
 
 const cardcontent = (
-  <div className='row col-lg-7 col-xl-7'>
+  <div className='row col-lg-12 col-xl-12 mt-4 justify-content-center'>
     <ProjectCard
       data={{
         src: team,
         title: 'CanSat Competition',
         text: 'Descubre cómo se realiza a cabo la competencia internacional CanSat Competition donde hemos logramos posicionarmos como el mejor equipo de Latinoamérica y poner en alto el nombre de México así como de nuestra institución'
+      }}
+    />
+    <ProjectCard
+      data={{
+        src: cucei,
+        title: 'CanSat CUCEI',
+        text: 'Acompáñanos a visualizar las veces que hemos participado en la competencia nacional CanSat CUCEI en la cual nos hemos posicionado dentro de los mejores lugares siendo capaces de obtener el primer lugar gracias a nuestro esfuerzo y dedicación'
+      }}
+    />
+    <ProjectCard
+      data={{
+        src: cucei,
+        title: 'CanSat CUCEI',
+        text: 'Acompáñanos a visualizar las veces que hemos participado en la competencia nacional CanSat CUCEI en la cual nos hemos posicionado dentro de los mejores lugares siendo capaces de obtener el primer lugar gracias a nuestro esfuerzo y dedicación'
       }}
     />
     <ProjectCard
@@ -52,30 +66,11 @@ const Proyect = () => {
   }, [])
 
   return (
-    <div className='container-xxl py-4'>
+    <div className='container-xxl py-4 m-auto'>
       <h2 className='display-3 text-light fw-semibold my-5'>Proyectos</h2>
       <div className='row mx-0 justify-content-center'>
-        {isLargeScreen ? (
-          <>
-            {image}
-            {cardcontent}
-            <div className='text-center d-none d-lg-inline my-4'>
-              <button className='btn btn-outline-light btn-lg px-5'>
-                Ver todos nuestros proyectos ➔
-              </button>
-            </div>
-          </>
-        ) : (
-          <>
-            {cardcontent}
-            {image}
-            <div className='text-center d-lg-none p-0 my-4'>
-              <button className='btn btn-outline-light btn-lg px-5'>
-                Ver todos nuestros proyectos ➔
-              </button>
-            </div>
-          </>
-        )}
+        {isLargeScreen ?<>{cardcontent}</> 
+        : <>{cardcontent}</>}
       </div>
     </div>
   )
