@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import ProjectCard from './ProjectCard'
-import team from '@/assets/team.svg'
+import team from '@/assets/teamcucei.png'
 import cucei from '@/assets/teamcucei.png'
 import mat from '@/assets/material.svg'
 
