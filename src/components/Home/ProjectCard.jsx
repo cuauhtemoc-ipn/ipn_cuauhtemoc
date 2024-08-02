@@ -7,7 +7,7 @@ const ProjectCard = ({ data }) => {
       <div className='card-info'>
         <img src={data.src} alt="" />
         <div className='text-light card-txt'>
-          <h4 className='font-weight-bold h4'>{data.title}</h4>
+          <h4 className='font-weight-bold h4 text-center'>{data.title}</h4>
           <p>
             {data.text.length > 255
             ? data.text.slice(0, 255) + '...'
