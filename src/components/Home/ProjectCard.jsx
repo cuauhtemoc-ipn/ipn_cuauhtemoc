@@ -14,7 +14,7 @@ const ProjectCard = ({ data }) => {
             : data.text}
           </p>
         </div>
-        <a href="#" className='text-white font-weight-bold position-absolute h5 text-decoration-none'>Vew más...</a>
+        <a href="#" className='text-warning font-weight-bold position-absolute h5 text-decoration-none'>Vew más...</a>
       </div>
     </div>
   )
