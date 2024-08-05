@@ -28,7 +28,7 @@ const OurTeam = () => {
               mollis aliquam ut. Auctor neque vitae tempus quam pellentesque nec
               nam aliquam.
             </p>
-            <p className='m-0'>
+            <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Convallis posuere morbi leo urna molestie at elementum eu

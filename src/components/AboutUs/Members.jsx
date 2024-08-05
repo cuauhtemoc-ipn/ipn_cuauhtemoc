@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState, useEffect, useRef } from 'react'
+import { Collapse } from 'bootstrap'
 import memb from '@/assets/memb.svg'
 
 const membcard = (
@@ -26,13 +27,36 @@ const membcard = (
 )
 
 const Members = () => {
+  const collapseElement = useRef(null)
+  const [isCollapsed, setIsCollapsed] = useState(false)
+
+  const toggleCollapse = () => {
+    setIsCollapsed(!isCollapsed)
+
+    if (collapseElement.current) {
+      if (isCollapsed) {
+        new Collapse(collapseElement.current).show()
+      } else {
+        new Collapse(collapseElement.current).hide()
+      }
+    }
+  }
+
+  useEffect(() => {
+    if (collapseElement.current) {
+      new Collapse(collapseElement.current, {
+        toggle: false
+      })
+    }
+  }, [])
+
   return (
-    <div className='container-xxl bg-dark bg-opacity-75 px-0 py-5'>
+    <div className='container-xxl bg-dark bg-opacity-75 px-0 py-4'>
       <div className='row justify-content-center mx-0'>
-        <h1 className='text-center text-warning border-bottom border-4 border-warning mb-4 col-3'>
+        <h1 className='text-center text-gold border-bottom border-4 border-gold my-5 col-3'>
           Integrantes
         </h1>
-        <div className='row justify-content-center align-items-center'>
+        <div className='row justify-content-center align-items-center px-0 mx-0'>
           {membcard}
           {membcard}
           {membcard}
@@ -40,34 +64,52 @@ const Members = () => {
           {membcard}
           {membcard}
         </div>
-        <p class="d-inline-flex row justify-content-center align-items-center col-2">
-          <button class="btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-            Ver más integrantes
-          </button>
-        </p>
-        <div class="collapse" id="collapseExample">
-          <div class="card card-body bg-dark">
-            <div className='row justify-content-center align-items-center'>
-              {membcard}
-              {membcard}
-              {membcard}
-              {membcard}
-              {membcard}
-              {membcard}
-              {membcard}
-              {membcard}
-              {membcard}
-              {membcard}
-              {membcard}
-              {membcard}
-              {membcard}
-              {membcard}
-            </div>
+        {!isCollapsed && (
+          <p className='d-inline-flex row justify-content-center align-items-center col-2'>
+            <button
+              className='btn btn-outline-light'
+              type='button'
+              onClick={toggleCollapse}
+              aria-expanded={isCollapsed}
+              aria-controls='collapseExample'
+            >
+              Ver más integrantes
+            </button>
+          </p>
+        )}
+        <div className='collapse' id='collapseExample' ref={collapseElement}>
+          <div className='row justify-content-center align-items-center bg-transparent'>
+            {membcard}
+            {membcard}
+            {membcard}
+            {membcard}
+            {membcard}
+            {membcard}
+            {membcard}
+            {membcard}
+            {membcard}
+            {membcard}
+            {membcard}
+            {membcard}
+            {membcard}
+            {membcard}
           </div>
+          {isCollapsed && (
+            <div className='text-center mt-3'>
+              <button
+                className='btn btn-outline-light'
+                type='button'
+                onClick={toggleCollapse}
+                aria-expanded={isCollapsed}
+              >
+                Ver menos integrantes
+              </button>
+            </div>
+          )}
         </div>
       </div>
       <div className='row justify-content-center mx-0'>
-        <h1 className='text-center text-warning border-bottom border-4 border-warning mb-4 col-3'>
+        <h1 className='text-center text-gold border-bottom border-4 border-gold my-5 col-3'>
           Reclutamiento
         </h1>
         <div className='row justify-content-center align-items-center mx-0 my-5'>
@@ -76,9 +118,9 @@ const Members = () => {
               Si estás interesado en formar parte de nuestro equipo ¡te
               invitamos a dar click en el siguiente enlace a fin de poder
               trabajar de cerca con la tecnología aeroespacial!. Queremos que
-              seas parte de un ambiente colbaorativo donde se toman en cuenta
+              seas parte de un ambiente colaborativo donde se toman en cuenta
               las ganas de aprender así como la actitud con vistas al
-              aprendizaje. ¡Únete a nosotros para ser pionero en el secotr de la
+              aprendizaje. ¡Únete a nosotros para ser pionero en el sector de la
               ingeniería aeroespacial!
             </p>
           </div>
