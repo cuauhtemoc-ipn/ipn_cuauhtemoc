@@ -29,6 +29,10 @@ $font-sizes: map-merge(
   )
 );
 
+.text-justify {
+  text-align: justify;
+}
+
 .background-image {
   position: fixed;
   top: 0;
@@ -125,4 +129,34 @@ $font-sizes: map-merge(
   .card-info{
     margin-bottom: 60px;
   }
+}
+
+
+.w-33 {
+  width: 33%;
+}
+.w-40 {
+  width: 40%;
+}
+
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+  position: relative; /* Ensure the container positions its children correctly */
+}
+
+.carousel-track {
+  display: flex;
+  position: relative;
+  left: 0;
+  justify-content: start;
+  align-items: center;
+  height: 220px;
+  gap: 16px;
+  z-index: 1;
+  
+}
+
+.carousel-track:hover {
+  animation-play-state: 'paused'
 }

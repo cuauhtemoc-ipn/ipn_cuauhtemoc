@@ -1,11 +1,10 @@
 /* eslint-disable react/prop-types */
-import React, { useEffect, useState } from 'react'
-import { Carousel, Modal } from 'react-bootstrap'
+import React, { useState } from 'react'
+import { Modal } from 'react-bootstrap'
+import GalleryCarousel from './GalleryCarousel'
 
 const Tabs = ({ data }) => {
   const [activeTab, setActiveTab] = useState(data.length - 1)
-  const [chunkSize, setChunksize] = useState(3)
-  const [size, setSize] = useState(3)
   const [showModal, setShowModal] = useState(false)
   const [currentImage, setCurrentImage] = useState('')
 
@@ -19,30 +18,6 @@ const Tabs = ({ data }) => {
   const handleTabClick = tab => {
     setActiveTab(tab)
   }
-
-  useEffect(() => {
-    // Function to update the variable value based on window width
-    const updateVariableValue = () => {
-      if (window.innerWidth > 992) {
-        setChunksize(3)
-        setSize(3)
-      } else if (window.innerWidth > 768) {
-        setChunksize(2)
-        setSize(5)
-      } else {
-        setChunksize(1)
-        setSize(8)
-      }
-    }
-    // Event listener for window resize
-    window.addEventListener('resize', updateVariableValue)
-
-    // Cleanup function to remove event listener when component unmounts
-    return () => {
-      window.removeEventListener('resize', updateVariableValue)
-    }
-  }, [])
-
   const loadTabTitles = () => {
     const tabs = []
     data.forEach((entry, index) => {
@@ -97,29 +72,39 @@ const Tabs = ({ data }) => {
           </div>
 
           {loadScores(entry)}
-          <div className=' border-bottom border-4 border-primary w-50 mx-5'>
-            <h3 className='text-primary display-5 my-4 fw-bold'>
-              ¿En qué consistió?
-            </h3>
+          <div className='row m-0 p-0 justify-content-center'>
+            <div className=' border-bottom border-4 border-primary mx-5 d-flex w-50  justify-content-center'>
+              <h3 className='text-primary display-5 my-2 fw-bold d-flex'>
+                ¿En qué consistió?
+              </h3>
+            </div>
           </div>
           <div className='row justify-content-center m-0 m-lg-5'>
             {loadDescriptions(entry)}
             {loadConclusion(entry)}
           </div>
-          <div className='container-fluid justify-content-center my-5 bg-gray bg-opacity-25 py-1'>
-            <div className=' border-bottom border-4 border-primary w-50 m-5'>
-              <h3 className='text-primary display-5 fw-bold '>Galería </h3>
+          <div className='container-fluid justify-content-center my-5 bg-dark bg-opacity-50 py-1'>
+            <div className='row m-0 p-0 mb-5 justify-content-center'>
+              <div className=' border-bottom border-4 border-primary mx-5 d-flex w-40  justify-content-center'>
+                <h3 className='text-primary display-5 my-2 fw-bold d-flex'>
+                  Galería
+                </h3>
+              </div>
             </div>
-            <Carousel
-              indicators={false}
-              controls
-              variant='light'
-              className='pb-4'
-            >
-              {loadImages(entry)}
-            </Carousel>
 
-            <Modal show={showModal} onHide={handleCloseModal} size='xl' className='align-self-center'>
+            <GalleryCarousel
+              images={entry.images}
+              utility={handleImageClick}
+              index={index + 'car'}
+              reference={activeTab}
+            />
+
+            <Modal
+              show={showModal}
+              onHide={handleCloseModal}
+              size='xl'
+              className='align-self-center'
+            >
               <Modal.Body className='rounded'>
                 <img
                   src={currentImage}
@@ -130,9 +115,9 @@ const Tabs = ({ data }) => {
               </Modal.Body>
             </Modal>
           </div>
-          <div className='d-flex justify-content-center'>
-            <div className='border-bottom border-4 border-primary w-50 mx-5'>
-              <h3 className='text-primary display-5 my-4 fw-bold text-center'>
+          <div className='row m-0 p-0 justify-content-center'>
+            <div className=' border-bottom border-4 border-primary mx-5 d-flex w-40  justify-content-center'>
+              <h3 className='text-primary display-5 my-2 fw-bold d-flex'>
                 El equipo
               </h3>
             </div>
@@ -170,12 +155,14 @@ const Tabs = ({ data }) => {
             className='col-10 col-lg-6 p-2 p-lg-4 align-content-center'
             key={'text' + index}
           >
-            <p className='text-light lead lh-lg'>{element.value}</p>
+            <p className='text-light lead lh-lg text-justify'>
+              {element.value}
+            </p>
           </div>
         )
       } else if (element.type === 'image') {
         data.push(
-          <div className='col-10 col-lg-6 p-2 p-lg-4'>
+          <div className='col-10 col-lg-6 p-2 p-lg-4 align-content-center'>
             <img
               src={element.value}
               alt='Image'
@@ -193,7 +180,7 @@ const Tabs = ({ data }) => {
 
     data.push(
       <div className='col-10 col-lg-12 p-4 align-content-center'>
-        <p className='text-light lead lh-lg'>{entry.conclusion}</p>
+        <p className='text-light lead lh-lg text-justify'>{entry.conclusion}</p>
       </div>
     )
 
@@ -204,31 +191,6 @@ const Tabs = ({ data }) => {
     )
 
     return data
-  }
-  const loadImages = entry => {
-    const carouselRows = []
-    const total = entry.images.length
-    for (let i = 0; i < total; i += chunkSize) {
-      const chunk = entry.images.slice(i, i + chunkSize)
-      carouselRows.push(
-        <Carousel.Item key={i}>
-          <div className='row justify-content-around py-3 px-5'>
-            {chunk.map(item => (
-              <div className={`col-${size} justify-content-center d-flex`} key={item}>
-                <img
-                  src={item}
-                  alt=''
-                  className='d-block'
-                  style={{ height: '200px', cursor: 'pointer' }}
-                  onClick={() => handleImageClick(item)}
-                />
-              </div>
-            ))}
-          </div>
-        </Carousel.Item>
-      )
-    }
-    return carouselRows
   }
 
   return (
