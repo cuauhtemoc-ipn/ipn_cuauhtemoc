@@ -4,6 +4,7 @@ import CarouselItem from './CarouselItem'
 
 export default function AutoplayCarousel ({ images, utility, activeTab }) {
   const [carouselWidth, setCarouselWidth] = useState(0)
+  const [duration, setDuration] = useState(0)
   const trackRef = useRef(null)
 
   useLayoutEffect(() => {
@@ -11,28 +12,35 @@ export default function AutoplayCarousel ({ images, utility, activeTab }) {
       const totalWidth = Array.from(trackRef.current.children).reduce(
         (acc, child) => {
           const childWidth = child.offsetWidth
-          console.log(`Child width: ${childWidth}`) // Debugging log
+          // console.log(`Child width: ${childWidth}`) // Debugging log
           return acc + childWidth
         },
         0
       )
-      console.log(`${activeTab} - Total carousel width: ${totalWidth}`) // Debugging log
+      console.log(`${1} - Total carousel width: ${totalWidth}`) // Debugging log
       setCarouselWidth(totalWidth - trackRef.current.offsetWidth)
+      setDuration(
+        totalWidth - trackRef.current.offsetWidth
+          ? ((totalWidth - trackRef.current.offsetWidth) / 100) * 1
+          : 0
+      )
     }
   }, [images, activeTab])
 
-  const duration = carouselWidth ? (carouselWidth / 100) * 1 : 0 // Example calculation for duration based on width
-
-  const keyframes = `
-    @keyframes slide {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(-${carouselWidth}px); }
-    }
-  `
-
   return (
     <div className='carousel-container'>
-      <style>{keyframes}</style>
+      <style>
+        {`
+            @keyframes slide {
+              0% { transform: translateX(0); }
+              100% { transform: translateX(-${carouselWidth}px); }
+            }
+            carousel-container:hover {
+              animation-play-state: paused;
+            }
+        `}
+        \
+      </style>
       <div
         className='carousel-track'
         ref={trackRef}

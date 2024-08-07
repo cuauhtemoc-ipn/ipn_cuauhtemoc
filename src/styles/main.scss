@@ -2,7 +2,7 @@
 @import '../../node_modules/bootstrap/scss/functions';
 @import '../../node_modules/bootstrap/scss/variables';
 $custome-theme-colors: (
-  'primary': #bf9b30,
+  'primary': #ffd700,
   'secondary': #fb1558,
   'dark': #131313,
   'light': #eeeeee,
@@ -153,7 +153,7 @@ $font-sizes: map-merge(
   justify-content: start;
   align-items: center;
   height: 220px;
-  gap: 16px;
+  gap: 30 px;
   z-index: 1;
   
 }
