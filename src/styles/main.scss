@@ -9,7 +9,8 @@ $custome-theme-colors: (
   'gray': #888888,
   'altPrimary': #07b9ecaa,
   'tertiary': #70119a,
-  'ultra-dark': #00181f
+  'ultra-dark': #00181f,
+  'gold': #ffd700
 );
 $theme-colors: map-merge($theme-colors, $custome-theme-colors);
 

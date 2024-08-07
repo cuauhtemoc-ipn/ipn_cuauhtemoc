@@ -69,7 +69,7 @@ const Proyect = () => {
     <div className='container-xxl py-4 m-auto'>
       <h2 className='display-3 text-light fw-semibold my-5'>Proyectos</h2>
       <div className='row mx-0 justify-content-center'>
-        {isLargeScreen ?<>{cardcontent}</> 
+        {isLargeScreen ?<>{cardcontent}</>
         : <>{cardcontent}</>}
       </div>
     </div>
