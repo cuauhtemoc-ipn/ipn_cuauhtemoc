@@ -65,7 +65,7 @@ const Members = () => {
           {membcard}
         </div>
         {!isCollapsed && (
-          <p className='d-inline-flex row justify-content-center align-items-center col-2'>
+          <div className='text-center mt-3'>
             <button
               className='btn btn-outline-light'
               type='button'
@@ -75,7 +75,7 @@ const Members = () => {
             >
               Ver más integrantes
             </button>
-          </p>
+          </div>
         )}
         <div className='collapse' id='collapseExample' ref={collapseElement}>
           <div className='row justify-content-center align-items-center bg-transparent'>
