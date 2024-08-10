@@ -14,12 +14,13 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
     return data
   }
   const loadDescriptions = entry => {
+    const newOrder = generateSeries(entry.content.length)
     const data = []
     entry.content.forEach((element, index) => {
       if (element.type === 'text') {
         data.push(
           <div
-            className='col-10 col-lg-6 p-2 p-lg-4 align-content-center'
+            className='d-none d-lg-block col-lg-6 p-2 p-lg-4 align-content-center'
             key={'text' + index}
           >
             <p className='text-light lead lh-lg text-justify'>
@@ -29,7 +30,7 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
         )
       } else if (element.type === 'image') {
         data.push(
-          <div className='col-10 col-lg-6 p-2 p-lg-4 align-content-center'>
+          <div className='d-none d-lg-block col-lg-6 p-2 p-lg-4 align-content-center'>
             <img
               src={element.value}
               alt='Image'
@@ -40,19 +41,66 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
         )
       }
     })
+
+    for (let index = 0; index < newOrder.length; index++) {
+      const element = entry.content[newOrder[index] - 1]
+      if (element.type === 'text') {
+        data.push(
+          <div
+            className='d-lg-none col-10 p-2 p-lg-4 align-content-center'
+            key={'sm-text' + index}
+          >
+            <p className='text-light lead lh-lg text-justify'>
+              {element.value}
+            </p>
+          </div>
+        )
+      } else if (element.type === 'image') {
+        data.push(
+          <div className='d-lg-none col-10 p-2 p-lg-4 align-content-center'>
+            <img
+              src={element.value}
+              alt='Image'
+              className='w-100'
+              key={'sm-img' + index}
+            />
+          </div>
+        )
+      }
+    }
     return data
+  }
+
+  const generateSeries = n => {
+    const series = []
+    for (let i = 0; i < n; i++) {
+      if (i % 4 === 1 || i % 4 === 0) {
+        series.push(i + 1)
+      } else if (i % 4 === 2) {
+        series.push(i + 2)
+      } else {
+        series.push(i)
+      }
+    }
+    return series
   }
   const loadConclusion = entry => {
     const data = []
 
     data.push(
-      <div className='col-10 col-lg-12 p-4 align-content-center'>
+      <div
+        className='col-10 col-lg-12 p-4 align-content-center'
+        key={`Conclusion-${entry.edition}`}
+      >
         <p className='text-light lead lh-lg text-justify'>{entry.conclusion}</p>
       </div>
     )
 
     data.push(
-      <div className='col-10 col-lg-8 p-4'>
+      <div
+        className='col-10 col-lg-8 p-4'
+        key={`ConclusionImage-${entry.edition}`}
+      >
         <img src={entry.conclusionImage} alt='Image' className='w-100' />
       </div>
     )

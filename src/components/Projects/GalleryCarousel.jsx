@@ -62,10 +62,11 @@ export default function AutoplayCarousel ({
         id={`Track-${name}`}
         ref={reference}
         style={{
-          animation: carouselWidth
-            ? `slide-${name} ${duration}s linear infinite`
-            : 'none',
-          animationPlayState: isHovered || showModal ? 'paused' : 'running' // Pause on hover or if modal is open
+          animationName: `slide-${name}`,
+          animationDuration: `${duration}s`,
+          animationTimingFunction: 'linear',
+          animationIterationCount: 'infinite',
+          animationPlayState: isHovered || isModalOpen ? 'paused' : 'running' // Pause on hover or if modal is open
         }}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
@@ -74,7 +75,7 @@ export default function AutoplayCarousel ({
           <CarouselItem
             imgUrl={images[detailKey]}
             imgTitle='CanSat image'
-            key={detailKey + 's'}
+            key={detailKey + 's - ' + name}
             utility={handleImageClick}
           />
         ))}
@@ -82,7 +83,7 @@ export default function AutoplayCarousel ({
           <CarouselItem
             imgUrl={images[detailKey]}
             imgTitle='CanSat image'
-            key={detailKey + 'e'}
+            key={detailKey + 'e - ' + name}
             utility={handleImageClick}
           />
         ))}
