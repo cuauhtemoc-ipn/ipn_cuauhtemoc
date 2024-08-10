@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { Modal } from 'react-bootstrap'
 import GalleryCarousel from './GalleryCarousel'
 
-const TabComponent = ({ entry, index, activeTab }) => {
+const TabComponent = ({ entry, index, activeTab, reference }) => {
   const [showModal, setShowModal] = useState(false)
   const [currentImage, setCurrentImage] = useState('')
 
@@ -84,7 +84,7 @@ const TabComponent = ({ entry, index, activeTab }) => {
       <h2 className='text-center p-3 pt-4 text-light display-3  fw-bold'>
         {entry.name + ' ' + entry.edition}
       </h2>
-      <div className='d-flex justify-content-center'>
+      {/* <div className='d-flex justify-content-center'>
         <img
           src={entry.mainImage}
           alt='Competition header image'
@@ -103,7 +103,7 @@ const TabComponent = ({ entry, index, activeTab }) => {
       <div className='row justify-content-center m-0 m-lg-5'>
         {loadDescriptions(entry)}
         {loadConclusion(entry)}
-      </div>
+      </div> */}
       <div className='container-fluid justify-content-center my-5 bg-dark bg-opacity-50 py-1'>
         <div className='row m-0 p-0 mb-5 justify-content-center'>
           <div className=' border-bottom border-4 border-primary mx-5 d-flex w-40  justify-content-center'>
@@ -117,6 +117,9 @@ const TabComponent = ({ entry, index, activeTab }) => {
           images={entry.images}
           utility={handleImageClick}
           index={index + 'car'}
+          activeTab={activeTab}
+          name={entry.edition}
+          reference={reference}
         />
 
         <Modal

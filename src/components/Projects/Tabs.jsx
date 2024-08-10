@@ -1,9 +1,15 @@
 /* eslint-disable react/prop-types */
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import TabComponent from './TabComponent'
 
 const Tabs = ({ data }) => {
-  const [activeTab, setActiveTab] = useState(data.length - 1)
+  // const [activeTab, setActiveTab] = useState(data.length - 1)
+  const [activeTab, setActiveTab] = useState(data[data.length - 1].edition)
+  const references = []
+  for (let index = 0; index < data.length; index++) {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    references.push(useRef(null))
+  }
 
   const handleTabClick = tab => {
     setActiveTab(tab)
@@ -19,15 +25,15 @@ const Tabs = ({ data }) => {
         >
           <button
             className={`nav-link ${
-              activeTab === index ? 'bg-light rounded-top-2 fw-bolder' : ''
+              activeTab === entry.edition ? 'bg-light rounded-top-2 fw-bolder' : ''
             } text-dark`}
-            id={`tab${index}`}
+            id={`tab${entry.edition}`}
             data-bs-toggle='tab'
             type='button'
             role='tab'
             aria-controls='home'
-            aria-selected={activeTab === index}
-            onClick={() => handleTabClick(index)}
+            aria-selected={activeTab === entry.edition}
+            onClick={() => handleTabClick(entry.edition)}
           >
             {entry.edition}
           </button>
@@ -41,7 +47,13 @@ const Tabs = ({ data }) => {
     const tabs = []
     data.forEach((entry, index) => {
       tabs.push(
-        <TabComponent entry={entry} index={index} activeTab={activeTab} key={index + 'content'} />
+        <TabComponent
+          entry={entry}
+          index={entry.edition}
+          activeTab={activeTab}
+          key={index + 'content'}
+          reference={references[index]}
+        />
       )
     })
     return tabs

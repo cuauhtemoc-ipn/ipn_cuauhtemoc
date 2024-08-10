@@ -86,6 +86,7 @@ $font-sizes: map-merge(
 .h-full {
   min-height: 100vh;
 }
+
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
 
@@ -156,8 +157,4 @@ $font-sizes: map-merge(
   gap: 30 px;
   z-index: 1;
   
-}
-
-.carousel-track:hover {
-  animation-play-state: 'paused'
 }

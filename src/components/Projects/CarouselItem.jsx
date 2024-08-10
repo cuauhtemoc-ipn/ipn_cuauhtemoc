@@ -8,7 +8,7 @@ export default function CarouselItem ({ imgUrl, imgTitle, utility }) {
         src={imgUrl}
         alt={imgTitle}
         className='d-block'
-        style={{ height: '200px', cursor: 'pointer' }}
+        style={{ height: '200px', cursor: 'pointer', marginInline: '10px' }}
         onClick={() => utility(imgUrl)}
       />
     </div>
