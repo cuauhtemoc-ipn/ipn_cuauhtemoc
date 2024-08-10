@@ -82,7 +82,7 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
 
       {loadScores(entry)}
       <div className='row m-0 p-0 justify-content-center'>
-        <div className=' border-bottom border-4 border-primary mx-5 d-flex w-50  justify-content-center'>
+        <div className=' border-bottom border-4 border-primary mx-5 d-flex col-9 col-sm-8 col-md-6 col-xl-5  justify-content-center'>
           <h3 className='text-primary display-5 my-2 fw-bold d-flex'>
             ¿En qué consistió?
           </h3>
@@ -94,7 +94,7 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
       </div>
       <div className='container-fluid justify-content-center my-5 bg-dark bg-opacity-50 py-1'>
         <div className='row m-0 p-0 mb-5 justify-content-center'>
-          <div className=' border-bottom border-4 border-primary mx-5 d-flex w-40  justify-content-center'>
+          <div className=' border-bottom border-4 border-primary mx-5 d-flex col-6 col-sm-4 col-xl-3  justify-content-center'>
             <h3 className='text-primary display-5 my-2 fw-bold d-flex'>
               Galería
             </h3>
@@ -110,7 +110,7 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
         />
       </div>
       <div className='row m-0 p-0 justify-content-center'>
-        <div className=' border-bottom border-4 border-primary mx-5 d-flex w-40  justify-content-center'>
+        <div className=' border-bottom border-4 border-primary mx-5 d-flex col-6 col-sm-4 col-xl-3  justify-content-center'>
           <h3 className='text-primary display-5 my-2 fw-bold d-flex'>
             El equipo
           </h3>
