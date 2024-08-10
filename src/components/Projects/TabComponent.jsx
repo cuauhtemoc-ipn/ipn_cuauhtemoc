@@ -1,19 +1,7 @@
 /* eslint-disable react/prop-types */
-import React, { useState } from 'react'
-import { Modal } from 'react-bootstrap'
 import GalleryCarousel from './GalleryCarousel'
 
 const TabComponent = ({ entry, index, activeTab, reference }) => {
-  const [showModal, setShowModal] = useState(false)
-  const [currentImage, setCurrentImage] = useState('')
-
-  const handleImageClick = image => {
-    setCurrentImage(image)
-    setShowModal(true)
-  }
-
-  const handleCloseModal = () => setShowModal(false)
-
   const loadScores = entry => {
     const data = []
     entry.scores.forEach((score, index) => {
@@ -84,7 +72,7 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
       <h2 className='text-center p-3 pt-4 text-light display-3  fw-bold'>
         {entry.name + ' ' + entry.edition}
       </h2>
-      {/* <div className='d-flex justify-content-center'>
+      <div className='d-flex justify-content-center'>
         <img
           src={entry.mainImage}
           alt='Competition header image'
@@ -103,7 +91,7 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
       <div className='row justify-content-center m-0 m-lg-5'>
         {loadDescriptions(entry)}
         {loadConclusion(entry)}
-      </div> */}
+      </div>
       <div className='container-fluid justify-content-center my-5 bg-dark bg-opacity-50 py-1'>
         <div className='row m-0 p-0 mb-5 justify-content-center'>
           <div className=' border-bottom border-4 border-primary mx-5 d-flex w-40  justify-content-center'>
@@ -115,28 +103,11 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
 
         <GalleryCarousel
           images={entry.images}
-          utility={handleImageClick}
           index={index + 'car'}
           activeTab={activeTab}
           name={entry.edition}
           reference={reference}
         />
-
-        <Modal
-          show={showModal}
-          onHide={handleCloseModal}
-          size='xl'
-          className='align-self-center'
-        >
-          <Modal.Body className='rounded'>
-            <img
-              src={currentImage}
-              alt='Expanded'
-              className='d-block w-100'
-              style={{ height: 'auto' }}
-            />
-          </Modal.Body>
-        </Modal>
       </div>
       <div className='row m-0 p-0 justify-content-center'>
         <div className=' border-bottom border-4 border-primary mx-5 d-flex w-40  justify-content-center'>

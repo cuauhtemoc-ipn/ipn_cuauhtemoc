@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 import React, { useState, useEffect } from 'react'
+import { Modal } from 'react-bootstrap'
 import CarouselItem from './CarouselItem'
 
 export default function AutoplayCarousel ({
   images,
-  utility,
   activeTab,
   name,
   reference,
@@ -13,6 +13,16 @@ export default function AutoplayCarousel ({
   const [carouselWidth, setCarouselWidth] = useState(0)
   const [duration, setDuration] = useState(0)
   const [isHovered, setIsHovered] = useState(false) // Track hover state
+
+  const [showModal, setShowModal] = useState(false)
+  const [currentImage, setCurrentImage] = useState('')
+
+  const handleImageClick = image => {
+    setCurrentImage(image)
+    setShowModal(true)
+  }
+
+  const handleCloseModal = () => setShowModal(false)
 
   useEffect(() => {
     if (reference.current && name === activeTab) {
@@ -24,7 +34,7 @@ export default function AutoplayCarousel ({
         0
       )
       setCarouselWidth(totalWidth / 2)
-      setDuration(totalWidth ? (totalWidth / 2) / 250 : 0)
+      setDuration(totalWidth ? totalWidth / 2 / 250 : 0)
     }
   }, [images, activeTab, reference, name])
 
@@ -52,8 +62,10 @@ export default function AutoplayCarousel ({
         id={`Track-${name}`}
         ref={reference}
         style={{
-          animation: carouselWidth ? `slide-${name} ${duration}s linear infinite` : 'none',
-          animationPlayState: (isHovered || isModalOpen) ? 'paused' : 'running' // Pause on hover or if modal is open
+          animation: carouselWidth
+            ? `slide-${name} ${duration}s linear infinite`
+            : 'none',
+          animationPlayState: isHovered || showModal ? 'paused' : 'running' // Pause on hover or if modal is open
         }}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
@@ -63,7 +75,7 @@ export default function AutoplayCarousel ({
             imgUrl={images[detailKey]}
             imgTitle='CanSat image'
             key={detailKey + 's'}
-            utility={utility}
+            utility={handleImageClick}
           />
         ))}
         {Object.keys(images).map(detailKey => (
@@ -71,10 +83,25 @@ export default function AutoplayCarousel ({
             imgUrl={images[detailKey]}
             imgTitle='CanSat image'
             key={detailKey + 'e'}
-            utility={utility}
+            utility={handleImageClick}
           />
         ))}
       </div>
+      <Modal
+        show={showModal}
+        onHide={handleCloseModal}
+        size='xl'
+        className='align-self-center'
+      >
+        <Modal.Body className='rounded'>
+          <img
+            src={currentImage}
+            alt='Expanded'
+            className='d-block w-100'
+            style={{ height: 'auto' }}
+          />
+        </Modal.Body>
+      </Modal>
     </div>
   )
 }
