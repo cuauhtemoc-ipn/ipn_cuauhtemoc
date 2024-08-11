@@ -2,7 +2,7 @@
 @import '../../node_modules/bootstrap/scss/functions';
 @import '../../node_modules/bootstrap/scss/variables';
 $custome-theme-colors: (
-  'primary': #bf9b30,
+  'primary': #ffd700,
   'secondary': #fb1558,
   'dark': #131313,
   'light': #eeeeee,
@@ -29,6 +29,10 @@ $font-sizes: map-merge(
     8: 0.5rem
   )
 );
+
+.text-justify {
+  text-align: justify;
+}
 
 .background-image {
   position: fixed;
@@ -126,4 +130,34 @@ $font-sizes: map-merge(
   .card-info{
     margin-bottom: 60px;
   }
+}
+
+
+.w-33 {
+  width: 33%;
+}
+.w-40 {
+  width: 40%;
+}
+
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+  position: relative; /* Ensure the container positions its children correctly */
+}
+
+.carousel-track {
+  display: flex;
+  position: relative;
+  left: 0;
+  justify-content: start;
+  align-items: center;
+  height: 220px;
+  gap: 30 px;
+  z-index: 1;
+  
+}
+
+.carousel-track:hover {
+  animation-play-state: 'paused'
 }
