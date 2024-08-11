@@ -3,7 +3,7 @@ import camp from '@/assets/camp.mp4'
 
 const OurTeam = () => {
   return (
-    <div className='container-xxl d-flex flex-column justify-content-center h-full py-4 my-5 my-lg-0'>
+    <div className='container-lg d-flex flex-column justify-content-center h-full py-4 my-5 my-lg-0'>
       <div className='row mx-0'>
         <div className='row align-items-center mx-0 my-5'>
           <h1 className='display-3 text-center text-light fw-semibold'>

@@ -64,7 +64,7 @@ const Mission = () => {
   )
 
   const TextMission = (
-    <div className='text-light border border-4 border-white p-4 p-sm-5 bg-gray mx-auto col-md-10 col-lg-5 col-xl-4'>
+    <div className='text-light border border-4 border-white p-4 p-sm-5 bg-gray mx-auto mx-lg-0 col-11 col-md-10 col-lg-5 col-xl-4'>
       <div className='row justify-content-center mx-0 mb-2'>
         <h2 className='text-center text-gold border-bottom border-4 border-gold col-5 col-sm-4 col-lg-6 col-xl-7'>
           Misión
@@ -132,7 +132,7 @@ const Mission = () => {
   )
 
   const TextVision = (
-    <div className='text-light border border-4 border-white p-4 p-sm-5 bg-gray mx-auto mt-5 mt-lg-0 col-md-10 col-lg-5 col-xl-4'>
+    <div className='text-light border border-4 border-white p-4 p-sm-5 bg-gray mx-auto mx-lg-0 mt-5 mt-lg-0 col-11 col-md-10 col-lg-5 col-xl-4'>
       <div className='row justify-content-center mx-0 mb-2'>
         <h2 className='text-center text-gold border-bottom border-4 border-gold col-5 col-sm-4 col-lg-6 col-xl-7'>
           Visión
@@ -171,25 +171,23 @@ const Mission = () => {
   }, [])
 
   return (
-    <div className='container-xxl'>
-      <div className='bg-dark bg-opacity-75 pb-4 mx-2 mx-sm-5'>
-        <div className='row justify-content-between align-items-center mx-0'>
-          {isLargeScreen ? (
-            <>
-              {Missioncarousel}
-              {TextMission}
-            </>
-          ) : (
-            <>
-              {TextMission}
-              {Missioncarousel}
-            </>
-          )}
-        </div>
-        <div className='row justify-content-between align-items-center mx-0'>
-          {TextVision}
-          {Visioncarousel}
-        </div>
+    <div className='container-lg bg-dark bg-opacity-75 px-0 pb-4'>
+      <div className='row justify-content-between align-items-center mx-0'>
+        {isLargeScreen ? (
+          <>
+            {Missioncarousel}
+            {TextMission}
+          </>
+        ) : (
+          <>
+            {TextMission}
+            {Missioncarousel}
+          </>
+        )}
+      </div>
+      <div className='row justify-content-between align-items-center mx-0'>
+        {TextVision}
+        {Visioncarousel}
       </div>
     </div>
   )
