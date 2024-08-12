@@ -5,7 +5,7 @@ import App from './App.jsx'
 // Bootstrap CSS
 import '@/styles/main.scss'
 // Bootstrap Bundle JS
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+// import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
