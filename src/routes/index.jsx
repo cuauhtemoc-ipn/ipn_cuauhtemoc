@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import { Home, AboutUs, Contact } from '@/pages'
-import CansatCompetition from '@/pages/projects/CansatCompetition'
+import { CansatCompetition, Enmice, CansatCucei, Pico } from '@/pages/projects'
 
 const App = () => {
   return (
@@ -8,7 +8,13 @@ const App = () => {
       <Route path='/' element={<Home />} />
       <Route path='/aboutUs' element={<AboutUs />} />
       <Route path='/contact' element={<Contact />} />
-      <Route path='/projects/cansat_competition' element={<CansatCompetition />} />
+      <Route
+        path='/projects/cansat_competition'
+        element={<CansatCompetition />}
+      />
+      <Route path='/projects/cansat_cucei' element={<CansatCucei />} />
+      <Route path='/projects/enmice' element={<Enmice />} />
+      <Route path='/projects/picosatelites_puebla' element={<Pico />} />
     </Routes>
   )
 }
