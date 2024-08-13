@@ -33,23 +33,58 @@ const Subs = () => {
     }
   }
 
+  // Initialize the variable where the link to the carousel is going to be stored.
+  // We set the link (useRef) poiting at the carousel as null as it should be empty
+  // in the beginning.
   const carouselRef = useRef(null)
   const imageCarouselRef = useRef(null)
 
+  // useEffect will let us interact with the carousel once it has already appeared
+  // on the screen.
+  // carouselRef.current is the reference to the carousel once it has already
+  // appeared on the screen, meaning there is something being shown already.
+  // We verify if carouselRef.current is true so we can make it work as bootstrap
+  // carousel with new Carousel (in this case automatic transition).
   useEffect(() => {
     if (carouselRef.current) {
       new Carousel(carouselRef.current)
     }
   }, [])
 
+  // Same instructions for this useEffect.
   useEffect(() => {
     if (imageCarouselRef.current) {
       new Carousel(imageCarouselRef.current)
     }
   }, [])
 
+  // We create an useState in order to modifiy the content of an element we would
+  // like to update.
+  // We give the name openSections to the variable which saves the info to update,
+  // in this case we are initializing an empty array ([]).
+  // setOpenSections will set the open sections in our page to update the list of
+  // open sections saved on openSections.
   const [openSections, setOpenSections] = useState([])
 
+  // We create the function toggleSection to receive an argument called index that
+  // locates the specific sections the user has clicked on.
+  // We call the function setOpenSections will change the state of openSections
+  // as specified before (the list of open sections).
+  // We declare another function inside called prevOpenSections that receives the
+  // parameters referring to the previous state of the list of sections (before
+  // clicking on them).
+  // Inside teh function we check with prevOpenSections.includes(index) if the
+  // section the user clicked on is already in the list of prevOpenSections.
+  // By using the if condition "? prevOpenSections.filter(i => i !== index)"", we
+  // create another list without the already open section, meaning the section
+  // will close, filter takes care of this, in case of closing an accordion,
+  // filter checks the number of the accordion, all the other accordions won't
+  // correspond to the number of that accordion so their verification will be true
+  // and will remain in the new list, closing just the selected one as it won't
+  // be open anymore.
+  // We use an spread operator "[...]"" to expand the sections in prevOpenSections.
+  // The "..." before prevOpenSections are used to select all the existing
+  // sections and the index argument adds the new section to the list.
   const toggleSection = index => {
     setOpenSections(prevOpenSections =>
       prevOpenSections.includes(index)
@@ -58,11 +93,34 @@ const Subs = () => {
     )
   }
 
+  const sectionRefs = useRef({})
+
+  useEffect(() => {
+    openSections.forEach(index => {
+      const section = sectionRefs.current[index]
+      if (section) {
+        section.style.transition = 'max-height 0.5s ease-in-out'
+        section.style.maxHeight = `${section.scrollHeight}px`
+      }
+    })
+
+    Object.keys(sectionRefs.current).forEach(key => {
+      if (!openSections.includes(parseInt(key))) {
+        const section = sectionRefs.current[key]
+        if (section) {
+          section.style.transition = 'max-height 0.5s ease-in-out'
+          requestAnimationFrame(() => {
+            section.style.maxHeight = '0'
+          })
+        }
+      }
+    })
+  }, [openSections])
+
   const [selectedSection, setSelectedSection] = useState('Aerodinámica')
   const handleSectionChange = section => {
     setSelectedSection(section)
   }
-  const [activeSection, setActiveSection] = useState(0)
 
   const [isLargeScreen, setLargeScreen] = useState(window.innerWidth >= 992)
 
@@ -242,12 +300,12 @@ const Subs = () => {
           <h2 className='accordion-header' id={`heading${index}`}>
             <button
               className={`accordion-button bg-dark text-light ${
-                index !== activeSection ? 'collapsed' : ''
+                !openSections.includes(index) ? 'collapsed' : ''
               }`}
               type='button'
-              data-bs-toggle='collapse'
-              data-bs-target={`#collapse${index}`}
-              aria-expanded={`${index === activeSection ? 'true' : 'false'}`}
+              aria-expanded={`${
+                openSections.includes(index) ? 'true' : 'false'
+              }`}
               aria-controls={`collapse${index}`}
               onClick={() => toggleSection(index)}
             >
@@ -257,9 +315,14 @@ const Subs = () => {
           <div
             id={`collapse${index}`}
             className={`accordion-collapse collapse ${
-              index === activeSection ? 'show' : ''
+              openSections.includes(index) ? 'show' : ''
             }`}
             aria-labelledby={`heading${index}`}
+            ref={el => (sectionRefs.current[index] = el)}
+            style={{
+              overflow: 'hidden',
+              transition: 'max-height 0.5s ease-in-out'
+            }}
           >
             <div className='accordion-body'>
               <div className='row border border-4 border-white bg-gray p-4 p-sm-5 mx-auto mb-5 col-11 col-md-10 col-lg-5'>
@@ -327,7 +390,7 @@ const Subs = () => {
   return (
     <div className='container-lg bg-dark bg-opacity-75 px-0 py-4'>
       <div className='row justify-content-center mx-0'>
-        <h1 className='text-center text-gold border-bottom border-4 border-gold my-5 col-7 col-sm-4 col-md-3 col-xxl-2'>
+        <h1 className='text-center text-gold border-bottom border-4 border-gold my-5 col-5 col-sm-4 col-md-3'>
           Secciones
         </h1>
         <div className='row dynamic-sections text-light px-0 mx-0'>
