@@ -1,75 +1,108 @@
 /* eslint-disable react/prop-types */
-import React, { useLayoutEffect, useState, useRef } from 'react'
+import React, { useState, useEffect } from 'react'
+import { Modal } from 'react-bootstrap'
 import CarouselItem from './CarouselItem'
 
-export default function AutoplayCarousel ({ images, utility, activeTab }) {
+export default function AutoplayCarousel ({
+  images,
+  activeTab,
+  name,
+  reference,
+  isModalOpen // Add this prop to track if the modal is open
+}) {
   const [carouselWidth, setCarouselWidth] = useState(0)
   const [duration, setDuration] = useState(0)
-  const trackRef = useRef(null)
+  const [isHovered, setIsHovered] = useState(false) // Track hover state
 
-  useLayoutEffect(() => {
-    if (trackRef.current) {
-      const totalWidth = Array.from(trackRef.current.children).reduce(
+  const [showModal, setShowModal] = useState(false)
+  const [currentImage, setCurrentImage] = useState('')
+
+  const handleImageClick = image => {
+    setCurrentImage(image)
+    setShowModal(true)
+  }
+
+  const handleCloseModal = () => setShowModal(false)
+
+  useEffect(() => {
+    if (reference.current && name === activeTab) {
+      const totalWidth = Array.from(reference.current.children).reduce(
         (acc, child) => {
           const childWidth = child.offsetWidth
-          // console.log(`Child width: ${childWidth}`) // Debugging log
           return acc + childWidth
         },
         0
       )
-      console.log(`${1} - Total carousel width: ${totalWidth}`) // Debugging log
-      setCarouselWidth(totalWidth - trackRef.current.offsetWidth)
-      setDuration(
-        totalWidth - trackRef.current.offsetWidth
-          ? ((totalWidth - trackRef.current.offsetWidth) / 100) * 1
-          : 0
-      )
+      setCarouselWidth(totalWidth / 2)
+      setDuration(totalWidth ? totalWidth / 2 / 250 : 0)
     }
-  }, [images, activeTab])
+  }, [images, activeTab, reference, name])
+
+  // Handlers for hover state
+  const handleMouseEnter = () => {
+    setIsHovered(true)
+  }
+
+  const handleMouseLeave = () => {
+    setIsHovered(false)
+  }
 
   return (
     <div className='carousel-container'>
       <style>
         {`
-            @keyframes slide {
-              0% { transform: translateX(0); }
-              100% { transform: translateX(-${carouselWidth}px); }
-            }
-            carousel-container:hover {
-              animation-play-state: paused;
-            }
+          @keyframes slide-${name} {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-${carouselWidth}px); }
+          }
         `}
-        \
       </style>
       <div
         className='carousel-track'
-        ref={trackRef}
+        id={`Track-${name}`}
+        ref={reference}
         style={{
-          animation: carouselWidth
-            ? `slide ${duration}s linear infinite`
-            : 'none',
-          ':hover': {
-            'animation-play-state': 'paused'
-          }
+          animationName: `slide-${name}`,
+          animationDuration: `${duration}s`,
+          animationTimingFunction: 'linear',
+          animationIterationCount: 'infinite',
+          animationPlayState: isHovered || isModalOpen ? 'paused' : 'running' // Pause on hover or if modal is open
         }}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
       >
         {Object.keys(images).map(detailKey => (
           <CarouselItem
             imgUrl={images[detailKey]}
             imgTitle='CanSat image'
-            key={detailKey + 's'}
-            utility={utility}
+            key={detailKey + 's - ' + name}
+            utility={handleImageClick}
           />
         ))}
         {Object.keys(images).map(detailKey => (
           <CarouselItem
             imgUrl={images[detailKey]}
             imgTitle='CanSat image'
-            key={detailKey + 'e'}
-            utility={utility}
+            key={detailKey + 'e - ' + name}
+            utility={handleImageClick}
           />
         ))}
       </div>
+      <Modal
+        show={showModal}
+        onHide={handleCloseModal}
+        size='xl'
+        className='align-self-center'
+      >
+        <Modal.Body className='rounded'>
+          <img
+            src={currentImage}
+            alt='Expanded'
+            className='d-block w-100'
+            style={{ height: 'auto' }}
+          />
+        </Modal.Body>
+      </Modal>
     </div>
   )
 }
