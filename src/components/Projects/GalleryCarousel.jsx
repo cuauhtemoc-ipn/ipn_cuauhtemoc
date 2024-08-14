@@ -34,7 +34,7 @@ export default function AutoplayCarousel ({
         0
       )
       setCarouselWidth(totalWidth / 2)
-      setDuration(totalWidth ? totalWidth / 2 / 120 : 0)
+      setDuration(totalWidth ? totalWidth / 2 / 125 : 0)
     }
   }, [images, activeTab, reference, name])
 
@@ -88,6 +88,44 @@ export default function AutoplayCarousel ({
           />
         ))}
       </div>
+
+      <p className='d-flex justify-content-center m-3'>
+        <a
+          className='btn btn-outline-light'
+          data-bs-toggle='collapse'
+          href='#collapseExample'
+          role='button'
+          aria-expanded='false'
+          aria-controls='collapseExample'
+        >
+          Ver todo
+        </a>
+      </p>
+      <div className='collapse' id='collapseExample'>
+        <div className='container-fluid d-flex flex-wrap gap-3 justify-content-around'>
+          {Object.keys(images).map(detailKey => (
+            <CarouselItem
+              imgUrl={images[detailKey]}
+              imgTitle='CanSat image'
+              key={detailKey + 's - ' + name}
+              utility={handleImageClick}
+            />
+          ))}
+        </div>
+        <p className='d-flex justify-content-center m-3'>
+          <a
+            className='btn btn-outline-light'
+            data-bs-toggle='collapse'
+            href='#collapseExample'
+            role='button'
+            aria-expanded='false'
+            aria-controls='collapseExample'
+          >
+            Ver menos
+          </a>
+        </p>
+      </div>
+
       <Modal
         show={showModal}
         onHide={handleCloseModal}
