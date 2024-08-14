@@ -34,7 +34,7 @@ export default function AutoplayCarousel ({
         0
       )
       setCarouselWidth(totalWidth / 2)
-      setDuration(totalWidth ? totalWidth / 2 / 250 : 0)
+      setDuration(totalWidth ? totalWidth / 2 / 120 : 0)
     }
   }, [images, activeTab, reference, name])
 
@@ -66,7 +66,7 @@ export default function AutoplayCarousel ({
           animationDuration: `${duration}s`,
           animationTimingFunction: 'linear',
           animationIterationCount: 'infinite',
-          animationPlayState: isHovered || isModalOpen ? 'paused' : 'running' // Pause on hover or if modal is open
+          animationPlayState: isHovered || showModal ? 'paused' : 'running' // Pause on hover or if modal is open
         }}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
