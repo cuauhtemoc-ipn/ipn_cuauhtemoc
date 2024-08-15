@@ -58,69 +58,38 @@ const Subs = () => {
     }
   }, [])
 
-  // We create an useState in order to modifiy the content of an element we would
-  // like to update.
-  // We give the name openSections to the variable which saves the info to update,
-  // in this case we are initializing an empty array ([]).
-  // setOpenSections will set the open sections in our page to update the list of
-  // open sections saved on openSections.
-  const [openSections, setOpenSections] = useState([])
-
-  // We create the function toggleSection to receive an argument called index that
-  // locates the specific sections the user has clicked on.
-  // We call the function setOpenSections will change the state of openSections
-  // as specified before (the list of open sections).
-  // We declare another function inside called prevOpenSections that receives the
-  // parameters referring to the previous state of the list of sections (before
-  // clicking on them).
-  // Inside teh function we check with prevOpenSections.includes(index) if the
-  // section the user clicked on is already in the list of prevOpenSections.
-  // By using the if condition "? prevOpenSections.filter(i => i !== index)"", we
-  // create another list without the already open section, meaning the section
-  // will close, filter takes care of this, in case of closing an accordion,
-  // filter checks the number of the accordion, all the other accordions won't
-  // correspond to the number of that accordion so their verification will be true
-  // and will remain in the new list, closing just the selected one as it won't
-  // be open anymore.
-  // We use an spread operator "[...]"" to expand the sections in prevOpenSections.
-  // The "..." before prevOpenSections are used to select all the existing
-  // sections and the index argument adds the new section to the list.
-  const toggleSection = index => {
-    setOpenSections(prevOpenSections =>
-      prevOpenSections.includes(index)
-        ? prevOpenSections.filter(i => i !== index)
-        : [...prevOpenSections, index]
-    )
-  }
-
-  const sectionRefs = useRef({})
-
-  useEffect(() => {
-    openSections.forEach(index => {
-      const section = sectionRefs.current[index]
-      if (section) {
-        section.style.transition = 'max-height 0.5s ease-in-out'
-        section.style.maxHeight = `${section.scrollHeight}px`
-      }
-    })
-
-    Object.keys(sectionRefs.current).forEach(key => {
-      if (!openSections.includes(parseInt(key))) {
-        const section = sectionRefs.current[key]
-        if (section) {
-          section.style.transition = 'max-height 0.5s ease-in-out'
-          requestAnimationFrame(() => {
-            section.style.maxHeight = '0'
-          })
-        }
-      }
-    })
-  }, [openSections])
-
+  // We create the variable selectedSection to save the current value of the
+  // selected section, meanwhile setSelectedSection allows to change the value of
+  // selectedSection. Using usestate we intialize the value of the variable with
+  // the Aerodynamic section.
   const [selectedSection, setSelectedSection] = useState('Aerodinámica')
+
+  // Here we create the function handleSectionChange which can take any value
+  // that the user selects, the content of the function stablishes that
+  // setSelectedSection will take the value of the section that the user selects
+  // by using setSelectedSection(section).
   const handleSectionChange = section => {
     setSelectedSection(section)
   }
+
+  useEffect(() => {
+    const handleSlide = event => {
+      const activeIndex = event.to
+      const newSelectedSection = Object.keys(sections)[activeIndex]
+      setSelectedSection(newSelectedSection)
+    }
+
+    const carouselElement = carouselRef.current
+    if (carouselElement) {
+      carouselElement.addEventListener('slide.bs.carousel', handleSlide)
+    }
+
+    return () => {
+      if (carouselElement) {
+        carouselElement.removeEventListener('slide.bs.carousel', handleSlide)
+      }
+    }
+  }, [])
 
   const [isLargeScreen, setLargeScreen] = useState(window.innerWidth >= 992)
 
@@ -194,11 +163,11 @@ const Subs = () => {
     </div>
   )
 
-  const Seccarousel1 = (
-    <div className='row d-block d-md-none text-center content justify-content-center align-items-center mx-0 col-lg-7'>
+  const Seccarousel = (
+    <div className='row d-block d-md-none text-center content justify-content-center align-items-center px-0 mx-0 col-lg-7'>
       <div
         id='Seccarrousel'
-        className='carousel slide justify-content-center px-0 mx-0 col-12 col-md-9 col-lg-12'
+        className='carousel slide justify-content-center px-0 mx-auto col-6'
         ref={carouselRef}
       >
         <div className='carousel-inner'>
@@ -208,71 +177,14 @@ const Subs = () => {
               className={`carousel-item ${index === 0 ? 'active' : ''}`}
             >
               <div className='row px-0 mx-0'>
-                <h2 className='text-center mb-5'>{sections[section].title}</h2>
-              </div>
-              <div className='row border border-4 border-white bg-gray p-4 p-sm-5 mx-auto mb-5 col-11 col-md-10 col-lg-5'>
-                <p>{sections[section].text}</p>
-              </div>
-
-              <div
-                id={`imageCarousel-${index}`}
-                className='carousel slide'
-                data-bs-ride='carousel'
-                data-bs-interval='4000'
-                ref={imageCarouselRef}
-              >
-                <div className='carousel-inner'>
-                  {sections[section].images.map((image, imgIndex) => (
-                    <div
-                      key={imgIndex}
-                      className={`carousel-item ${
-                        imgIndex === 0 ? 'active' : ''
-                      }`}
-                    >
-                      <div className='ratio ratio-16x9'>
-                        <div className='d-flex justify-content-center align-items-center'>
-                          <img
-                            src={image}
-                            className='d-block h-100 col-12'
-                            alt={`${section} imagen ${imgIndex + 1}`}
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-
-                <button
-                  className='carousel-control-prev'
-                  type='button'
-                  data-bs-target={`#imageCarousel-${index}`}
-                  data-bs-slide='prev'
-                >
-                  <span
-                    className='carousel-control-prev-icon'
-                    aria-hidden='true'
-                  />
-                  <span className='visually-hidden'>Previous</span>
-                </button>
-                <button
-                  className='carousel-control-next'
-                  type='button'
-                  data-bs-target={`#imageCarousel-${index}`}
-                  data-bs-slide='next'
-                >
-                  <span
-                    className='carousel-control-next-icon'
-                    aria-hidden='true'
-                  />
-                  <span className='visually-hidden'>Next</span>
-                </button>
+                <h2 className='text-center'>{sections[section].title}</h2>
               </div>
             </div>
           ))}
         </div>
 
         <button
-          className='carousel-control-prev justify-content-end'
+          className='carousel-control-prev justify-content-center'
           type='button'
           data-bs-target='#Seccarrousel'
           data-bs-slide='prev'
@@ -281,7 +193,7 @@ const Subs = () => {
           <span className='visually-hidden'>Previous</span>
         </button>
         <button
-          className='carousel-control-next justify-content-end'
+          className='carousel-control-next justify-content-center'
           type='button'
           data-bs-target='#Seccarrousel'
           data-bs-slide='next'
@@ -290,100 +202,57 @@ const Subs = () => {
           <span className='visually-hidden'>Next</span>
         </button>
       </div>
-    </div>
-  )
 
-  const Seccarousel2 = (
-    <div className='accordion d-md-none' id='accordionSections'>
-      {Object.keys(sections).map((section, index) => (
-        <div key={index} className='accordion-item bg-transparent'>
-          <h2 className='accordion-header' id={`heading${index}`}>
-            <button
-              className={`accordion-button bg-dark text-light ${
-                !openSections.includes(index) ? 'collapsed' : ''
-              }`}
-              type='button'
-              aria-expanded={`${
-                openSections.includes(index) ? 'true' : 'false'
-              }`}
-              aria-controls={`collapse${index}`}
-              onClick={() => toggleSection(index)}
-            >
-              {sections[section].title}
-            </button>
-          </h2>
-          <div
-            id={`collapse${index}`}
-            className={`accordion-collapse collapse ${
-              openSections.includes(index) ? 'show' : ''
-            }`}
-            aria-labelledby={`heading${index}`}
-            ref={el => (sectionRefs.current[index] = el)}
-            style={{
-              overflow: 'hidden',
-              transition: 'max-height 0.5s ease-in-out'
-            }}
-          >
-            <div className='accordion-body'>
-              <div className='row border border-4 border-white bg-gray p-4 p-sm-5 mx-auto mb-5 col-11 col-md-10 col-lg-5'>
-                <p>{sections[section].text}</p>
-              </div>
+      <div className='row border border-4 border-white bg-gray p-4 p-sm-5 mx-auto m-5 col-11 col-md-10 col-lg-5'>
+        <p>{sections[selectedSection].text}</p>
+      </div>
+
+      <div className='row d-flex content justify-content-center align-items-center mx-0 col-lg-7'>
+        <div
+          id={`imageCarousel-${selectedSection}`}
+          className='carousel slide justify-content-center px-0 mx-0 col-11'
+          data-bs-ride='carousel'
+          data-bs-interval='4000'
+          ref={imageCarouselRef}
+        >
+          <div className='carousel-inner'>
+            {sections[selectedSection].images.map((imageName, index) => (
               <div
-                id={`imageCarousel-${index}`}
-                className='carousel slide'
-                data-bs-ride='carousel'
-                data-bs-interval='4000'
-                ref={imageCarouselRef}
+                key={index}
+                className={`carousel-item ${index === 0 ? 'active' : ''}`}
               >
-                <div className='carousel-inner'>
-                  {sections[section].images.map((image, imgIndex) => (
-                    <div
-                      key={imgIndex}
-                      className={`carousel-item ${
-                        imgIndex === 0 ? 'active' : ''
-                      }`}
-                    >
-                      <div className='ratio ratio-16x9'>
-                        <div className='d-flex justify-content-center align-items-center'>
-                          <img
-                            src={image}
-                            className='d-block img-fluid h-100'
-                            alt={`${section} imagen ${imgIndex + 1}`}
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  ))}
+                <div className='ratio ratio-16x9'>
+                  <div className='d-flex justify-content-center align-items-center'>
+                    <img
+                      src={imageName}
+                      className='d-block img-fluid h-100'
+                      alt={`${selectedSection} imagen ${index + 1}`}
+                    />
+                  </div>
                 </div>
-                <button
-                  className='carousel-control-prev'
-                  type='button'
-                  data-bs-target={`#imageCarousel-${index}`}
-                  data-bs-slide='prev'
-                >
-                  <span
-                    className='carousel-control-prev-icon'
-                    aria-hidden='true'
-                  />
-                  <span className='visually-hidden'>Previous</span>
-                </button>
-                <button
-                  className='carousel-control-next'
-                  type='button'
-                  data-bs-target={`#imageCarousel-${index}`}
-                  data-bs-slide='next'
-                >
-                  <span
-                    className='carousel-control-next-icon'
-                    aria-hidden='true'
-                  />
-                  <span className='visually-hidden'>Next</span>
-                </button>
               </div>
-            </div>
+            ))}
           </div>
+          <button
+            className='carousel-control-prev justify-content-start'
+            type='button'
+            data-bs-target={`#imageCarousel-${selectedSection}`}
+            data-bs-slide='prev'
+          >
+            <span className='carousel-control-prev-icon' aria-hidden='true' />
+            <span className='visually-hidden'>Previous</span>
+          </button>
+          <button
+            className='carousel-control-next justify-content-end'
+            type='button'
+            data-bs-target={`#imageCarousel-${selectedSection}`}
+            data-bs-slide='next'
+          >
+            <span className='carousel-control-next-icon' aria-hidden='true' />
+            <span className='visually-hidden'>Next</span>
+          </button>
         </div>
-      ))}
+      </div>
     </div>
   )
 
@@ -431,8 +300,9 @@ const Subs = () => {
               </>
             ) : (
               <>
-                {Seccarousel2}
+                {Sectext}
                 {Imgcarousel}
+                {Seccarousel}
               </>
             )}
           </div>
