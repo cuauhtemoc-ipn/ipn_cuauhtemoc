@@ -70,14 +70,14 @@ const Mission = () => {
           Misión
         </h2>
       </div>
-      <p className='mx-auto mx-lg-0 col-12 col-sm-11 col-lg-12'>
+      <p className='lead lh-lg text-justify mx-auto mx-lg-0 col-12 col-sm-11 col-lg-12'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Convallis posuere
         morbi leo urna molestie at elementum eu facilisis. Odio ut sem nulla
         pharetra diam. Nisi porta lorem mollis aliquam ut. Auctor neque vitae
         tempus quam pellentesque nec nam aliquam.
       </p>
-      <p className='mx-auto mx-lg-0 col-12 col-sm-11 col-lg-12'>
+      <p className='lead lh-lg text-justify mx-auto mx-lg-0 col-12 col-sm-11 col-lg-12'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Convallis posuere
         morbi leo urna molestie at elementum eu facilisis.
@@ -138,14 +138,14 @@ const Mission = () => {
           Visión
         </h2>
       </div>
-      <p className='mx-auto mx-lg-0 col-12 col-sm-11 col-lg-12'>
+      <p className='lead lh-lg text-justify mx-auto mx-lg-0 col-12 col-sm-11 col-lg-12'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Convallis posuere
         morbi leo urna molestie at elementum eu facilisis. Odio ut sem nulla
         pharetra diam. Nisi porta lorem mollis aliquam ut. Auctor neque vitae
         tempus quam pellentesque nec nam aliquam.
       </p>
-      <p className='mx-auto mx-lg-0 col-12 col-sm-11 col-lg-12'>
+      <p className='lead lh-lg text-justify mx-auto mx-lg-0 col-12 col-sm-11 col-lg-12'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Convallis posuere
         morbi leo urna molestie at elementum eu facilisis.
