@@ -50,6 +50,7 @@ const News = () => {
           </div>
         </div>
       </div>
+
     </div>
   )
 }
