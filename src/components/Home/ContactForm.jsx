@@ -26,7 +26,7 @@ const ContactForm = () => {
     <div className='col-12 col-md-6 px-5'>
       <h2 className='display-3 text-light fw-semibold my-5'>Contacto</h2>
       <div className='contact-container'>
-        <form onSubmit={handleSubmit(whenSubmit)} className='d-block'>
+        <form onSubmit={handleSubmit(whenSubmit)} className='d-block' name='contact' netlify>
           <div className='row'>
             <div className='d-flex flex-column col-6'>
               <label htmlFor='firstName' className='text-light'>

@@ -1,10 +1,17 @@
 import React from 'react'
-import ContactForm from '@components/Home/ContactForm'
+import ContactForm from '@/components/Home/ContactForm'
 import rocketImage from '@/assets/Rocket.png'
+import backgroundImage from '@/assets/background.png'
 
 const ContactUs = () => {
   return (
     <div className='container-xxl h-full py-4 align-content-center'>
+      <div
+        className='background-image'
+        style={{
+          backgroundImage: `url(${backgroundImage})`
+        }}
+      />
       <div className='row'>
         <ContactForm />
 
