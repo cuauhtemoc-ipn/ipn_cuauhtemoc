@@ -115,7 +115,7 @@ const Subs = () => {
         className='carousel slide justify-content-center px-0 mx-0 col-12 col-md-9 col-lg-12'
         data-bs-ride='carousel'
         data-bs-interval='4000'
-        ref={carouselRef}
+        ref={imageCarouselRef}
       >
         <div className='carousel-inner'>
           {sections[selectedSection].images.map((imageName, index) => (
@@ -158,8 +158,8 @@ const Subs = () => {
   )
 
   const Sectext = (
-    <div className='row d-none d-md-block border border-4 border-white bg-gray p-4 p-sm-5 mx-auto mb-5 col-11 col-md-10 col-lg-5'>
-      <p>{sections[selectedSection].text}</p>
+    <div className='row d-none d-md-flex border border-4 border-white bg-gray p-4 p-sm-5 mx-auto mb-5 col-11 col-md-10 col-lg-5'>
+      <p className='lead lh-lg text-justify'>{sections[selectedSection].text}</p>
     </div>
   )
 
@@ -167,7 +167,7 @@ const Subs = () => {
     <div className='row d-block d-md-none text-center content justify-content-center align-items-center px-0 mx-0 col-lg-7'>
       <div
         id='Seccarrousel'
-        className='carousel slide justify-content-center px-0 mx-auto col-6'
+        className='carousel slide justify-content-center px-0 mx-auto col-8 col-sm-6'
         ref={carouselRef}
       >
         <div className='carousel-inner'>
@@ -204,7 +204,7 @@ const Subs = () => {
       </div>
 
       <div className='row border border-4 border-white bg-gray p-4 p-sm-5 mx-auto m-5 col-11 col-md-10 col-lg-5'>
-        <p>{sections[selectedSection].text}</p>
+        <p className='lead lh-lg text-justify'>{sections[selectedSection].text}</p>
       </div>
 
       <div className='row d-flex content justify-content-center align-items-center mx-0 col-lg-7'>
@@ -263,24 +263,24 @@ const Subs = () => {
           Secciones
         </h1>
         <div className='row dynamic-sections text-light px-0 mx-0'>
-          <div className='row d-none d-md-flex buttons justify-content-center align-items-center px-0 mx-0 mb-lg-5'>
+          <div className='row d-none d-md-flex buttons justify-content-center align-items-center px-0 mx-0 mb-5'>
             {Object.keys(sections).map(section => (
               <div
                 key={section}
-                className='row justify-content-center mx-0 mb-5 mb-lg-0 col-3 col-lg-3'
+                className='row justify-content-center mx-0 col-3 col-xl-2'
               >
-                <div className='d-flex justify-content-center px-0 col-9 col-md-12'>
+                <div className='d-flex justify-content-center px-0 col-11 col-lg-10 col-xl-12'>
                   <button
                     className={`btn btn-block btn-outline-light border-3 ${
                       selectedSection === section ? 'active ' : ''
                     } d-flex flex-column align-items-center p-0 rounded-4 col-10`}
                     onClick={() => handleSectionChange(section)}
                   >
-                    <span className='m-1'>{section}</span>
+                    <span className='lead lh-lg'>{section}</span>
                     <div className='ratio ratio-1x1'>
                       <img
                         src={sub1}
-                        className='img-fluid rounded-4'
+                        className='img-fluid object-fit-cover rounded-4'
                         alt={`${section} image`}
                       />
                     </div>

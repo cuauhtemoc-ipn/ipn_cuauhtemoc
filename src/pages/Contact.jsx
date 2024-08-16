@@ -16,7 +16,10 @@ const schema = yup
         'Selecciona una sección',
         value => value !== 'other'
       ),
-    message: yup.string().required('Escribe tu mensaje')
+    message: yup.string().required('Escribe tu mensaje'),
+    escuela: yup.string().required('Escribe el nombre de tu escuela'),
+    carrera: yup.string().required('Ingresa tu carrera'),
+    semestre: yup.string().required('Ingresa tu semestre')
   })
   .required()
 
@@ -47,7 +50,7 @@ const Contact = () => {
           </div>
           {isFirstForm ? (
             <div className='row justify-content-center align-items-center mx-0'>
-              <div className='text-light col-lg-4 col-xl-5'>
+              <div className='text-light text-justify col-11 col-sm-10 col-lg-5'>
                 <p>
                   ¡Nos encantaría que te unas a nuestro equipo! En Cuauhtemoc
                   IPN estamos siempre buscando personas talentosas y apasionadas
@@ -60,10 +63,10 @@ const Contact = () => {
                   pronto
                 </p>
               </div>
-              <div className='contact-container col-5'>
-                <form onSubmit={handleSubmit(whenSubmit)} className='d-block'>
+              <div className='contact-container col-11 col-sm-10 col-lg-5'>
+                <form onSubmit={handleSubmit(whenSubmit)} className='d-block '>
                   <div className='row'>
-                    <div className='d-flex flex-column col-6'>
+                    <div className='d-flex flex-column col-12 col-sm-6'>
                       <label htmlFor='firstName' className='text-light'>
                         Nombre
                       </label>
@@ -83,7 +86,7 @@ const Contact = () => {
                       </p>
                     </div>
 
-                    <div className='d-flex flex-column col-6'>
+                    <div className='d-flex flex-column col-12 col-sm-6'>
                       <label htmlFor='lastName' className='text-light'>
                         Apellido
                       </label>
@@ -143,35 +146,82 @@ const Contact = () => {
                     </p>
                   </div>
 
-                  <div className='d-flex flex-column col-12'>
-                    <label htmlFor='message' className='text-light'>
-                      Mensaje
-                    </label>
-                    <textarea
-                      name='message'
-                      placeholder='Escribe tu mensaje'
-                      id='message'
-                      {...register('message')}
-                      className='rounded-3 my-2 p-2 border border-0'
-                      rows='3'
-                    />
-                    <p className='text-gray text-center'>
-                      {errors.message?.message}
-                    </p>
+                  <div className='row'>
+                    <div className='d-flex flex-column col-12'>
+                      <label htmlFor='escuela' className='text-light'>
+                        Escuela
+                      </label>
+                      <input
+                        type='text'
+                        name='escuela'
+                        placeholder='Nombre de tu escuela'
+                        id='escuela'
+                        {...register('escuela', {
+                          required: true,
+                          maxlength: 30
+                        })}
+                        className='rounded-3 my-2 p-2 border border-0'
+                      />
+                      <p className='text-gray text-center'>
+                        {errors.escuela?.message}
+                      </p>
+                    </div>
+
+                    <div className='d-flex flex-column col-12 col-sm-6'>
+                      <label htmlFor='carrera' className='text-light'>
+                        Carrera
+                      </label>
+                      <input
+                        type='text'
+                        name='carrera'
+                        placeholder='Ingresa tu carrera'
+                        id='carrera'
+                        {...register('carrera', {
+                          required: true,
+                          maxlength: 30
+                        })}
+                        className='rounded-3 my-2 p-2 border border-0'
+                      />
+                      <p className='text-gray text-center'>
+                        {errors.carrera?.message}
+                      </p>
+                    </div>
+
+                    <div className='d-flex flex-column col-12 col-sm-6'>
+                      <label htmlFor='semestre' className='text-light'>
+                        Semestre
+                      </label>
+                      <input
+                        type='text'
+                        name='semestre'
+                        placeholder='Ingresa tu semestre'
+                        id='semestre'
+                        {...register('semestre', {
+                          required: true,
+                          maxlength: 20
+                        })}
+                        className='rounded-3 my-2 p-2 border border-0'
+                      />
+                      <p className='text-gray text-center'>
+                        {errors.semestre?.message}
+                      </p>
+                    </div>
                   </div>
 
-                  <button
-                    type='submit'
-                    className='btn btn-outline-light btn-lg px-5 py-1 col-12 my-3'
-                  >
-                    Enviar
-                  </button>
+                  <div className='d-flex justify-content-center'>
+                    <button
+                      type='submit'
+                      className='btn btn-outline-light btn-lg px- px-5 py-1 col-10 col-sm-5 col-lg-12 my-3'
+                    >
+                      Enviar
+                    </button>
+                  </div>
                 </form>
               </div>
             </div>
           ) : (
             <div className='row justify-content-center align-items-center mx-0'>
-              <div className='text-light col-lg-4 col-xl-5'>
+              <div className='text-light text-justify col-lg-4 col-xl-5'>
                 <p>
                   Gracias por tu interés en unirte a nuestro equipo. Aunque no
                   estamos reclutando en este momento, nos gustaría saber de ti.
@@ -237,6 +287,23 @@ const Contact = () => {
                     />
                     <p className='text-gray text-center'>
                       {errors.email?.message}
+                    </p>
+                  </div>
+
+                  <div className='d-flex flex-column col-12'>
+                    <label htmlFor='message' className='text-light'>
+                      Mensaje
+                    </label>
+                    <textarea
+                      name='message'
+                      placeholder='Escribe tu mensaje'
+                      id='message'
+                      {...register('message')}
+                      className='rounded-3 my-2 p-2 border border-0'
+                      rows='3'
+                    />
+                    <p className='text-gray text-center'>
+                      {errors.message?.message}
                     </p>
                   </div>
 
