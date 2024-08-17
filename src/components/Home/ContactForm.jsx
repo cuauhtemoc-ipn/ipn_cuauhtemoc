@@ -27,7 +27,7 @@ const ContactForm = () => {
       <h2 className='display-3 text-light fw-semibold my-5'>Contacto</h2>
       <div className='contact-container'>
         <form
-          onSubmit={handleSubmit(whenSubmit)}
+          // onSubmit={handleSubmit(whenSubmit)}
           className='d-block'
           name='contact'
           method='POST'
