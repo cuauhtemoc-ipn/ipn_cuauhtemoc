@@ -4,7 +4,7 @@ import rocketImage from '@/assets/Rocket.png'
 
 const Contact = () => {
   return (
-    <div className='container-xxl h-full py-4 align-content-center'>
+    <div className='container-lg h-full py-4 align-content-center'>
       <div className='row'>
         <ContactForm />
 
