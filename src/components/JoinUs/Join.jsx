@@ -1,5 +1,5 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react'
-import backgroundImage from '@/assets/background.png'
 import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
@@ -36,29 +36,23 @@ const Recruitment = () => {
   }
 
   return (
-    <div>
-      <div
-        className='background-image'
-        style={{
-          backgroundImage: `url(${backgroundImage})`
-        }}
-      />
-      <div className='container-lg d-flex flex-column justify-content-center h-full py-4 my-5'>
-        <div className='row align-items-center text-light mx-0 my-5'>
-          <div className='row align-items-center mx-0 my-5'>
-            <h1 className='display-3 text-center fw-semibold'>Reclutamiento</h1>
-          </div>
-          {isFirstForm ? (
+    <div className='container-lg d-flex flex-column justify-content-center h-full py-4 my-5'>
+      <div className='row align-items-center text-light mx-0 my-5'>
+        <div className='row align-items-center mx-0 my-5'>
+          <h1 className='display-3 text-center fw-semibold'>Reclutamiento</h1>
+        </div>
+        {isFirstForm
+          ? (
             <div className='row justify-content-center align-items-center mx-0'>
               <div className='text-light text-justify col-11 col-sm-10 col-lg-5'>
                 <p>
-                  ¡Nos encantaría que te unas a nuestro equipo! En Cuauhtemoc
-                  IPN estamos siempre buscando personas talentosas y apasionadas
-                  que quieran contribuir a nuestro crecimiento. Si te interesa
+                  ¡Nos encantaría que te unas a nuestro equipo! En Cuauhtemoc IPN
+                  estamos siempre buscando personas talentosas y apasionadas que
+                  quieran contribuir a nuestro crecimiento. Si te interesa
                   explorar las secciones para desarrollarte, te invitamos a
-                  compartir tus datos de contacto y a indicarnos el área en la
-                  que te gustaría trabajar. De esta manera, podremos mantenerte
-                  al tanto de las secciones que coincidan con tus intereses y
+                  compartir tus datos de contacto y a indicarnos el área en la que
+                  te gustaría trabajar. De esta manera, podremos mantenerte al
+                  tanto de las secciones que coincidan con tus intereses y
                   habilidades, y contactarte al respecto. ¡Esperamos saber de ti
                   pronto
                 </p>
@@ -219,7 +213,8 @@ const Recruitment = () => {
                 </form>
               </div>
             </div>
-          ) : (
+            )
+          : (
             <div className='row justify-content-center align-items-center mx-0'>
               <div className='text-light text-justify col-11 col-sm-10 col-lg-5'>
                 <p>
@@ -318,8 +313,7 @@ const Recruitment = () => {
                 </form>
               </div>
             </div>
-          )}
-        </div>
+            )}
       </div>
     </div>
   )
