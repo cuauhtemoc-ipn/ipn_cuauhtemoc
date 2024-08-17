@@ -13,9 +13,9 @@ export default function AutoplayCarousel ({
   const [carouselWidth, setCarouselWidth] = useState(0)
   const [duration, setDuration] = useState(0)
   const [isHovered, setIsHovered] = useState(false) // Track hover state
-
   const [showModal, setShowModal] = useState(false)
   const [currentImage, setCurrentImage] = useState('')
+  const [isExpanded, setIsExpanded] = useState(false) // Track if the collapsible section is expanded
 
   const handleImageClick = image => {
     setCurrentImage(image)
@@ -23,6 +23,10 @@ export default function AutoplayCarousel ({
   }
 
   const handleCloseModal = () => setShowModal(false)
+
+  const toggleExpanded = () => {
+    setIsExpanded(prevState => !prevState)
+  }
 
   useEffect(() => {
     if (reference.current && name === activeTab) {
@@ -57,51 +61,63 @@ export default function AutoplayCarousel ({
           }
         `}
       </style>
-      <div
-        className='carousel-track'
-        id={`Track-${name}`}
-        ref={reference}
-        style={{
-          animationName: `slide-${name}`,
-          animationDuration: `${duration}s`,
-          animationTimingFunction: 'linear',
-          animationIterationCount: 'infinite',
-          animationPlayState: isHovered || showModal ? 'paused' : 'running' // Pause on hover or if modal is open
-        }}
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-      >
-        {Object.keys(images).map(detailKey => (
-          <CarouselItem
-            imgUrl={images[detailKey]}
-            imgTitle='CanSat image'
-            key={detailKey + 's - ' + name}
-            utility={handleImageClick}
-          />
-        ))}
-        {Object.keys(images).map(detailKey => (
-          <CarouselItem
-            imgUrl={images[detailKey]}
-            imgTitle='CanSat image'
-            key={detailKey + 'e - ' + name}
-            utility={handleImageClick}
-          />
-        ))}
-      </div>
-
-      <p className='d-flex justify-content-center m-3'>
-        <a
-          className='btn btn-outline-light'
-          data-bs-toggle='collapse'
-          href='#collapseExample'
-          role='button'
-          aria-expanded='false'
-          aria-controls='collapseExample'
+      {/* Conditionally render the carousel track */}
+      {!isExpanded && (
+        <div
+          className='carousel-track'
+          id={`Track-${name}`}
+          ref={reference}
+          style={{
+            animationName: `slide-${name}`,
+            animationDuration: `${duration}s`,
+            animationTimingFunction: 'linear',
+            animationIterationCount: 'infinite',
+            animationPlayState: isHovered || showModal ? 'paused' : 'running' // Pause on hover or if modal is open
+          }}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
         >
-          Ver todo
-        </a>
-      </p>
-      <div className='collapse' id='collapseExample'>
+          {Object.keys(images).map(detailKey => (
+            <CarouselItem
+              imgUrl={images[detailKey]}
+              imgTitle='CanSat image'
+              key={detailKey + 's - ' + name}
+              utility={handleImageClick}
+            />
+          ))}
+          {Object.keys(images).map(detailKey => (
+            <CarouselItem
+              imgUrl={images[detailKey]}
+              imgTitle='CanSat image'
+              key={detailKey + 'e - ' + name}
+              utility={handleImageClick}
+            />
+          ))}
+        </div>
+      )}
+
+      {isExpanded ? (
+        ''
+      ) : (
+        <p className='d-flex justify-content-center m-3'>
+          <a
+            className='btn btn-outline-light'
+            data-bs-toggle='collapse'
+            href='#collapseExample'
+            role='button'
+            aria-expanded={isExpanded}
+            aria-controls='collapseExample'
+            onClick={toggleExpanded} // Toggle the expanded state on click
+          >
+            {isExpanded ? 'Ver menos' : 'Ver todo'}
+          </a>
+        </p>
+      )}
+
+      <div
+        className={`collapse ${isExpanded ? 'show' : ''}`}
+        id='collapseExample'
+      >
         <div className='container-fluid d-flex flex-wrap gap-3 justify-content-around'>
           {Object.keys(images).map(detailKey => (
             <CarouselItem
@@ -112,19 +128,25 @@ export default function AutoplayCarousel ({
             />
           ))}
         </div>
+      </div>
+
+      {!isExpanded ? (
+        ''
+      ) : (
         <p className='d-flex justify-content-center m-3'>
           <a
             className='btn btn-outline-light'
             data-bs-toggle='collapse'
             href='#collapseExample'
             role='button'
-            aria-expanded='false'
+            aria-expanded={isExpanded}
             aria-controls='collapseExample'
+            onClick={toggleExpanded} // Toggle the expanded state on click
           >
-            Ver menos
+            {isExpanded ? 'Ver menos' : 'Ver todo'}
           </a>
         </p>
-      </div>
+      )}
 
       <Modal
         show={showModal}

@@ -6,7 +6,7 @@ import image3 from '@/assets/instagram_3.png'
 
 const News = () => {
   return (
-    <div className='container-xxl h-full py-4'>
+    <div className='container-lg h-full py-4'>
       <h2 className='display-3 text-light fw-semibold my-5'>
         Últimas noticias
       </h2>
