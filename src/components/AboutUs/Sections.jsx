@@ -1,37 +1,18 @@
+/* eslint-disable no-new */
 import React, { useState, useEffect, useRef } from 'react'
 import { Carousel } from 'bootstrap'
-import cansat from '@/assets/cansat.svg'
-import presen from '@/assets/presentation.svg'
-import sec from '@/assets/sec.svg'
-import sub1 from '@/assets/sub1.jpg'
-import sub2 from '@/assets/sub2.jpg'
-import sub3 from '@/assets/sub3.jpg'
-import sub4 from '@/assets/sub4.jpg'
-import sub5 from '@/assets/sub5.jpg'
+import info from '@/assets/Sections/info.json'
 
 const Subs = () => {
-  const sections = {
-    Aerodinámica: {
-      title: 'Aerodinámica',
-      images: [sub3, sub1],
-      text: 'Texto para la sección de Aerodinámica'
-    },
-    CDH: {
-      title: 'CDH',
-      images: [sub2, cansat],
-      text: 'Texto para la sección de CDH'
-    },
-    EPS: {
-      title: 'EPS',
-      images: [sub5, presen],
-      text: 'Texto para la sección de EPS'
-    },
-    Mecánica: {
-      title: 'Mecánica',
-      images: [sub4, sec],
-      text: 'Texto para la sección de Mecánica'
+  const sections = info.data.reduce((acc, section) => {
+    acc[section.name] = {
+      title: section.title,
+      btnImage: section.btnImage,
+      text: section.content[0].value,
+      images: section.images
     }
-  }
+    return acc
+  }, {})
 
   // Initialize the variable where the link to the carousel is going to be stored.
   // We set the link (useRef) poiting at the carousel as null as it should be empty
@@ -67,7 +48,8 @@ const Subs = () => {
   // Here we create the function handleSectionChange which can take any value
   // that the user selects, the content of the function stablishes that
   // setSelectedSection will take the value of the section that the user selects
-  // by using setSelectedSection(section).
+  // by using setSelectedSection(section), for that we need to pass a parameter
+  // to section when calling it.
   const handleSectionChange = section => {
     setSelectedSection(section)
   }
@@ -108,6 +90,24 @@ const Subs = () => {
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
+  const updateTitleCarousel = () => {
+    setTimeout(() => {
+      if (!isLargeScreen && carouselRef.current) {
+        const carousel = Carousel.getInstance(carouselRef.current) // Obtener instancia del carrusel
+        const activeIndex = Object.keys(sections).indexOf(selectedSection) // Encontrar índice de la sección seleccionada
+        carousel.to(activeIndex) // Mover el carrusel al índice correcto
+      }
+    }, 0)
+  }
+
+  useEffect(() => {
+    updateTitleCarousel()
+  }, [isLargeScreen, selectedSection])
+
+  const fadeInStyle = {
+    animation: 'fadeIn 1s ease-in-out'
+  }
+
   const Imgcarousel = (
     <div className='row d-none d-md-flex content justify-content-center align-items-center mx-0 col-lg-7'>
       <div
@@ -116,6 +116,8 @@ const Subs = () => {
         data-bs-ride='carousel'
         data-bs-interval='4000'
         ref={imageCarouselRef}
+        key={selectedSection}
+        style={fadeInStyle}
       >
         <div className='carousel-inner'>
           {sections[selectedSection].images.map((imageName, index) => (
@@ -158,8 +160,14 @@ const Subs = () => {
   )
 
   const Sectext = (
-    <div className='row d-none d-md-flex border border-4 border-white bg-gray p-4 p-sm-5 mx-auto mb-5 col-11 col-md-10 col-lg-5'>
-      <p className='lead lh-lg text-justify'>{sections[selectedSection].text}</p>
+    <div
+      className='row d-none d-md-flex border border-4 border-white bg-gray p-4 p-sm-5 mx-auto mb-5 mb-lg-0 col-11 col-md-10 col-lg-5'
+      key={selectedSection}
+      style={fadeInStyle}
+    >
+      <p className='lead text-justify'>
+        {sections[selectedSection].text}
+      </p>
     </div>
   )
 
@@ -176,8 +184,10 @@ const Subs = () => {
               key={index}
               className={`carousel-item ${index === 0 ? 'active' : ''}`}
             >
-              <div className='row px-0 mx-0'>
-                <h2 className='text-center'>{sections[section].title}</h2>
+              <div
+                className='row px-0 mx-0'
+              >
+                <h2 className='text-center'>{section}</h2>
               </div>
             </div>
           ))}
@@ -203,8 +213,14 @@ const Subs = () => {
         </button>
       </div>
 
-      <div className='row border border-4 border-white bg-gray p-4 p-sm-5 mx-auto m-5 col-11 col-md-10 col-lg-5'>
-        <p className='lead lh-lg text-justify'>{sections[selectedSection].text}</p>
+      <div
+        className='row border border-4 border-white bg-gray p-4 p-sm-5 mx-auto m-5 col-11 col-md-10 col-lg-5'
+        key={selectedSection}
+        style={fadeInStyle}
+      >
+        <p className='lead text-justify'>
+          {sections[selectedSection].text}
+        </p>
       </div>
 
       <div className='row d-flex content justify-content-center align-items-center mx-0 col-lg-7'>
@@ -214,6 +230,8 @@ const Subs = () => {
           data-bs-ride='carousel'
           data-bs-interval='4000'
           ref={imageCarouselRef}
+          key={selectedSection}
+          style={fadeInStyle}
         >
           <div className='carousel-inner'>
             {sections[selectedSection].images.map((imageName, index) => (
@@ -259,9 +277,11 @@ const Subs = () => {
   return (
     <div className='container-lg bg-dark bg-opacity-75 px-0 py-4'>
       <div className='row justify-content-center mx-0'>
-        <h1 className='text-center text-gold border-bottom border-4 border-gold my-5 col-5 col-sm-4 col-md-3'>
-          Secciones
-        </h1>
+        <div className='justify-content-center border-bottom border-4 border-primary mx-auto mb-5 col-6 col-sm-4 col-lg-3'>
+          <h3 className='text-center text-primary display-5 fw-bold'>
+            Secciones
+          </h3>
+        </div>
         <div className='row dynamic-sections text-light px-0 mx-0'>
           <div className='row d-none d-md-flex buttons justify-content-center align-items-center px-0 mx-0 mb-5'>
             {Object.keys(sections).map(section => (
@@ -279,9 +299,9 @@ const Subs = () => {
                     <span className='lead lh-lg'>{section}</span>
                     <div className='ratio ratio-1x1'>
                       <img
-                        src={sub1}
+                        src={sections[section].btnImage}
                         className='img-fluid object-fit-cover rounded-4'
-                        alt={`${section} image`}
+                        alt={`${sections[section].title} image`}
                       />
                     </div>
                   </button>
@@ -289,22 +309,30 @@ const Subs = () => {
               </div>
             ))}
           </div>
-          <div className='row px-0 mx-0'>
-            <h2 className='d-none d-md-block text-center mb-5'>
+          <div
+            className='row px-0 mx-0'
+          >
+            <h2
+              className='d-none d-md-block text-center mb-5'
+              key={selectedSection}
+              style={fadeInStyle}
+            >
               {selectedSection}
             </h2>
-            {isLargeScreen ? (
-              <>
-                {Imgcarousel}
-                {Sectext}
-              </>
-            ) : (
-              <>
-                {Sectext}
-                {Imgcarousel}
-                {Seccarousel}
-              </>
-            )}
+            {isLargeScreen
+              ? (
+                <>
+                  {Imgcarousel}
+                  {Sectext}
+                </>
+                )
+              : (
+                <>
+                  {Sectext}
+                  {Imgcarousel}
+                  {Seccarousel}
+                </>
+                )}
           </div>
         </div>
       </div>

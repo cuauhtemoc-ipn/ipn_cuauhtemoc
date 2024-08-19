@@ -38,18 +38,38 @@ const Footer = () => {
             <NavLink to='/aboutUs' className='text-decoration-none text-light'>
               <li>Acerca de</li>
             </NavLink>
-            <NavLink to='/projects' className='text-decoration-none text-light'>
-              <li>Proyectos</li>
-            </NavLink>
+            <li>
+              Proyectos
+              <ul>
+                <NavLink
+                  to='/projects/cansat_competition'
+                  className='text-decoration-none text-light'
+                >
+                  <li>Cansat Competition</li>
+                </NavLink>
+                <NavLink
+                  to='/projects/cansat_cucei'
+                  className='text-decoration-none text-light'
+                >
+                  <li>Cansat CUCEI</li>
+                </NavLink>
+                <NavLink
+                  to='/projects/picosatelites_puebla'
+                  className='text-decoration-none text-light'
+                >
+                  <li>Picosatélites Puebla</li>
+                </NavLink>
+                <NavLink
+                  to='/projects/enmice'
+                  className='text-decoration-none text-light'
+                >
+                  <li>ENMICE</li>
+                </NavLink>
+              </ul>
+            </li>
             <li>
               Involúcrate
               <ul>
-                <NavLink
-                  to='/donation'
-                  className='text-decoration-none text-light'
-                >
-                  <li>Dona</li>
-                </NavLink>
                 <NavLink
                   to='/courses'
                   className='text-decoration-none text-light'

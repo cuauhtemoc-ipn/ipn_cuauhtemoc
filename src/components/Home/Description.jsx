@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import logo1 from '@/assets/main_logo.svg'
 import name from '@/assets/team_name.svg'
 
@@ -23,8 +24,8 @@ const Descrpt = () => {
             A lo largo de nuestra historia, hemos obtenido el Tercer lugar
             mundial y primer lugar en Latinoamérica en CanSat Competition,
             llevando la bandera de México y el orgullo politécnico a lo más
-            alto. Hoy, nuestro equipo cuenta con más de 30 mentes
-            creativas que se desarrollan en diversas disciplinas.
+            alto. Hoy, nuestro equipo cuenta con más de 30 mentes creativas que
+            se desarrollan en diversas disciplinas.
           </p>
           <p className='text-justify'>
             Somos la prueba de que la innovación y el trabajo en equipo rompen
@@ -32,9 +33,11 @@ const Descrpt = () => {
           </p>
           <p>¡Únete a nuestra misión!</p>
           <div className='text-center mt-4'>
-            <button className='btn btn-outline-light btn-lg px-5'>
-              Saber más ➔
-            </button>
+            <NavLink to='/aboutUs'>
+              <button className='btn btn-outline-light btn-lg px-5'>
+                Saber más ➔
+              </button>
+            </NavLink>
           </div>
         </div>
       </div>

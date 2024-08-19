@@ -1,19 +1,19 @@
+/* eslint-disable no-new */
 import React, { useState, useEffect, useRef } from 'react'
 import { Collapse } from 'bootstrap'
-import memb from '@/assets/memb.svg'
-import sec from '@/assets/sec.svg'
-import sub1 from '@/assets/sub1.jpg'
-import sub2 from '@/assets/sub2.jpg'
-import sub3 from '@/assets/sub3.jpg'
-import sub4 from '@/assets/sub4.jpg'
-import sub5 from '@/assets/sub5.jpg'
+import { NavLink } from 'react-router-dom'
+import cap from '@/assets/cap.jpg'
 
 const membcard = (
   <div className='d-flex justify-content-center align-items-center my-4 col-11 col-sm-10 col-md-9 col-lg-6'>
     <div className='row justify-content-center align-items-center text-light border border-2 rounded mx-0 col-10 col-sm-12 col-lg-11 col-xl-10'>
       <div className='col-10 col-sm-5 col-md-4 col-lg-5 px-0 mx-0 m-4 m-sm-0'>
         <div className='ratio ratio-1x1'>
-          <img src={memb} className='card-img object-fit-cover rounded' alt='...' />
+          <img
+            src={cap}
+            className='card-img object-fit-cover rounded'
+            alt='...'
+          />
         </div>
       </div>
       <div className='mx-auto col-12 col-sm-7'>
@@ -25,27 +25,6 @@ const membcard = (
       </div>
     </div>
   </div>
-
-  /*
-    <div className='d-flex justify-content-center align-items-center my-4 col-12 col-sm-10 col-md-9 col-lg-6'>
-    <div className='align-items-center text-light col-12 col-lg-11 col-xl-10'>
-      <div className='row justify-content-center align-items-center mx-0 col-12'>
-        <div className='col-6 col-xl-5 mx-0'>
-          <div className='ratio ratio-1x1'>
-            <img src={memb} className='card-img object-fit-cover' alt='...' />
-          </div>
-        </div>
-        <div className='text-justify col-6 col-xl-7'>
-          <h5>Nombre del integrante</h5>
-          <h5>Sección</h5>
-          <p>
-            Pequeña descripción sobre su papel en la subsección y/o en el equipo
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  */
 )
 
 const Members = () => {
@@ -75,9 +54,11 @@ const Members = () => {
   return (
     <div className='container-lg bg-dark bg-opacity-75 px-0 py-4'>
       <div className='row justify-content-center mx-0'>
-        <h1 className='text-center text-gold border-bottom border-4 border-gold my-5 col-5 col-sm-4 col-md-3'>
-          Integrantes
-        </h1>
+        <div className='justify-content-center border-bottom border-4 border-primary mx-auto mb-5 col-7 col-sm-5 col-md-4 col-xl-3'>
+          <h3 className='text-center text-primary display-5 fw-bold'>
+            Integrantes
+          </h3>
+        </div>
         <div className='row justify-content-center align-items-center px-0 mx-0'>
           {membcard}
           {membcard}
@@ -131,12 +112,14 @@ const Members = () => {
         </div>
       </div>
       <div className='row justify-content-center mx-0'>
-        <h1 className='text-center text-gold border-bottom border-4 border-gold my-5 col-5'>
-          Reclutamiento
-        </h1>
+        <div className='justify-content-center border-bottom border-4 border-primary mx-auto my-5 col-8 col-sm-6 col-md-5 col-xl-4'>
+          <h3 className='text-center text-primary display-5 fw-bold'>
+            Reclutamiento
+          </h3>
+        </div>
         <div className='row justify-content-center align-items-center mx-0'>
           <div className='d-flex text-light mb-4 mb-lg-0 col-11 col-sm-10 col-lg-5'>
-            <p className='lead lh-lg text-justify'>
+            <p className='lead text-justify'>
               Si estás interesado en formar parte de nuestro equipo ¡te
               invitamos a dar click en el siguiente enlace a fin de poder
               trabajar de cerca con la tecnología aeroespacial!. Queremos que
@@ -147,9 +130,11 @@ const Members = () => {
             </p>
           </div>
           <div className='text-center mb-4 mb-lg-0 col-lg-6'>
-            <button className='btn btn-outline-light btn-lg px-3 px-sm-5'>
-              ¡Forma parte de nuestro equipo!
-            </button>
+            <NavLink to='/joinUs'>
+              <button className='btn btn-outline-light btn-lg px-3 px-sm-5'>
+                ¡Forma parte de nuestro equipo!
+              </button>
+            </NavLink>
           </div>
         </div>
       </div>

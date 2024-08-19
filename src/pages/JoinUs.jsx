@@ -4,7 +4,7 @@ import backgroundImage from '@/assets/background.png'
 
 const JoinUs = () => {
   return (
-    <div>
+    <div className='container-xxl h-full py-5 py-lg-4 align-content-center'>
       <div
         className='background-image'
         style={{
