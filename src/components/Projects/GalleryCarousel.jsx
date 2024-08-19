@@ -39,6 +39,7 @@ export default function AutoplayCarousel ({
       )
       setCarouselWidth(totalWidth / 2)
       setDuration(totalWidth ? totalWidth / 2 / 125 : 0)
+      setIsExpanded(false)
     }
   }, [images, activeTab, reference, name])
 
@@ -59,12 +60,30 @@ export default function AutoplayCarousel ({
             0% { transform: translateX(0); }
             100% { transform: translateX(-${carouselWidth}px); }
           }
+
+          .carousel-track {
+            transition: transform 4s ease-out; /* Smoothly stop the carousel */
+          }
+
+          .carousel-track.paused {
+            transform: transl ateX(-${carouselWidth}px); /* Keep it in place */
+          }
+
+          .carousel-card img {
+            transition: transform 0.5s ease; /* Smooth transition over 0.5 seconds */
+          }
+
+          .carousel-card:hover img {
+            transform: scale(1.1); /* Zoom the hovered image */
+          }
         `}
       </style>
-      {/* Conditionally render the carousel track */}
-      {!isExpanded && (
+      <div
+        className={`collapse ${!isExpanded ? 'show' : ''}`}
+        id='collapseExample'
+      >
         <div
-          className='carousel-track'
+          className={`carousel-track ${isHovered ? 'paused' : ''}`}
           id={`Track-${name}`}
           ref={reference}
           style={{
@@ -94,11 +113,7 @@ export default function AutoplayCarousel ({
             />
           ))}
         </div>
-      )}
 
-      {isExpanded ? (
-        ''
-      ) : (
         <p className='d-flex justify-content-center m-3'>
           <a
             className='btn btn-outline-light'
@@ -112,8 +127,7 @@ export default function AutoplayCarousel ({
             {isExpanded ? 'Ver menos' : 'Ver todo'}
           </a>
         </p>
-      )}
-
+      </div>
       <div
         className={`collapse ${isExpanded ? 'show' : ''}`}
         id='collapseExample'
@@ -128,11 +142,7 @@ export default function AutoplayCarousel ({
             />
           ))}
         </div>
-      </div>
 
-      {!isExpanded ? (
-        ''
-      ) : (
         <p className='d-flex justify-content-center m-3'>
           <a
             className='btn btn-outline-light'
@@ -146,7 +156,7 @@ export default function AutoplayCarousel ({
             {isExpanded ? 'Ver menos' : 'Ver todo'}
           </a>
         </p>
-      )}
+      </div>
 
       <Modal
         show={showModal}
