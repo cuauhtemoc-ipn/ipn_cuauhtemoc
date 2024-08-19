@@ -18,13 +18,13 @@ const SpDescrpt = ({ data }) => {
         <Tooltip
           anchorSelect='.tt'
           place='bottom'
-          className='d-none d-md-inline'
+          className='d-none d-lg-inline'
         >
           <span dangerouslySetInnerHTML={dividetext(data.text)} />
         </Tooltip>
       </div>
-      <div className='text-light d-md-none col-12 col-sm-7'>
-        <p className='my-auto' dangerouslySetInnerHTML={dividetext(data.text)} />
+      <div className='text-light d-lg-none col-12 col-sm-7'>
+        <p className='my-auto text-justify' dangerouslySetInnerHTML={dividetext(data.text)} />
       </div>
     </div>
   )
