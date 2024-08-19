@@ -83,10 +83,11 @@ $font-sizes: map-merge(
 .mt-03 {
   margin-top: -1em;
 }
-.h-full {
-  min-height: 100vh;
+@media (min-aspect-ratio: 1/1) {
+  .h-full {
+    min-height: 100vh;
+  }
 }
-
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
 
@@ -157,29 +158,4 @@ $font-sizes: map-merge(
   gap: 30 px;
   z-index: 1;
   
-}
-
-
-.carousel-track-hidden {
-  opacity: 0;
-  height: 0;
-  transition: opacity 0.5s ease, height 0.5s ease;
-}
-
-.carousel-track-visible {
-  opacity: 1;
-  height: auto;
-  transition: opacity 0.5s ease, height 0.5s ease;
-}
-
-.collapse-example-hidden {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s ease;
-}
-
-.collapse-example-visible {
-  max-height: 500px; /* Adjust this value based on the expected height */
-  overflow: hidden;
-  transition: max-height 0.5s ease;
 }
