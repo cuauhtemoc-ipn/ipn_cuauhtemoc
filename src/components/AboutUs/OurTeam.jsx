@@ -19,7 +19,7 @@ const OurTeam = () => {
               type='video/mp4'
             />
           </div>
-          <div className='text-light my-4 my-lg-0 col-11 col-lg-5'>
+          <div className='text-light text-justify my-4 my-lg-0 col-11 col-lg-5'>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.

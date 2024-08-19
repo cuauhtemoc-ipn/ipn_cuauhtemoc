@@ -159,3 +159,33 @@ $font-sizes: map-merge(
   z-index: 1;
   
 }
+
+
+.carousel-track-hidden {
+  opacity: 0;
+  height: 0;
+  transition: opacity 0.5s ease, height 0.5s ease;
+}
+
+.carousel-track-visible {
+  opacity: 1;
+  height: auto;
+  transition: opacity 0.5s ease, height 0.5s ease;
+}
+
+.collapse-example-hidden {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+.collapse-example-visible {
+  max-height: 500px; /* Adjust this value based on the expected height */
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
