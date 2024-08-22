@@ -1,4 +1,5 @@
 import { useForm } from 'react-hook-form'
+import { useEffect, useState } from 'react'
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 
@@ -14,28 +15,16 @@ const schema = yup
 const ContactForm = () => {
   const {
     register,
-    handleSubmit,
     formState: { errors }
   } = useForm({ resolver: yupResolver(schema) })
 
-  const whenSubmit = data => {
-    console.log(data)
-  }
+  const [success, setSuccess] = useState(false)
 
-  const handleSubmitForm = event => {
-    event.preventDefault()
-
-    const myForm = event.target
-    const formData = new FormData(myForm)
-
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(formData).toString()
-    })
-      .then(() => alert('Thank you for your submission'))
-      .catch(error => alert(error))
-  }
+  useEffect(() => {
+    if (window.location.search.includes('success=true')) {
+      setSuccess(true)
+    }
+  }, [])
 
   return (
     <div className='col-12 col-md-6 px-5'>
@@ -43,10 +32,10 @@ const ContactForm = () => {
       <div className='contact-container'>
         <form
           // onSubmit={handleSubmit(whenSubmit)}
-          onSubmit={handleSubmitForm}
           className='d-block'
           name='contact'
           method='POST'
+          action='/contact/?success=true'
           data-netlify='true'
         >
           <div className='row'>
@@ -122,6 +111,8 @@ const ContactForm = () => {
             Enviar
           </button>
         </form>
+
+        {success && <p style={{ color: 'green' }}>Thanks for your message! </p>}
       </div>
     </div>
   )

@@ -19,7 +19,7 @@ const Tabs = ({ data }) => {
     data.forEach((entry, index) => {
       tabs.push(
         <li
-          className='nav-item bg-gray rounded-top-2 border-start border-end'
+          className='nav-item bg-gray rounded-top-2 border-start border-end border-2'
           role='presentation'
           key={'title' + index}
         >
