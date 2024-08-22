@@ -1,11 +1,17 @@
 /* eslint-disable no-new */
 import React, { useEffect, useRef, useState } from 'react'
 import { Carousel } from 'bootstrap'
-import cansat from '@/assets/cansat.svg'
-import presen from '@/assets/presentation.svg'
-import pcb from '@/assets/pcb.svg'
+import info from '@/assets/MissionVision/info.json'
 
-const Mission = () => {
+const MissionVision = () => {
+  const missionvision = info.data.reduce((acc, misvis) => {
+    acc[misvis.name] = {
+      images: misvis.images,
+      text: misvis.content[0].value
+    }
+    return acc
+  }, {})
+
   const carouselRef1 = useRef(null)
   const carouselRef2 = useRef(null)
 
@@ -27,21 +33,16 @@ const Mission = () => {
       ref={carouselRef1}
     >
       <div className='carousel-inner'>
-        <div className='carousel-item active ratio ratio-16x9'>
-          <div className='d-flex justify-content-center align-items-center'>
-            <img src={cansat} className='d-block h-100 col-12' alt='...' />
+        {missionvision['Misión'].images.map((imageName, index) => (
+          <div
+            key={index}
+            className={`carousel-item ratio ratio-16x9 ${index === 0 ? 'active' : ''}`}
+          >
+            <div className='d-flex justify-content-center align-items-center'>
+              <img src={imageName} className='d-block h-100' alt='...' />
+            </div>
           </div>
-        </div>
-        <div className='carousel-item ratio ratio-16x9'>
-          <div className='d-flex justify-content-center align-items-center'>
-            <img src={presen} className='d-block h-100 col-12' alt='...' />
-          </div>
-        </div>
-        <div className='carousel-item ratio ratio-16x9'>
-          <div className='d-flex justify-content-center align-items-center'>
-            <img src={pcb} className='d-block h-100 col-12' alt='...' />
-          </div>
-        </div>
+        ))}
       </div>
       <button
         className='carousel-control-prev justify-content-start'
@@ -70,12 +71,7 @@ const Mission = () => {
         <h3 className='text-center text-primary display-6 fw-bold'>Misión</h3>
       </div>
       <p className='lead text-justify mx-auto mx-lg-0 col-12 col-sm-11 col-lg-12'>
-        Incentivar la tecnología espacial mexicana y del Instituto Politécnico
-        Nacional mediante la participación en competencias estudiantiles
-        nacionales e internacionales de sistemas espaciales, haciendo uso de
-        tecnología de vanguardia y nuevos métodos. Fomentar la inclusión de
-        nuevos miembros que contribuyan a incrementar la competitividad de
-        nuestra comunidad y a ampliar nuestra visión del mundo espacial actual.
+        {missionvision['Misión'].text}
       </p>
     </div>
   )
@@ -89,21 +85,16 @@ const Mission = () => {
       ref={carouselRef2}
     >
       <div className='carousel-inner'>
-        <div className='carousel-item active ratio ratio-16x9'>
-          <div className='d-flex justify-content-center align-items-center'>
-            <img src={cansat} className='d-block h-100 col-12' alt='...' />
+        {missionvision['Visión'].images.map((imageName, index) => (
+          <div
+            key={index}
+            className={`carousel-item ratio ratio-16x9 ${index === 0 ? 'active' : ''}`}
+          >
+            <div className='d-flex justify-content-center align-items-center'>
+              <img src={imageName} className='d-block h-100' alt='...' />
+            </div>
           </div>
-        </div>
-        <div className='carousel-item ratio ratio-16x9'>
-          <div className='d-flex justify-content-center align-items-center'>
-            <img src={presen} className='d-block h-100 col-12' alt='...' />
-          </div>
-        </div>
-        <div className='carousel-item ratio ratio-16x9'>
-          <div className='d-flex justify-content-center align-items-center'>
-            <img src={pcb} className='d-block h-100 col-12' alt='...' />
-          </div>
-        </div>
+        ))}
       </div>
       <button
         className='carousel-control-prev justify-content-start'
@@ -132,16 +123,7 @@ const Mission = () => {
         <h3 className='text-center text-primary display-6 fw-bold'>Visión</h3>
       </div>
       <p className='lead text-justify mx-auto mx-lg-0 col-12 col-sm-11 col-lg-12'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Convallis posuere
-        morbi leo urna molestie at elementum eu facilisis. Odio ut sem nulla
-        pharetra diam. Nisi porta lorem mollis aliquam ut. Auctor neque vitae
-        tempus quam pellentesque nec nam aliquam.
-      </p>
-      <p className='lead text-justify mx-auto mx-lg-0 col-12 col-sm-11 col-lg-12'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Convallis posuere
-        morbi leo urna molestie at elementum eu facilisis.
+        {missionvision['Visión'].text}
       </p>
     </div>
   )
@@ -188,4 +170,4 @@ const Mission = () => {
   )
 }
 
-export default Mission
+export default MissionVision
