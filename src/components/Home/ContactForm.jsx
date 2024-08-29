@@ -1,4 +1,5 @@
 import { useForm } from 'react-hook-form'
+import { useEffect, useState } from 'react'
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 
@@ -14,19 +15,29 @@ const schema = yup
 const ContactForm = () => {
   const {
     register,
-    handleSubmit,
     formState: { errors }
   } = useForm({ resolver: yupResolver(schema) })
 
-  const whenSubmit = data => {
-    console.log(data)
-  }
+  const [success, setSuccess] = useState(false)
+
+  useEffect(() => {
+    if (window.location.search.includes('success=true')) {
+      setSuccess(true)
+    }
+  }, [])
 
   return (
     <div className='col-12 col-md-6 px-5'>
       <h2 className='display-3 text-light fw-semibold my-5'>Contacto</h2>
       <div className='contact-container'>
-        <form onSubmit={handleSubmit(whenSubmit)} className='d-block'>
+        <form
+          // onSubmit={handleSubmit(whenSubmit)}
+          className='d-block'
+          name='contact'
+          method='POST'
+          action='/contact/?success=true'
+          data-netlify='true'
+        >
           <div className='row'>
             <div className='d-flex flex-column col-6'>
               <label htmlFor='firstName' className='text-light'>
@@ -93,8 +104,15 @@ const ContactForm = () => {
             <p className='text-gray text-center'>{errors.message?.message}</p>
           </div>
 
-          <button type='submit' className='btn btn-outline-light btn-lg px-5 py-1 col-12 my-3'>Enviar</button>
+          <button
+            type='submit'
+            className='btn btn-outline-light btn-lg px-5 py-1 col-12 my-3'
+          >
+            Enviar
+          </button>
         </form>
+
+        {success && <p style={{ color: 'green' }}>Thanks for your message! </p>}
       </div>
     </div>
   )

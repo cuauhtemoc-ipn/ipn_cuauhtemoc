@@ -70,7 +70,7 @@ const Header = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink className='dropdown-item' to='/projects/pico'>
+                <NavLink className='dropdown-item' to='/projects/picosatelites_puebla'>
                   Picosatélites Puebla
                 </NavLink>
               </li>

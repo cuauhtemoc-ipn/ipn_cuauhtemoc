@@ -3,7 +3,7 @@ import React from 'react'
 
 const ProjectDetailHeader = ({ image, name, text, url }) => {
   function btnClick () {
-    window.open('https://cansatcompetition.com/')
+    window.open(url)
   }
   return (
     <div className='container-xxl d-flex pt-5 mt-5 mb-5'>
@@ -13,9 +13,12 @@ const ProjectDetailHeader = ({ image, name, text, url }) => {
         </div>
         <div className='text-light col-12 col-md-9 col-lg-7'>
           <h1 className='display-2 mb-4  fw-bold'>{name}</h1>
-          <p>{text}</p>
+          <p className='text-justify'>{text}</p>
           <div className='text-center mt-4'>
-            <button className='btn btn-outline-light btn-lg px-5' onClick={btnClick}>
+            <button
+              className='btn btn-outline-light btn-lg px-5'
+              onClick={btnClick}
+            >
               Sitio de la competencia ➔
             </button>
           </div>

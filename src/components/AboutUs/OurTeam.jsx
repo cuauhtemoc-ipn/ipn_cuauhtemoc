@@ -3,7 +3,7 @@ import camp from '@/assets/camp.mp4'
 
 const OurTeam = () => {
   return (
-    <div className='container-xxl d-flex flex-column justify-content-center h-full py-4 my-5 my-lg-0'>
+    <div className='container-lg d-flex flex-column justify-content-center h-full py-4 my-5 my-lg-0'>
       <div className='row mx-0'>
         <div className='row align-items-center mx-0 my-5'>
           <h1 className='display-3 text-center text-light fw-semibold'>
@@ -11,15 +11,15 @@ const OurTeam = () => {
           </h1>
         </div>
         <div className='row justify-content-center align-items-center mx-0'>
-          <div className='embed-responsive text-center d-flex justify-content-center col-12 col-lg-8 col-xl-7'>
+          <div className='embed-responsive d-flex justify-content-center col-12 col-lg-7'>
             <video
-              className='col-11'
+              className='col-12 col-sm-11 col-md-10 col-lg-12 col-xl-11'
               controls
               src={camp}
               type='video/mp4'
             />
           </div>
-          <div className='text-light col-lg-4 col-xl-5'>
+          <div className='text-light text-justify my-4 my-lg-0 col-11 col-lg-5'>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -28,7 +28,7 @@ const OurTeam = () => {
               mollis aliquam ut. Auctor neque vitae tempus quam pellentesque nec
               nam aliquam.
             </p>
-            <p className='m-0'>
+            <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Convallis posuere morbi leo urna molestie at elementum eu
