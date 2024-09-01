@@ -5,7 +5,9 @@ const ProjectCard = ({ data }) => {
   return (
     <div className='card-container'>
       <div className='card-info'>
-        <img src={data.src} alt='' />
+        <div className='card-img-container'>
+          <img src={data.src} />
+        </div>
         <div className='text-light card-txt'>
           <h4 className='font-weight-bold h4 text-center'>{data.title}</h4>
           <p>

@@ -2,32 +2,35 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { Collapse } from 'bootstrap'
 import { NavLink } from 'react-router-dom'
-import cap from '@/assets/cap.jpg'
-
-const membcard = (
-  <div className='d-flex justify-content-center align-items-center my-4 col-11 col-sm-10 col-md-9 col-lg-6'>
-    <div className='row justify-content-center align-items-center text-light border border-2 rounded mx-0 col-10 col-sm-12 col-lg-11 col-xl-10'>
-      <div className='col-10 col-sm-5 col-md-4 col-lg-5 px-0 mx-0 m-4 m-sm-0'>
-        <div className='ratio ratio-1x1'>
-          <img
-            src={cap}
-            className='card-img object-fit-cover rounded'
-            alt='...'
-          />
-        </div>
-      </div>
-      <div className='mx-auto col-12 col-sm-7'>
-        <h5>Nombre del integrante</h5>
-        <h5>Sección</h5>
-        <p className='text-justify'>
-          Pequeña descripción sobre su papel en la subsección y/o en el equipo
-        </p>
-      </div>
-    </div>
-  </div>
-)
+import info from '@/assets/Members/info.json'
 
 const Members = () => {
+  const membcard = (member, index) => (
+    <div
+      key={index}
+      className='d-flex justify-content-center align-items-center my-4 col-11 col-sm-10 col-md-9 col-lg-6'
+    >
+      <div className='row justify-content-center align-items-center text-light border border-2 rounded mx-0 col-10 col-sm-12 col-lg-11 col-xl-10'>
+        <div className='col-10 col-sm-5 col-md-4 col-lg-5 px-0 mx-0 m-4 m-sm-0'>
+          <div className='ratio ratio-1x1'>
+            <img
+              src={member.content.find(item => item.type === 'image').value}
+              className='card-img object-fit-cover rounded'
+              alt={member.name}
+            />
+          </div>
+        </div>
+        <div className='mx-auto col-12 col-sm-7'>
+          <h5>{member.name}</h5>
+          <h5>{member.section}</h5>
+          <p className='text-justify'>
+            {member.content.find(item => item.type === 'text').value}
+          </p>
+        </div>
+      </div>
+    </div>
+  )
+
   const collapseElement = useRef(null)
   const [isCollapsed, setIsCollapsed] = useState(false)
 
@@ -60,12 +63,7 @@ const Members = () => {
           </h3>
         </div>
         <div className='row justify-content-center align-items-center px-0 mx-0'>
-          {membcard}
-          {membcard}
-          {membcard}
-          {membcard}
-          {membcard}
-          {membcard}
+          {info.data.slice(0, 6).map((member, index) => membcard(member, index))}
         </div>
         {!isCollapsed && (
           <div className='text-center mt-3'>
@@ -82,20 +80,7 @@ const Members = () => {
         )}
         <div className='collapse' id='collapseExample' ref={collapseElement}>
           <div className='row justify-content-center align-items-center bg-transparent'>
-            {membcard}
-            {membcard}
-            {membcard}
-            {membcard}
-            {membcard}
-            {membcard}
-            {membcard}
-            {membcard}
-            {membcard}
-            {membcard}
-            {membcard}
-            {membcard}
-            {membcard}
-            {membcard}
+            {info.data.slice(6).map((member, index) => membcard(member, index))}
           </div>
           {isCollapsed && (
             <div className='text-center mt-3'>

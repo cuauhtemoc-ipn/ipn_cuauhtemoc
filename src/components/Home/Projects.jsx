@@ -15,7 +15,7 @@ const image = (
 )
 
 const cardcontent = (
-  <div className='row col-lg-12 col-xl-12 mt-4 justify-content-center'>
+  <div className='row col-lg-12 col-xl-12 mt-4 justify-content-around'>
     <ProjectCard
       data={{
         src: team,
@@ -68,8 +68,8 @@ const Proyect = () => {
   return (
     <div className='container-xxl py-4 m-auto'>
       <h2 className='display-3 text-light fw-semibold my-5'>Proyectos</h2>
-      <div className='row mx-0 justify-content-center'>
-        {isLargeScreen ?<>{cardcontent}</>
+      <div className='row mx-0 justify-content-around'>
+        {isLargeScreen ?<>{cardcontent}</> 
         : <>{cardcontent}</>}
       </div>
     </div>
