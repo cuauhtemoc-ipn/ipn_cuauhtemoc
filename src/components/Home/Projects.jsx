@@ -1,76 +1,48 @@
-import React, { useState, useEffect } from 'react'
 import ProjectCard from './ProjectCard'
-import team from '@/assets/teamcucei.png'
-import cucei from '@/assets/teamcucei.png'
-import mat from '@/assets/material.svg'
-
-const image = (
-  <div className='my-lg-4 col-md-10 col-lg-5 col-xl-5 align-items-center'>
-    <img
-      src={mat}
-      className='img-fluid col-md-12'
-      alt='Imagen de muesta de componentes'
-    />
-  </div>
-)
 
 const cardcontent = (
   <div className='row col-lg-12 col-xl-12 mt-4 justify-content-around'>
     <ProjectCard
       data={{
-        src: team,
+        src: 'https://lh3.googleusercontent.com/pw/AP1GczP5AWMXLZj0PEidfSIF-cKfaQeM9-q-g664alVurmMoR4Uh7LcEt5aIMbhPQ-YbVUyc7lWBuz7J-WNz8QNnjQBYSEQabpAZqEZ4PnThFYq-JPExmlUKy-iP0nkBQftd0Bd4cjBRHFV5r_UYrFo5Aer4=w917-h917-s-no-gm?authuser=0',
         title: 'CanSat Competition',
-        text: 'Descubre cómo se realiza a cabo la competencia internacional CanSat Competition donde hemos logramos posicionarmos como el mejor equipo de Latinoamérica y poner en alto el nombre de México así como de nuestra institución'
+        text: 'La competencia internacional de picosatélites CanSat organizada por la NASA y la American Astronautical Society.',
+        href: 'projects/cansat_competition'
       }}
     />
     <ProjectCard
       data={{
-        src: cucei,
+        src: 'https://lh3.googleusercontent.com/pw/AP1GczM98EqMoM8wHikVi_73udKEdX9wD9b5mpnu_FB4dnPHMxNLE-ImPqv5gHScNIZjnzSNI1a12qaErJvJd4aUrg9wH8sS3yf0dT-tENYbL5LQRXOXOUS-Az_pudmZ51_ijO79vHFBMgKlnZdk_eTj8bNP=w917-h917-s-no-gm?authuser=0',
         title: 'CanSat CUCEI',
-        text: 'Acompáñanos a visualizar las veces que hemos participado en la competencia nacional CanSat CUCEI en la cual nos hemos posicionado dentro de los mejores lugares siendo capaces de obtener el primer lugar gracias a nuestro esfuerzo y dedicación'
+        text: 'La competencia de CanSat a nivel nacional organizada por el Centro Universitario de Ciencias Exactas e Ingenierías de Jalisco.',
+        href: 'projects/cansat_cucei'
       }}
     />
     <ProjectCard
       data={{
-        src: cucei,
-        title: 'CanSat CUCEI',
-        text: 'Acompáñanos a visualizar las veces que hemos participado en la competencia nacional CanSat CUCEI en la cual nos hemos posicionado dentro de los mejores lugares siendo capaces de obtener el primer lugar gracias a nuestro esfuerzo y dedicación'
+        src: 'https://lh3.googleusercontent.com/pw/AP1GczPuihq4PL6a8cO2NWdig083zuTnrsA61ZGLAiRsbgN_muuc57BFM3EUL0PG23-INcu3GI-R69qhmAgf_swQKfn4NYhgHmnvMVPU7souaTq3jLY1qJRY3O2D8u-Mvqddip7w-jBcCO-xYnZmbugQcl-s=w862-h863-s-no-gm?authuser=0',
+        title: 'Picosatélites Puebla',
+        text: 'Concurso Nacional de Picosatélites y vehículos Rover Come Back organizado por el Instituto Tecnológico de Puebla',
+        href: 'projects/picosatelites_puebla'
       }}
     />
     <ProjectCard
       data={{
-        src: cucei,
-        title: 'CanSat CUCEI',
-        text: 'Acompáñanos a visualizar las veces que hemos participado en la competencia nacional CanSat CUCEI en la cual nos hemos posicionado dentro de los mejores lugares siendo capaces de obtener el primer lugar gracias a nuestro esfuerzo y dedicación'
+        src: 'https://lh3.googleusercontent.com/pw/AP1GczP505WuPS9SnBOsbzIJCqaVFJmycSdajPw-u1umXVs1KkTpoZ0ft2WthDu9nq5VOAfJsgxaXcgFxMvvG_1AXAROW3fP-dDAz6ouF7UqoGAe6gOV0v9Ko0sXIhTME1veY1GtrtbzZTuTWFoIzo6Htxk4=w917-h917-s-no-gm?authuser=0',
+        title: 'ENMICE',
+        text: 'El Encuentro Mexicano de Ingeniería en Cohetería Experimental (ENMICE), es el evento y competencia líder de Cohetería Experimental en México.',
+        href: 'projects/enmice'
       }}
     />
   </div>
 )
 
 const Proyect = () => {
-  const [isLargeScreen, setLargeScreen] = useState(window.innerWidth >= 992)
-
-  useEffect(() => {
-    // Function to detect screem size
-    const handleResize = () => {
-      setLargeScreen(window.innerWidth >= 992) // 992px is the breakpoint for 'lg' in Bootstrap
-    }
-    // Añadir listener para detectar cambios en el tamaño de pantalla
-    window.addEventListener('resize', handleResize)
-
-    // Llamar handleResize al inicio para establecer el estado inicial
-    handleResize()
-
-    // Limpiar el listener cuando el componente se desmonte
-    return () => window.removeEventListener('resize', handleResize)
-  }, [])
-
   return (
     <div className='container-xxl py-4 m-auto'>
       <h2 className='display-3 text-light fw-semibold my-5'>Proyectos</h2>
       <div className='row mx-0 justify-content-around'>
-        {isLargeScreen ?<>{cardcontent}</> 
-        : <>{cardcontent}</>}
+        {cardcontent}
       </div>
     </div>
   )
