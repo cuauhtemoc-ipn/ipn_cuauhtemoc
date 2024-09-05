@@ -36,7 +36,6 @@ const ContactForm = () => {
           name='contact'
           method='POST'
           action='/contact/?success=true'
-          data-netlify='true'
         >
           <div className='row'>
             <div className='d-flex flex-column col-6'>
