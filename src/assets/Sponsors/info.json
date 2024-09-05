@@ -1,0 +1,116 @@
+{
+    "data": [
+      {
+        "name": "Altair",
+        "page": "https://altair.com/altair-mexico",
+        "content": [
+          {
+            "type": "text",
+            "value": "Descripción sobre cómo contribuye o cómo es la relación del patrocinador con el equipo."
+          },
+          {
+            "type": "image",
+            "value": "https://lh3.googleusercontent.com/pw/AP1GczPlNk52Dmzj1TRpb_OR5n1bNt-T1lUugh51D_RcLmiW-4WMYJYmksY-brV9OsGhFZ5aPFByd2i85tPEZVxhjaJkVoknIAkzQdj38Yc43orNw4_YuOzcuCSE-vh7AsPMNKT3rUd5p3bYYYfS1BPRHodv=w1066-h219-s-no?authuser=0"
+          }
+        ]
+      },
+      {
+        "name": "ANSYS",
+        "page": "https://www.ansys.com/",
+        "content": [
+          {
+            "type": "text",
+            "value": "Descripción sobre cómo contribuye o cómo es la relación del patrocinador con el equipo."
+          },
+          {
+            "type": "image",
+            "value": "https://lh3.googleusercontent.com/pw/AP1GczMQvlmx5Qa1vzTfQjQt5kogZ1futZVHcCNPTX0nga7hyGTYoJXwBqVbXbKqLfSFLF-lq3eCuiyfDtxU9ivzD9bZS-S9HVEfDBs76Uz-ZuENs5-eEZgucGiR9F_W6ySoATohOxNOcXjsSq4vA5Kl607E=w792-h256-s-no?authuser=0"
+          }
+        ]
+      },
+      {
+        "name": "CDA",
+        "page": "https://www.ipn.mx/cda/",
+        "content": [
+          {
+            "type": "text",
+            "value": "Descripción sobre cómo contribuye o cómo es la relación del patrocinador con el equipo."
+          },
+          {
+            "type": "image",
+            "value": "https://lh3.googleusercontent.com/pw/AP1GczPwCxouqV6rRC8IzAWEdz4EE826f89rE1ANxOZ7oNnTAZHax7k-OPZSyiR8yXzzGgOt04BY4tk3tV2BhGO_dKBa_6hsRnQGoVURX4xqTlQjzb21tBkZf3-kZotcsTscmHAaJ3EAhyLSp_awHtqv4UHZ=w939-h939-s-no?authuser=0"
+          }
+        ]
+      },
+      {
+        "name": "ESIME Ticomán",
+        "page": "https://www.esimetic.ipn.mx/",
+        "content": [
+          {
+            "type": "text",
+            "value": "Descripción sobre cómo contribuye o cómo es la relación del patrocinador con el equipo."
+          },
+          {
+            "type": "image",
+            "value": "https://lh3.googleusercontent.com/pw/AP1GczOysIfyyfRkaJNhzmJuKQtZLBuv1z-vSpAx3TeXoLBE4IT6D0SpTcqAvq7j-yM74_SAEcS7m3s0F6C9z9s1wA_CML4wVGrhbAkUcevMMz9sDuvxMIF3WUofXy9DgJgbcboY1_8UE20YOjjsoiO3NKIP=w900-h900-s-no?authuser=0"
+          }
+        ]
+      },
+      {
+        "name": "Fundación Politécnico",
+        "page": "https://www.fundacionpolitecnico.org/",
+        "content": [
+          {
+            "type": "text",
+            "value": "Descripción sobre cómo contribuye o cómo es la relación del patrocinador con el equipo."
+          },
+          {
+            "type": "image",
+            "value": "https://lh3.googleusercontent.com/pw/AP1GczMTEY6SZOD3drQsohwjRHKdp6TvAYmi941BLymscOPAEbWRGKFLBAxDavzgtHl_TTn5Bx2AdNtIf9O-8C4fQPXtS-tZSWzrjs35383LFs7HRqYPQwPD02ojt5tEeCmuRwPE7zmXg3Xr2tlOf2KG53AZ=w500-h500-s-no?authuser=0"
+          }
+        ]
+      },
+      {
+        "name": "Grupo SSC",
+        "page": "https://www.grupossc.com/",
+        "content": [
+          {
+            "type": "text",
+            "value": "Descripción sobre cómo contribuye o cómo es la relación del patrocinador con el equipo."
+          },
+          {
+            "type": "image",
+            "value": "https://lh3.googleusercontent.com/pw/AP1GczO0X6EWd5GwkX7j0qkm2L5ctitnzdElbO3gra5b-JipEe7fEwWw0w4YU9Gr9ZNUkgBJN5QHJJuN_qZiRIKHMRclbbRIY5C6a40QGyTt2cEV_l9UmjSu_0SXexO-RO7-uwxAt8RRpQmnUiN3AXBpzKe9=w1120-h939-s-no?authuser=0"
+          }
+        ]
+      },
+      {
+        "name": "IPN",
+        "page": "https://www.ipn.mx/",
+        "content": [
+          {
+            "type": "text",
+            "value": "Descripción sobre cómo contribuye o cómo es la relación del patrocinador con el equipo."
+          },
+          {
+            "type": "image",
+            "value": "https://lh3.googleusercontent.com/pw/AP1GczO7zxjug6a4RSdZMLSdpPCJecM5J5FxUFTdapASm2aKvtA9Wieq4yEbqJmsR_2qQRvRm7wIC4CkeWRf61Pk7nP7gw2QFI07r6Z6m0gUkuYvrq-V7azbcrZr5l-PrbWYRyFM3K1ZG88-ttUVKDEMrsrB=w876-h939-s-no?authuser=0"
+          }
+        ]
+      },
+      {
+        "name": "PCB MÉXICO",
+        "page": "https://pcb-mexico.com/",
+        "content": [
+          {
+            "type": "text",
+            "value": "Descripción sobre cómo contribuye o cómo es la relación del patrocinador con el equipo."
+          },
+          {
+            "type": "image",
+            "value": "https://lh3.googleusercontent.com/pw/AP1GczNGjlsTokZc3-XABWL6fSP0Q9ESHN9QM-fNPhWfmSt7ZOH3_DJGvJYe3bCx56Yn2w5bdCErFzbNl4ypfrT31lHfbu7nNMa3hCm_4Snt23ri6bVlRNggrYw0T5yXozWhUYzPHJOgEj2LoVyQV3lM10LE=w921-h920-s-no?authuser=0"
+          }
+        ]
+      }
+    ]
+  }
