@@ -5,7 +5,7 @@ import backgroundImage from '@/assets/background.png'
 
 const Sponsors = () => {
   return (
-    <div className='container-xxl h-full py-5 py-lg-4 align-content-center'>
+    <div>
       <div
         className='background-image'
         style={{
