@@ -1,5 +1,7 @@
 import { useForm } from 'react-hook-form'
-import { useEffect, useState } from 'react'
+import React, { useRef, useState } from 'react'
+import { Modal, Button } from 'react-bootstrap'
+import emailjs from '@emailjs/browser'
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 
@@ -13,29 +15,45 @@ const schema = yup
   .required()
 
 const ContactForm = () => {
+  const [showModal, setShowModal] = useState(false)
+  const form = useRef()
   const {
     register,
-    formState: { errors }
+    handleSubmit,
+    formState: { errors },
+    reset
   } = useForm({ resolver: yupResolver(schema) })
 
-  const [success, setSuccess] = useState(false)
+  const handleCloseModal = () => setShowModal(false)
 
-  useEffect(() => {
-    if (window.location.search.includes('success=true')) {
-      setSuccess(true)
-    }
-  }, [])
+  const whenSubmit = data => {
+    emailjs
+      .sendForm('contact_service', 'contact_form', form.current, {
+        publicKey: 'ZbCsu0DS45Vozgnve'
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!')
+        },
+        error => {
+          console.log('FAILED...', error.text)
+        }
+      )
+
+    const result = { firstName: '', lastName: '', email: '', message: '' }
+    reset(result)
+    setShowModal(true)
+  }
 
   return (
     <div className='col-12 col-md-6 px-5'>
       <h2 className='display-3 text-light fw-semibold my-5'>Contacto</h2>
       <div className='contact-container'>
         <form
-          // onSubmit={handleSubmit(whenSubmit)}
+          onSubmit={handleSubmit(whenSubmit)}
+          ref={form}
           className='d-block'
           name='contact'
-          method='POST'
-          action='/contact/?success=true'
         >
           <div className='row'>
             <div className='d-flex flex-column col-6'>
@@ -110,9 +128,25 @@ const ContactForm = () => {
             Enviar
           </button>
         </form>
-
-        {success && <p style={{ color: 'green' }}>Thanks for your message! </p>}
       </div>
+
+      <Modal
+        show={showModal}
+        onHide={handleCloseModal}
+        className='align-self-center'
+        centered
+      >
+        <Modal.Body className='rounded'>
+          <h2 className='text-center'>Gracias por contactarnos</h2>
+          <p className='text-center'>Nos comunicaremos pronto contigo</p>
+
+          <div className='text-center mt-4'>
+            <Button variant='dark' onClick={handleCloseModal}>
+              Cerrar
+            </Button>
+          </div>
+        </Modal.Body>
+      </Modal>
     </div>
   )
 }
