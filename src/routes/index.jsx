@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
-import { Home, AboutUs, JoinUs, ContactUs } from '@/pages'
+import { Home, AboutUs, Sponsors, JoinUs, ContactUs } from '@/pages'
 import { CansatCompetition, Enmice, CansatCucei, Pico } from '@/pages/projects'
 
 const App = () => {
@@ -7,6 +7,7 @@ const App = () => {
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/aboutUs' element={<AboutUs />} />
+      <Route path='/sponsors' element={<Sponsors />} />
       <Route path='/joinUs' element={<JoinUs />} />
       <Route
         path='/projects/cansat_competition'
