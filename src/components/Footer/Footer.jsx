@@ -70,6 +70,12 @@ const Footer = () => {
             <li>
               Involúcrate
               <ul>
+                {/* <NavLink
+                  to='/courses'
+                  className='text-decoration-none text-light'
+                >
+                  <li>Cursos</li>
+                </NavLink> */}
                 <NavLink
                   to='/sponsor'
                   className='text-decoration-none text-light'

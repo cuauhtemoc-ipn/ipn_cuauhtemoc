@@ -94,16 +94,6 @@ const Header = () => {
             </a>
             <ul className='dropdown-menu dropdown-menu-dark'>
               <li>
-                <NavLink className='dropdown-item' to='/donation'>
-                  Dona
-                </NavLink>
-              </li>
-              <li>
-                <NavLink className='dropdown-item' to='/courses'>
-                  Cursos
-                </NavLink>
-              </li>
-              <li>
                 <NavLink className='dropdown-item' to='/sponsors'>
                   Patrocinadores
                 </NavLink>
