@@ -3,8 +3,10 @@ import React, { useRef, useState } from 'react'
 import { Modal, Button } from 'react-bootstrap'
 import emailjs from '@emailjs/browser'
 import { useForm } from 'react-hook-form'
+import { Modal, Button } from 'react-bootstrap'
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
+import join from '@/assets/join.jpg'
 
 const schema = yup
   .object({
@@ -64,6 +66,11 @@ const Recruitment = () => {
     reset(result)
     setShowModal(true)
   }
+
+  const [showModal, setShowModal] = useState(false)
+
+  const handleCloseModal = () => setShowModal(false)
+  const handleShowModal = () => setShowModal(true)
 
   return (
     <div className='row text-light'>
@@ -126,6 +133,44 @@ const Recruitment = () => {
                     {errors.firstName?.message}
                   </p>
                 </div>
+      {isFirstForm
+        ? (
+          <div className='row justify-content-center align-items-center mx-0'>
+            <div className='text-justify px-5 col-12 col-md-11 col-lg-6'>
+              <img className='col-12 mb-4' src={join} />
+              <p className='lead text-justify'>
+                ¡Nos encantaría que te unas a nuestro equipo! En Cuauhtemoc IPN
+                estamos siempre buscando personas talentosas y apasionadas que
+                quieran contribuir a nuestro crecimiento. Si te interesa explorar
+                las secciones para desarrollarte, te invitamos a compartir tus
+                datos de contacto y a indicarnos el área en la que te gustaría
+                trabajar. De esta manera, podremos mantenerte al tanto de las
+                secciones que coincidan con tus intereses y habilidades, y
+                contactarte al respecto. ¡Esperamos saber de ti pronto
+              </p>
+            </div>
+            <div className='contact-container px-5 col-12 col-md-11 col-lg-6'>
+              <form onSubmit={handleSubmit(whenSubmit)} className='d-block '>
+                <div className='row'>
+                  <div className='d-flex flex-column col-6'>
+                    <label htmlFor='firstName' className='text-light'>
+                      Nombre
+                    </label>
+                    <input
+                      type='text'
+                      name='firstName'
+                      placeholder='Tu nombre'
+                      id='firstName'
+                      {...register('firstName', {
+                        required: true,
+                        maxlength: 20
+                      })}
+                      className='rounded-3 my-2 p-2 border border-0'
+                    />
+                    <p className='text-gray text-center'>
+                      {errors.firstName?.message}
+                    </p>
+                  </div>
 
                 <div className='d-flex flex-column col-6'>
                   <label htmlFor='lastName' className='text-light'>
@@ -290,6 +335,50 @@ const Recruitment = () => {
                     {errors.firstName?.message}
                   </p>
                 </div>
+                <div className='d-flex justify-content-center'>
+                  <button
+                    type='submit'
+                    className='btn btn-outline-light btn-lg px- px-5 py-1 col-12 col-md-8 col-lg-12 my-3'
+                  >
+                    Enviar
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          )
+        : (
+          <div className='row justify-content-center align-items-center mx-0'>
+            <div className='text-justify px-5 col-12 col-md-11 col-lg-6'>
+              <p className='lead text-justify'>
+                Gracias por tu interés en unirte a nuestro equipo. Aunque no
+                estamos reclutando en este momento, nos gustaría saber de ti.
+                Déjanos tus datos y te avisaremos cuando se abran nuevas
+                oportunidades. ¡Esperamos tenerte en cuenta pronto!
+              </p>
+            </div>
+            <div className='contact-container px-5 col-12 col-md-11 col-lg-6'>
+              <form onSubmit={handleSubmit(whenSubmit)} className='d-block'>
+                <div className='row'>
+                  <div className='d-flex flex-column col-6'>
+                    <label htmlFor='firstName' className='text-light'>
+                      Nombre
+                    </label>
+                    <input
+                      type='text'
+                      name='firstName'
+                      placeholder='Tu nombre'
+                      id='firstName'
+                      {...register('firstName', {
+                        required: true,
+                        maxlength: 20
+                      })}
+                      className='rounded-3 my-2 p-2 border border-0'
+                    />
+                    <p className='text-gray text-center'>
+                      {errors.firstName?.message}
+                    </p>
+                  </div>
 
                 <div className='d-flex flex-column col-6'>
                   <label htmlFor='lastName' className='text-light'>
@@ -356,6 +445,38 @@ const Recruitment = () => {
           </div>
         </div>
       )}
+                <div className='d-flex justify-content-center'>
+                  <button
+                    type='submit'
+                    className='btn btn-outline-light btn-lg px- px-5 py-1 col-12 col-md-8 col-lg-12 my-3'
+                  >
+                    Enviar
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          )}
+
+      <div>
+        <button onClick={handleShowModal}>Ver Aviso de Privacidad</button>
+
+        <Modal show={showModal} onHide={handleCloseModal} centered>
+          <Modal.Header closeButton>
+            <Modal.Title>Aviso de Privacidad</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <p>
+              [Confíen en nosotros]
+            </p>
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant='secondary' onClick={handleCloseModal}>
+              Cerrar
+            </Button>
+          </Modal.Footer>
+        </Modal>
+      </div>
     </div>
   )
 }

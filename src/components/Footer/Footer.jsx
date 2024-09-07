@@ -77,7 +77,7 @@ const Footer = () => {
                   <li>Cursos</li>
                 </NavLink> */}
                 <NavLink
-                  to='/sponsor'
+                  to='/sponsors'
                   className='text-decoration-none text-light'
                 >
                   <li>Patrocinadores</li>
