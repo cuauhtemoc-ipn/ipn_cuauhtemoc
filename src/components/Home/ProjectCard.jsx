@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 const ProjectCard = ({ data }) => {
   return (
     <div className='col-10 col-md-5 col-lg-3 p-3 card-container'>
-      <div className='card-info'>
+      <div className='card-info d-flex flex-column h-100'>
         <a className='card-img-container mb-3' href={data.href}>
           <img src={data.src} className='col-12' />
         </a>
@@ -17,7 +17,8 @@ const ProjectCard = ({ data }) => {
               : data.text}
           </p>
         </div>
-        <div className='col-12 d-flex justify-content-center'>
+        {/* This div will now be pushed to the bottom */}
+        <div className='col-12 d-flex justify-content-center mt-auto'>
           <NavLink to={data.href}>
             <button className='btn btn-outline-light btn-lg px-5'>
               Ver más ➔

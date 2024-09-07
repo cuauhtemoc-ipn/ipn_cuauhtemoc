@@ -1,9 +1,9 @@
 import React from 'react'
 import ProjectDetailHeader from '@/components/Projects/ProjectDetailHeader'
 import backgroundImage from '@/assets/background.png'
-import projectHeader from '@/assets/CansatCompetition/comp_header.png'
+import projectHeader from '@/assets/CansatCucei/CuceiBanner.png'
 import Tabs from '../../components/Projects/Tabs'
-import content from '@/assets/CansatCompetition/content.json'
+import content from '@/assets/CansatCucei/content.json'
 
 const CansatCucei = () => {
   return (
@@ -17,8 +17,8 @@ const CansatCucei = () => {
       <ProjectDetailHeader
         image={projectHeader}
         name='CanSat CUCEI'
-        text='Organizada por la NASA, el U.S. Naval Research Laboratory y la American Astronautical Society entre otros, la CanSat Competition es una competencia de diseño, construcción y vuelo que brinda a los equipos la oportunidad de experimentar el ciclo de vida de diseño de un sistema aeroespacial. La competencia CanSat está diseñada para reflejar un programa aeroespacial típico a pequeña escala e incluye todos los aspectos de un programa aeroespacial, desde la revisión preliminar del diseño hasta la revisión posterior a la misión. La misión y sus requisitos están diseñados para reflejar diversos aspectos de misiones del mundo real, incluidos los requisitos de telemetría, comunicaciones y operaciones autónomas. Cada equipo es calificado a lo largo de la competencia en entregables del mundo real, como cronogramas, presentaciones de revisión de diseño y vuelos de demostración.'
-        url='https://cansatcompetition.com/'
+        text='Organizado por el Centro Universitario de Ciencias Exactas e Ingenierías (CUCEI) de la Universidad de Guadalajara, el concurso CanSat CUCEI es una competencia de diseño, construcción y lanzamiento de pequeños satélites. Los equipos deben desarrollar satélites del tamaño de una lata de refresco que simulan misiones aeroespaciales, incluyendo la captura de datos y telemetría durante el vuelo y el aterrizaje. La competencia replica un programa aeroespacial a pequeña escala, donde los equipos son evaluados en diferentes fases del proyecto, como la planificación, diseño, ejecución y análisis post-lanzamiento​'
+        url='http://cansat.cucei.udg.mx/'
       />
       <Tabs data={content.data} />
     </div>
