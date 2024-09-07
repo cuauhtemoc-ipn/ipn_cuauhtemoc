@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectDetailHeader from '@/components/Projects/ProjectDetailHeader'
 import backgroundImage from '@/assets/background.png'
-import projectHeader from '@/assets/CansatCompetition/comp_header.png'
+import projectHeader from '@/assets/Enmice/EnmiceBanner.png'
 import Tabs from '../../components/Projects/Tabs'
 import content from '@/assets/Enmice/content.json'
 
@@ -17,8 +17,8 @@ const Enmice = () => {
       <ProjectDetailHeader
         image={projectHeader}
         name='ENMICE'
-        text='Organizada por la NASA, el U.S. Naval Research Laboratory y la American Astronautical Society entre otros, la CanSat Competition es una competencia de diseño, construcción y vuelo que brinda a los equipos la oportunidad de experimentar el ciclo de vida de diseño de un sistema aeroespacial. La competencia CanSat está diseñada para reflejar un programa aeroespacial típico a pequeña escala e incluye todos los aspectos de un programa aeroespacial, desde la revisión preliminar del diseño hasta la revisión posterior a la misión. La misión y sus requisitos están diseñados para reflejar diversos aspectos de misiones del mundo real, incluidos los requisitos de telemetría, comunicaciones y operaciones autónomas. Cada equipo es calificado a lo largo de la competencia en entregables del mundo real, como cronogramas, presentaciones de revisión de diseño y vuelos de demostración.'
-        url='https://cansatcompetition.com/'
+        text='La competencia ENMICE (Encuentro Nacional de Ingeniería en Cohetería Experimental) es un evento clave en el desarrollo de la cohetería experimental en México. Organizada por la Agencia Espacial Mexicana, la Agencia Federal de Aviación Civil, y otros colaboradores, reúne a estudiantes, investigadores y profesionales en un espacio donde pueden poner a prueba sus habilidades de diseño y lanzamiento de cohetes experimentales. Los equipos compiten en distintas categorías, como el lanzamiento con carga útil a diferentes altitudes, y el evento fomenta la colaboración, el networking y el intercambio de conocimientos dentro de la comunidad aeroespacial mexicana.'
+        url='https://enmice.mx/'
       />
       <Tabs data={content.data} />
     </div>
