@@ -3,7 +3,7 @@ import ProjectDetailHeader from '@/components/Projects/ProjectDetailHeader'
 import backgroundImage from '@/assets/background.png'
 import projectHeader from '@/assets/CansatCompetition/comp_header.png'
 import Tabs from '../../components/Projects/Tabs'
-import content from '@/assets/CansatCompetition/content.json'
+import content from '@/assets/Enmice/content.json'
 
 const Enmice = () => {
   return (
