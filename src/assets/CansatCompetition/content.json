@@ -203,33 +203,33 @@
       "edition": 2019,
       "scores": [
         {
-          "place": 5,
-          "type": "Internacional"
+          "place": 1,
+          "type": "Latioamérica"
         },
         {
           "place": 1,
           "type": "Nacional"
         }
       ],
-      "mainImage": "https://lh3.googleusercontent.com/pw/AP1GczPZzbl97UuB2ZELM1YMsKBePJv7cKtyumvDQdK_8iGWeoBz2ak9jR1dWyate9HzmltbG_7iAiupuWV0_bB8BMGALpsrKRpn1SeIbbnuWvn1TBThbS1bz1Sy-b9CjOwH4he0u1ouwrfi9q427Etw-FZa=w1381-h917-s-no-gm",
+      "mainImage": "https://lh3.googleusercontent.com/pw/AP1GczOeQPxgQeUaJiYPZZpC8EbTg3dyVWgM-3ctk9xl0QPc_Pi92ADC1edVVDNSYfI-j4ggUGjczIMLLz6kUc_mkdWf-2rdobnmbuZRbPKj0ojMKnPcIKJGksViMw1S7XZ7ZKm3jtYuGluO7bYYPstGDSKi=w750-h499-s-no?authuser=0",
       "conclusion": "El proyecto demostró un desempeño sobresaliente en varias áreas clave, logrando un éxito significativo tanto a nivel regional como mundial. El comportamiento aerodinámico del planeador, el buen funcionamiento de los mecanismos empleados y el desempeño de los componentes electrónicos del CanSat demostraron el trabajo realizado por el equipo. La transmisión de datos del contenedor y el software de vuelo del contenedor funcionaron adecuadamente, al igual que la recolección de datos y el descenso del contenedor. La estación base también sobresalió en la representación gráfica de los datos. Aunque se identificó una limitación en la transmisión y detección de paquetes de datos del planeador, el equipo logró colocar el proyecto en primer lugar a nivel latinoamericano y en quinto lugar a nivel mundial. La experiencia adquirida y la formación de un equipo apasionado desde cero subraya el éxito del esfuerzo y la importancia de las pruebas tempranas y el prototipado en el diseño.",
-      "conclusionImage": "https://lh3.googleusercontent.com/pw/AP1GczPAE6wzHwhmDAvjA3TN5GFtdD07NC3FLK1Vhuht8Q686fqUvlBBvq8amCF-XQcAsYiLzgjmXgFBmZP6bTfytUrZb8OOmhCB5tm3-l458YMlB9mNDXUWapH6-WeSICYdDM58xHpxAupiJbDDR5GcZplD=w1228-h917-s-no-gm",
+      "conclusionImage": "https://lh3.googleusercontent.com/pw/AP1GczOTBirTdjOjvMWdM6tPFTtePDy0ioEGnAdGBnGeYbZHpJMLI3Y30zh6NnpKBOyE_ff51Aec0kIyJkj3nB_8JEAntNZQtMfBEPFB5h7KE3BfD686vtsmesag_CcprLDP53OAf-0Dw4vnQAZjM2yHxp1W=w1251-h939-s-no?authuser=0",
       "content": [
         {
           "type": "text",
-          "value": "La misión de 2017 simuló un planeador explorador impulsado por energía solar viajando a través de la atmósfera de un planeta, tomando muestras de la composición atmosférica durante el vuelo. El sistema CanSat se compuso de dos componentes principales: un planeador y un contenedor de reentrada que proporcione protección al planeador durante el ascenso, el despliegue cercano al apogeo y la reentrada/descenso inicial."
+          "value": "Para el 2019 la misión se centró en diseñar y construir un CanSat que contuviera una carga útil propulsada pasivamente y un contenedor desplegable con paracaídas, la carga útitl debía descender utilizando un sistema de control de descenso de recuperación de autogiro/helicóptero pasivo mientras transmitía distintos datos sobre la atmósfera mediante el uso de sensores para la telemetría."
         },
         {
           "type": "image",
-          "value": "https://lh3.googleusercontent.com/pw/AP1GczMJRiJa2rrrZv0spRam5O7r7tiBwikTySkYWzi69hM8OcPscY1nQud5TSDYvc-oVxV2E6QXtktPtQKWpVWDDD1fvNvogRlWO1RTshx9ICM725XD-x7gtRjULpxZ5VD2wsBJwRFAZPbnk11Ex-iu8jxN=w960-h720-s-no-gm"
+          "value": "https://lh3.googleusercontent.com/pw/AP1GczMOuNxmxCgGJ34rbzRs729PKtBBrsETIPagJEYIL7OIeLB6su5dZEtP7Pf2Y_SOUo0H8EFCOeVu_izzccymxGi0xi5a1d-WbyC9lf20FXl6QJftSVuMqN-eKSWT7MBpme3a5QLJgZwGR1CWmD9RfYp4=w1920-h909-s-no?authuser=0"
         },
         {
           "type": "image",
-          "value": "https://lh3.googleusercontent.com/pw/AP1GczOkOj9zPi32MIdZD3djhl_4Py6DsregGdUNge4NR96-3WPkIAeVWdDrLM6H7pz9-G0yTmWOW7g-HgCf-b-TSK_3-weJoNprVY25E-hLfcxFylQ7tvEWe4c2fM1lVJgac5xakaZCP0y5IYtYAwFuOWko=w611-h917-s-no-gm"
+          "value": "https://lh3.googleusercontent.com/pw/AP1GczN4MtjdIByCDU4hFWqIT-nrCLzBzay9Q0OPyj8lxKgrUUCWVoKncztIEKEYpZCaHtwDI0T--7sy5OcKUaguBFOr0y7hJ6k37jPFdhG54jsQRYPUamxJGXt1bAbHrvy0T_jRs1yx-sy3S2aW9DWdo2G0=w750-h499-s-no?authuser=0"
         },
         {
           "type": "text",
-          "value": "Una vez separado del cohete, el contenedor descendió con el planeador asegurado en su interior. El contenedor liberó al planeador después del despliegue desde el cohete, protegiéndolo de la violenta liberación y proporcionando un entorno de liberación más estable y menos forzado. Una vez liberado, el planeador debía planear en un patrón circular con un diámetro no mayor a 1000 metros. Durante el vuelo, el planeador tomó muestras de la presión y temperatura del aire a una tasa de 1 muestra por segundo y transmitió los datos a una estación en tierra. El planeador también incluyó un magnetómetro y un tubo pitot para medir la dirección y la velocidad. Al aterrizar, la transmisión se detuvo automáticamente y se activó una baliza de audio para su recuperación."
+          "value": "Al separarse del cohete, el contenedor inició su descenso con el paracíadas separándose la carga útil a una altura de 450 metros mientras éste iniciaba su autogiro mediante el aprovechamiento de las ráfagas de aire. Durante el desceneso, el conjunto del contenedor y carga útil debía descender a una velocidad de 20 metros por segundo, al momento de separarse, la carga útil empezó a descender a una velocidad entre 10 a 15 metros por segundo mientras tomaba muestras de la presión y temperatura del aire y transmitía los datos a una estación en tierra. Todos los componentes electrónicos estaban protegidos del ambiente a excepción de los sensores."
         },
         {
           "type": "text",
@@ -237,11 +237,11 @@
         },
         {
           "type": "image",
-          "value": "https://lh3.googleusercontent.com/pw/AP1GczPzN362UX3DvryOc_UpQupL6vqyKCvZI0SJ0by8LDXn-lbe3pAiOlIfikpGo8Ak-r85OBNa1FiWgxaLg2a7ocWd7WZY7-GxOVJLB3vx3jMcMUSExpqkdqK_ezHQn4unUAv1QqUHvA1C4jHXqadW18Xl=w1376-h917-s-no-gm"
+          "value": "https://lh3.googleusercontent.com/pw/AP1GczM620gSnaUcC9Bi6r8B32iaHOx6WJ9mBjjCTnXvAv3nlbTuipPOXj1YZY42K-SIOdsEDf-Ccmp27AN7JRPkW6s3nwg8mvwWAeuURo3F1-qwJT5cYc7zYNkpLaNYA5_2q6fOfS5hkARn8VMZRVsTaeE4=w1251-h939-s-no?authuser=0"
         },
         {
           "type": "image",
-          "value": "https://lh3.googleusercontent.com/pw/AP1GczNhhETp548WGWTa4RFtSjCdwWqTc4yYHFASME04Lwh0pyPcqB5Mrn7bcjFr--Hdo4mABPnX62Yl36brVD22xMZ-vpFKrNUrXNPF5_iI7cVrYiqahKSoZWhi3DZ1FXNEIjRtGWILwxlpBR7lKADj9qRG=w1376-h917-s-no-gm"
+          "value": "https://lh3.googleusercontent.com/pw/AP1GczMqCmw1jIIb7WCBysUKNZ6DuoTRVEu35sC50HTA79VMWan885tMOsadO6V3agA_4Lz95zMRk66vv5mjXTJrAkM42cn-rGq1kqp_efsnV1mMPNGQAEmOZEE1i8N4tEP6EJ7RQ8uJ87SQXMJnL6GFpcxi=w1251-h939-s-no?authuser=0"
         },
         {
           "type": "text",
