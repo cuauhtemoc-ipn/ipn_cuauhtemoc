@@ -1,5 +1,7 @@
 import React from 'react'
 import image from '@/assets/TeamFlag.png'
+import { NavLink } from 'react-router-dom'
+
 const Recruitment = () => {
   return (
     <div className='container-lg h-full py-4 align-content-center'>
@@ -28,17 +30,21 @@ const Recruitment = () => {
             Únete a nosotros y forma parte de la próxima generación de líderes
             en ingeniería aeroespacial!
           </p>
-          <div className='container-full d-flex justify-content-center d-none d-md-block'>
-            <button className='news__button btn btn-outline-light btn-lg px-5 m-3'>
-              Ver la ultima convocatoria ➔
-            </button>
+          <div className='col-12  d-none d-md-flex  justify-content-center mt-auto'>
+            <NavLink to='/joinus'>
+              <button className='btn btn-outline-light btn-lg px-5'>
+                Unete al equipo ➔
+              </button>
+            </NavLink>
           </div>
         </aside>
         <img src={image} alt='' className='col-12 col-md-6' />
-        <div className='container-full d-flex justify-content-center d-block d-md-none'>
-          <button className='news__button btn btn-outline-light btn-lg px-5 m-3 '>
-            Ver la ultima convocatoria ➔
-          </button>
+        <div className='col-12  d-flex d-md-none  justify-content-center mt-auto'>
+          <NavLink to='/joinus'>
+            <button className='btn btn-outline-light btn-lg px-5'>
+              Unete al equipo ➔
+            </button>
+          </NavLink>
         </div>
       </div>
     </div>
