@@ -9,6 +9,7 @@ import info from '@/assets/Sponsors/info.json'
 const schema = yup
   .object({
     firstName: yup.string().required('Es necesario ingresar tu nombre'),
+    compName: yup.string().required('Es necesario ingresar el nombre'),
     email: yup.string().required('Ingesa un email para contactarte'),
     message: yup.string().required('Escribe tu mensaje')
   })
@@ -67,7 +68,7 @@ const SponsorCard = () => {
           </p>
           <div className='d-flex justify-content-center'>
             <a href={sponsor.page} className='btn btn-primary' target='blank'>
-              ir al sitio
+              Ir al sitio
             </a>
           </div>
         </div>
@@ -77,7 +78,7 @@ const SponsorCard = () => {
   return (
     <div className='container-lg bg-dark bg-opacity-75 px-0 pb-4'>
       <div className='row justify-content-center align-items-center px-0 mx-0'>
-        {info.data.map((member, index) => card(member, index))}
+        {info.data.map((sponsor, index) => card(sponsor, index))}
       </div>
       <div className='justify-content-center border-bottom border-4 border-primary mx-auto mb-5 col-7 col-sm-5 col-md-8 col-xl-7'>
         <h3 className='text-center text-primary display-5 fw-bold'>
@@ -106,7 +107,7 @@ const SponsorCard = () => {
           >
             <div className='d-flex flex-column col-12'>
               <label htmlFor='firstName' className='text-light'>
-                Nombre de la organización
+                Tu nombre
               </label>
               <input
                 type='text'
@@ -118,6 +119,23 @@ const SponsorCard = () => {
               />
               <p className='text-gray text-center'>
                 {errors.firstName?.message}
+              </p>
+            </div>
+
+            <div className='d-flex flex-column col-12'>
+              <label htmlFor='compName' className='text-light'>
+                Nombre de la Empresa u Organización
+              </label>
+              <input
+                type='text'
+                name='compName'
+                placeholder='Nombre de Empresa'
+                id='compName'
+                {...register('compName', { required: true, maxlength: 40 })}
+                className='rounded-3 my-2 p-2 border border-0'
+              />
+              <p className='text-gray text-center'>
+                {errors.compName?.message}
               </p>
             </div>
 

@@ -3,7 +3,7 @@ import coop from '@/assets/coop.jpg'
 
 const SponsorsDs = () => {
   return (
-    <div className='container-lg d-flex flex-column justify-content-center py-4 my-5 my-lg-0'>
+    <div className='container-lg d-flex flex-column justify-content-center py-4 my-5'>
       <div className='row text-light mx-0'>
         <h1 className='display-3 text-center fw-semibold my-5'>
           Patrocinadores

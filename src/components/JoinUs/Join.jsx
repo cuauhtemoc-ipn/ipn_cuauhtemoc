@@ -1,8 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react'
 import { useForm } from 'react-hook-form'
+import { Modal, Button } from 'react-bootstrap'
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
+import join from '@/assets/join.jpg'
 
 const schema = yup
   .object({
@@ -35,6 +37,11 @@ const Recruitment = () => {
     console.log(data)
   }
 
+  const [showModal, setShowModal] = useState(false)
+
+  const handleCloseModal = () => setShowModal(false)
+  const handleShowModal = () => setShowModal(true)
+
   return (
     <div className='row text-light'>
       <h1 className='display-3 text-center fw-semibold my-5'>Reclutamiento</h1>
@@ -42,7 +49,8 @@ const Recruitment = () => {
         ? (
           <div className='row justify-content-center align-items-center mx-0'>
             <div className='text-justify px-5 col-12 col-md-11 col-lg-6'>
-              <p>
+              <img className='col-12 mb-4' src={join} />
+              <p className='lead text-justify'>
                 ¡Nos encantaría que te unas a nuestro equipo! En Cuauhtemoc IPN
                 estamos siempre buscando personas talentosas y apasionadas que
                 quieran contribuir a nuestro crecimiento. Si te interesa explorar
@@ -211,7 +219,7 @@ const Recruitment = () => {
         : (
           <div className='row justify-content-center align-items-center mx-0'>
             <div className='text-justify px-5 col-12 col-md-11 col-lg-6'>
-              <p>
+              <p className='lead text-justify'>
                 Gracias por tu interés en unirte a nuestro equipo. Aunque no
                 estamos reclutando en este momento, nos gustaría saber de ti.
                 Déjanos tus datos y te avisaremos cuando se abran nuevas
@@ -306,6 +314,26 @@ const Recruitment = () => {
             </div>
           </div>
           )}
+
+      <div>
+        <button onClick={handleShowModal}>Ver Aviso de Privacidad</button>
+
+        <Modal show={showModal} onHide={handleCloseModal} centered>
+          <Modal.Header closeButton>
+            <Modal.Title>Aviso de Privacidad</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <p>
+              [Confíen en nosotros]
+            </p>
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant='secondary' onClick={handleCloseModal}>
+              Cerrar
+            </Button>
+          </Modal.Footer>
+        </Modal>
+      </div>
     </div>
   )
 }

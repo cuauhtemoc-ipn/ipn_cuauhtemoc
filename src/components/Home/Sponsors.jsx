@@ -1,10 +1,14 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import SpDescrpt from './SponsDescrpt'
-import spons1 from '@/assets/spons1.svg'
-import spons2 from '@/assets/spons2.svg'
-import spons3 from '@/assets/spons3.svg'
-import spons4 from '@/assets/spons4.svg'
-import spons5 from '@/assets/spons5.svg'
+import Altair from '@/assets/Altair_logo.svg'
+import ANSYS from '@/assets/ANSYS_logo.svg'
+import CDA from '@/assets/CDA_logo.svg'
+import Esime from '@/assets/Esime_logo.svg'
+import GrupoSSC from '@/assets/GrupoSSC_logo.svg'
+import Fundación from '@/assets/Fundación_logo.svg'
+import IPN from '@/assets/IPN_logo.svg'
+import PCB from '@/assets/PCB_logo.svg'
 
 const Sponsor = () => {
   return (
@@ -13,42 +17,65 @@ const Sponsor = () => {
       <div className='row mx-0 justify-content-center align-items-center'>
         <SpDescrpt
           data={{
-            href: 'https://www.grupossc.com/',
-            src: spons1,
+            href: 'https://altair.com/altair-mexico',
+            src: Altair,
+            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis posuere morbi leo urna molestie at elementum eu facilisis. Odio ut sem nulla pharetra diam. Nisi porta lorem mollis aliquam ut. Auctor neque vitae tempus quam pellentesque nec nam aliquam.'
+          }}
+        />
+        <SpDescrpt
+          data={{
+            href: 'https://altair.com/altair-mexico',
+            src: ANSYS,
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis posuere morbi leo urna molestie at elementum eu facilisis. Odio ut sem nulla pharetra diam. Nisi porta lorem mollis aliquam ut. Auctor neque vitae tempus quam pellentesque nec nam aliquam.'
           }}
         />
         <SpDescrpt
           data={{
             href: 'https://www.ipn.mx/cda/',
-            src: spons2,
+            src: CDA,
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis posuere morbi leo urna molestie at elementum eu facilisis. Odio ut sem nulla pharetra diam. Nisi porta lorem mollis aliquam ut. Auctor neque vitae tempus quam pellentesque nec nam aliquam.'
           }}
         />
         <SpDescrpt
           data={{
-            href: 'https://www.ipn.mx/',
-            src: spons3,
+            href: 'https://www.grupossc.com/',
+            src: Esime,
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis posuere morbi leo urna molestie at elementum eu facilisis. Odio ut sem nulla pharetra diam. Nisi porta lorem mollis aliquam ut. Auctor neque vitae tempus quam pellentesque nec nam aliquam.'
           }}
         />
         <SpDescrpt
           data={{
-            href: 'https://pcb-mexico.com/',
-            src: spons4,
+            href: 'https://www.grupossc.com/',
+            src: GrupoSSC,
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis posuere morbi leo urna molestie at elementum eu facilisis. Odio ut sem nulla pharetra diam. Nisi porta lorem mollis aliquam ut. Auctor neque vitae tempus quam pellentesque nec nam aliquam.'
           }}
         />
         <SpDescrpt
           data={{
             href: 'https://www.fundacionpolitecnico.org/',
-            src: spons5,
+            src: Fundación,
+            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis posuere morbi leo urna molestie at elementum eu facilisis. Odio ut sem nulla pharetra diam. Nisi porta lorem mollis aliquam ut. Auctor neque vitae tempus quam pellentesque nec nam aliquam.'
+          }}
+        />
+        <SpDescrpt
+          data={{
+            href: 'https://www.ipn.mx/',
+            src: IPN,
+            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis posuere morbi leo urna molestie at elementum eu facilisis. Odio ut sem nulla pharetra diam. Nisi porta lorem mollis aliquam ut. Auctor neque vitae tempus quam pellentesque nec nam aliquam.'
+          }}
+        />
+        <SpDescrpt
+          data={{
+            href: 'https://pcb-mexico.com/',
+            src: PCB,
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis posuere morbi leo urna molestie at elementum eu facilisis. Odio ut sem nulla pharetra diam. Nisi porta lorem mollis aliquam ut. Auctor neque vitae tempus quam pellentesque nec nam aliquam.'
           }}
         />
       </div>
       <div className='text-center justify-content-center my-4'>
-        <button className='btn btn-outline-light btn-lg px-5'>Ver más ➔</button>
+        <NavLink to='/sponsors'>
+          <button className='btn btn-outline-light btn-lg px-5'>Ver más ➔</button>
+        </NavLink>
       </div>
     </div>
   )
