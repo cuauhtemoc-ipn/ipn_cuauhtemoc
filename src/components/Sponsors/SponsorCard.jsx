@@ -49,9 +49,9 @@ const SponsorCard = () => {
   const card = (sponsor, index) => (
     <div
       key={index}
-      className='d-flex justify-content-center align-items-center my-4 col-11 col-sm-10 col-md-9 col-lg-4'
+      className='d-flex justify-content-center align-items-center my-5 col-11 col-sm-10 col-md-6 col-lg-4'
     >
-      <div className='card m-4 mx-auto col-10'>
+      <div className='card mx-auto col-10 col-sm-9 col-lg-10'>
         <div className='border-bottom'>
           <a href={sponsor.page} className='ratio ratio-4x3' target='blank'>
             <img
@@ -61,15 +61,23 @@ const SponsorCard = () => {
             />
           </a>
         </div>
-        <div className='card-body'>
-          <h5 className='card-title'>{sponsor.name}</h5>
-          <p className='card-text text-justify'>
-            {sponsor.content.find(item => item.type === 'text').value}
-          </p>
-          <div className='d-flex justify-content-center'>
-            <a href={sponsor.page} className='btn btn-primary' target='blank'>
-              Ir al sitio
-            </a>
+        <div className='ratio ratio-4x3'>
+          <div className='card-body'>
+            <div className='overflow-auto h-75'>
+              <h5 className='card-title'>{sponsor.name}</h5>
+              <p className='card-text text-justify'>
+                {sponsor.content.find(item => item.type === 'text').value}
+              </p>
+            </div>
+            <div className='d-flex justify-content-center'>
+              <a
+                href={sponsor.page}
+                className='btn btn-outline-dark btn-md'
+                target='blank'
+              >
+                Ir al sitio
+              </a>
+            </div>
           </div>
         </div>
       </div>
