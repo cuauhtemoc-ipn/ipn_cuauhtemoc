@@ -1,15 +1,11 @@
 {
     "data": [
       {
-        "name": "CanSat Competition",
+        "name": "CanSat CUCEI",
         "edition": 2017,
         "scores": [
           {
-            "place": 5,
-            "type": "Internacional"
-          },
-          {
-            "place": 1,
+            "place": 2,
             "type": "Nacional"
           }
         ],
@@ -148,7 +144,7 @@
           "https://lh3.googleusercontent.com/pw/AP1GczOqtuKQ09PVJCMGqyoGhfaT1zWUkNwknmpjq4vdJDF0f4K772SQDs_7KncY57fz-vcbeI4YaikeSVOdjPr0JFgqtefKy4zg5YTdD8-HrkXNGVgK2QHJBZB9wPpiy3EprCVt1q9D-um-IMwosi_5s7sW=w528-h939-s-no?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczOzJDAgvGI6u7WdAPfcCtQUf6U5MAR-C2q_i_m8mD5m1gxtIV7HVqcQeR5DjHAKtmR0DH2TweooEXvEv_FIrJcdFemAyyzgwOT82uXnrBt3_WVut4tqN83WZDVWZzu74tiuehnC8ye3vgsCRNYT40O5=w1251-h939-s-no?authuser=0"
         ],
-        "team": "https://lh3.googleusercontent.com/pw/AP1GczPSsrcqFUBXzy0zOo4ikpcWADLoWJ6y_DRRWJ3oZtFF0nAZQF9jlMblcywta8B-VGq-wAwDWTK-sRwPnKeCjPaHIJ4YfIcE9jEM8ZUlC9CIGIePe1-QIVZMhZJOOo96J_Ku1Wj2UgLYsIXTZMz_H5zA=w771-h324-s-no?authuser=0"
+        "team": "https://lh3.googleusercontent.com/pw/AP1GczOMpnE8THKXZO2-U_KLbqLBUvRC5PGrJCLBWMAvLPb9LxXHjjW3z7CCFOaA5vQQA5mxMS9wdsJdKx9-SD7xZtUF-ehN_6CKM-kWZF6aiDz1aS6IVGVw9I-5wWTvMqVt6IkuVDeGfsnN-G_jUk34jA0F=w1419-h917-s-no-gm"
       },
       {
         "name": "CanSat CUCEI",
