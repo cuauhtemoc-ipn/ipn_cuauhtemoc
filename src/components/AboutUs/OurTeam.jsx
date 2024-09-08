@@ -14,11 +14,14 @@ const OurTeam = () => {
         </div>
         <div className='row justify-content-center align-items-center mx-0'>
           <div className='embed-responsive d-flex justify-content-center col-12 col-lg-7'>
-            <video
-              className='col-12 col-sm-11 col-md-10 col-lg-12 col-xl-11'
-              controls
+            <iframe
               src={team.video[0]}
-              type='video/mp4'
+              width='560'
+              height='315'
+              style={{ border: 'none', overflow: 'hidden' }}
+              allow='autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share'
+              allowFullScreen
+              title='Facebook video'
             />
           </div>
           <div className='text-light text-justify my-4 my-lg-0 col-11 col-lg-5'>
