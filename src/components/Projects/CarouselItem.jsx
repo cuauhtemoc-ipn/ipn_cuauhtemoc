@@ -2,8 +2,8 @@
 import React from 'react'
 
 export default function CarouselItem ({ imgUrl, imgTitle, utility }) {
-  const updateUrl = url => {
-    const newHeight = 300
+  const updateUrl = (url, height) => {
+    const newHeight = height
 
     // Extract the width (w) and height (h) parameters from the URL using stricter regular expressions
     const widthMatch = url.match(/w(\d+)(?=-h\d+)/) // Look for "w" followed by digits and "-h"
@@ -31,7 +31,7 @@ export default function CarouselItem ({ imgUrl, imgTitle, utility }) {
   return (
     <div className='carousel-card'>
       <img
-        src={updateUrl(imgUrl)}
+        src={updateUrl(imgUrl, 200)}
         alt={imgTitle}
         className='d-block'
         style={{ height: '200px', cursor: 'pointer', marginInline: '10px' }}

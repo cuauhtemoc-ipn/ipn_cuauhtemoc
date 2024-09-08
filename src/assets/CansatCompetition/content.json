@@ -95,7 +95,7 @@
       "content": [
         {
           "type": "text",
-          "value": "La misión de 2017 simuló un planeador explorador impulsado por energía solar viajando a través de la atmósfera de un planeta, tomando muestras de la composición atmosférica durante el vuelo. El sistema CanSat se compuso de dos componentes principales: un planeador y un contenedor de reentrada que proporcione protección al planeador durante el ascenso, el despliegue cercano al apogeo y la reentrada/descenso inicial."
+          "value": "La misión de 2018 consistió en la simulación de una sonda que recolectaría datos atmosféricos mientras transportaba una carga frágil. La sonda contaba con un sistema de Aero-braking Heat Shield (ABHS) que se desplegaría en el apogeo y se liberaría a 300 metros de altura con el despliegue de un paracaídas. La telemetría se enviaría desde el XBee a 1 Hz. Además, se intentaría integrar una cámara y un sensor de viento, junto con animaciones en 2D y 3D como interfaz gráfica."
         },
         {
           "type": "image",
@@ -107,7 +107,7 @@
         },
         {
           "type": "text",
-          "value": "Una vez separado del cohete, el contenedor descendió con el planeador asegurado en su interior. El contenedor liberó al planeador después del despliegue desde el cohete, protegiéndolo de la violenta liberación y proporcionando un entorno de liberación más estable y menos forzado. Una vez liberado, el planeador debía planear en un patrón circular con un diámetro no mayor a 1000 metros. Durante el vuelo, el planeador tomó muestras de la presión y temperatura del aire a una tasa de 1 muestra por segundo y transmitió los datos a una estación en tierra. El planeador también incluyó un magnetómetro y un tubo pitot para medir la dirección y la velocidad. Al aterrizar, la transmisión se detuvo automáticamente y se activó una baliza de audio para su recuperación."
+          "value": "El concepto de operaciones de la misión incluyó tres etapas: Pre-Lanzamiento, donde se realizaron las preparaciones finales en el sitio de lanzamiento; Lanzamiento, que comprendió la secuencia de la misión y la recolección de datos del CanSat; y Post-Lanzamiento, que incluyó la recuperación del CanSat y la entrega de los archivos necesarios."
         },
         {
           "type": "text",
