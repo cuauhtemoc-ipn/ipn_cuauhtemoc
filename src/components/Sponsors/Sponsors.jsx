@@ -9,7 +9,7 @@ const SponsorsDs = () => {
           Patrocinadores
         </h1>
         <div className='row justify-content-center align-items-center mx-0'>
-          <div className='text-center col-12 col-md-10 col-lg-6 mb-5 mb-lg-0'>
+          <div className='text-center col-12 col-md-10 col-lg-6'>
             <img src={coop} className='img-fluid' alt='IPN Cuauhtemoc image' />
           </div>
           <div className='my-4 my-lg-0 col-11 col-lg-6'>

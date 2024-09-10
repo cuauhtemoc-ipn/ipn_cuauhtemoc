@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import SpDescrpt from './SponsDescrpt'
 import Altair from '@/assets/Altair_logo.svg'
-import ANSYS from '@/assets/ANSYS_logo.svg'
+import ANSYS from '@/assets/ANSYS_logo.png'
 import CDA from '@/assets/CDA_logo.svg'
 import Esime from '@/assets/Esime_logo.svg'
 import GrupoSSC from '@/assets/GrupoSSC_logo.svg'
@@ -12,14 +12,14 @@ import PCB from '@/assets/PCB_logo.svg'
 
 const Sponsor = () => {
   return (
-    <div className='container-lg py-4'>
+    <div className='container-lg py-4 h-full'>
       <h2 className='display-3 text-light fw-semibold my-5'>Patrocinadores</h2>
       <div className='row mx-0 justify-content-center align-items-center'>
         <SpDescrpt
           data={{
             href: 'https://altair.com/altair-mexico',
             src: Altair,
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis posuere morbi leo urna molestie at elementum eu facilisis. Odio ut sem nulla pharetra diam. Nisi porta lorem mollis aliquam ut. Auctor neque vitae tempus quam pellentesque nec nam aliquam.'
+            text: 'Known as a premier tourist destination around the world, Mexico is a multicultural country brimming with history, tradition, and beauty. Additionally, Mexico has increasingly become a global hub for STEM graduates. At our Mexico City office, employees can enjoy a collaborative, flexible work environment that prioritizes team communication and places an emphasis on a modern work/life balance.'
           }}
         />
         <SpDescrpt
