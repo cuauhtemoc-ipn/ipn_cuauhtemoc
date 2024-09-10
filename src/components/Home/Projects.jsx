@@ -39,7 +39,7 @@ const cardcontent = (
 
 const Proyect = () => {
   return (
-    <div className='container-xxl py-4 m-auto'>
+    <div className='container-lg py-4 h-full'>
       <h2 className='display-3 text-light fw-semibold my-5'>Proyectos</h2>
       <div className='row mx-0 justify-content-around'>
         {cardcontent}

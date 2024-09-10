@@ -46,7 +46,7 @@ const ContactForm = () => {
   }
 
   return (
-    <div className='col-12 col-md-6 px-5'>
+    <div className='col-12 col-md-6'>
       <h2 className='display-3 text-light fw-semibold my-5'>Contacto</h2>
       <div className='contact-container'>
         <form
