@@ -166,3 +166,10 @@ $font-sizes: map-merge(
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
+@media (min-width: 992px) {
+  .lead-lg {
+    font-size: 1.25rem; /* Default size for .lead */
+    font-weight: 300;   /* Default weight for .lead */
+  }
+}

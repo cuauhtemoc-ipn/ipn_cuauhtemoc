@@ -13,7 +13,7 @@ const ProjectDetailHeader = ({ image, name, text, url }) => {
         </div>
         <div className='text-light col-12 col-md-9 col-lg-7'>
           <h1 className='display-2 mb-4  fw-bold'>{name}</h1>
-          <p className='text-justify'>{text}</p>
+          <p className='text-justify lead-lg lg-lg'>{text}</p>
           <div className='text-center mt-4'>
             <button
               className='btn btn-outline-light btn-lg px-5'
