@@ -1,12 +1,12 @@
 {
     "data": [
       {
-        "name": "Nombre 1",
-        "section": "section",
+        "name": "Josue Salvador Mendoza Estevez",
+        "section": "Team Lead",
         "content": [
           {
             "type": "text",
-            "value": "Pequeña descripción sobre su papel en la subsección y/o en el equipo."
+            "value": "Soy un apasionado estudiante de ingeniería aeronáutica, interesado en la exploración espacial y satelites. Crean en sus sueños, luchen por ellos y disfruten el proceso."
           },
           {
             "type": "image",
@@ -15,12 +15,12 @@
         ]
       },
       {
-        "name": "Nombre 2",
-        "section": "section",
+        "name": "Karla Fernanda Morfin Eligio",
+        "section": "EPS",
         "content": [
           {
             "type": "text",
-            "value": "Pequeña descripción sobre su papel en la subsección y/o en el equipo."
+            "value": "Soy una estudiante de ingeniería aeronáutica con su habilidad enfocada al diseño y desarrollo del funcionamiento de los componentes electrónicos y PCB's"
           },
           {
             "type": "image",
@@ -29,12 +29,12 @@
         ]
       },
       {
-        "name": "Nombre 3",
-        "section": "section",
+        "name": "Diana Alejandra Morales Ortigoza",
+        "section": "EPS",
         "content": [
           {
             "type": "text",
-            "value": "Pequeña descripción sobre su papel en la subsección y/o en el equipo."
+            "value": "Soy estudiante de ingeniería aeronáutica, proactiva, decidida y apasionada por la ciencia, el espacio, la tecnología y el conocimiento."
           },
           {
             "type": "image",
@@ -43,12 +43,12 @@
         ]
       },
       {
-        "name": "Nombre 4",
-        "section": "section",
+        "name": "Grettel Itzel Tellez Rojas",
+        "section": "Aerodinámica",
         "content": [
           {
             "type": "text",
-            "value": "Pequeña descripción sobre su papel en la subsección y/o en el equipo."
+            "value": "Estudiante de Ingeniería Aeronáutica, con un gran interés y pasión por el comportamiento de los distintos sistemas involucrados en el sector de aerodinámica, buscando innovar y perfeccionar los sistemas antes diseñados"
           },
           {
             "type": "image",
@@ -57,12 +57,12 @@
         ]
       },
       {
-        "name": "Nombre 5",
-        "section": "section",
+        "name": "Leslie Ariadna Rosas Hernandez",
+        "section": "EPS",
         "content": [
           {
             "type": "text",
-            "value": "Pequeña descripción sobre su papel en la subsección y/o en el equipo."
+            "value": "Actualmente soy estudiante de ingenieria aeronatica, con una pasion constante en diseño de circuitos, mejora de electrónica de potencia y electrónica secuencial. Siempre teniendo la pasion de seguir actualizándome en nuevas tecnologías, estándares y metodologías para el diseño de circuitos electronicos."
           },
           {
             "type": "image",
@@ -71,12 +71,12 @@
         ]
       },
       {
-        "name": "Nombre 6",
-        "section": "section",
+        "name": "Olvera Ramírez Angel Gabriel",
+        "section": "EPS",
         "content": [
           {
             "type": "text",
-            "value": "Pequeña descripción sobre su papel en la subsección y/o en el equipo."
+            "value": "Ingeniero Aeronautico en formación, entusiasta y comprometido a aplicar conocimientos para desarrollar proyectos innovadores, sostenibles y seguros en el sector aeroespacial, manteniéndome a la vanguardia de nuevas tecnologías y oportunidades."
           },
           {
             "type": "image",
@@ -85,12 +85,12 @@
         ]
       },
       {
-        "name": "Nombre 7",
-        "section": "section",
+        "name": "Yael Castrejón",
+        "section": "SubTeam Lead",
         "content": [
           {
             "type": "text",
-            "value": "Pequeña descripción sobre su papel en la subsección y/o en el equipo."
+            "value": "Estudiante de Ingeniería con experiencia en diseño mecánico y liderazgo de proyectos. Mi enfoque en la gestión efectiva de equipos y la búsqueda del éxito colectivo alimentado por experiencia en distintos proyectos nacionales e internacionales, me impulsa a buscar oportunidades para lograr objetivos comunes en la industria aeroespacial."
           },
           {
             "type": "image",
@@ -99,12 +99,12 @@
         ]
       },
       {
-        "name": "Nombre 8",
-        "section": "section",
+        "name": "Olmos Figueroa Tania Giselle",
+        "section": "Mecánica",
         "content": [
           {
             "type": "text",
-            "value": "Pequeña descripción sobre su papel en la subsección y/o en el equipo."
+            "value": "Soy una entusiasta estudiante de ingeniería aeronáutica, apasionada por el espacio y el diseño de estructuras avanzadas para su aplicación en entornos espaciales."
           },
           {
             "type": "image",
@@ -113,12 +113,12 @@
         ]
       },
       {
-        "name": "Nombre 9",
-        "section": "section",
+        "name": "Greco Ramsés Aragorn Sainos Piña",
+        "section": "Mecánica",
         "content": [
           {
             "type": "text",
-            "value": "Pequeña descripción sobre su papel en la subsección y/o en el equipo."
+            "value": "Estudiante de aeronáutica, fan de saber cómo funcionan los mecanismos de las cosas comunes y de las que podemos ver en el espacio, con ganas de poder manufacturar ideas y ponerlas a prueba en entornos competitivos."
           },
           {
             "type": "image",
@@ -127,12 +127,12 @@
         ]
       },
       {
-        "name": "Nombre 10",
-        "section": "section",
+        "name": "Gonzalez Ramirez Carlos",
+        "section": "CDH-GS",
         "content": [
           {
             "type": "text",
-            "value": "Pequeña descripción sobre su papel en la subsección y/o en el equipo."
+            "value": "Amante del espacio y la contrubucion a la investigacion Aeroespacial, buscando mi formacion integral como ingeniero aeronautico"
           },
           {
             "type": "image",
@@ -141,12 +141,12 @@
         ]
       },
       {
-        "name": "Nombre 11",
-        "section": "section",
+        "name": "Hernández Ramírez Joshua",
+        "section": "CDH - FSW",
         "content": [
           {
             "type": "text",
-            "value": "Pequeña descripción sobre su papel en la subsección y/o en el equipo."
+            "value": "adicto a aprender y al bellakeo. Estudiante de Ingeniería Aeronáutica en progreso y entusiasta del espacio y sus misterios. Como siempre me ha gustado la programación entré en Flight Software. Participé en CanSat Competition 2024 y quiero mucho a mis amigos"
           },
           {
             "type": "image",
@@ -155,12 +155,12 @@
         ]
       },
       {
-        "name": "Nombre 12",
-        "section": "section",
+        "name": "Gómez López Fernando Sinuhe",
+        "section": "CDH - FSW",
         "content": [
           {
             "type": "text",
-            "value": "Pequeña descripción sobre su papel en la subsección y/o en el equipo."
+            "value": "Aeronáutico en formación. Interesado por descubrir el espacio con muchas ansias de aprender y apasionado por la ingeniería. Actualmente involucrado en flight software buscando aplicar y optimizar nuevas ideas que faciliten nuestro contacto con el espacio."
           },
           {
             "type": "image",
@@ -169,12 +169,12 @@
         ]
       },
       {
-        "name": "Nombre 13",
-        "section": "section",
+        "name": "Oliva González Rocío Nayeli",
+        "section": "Mecánica",
         "content": [
           {
             "type": "text",
-            "value": "Pequeña descripción sobre su papel en la subsección y/o en el equipo."
+            "value": "Diseño estructural del rover, principalmente en el sistema de suspensión y sujeción de electrónicos, así como elegir cuál material sería correcto utilizar"
           },
           {
             "type": "image",
@@ -183,12 +183,12 @@
         ]
       },
       {
-        "name": "Nombre 14",
-        "section": "section",
+        "name": "Marquez Martinez Rafael Alejandro",
+        "section": "Mecanica",
         "content": [
           {
             "type": "text",
-            "value": "Pequeña descripción sobre su papel en la subsección y/o en el equipo."
+            "value": "Un amante de saber como funcionan las cosas. Armar y desarmar son los fuertes de está persona, como siempre me ha gustado el construir me he decidido por mecanica para poder plasmar mis pensamietos."
           },
           {
             "type": "image",
@@ -197,12 +197,12 @@
         ]
       },
       {
-        "name": "Nombre 15",
-        "section": "section",
+        "name": "Vázquez Gómez Rueda Omar",
+        "section": "CDH - FSW",
         "content": [
           {
             "type": "text",
-            "value": "Pequeña descripción sobre su papel en la subsección y/o en el equipo."
+            "value": ""
           },
           {
             "type": "image",
@@ -211,12 +211,12 @@
         ]
       },
       {
-        "name": "Nombre 16",
-        "section": "section",
+        "name": "Ortega Flores Mitzy Anahy",
+        "section": "EPS",
         "content": [
           {
             "type": "text",
-            "value": "Pequeña descripción sobre su papel en la subsección y/o en el equipo."
+            "value": "Soy una apasionada estudiante de ingeniería fotónica, navegando por la luz y la tecnología . Mi mente está constantemente en órbita, fusionando la ciencia del espacio, la electrónica de vanguardia y los sistemas aeroespaciales más innovadores. Me impulsa la curiosidad por el cosmos y el desafío de crear soluciones que puedan cambiar el futuro, desde circuitos hasta estrellas. ¡El cielo no es el límite, es solo el comienzo!"
           },
           {
             "type": "image",
@@ -225,12 +225,12 @@
         ]
       },
       {
-        "name": "Nombre 17",
-        "section": "section",
+        "name": "Cruz Aguilar Alejandra Nayeli",
+        "section": "CDH - FSW",
         "content": [
           {
             "type": "text",
-            "value": "Pequeña descripción sobre su papel en la subsección y/o en el equipo."
+            "value": "Estudiante de Ingeniería Aeronáutica. Fan de aprender de lo nuevo y de lo viejo. Apasionada de la exploración espacial. La curiosidad es mi impulso; mi objetivo: entender, explicar, solucionar y encontrar el éxito colectivo."
           },
           {
             "type": "image",
@@ -239,12 +239,12 @@
         ]
       },
       {
-        "name": "Nombre 18",
-        "section": "section",
+        "name": "De la cruz De la cruz Francisco Javier",
+        "section": "Aerodinámica",
         "content": [
           {
             "type": "text",
-            "value": "Pequeña descripción sobre su papel en la subsección y/o en el equipo."
+            "value": "Soy estudiante de Ingeniería Aeronáutica con una profunda pasión por los sistemas mecánicos y aerodinámicos. Mi interés por estas áreas me impulsa a buscar soluciones innovadoras y eficientes en el campo de la aeronáutica. Actualmente, estoy enfocado en cumplir con las visiones y objetivos del equipo Cuauhtémoc IPN, cumpliendo con el rol de diseñar y mejorar los sistemas aerodinámicos utilizados en las competencias para así contribuir al desarrollo de la tecnología aeroespacial."
           },
           {
             "type": "image",
@@ -253,12 +253,12 @@
         ]
       },
       {
-        "name": "Nombre 19",
-        "section": "section",
+        "name": "Zamudio Angeles Carlos Enrique",
+        "section": "EPS",
         "content": [
           {
             "type": "text",
-            "value": "Pequeña descripción sobre su papel en la subsección y/o en el equipo."
+            "value": "Preguntar y resolver"
           },
           {
             "type": "image",
@@ -267,12 +267,26 @@
         ]
       },
       {
-        "name": "Nombre 20",
-        "section": "section",
+        "name": "Romero e Jesus Luis Antonio",
+        "section": "Mecanica",
         "content": [
           {
             "type": "text",
-            "value": "Pequeña descripción sobre su papel en la subsección y/o en el equipo."
+            "value": "Apasionado por la aeronautica, apasionado por el diseño y la mecanica"
+          },
+          {
+            "type": "image",
+            "value": "https://lh3.googleusercontent.com/pw/AP1GczM7j6Ep2hDtwfm2YSen4CFrURFToblSZBvAmM4-NGcOW2HquxogSFGnaY6jkvoMY9PPZtinPQBBmD3lDVeDTNr4aODDcSrS4E0FZ63L6S48BIR8MI_bou8pqvl6_OVr_F0_B-rGOY_MuObZxNdBYfR8=w625-h939-s-no?authuser=0"
+          }
+        ]
+      },
+      {
+        "name": "De la Mora Pineda Adriana",
+        "section": "",
+        "content": [
+          {
+            "type": "text",
+            "value": "Estudiante de Aeronáutica con una inmensa curiosidad por saber como funcionan todas las cosas que estén relacionadas en el medio, y en el estudio y desarrollo de dispositivos electrónicos relacionados en el ámbito Aeroespacial."
           },
           {
             "type": "image",
