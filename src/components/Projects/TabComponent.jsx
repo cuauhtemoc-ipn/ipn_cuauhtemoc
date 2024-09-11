@@ -50,7 +50,7 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
             className='d-lg-none col-10 p-2 p-lg-4 align-content-center'
             key={'sm-text' + index}
           >
-            <p className='text-light lead lh-lg text-justify'>
+            <p className='text-light lh-lg text-justify'>
               {element.value}
             </p>
           </div>
@@ -92,7 +92,7 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
         className='col-10 col-lg-12 p-4 align-content-center'
         key={`Conclusion-${entry.edition}`}
       >
-        <p className='text-light lead lh-lg text-justify'>{entry.conclusion}</p>
+        <p className='text-light lead-lg lh-lg text-justify'>{entry.conclusion}</p>
       </div>
     )
 
