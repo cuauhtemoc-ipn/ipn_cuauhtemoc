@@ -37,7 +37,7 @@ const ProjectCard = ({ data }) => {
         </a>
         <div className='text-light text-justify'>
           <h4 className='font-weight-bold h4 text-center my-4'>{data.title}</h4>
-          <p className='lead'>
+          <p className='lead-lg'>
             {data.text.length > 255
               ? data.text.slice(0, 255) + '...'
               : data.text}
