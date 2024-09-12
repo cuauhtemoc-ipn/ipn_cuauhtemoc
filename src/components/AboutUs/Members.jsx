@@ -20,12 +20,14 @@ const Members = () => {
             />
           </div>
         </div>
-        <div className='mx-auto col-12 col-sm-7'>
+        <div className='mx-auto col-12 col-sm-7 d-flex flex-column justify-items-center'>
           <h5>{member.name}</h5>
           <h5>{member.section}</h5>
-          <p className='text-justify'>
-            {member.content.find(item => item.type === 'text').value}
-          </p>
+          <div className='text-light ratio ratio-21x9 ratio-md-21x9 ratio-lg-16x9 overflow-auto mb-2'>
+            <p className='text-justify pe-2'>
+              {member.content.find(item => item.type === 'text').value}
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -63,7 +65,9 @@ const Members = () => {
           </h3>
         </div>
         <div className='row justify-content-center align-items-center px-0 mx-0'>
-          {info.data.slice(0, 6).map((member, index) => membcard(member, index))}
+          {info.data
+            .slice(0, 6)
+            .map((member, index) => membcard(member, index))}
         </div>
         {!isCollapsed && (
           <div className='text-center mt-3'>
