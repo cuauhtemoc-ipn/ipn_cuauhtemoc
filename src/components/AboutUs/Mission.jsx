@@ -66,11 +66,11 @@ const MissionVision = () => {
   )
 
   const TextMission = (
-    <div className='text-light border border-4 border-white p-4 p-sm-5 bg-gray mx-auto mx-lg-0 col-11 col-md-10 col-lg-5 col-xl-4'>
+    <div className='text-light border border-4 border-white p-4 p-sm-4 p-lg-5 bg-gray bg-opacity-50 mx-auto mx-lg-0 col-11 col-md-10 col-lg-5 col-xl-4'>
       <div className='justify-content-center border-bottom border-4 border-primary mx-auto mb-3 col-5 col-sm-4 col-md-3 col-lg-6 col-xl-7'>
         <h3 className='text-center text-primary display-6 fw-bold'>Misión</h3>
       </div>
-      <p className='lead text-justify mx-auto mx-lg-0 col-12 col-sm-11 col-lg-12'>
+      <p className='lead-lg text-justify mx-auto mx-lg-0 col-12 col-sm-11 col-lg-12'>
         {missionvision['Misión'].text}
       </p>
     </div>
@@ -118,11 +118,11 @@ const MissionVision = () => {
   )
 
   const TextVision = (
-    <div className='text-light border border-4 border-white p-4 p-sm-5 bg-gray mx-auto mx-lg-0 mt-5 mt-lg-0 col-11 col-md-10 col-lg-5 col-xl-4'>
+    <div className='text-light border border-4 border-white p-4 p-sm-4 p-lg-5 bg-gray bg-opacity-50 mx-auto mx-lg-0 mt-5 mt-lg-0 col-11 col-md-10 col-lg-5 col-xl-4'>
       <div className='justify-content-center border-bottom border-4 border-primary mx-auto mb-3 col-5 col-sm-4 col-md-3 col-lg-6 col-xl-7'>
         <h3 className='text-center text-primary display-6 fw-bold'>Visión</h3>
       </div>
-      <p className='lead text-justify mx-auto mx-lg-0 col-12 col-sm-11 col-lg-12'>
+      <p className='lead-lg text-justify mx-auto mx-lg-0 col-12 col-sm-11 col-lg-12'>
         {missionvision['Visión'].text}
       </p>
     </div>

@@ -32,10 +32,10 @@ const Footer = () => {
         <div className='row justify-content-center mx-0 col-md-8'>
           <div className='px-2 mb-5 mb-md-0 text-light col-5 col-md-6'>
             <h5 className='text-center text-md-start mb-4'>Menú rápido</h5>
-            <NavLink to='/' className='text-decoration-none text-light'>
+            <NavLink to='/' className='text-light link-light link-offset-2-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover'>
               <li>Inicio</li>
             </NavLink>
-            <NavLink to='/aboutUs' className='text-decoration-none text-light'>
+            <NavLink to='/aboutUs' className='text-light link-light link-offset-2-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover'>
               <li>Acerca de</li>
             </NavLink>
             <li>
@@ -43,25 +43,25 @@ const Footer = () => {
               <ul>
                 <NavLink
                   to='/projects/cansat_competition'
-                  className='text-decoration-none text-light'
+                  className='text-light link-light link-offset-2-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover'
                 >
                   <li>Cansat Competition</li>
                 </NavLink>
                 <NavLink
                   to='/projects/cansat_cucei'
-                  className='text-decoration-none text-light'
+                  className='text-light link-light link-offset-2-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover'
                 >
                   <li>Cansat CUCEI</li>
                 </NavLink>
                 <NavLink
                   to='/projects/picosatelites_puebla'
-                  className='text-decoration-none text-light'
+                  className='text-light link-light link-offset-2-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover'
                 >
                   <li>Picosatélites Puebla</li>
                 </NavLink>
                 <NavLink
                   to='/projects/enmice'
-                  className='text-decoration-none text-light'
+                  className='text-light link-light link-offset-2-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover'
                 >
                   <li>ENMICE</li>
                 </NavLink>
@@ -78,19 +78,19 @@ const Footer = () => {
                 </NavLink> */}
                 <NavLink
                   to='/sponsors'
-                  className='text-decoration-none text-light'
+                  className='text-light link-light link-offset-2-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover'
                 >
                   <li>Patrocinadores</li>
                 </NavLink>
                 <NavLink
                   to='/joinUs'
-                  className='text-decoration-none text-light'
+                  className='text-light link-light link-offset-2-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover'
                 >
                   <li>Reclutamiento</li>
                 </NavLink>
               </ul>
             </li>
-            <NavLink to='/contact' className='text-decoration-none text-light'>
+            <NavLink to='/contact' className='text-light link-light link-offset-2-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover'>
               <li>Contacto</li>
             </NavLink>
           </div>
