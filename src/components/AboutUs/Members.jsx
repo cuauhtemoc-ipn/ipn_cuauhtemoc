@@ -104,7 +104,7 @@ const Members = () => {
         </div>
         <div className='row justify-content-center align-items-center mx-0'>
           <div className='d-flex text-light mb-4 mb-lg-0 col-11 col-sm-10 col-lg-5'>
-            <p className='lead text-justify'>
+            <p className='lead-lg text-justify'>
               Si estás interesado en formar parte de nuestro equipo ¡te
               invitamos a dar click en el siguiente enlace a fin de poder
               trabajar de cerca con la tecnología aeroespacial!. Queremos que

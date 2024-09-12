@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 const Recruitment = () => {
   return (
     <div className='container-lg h-full py-4 align-content-center'>
-      <div className='row'>
+      <div className='row mt-5 mt-md-0 mb-4'>
         <aside className='col-12 col-md-6'>
           <h2 className='display-3 text-light fw-semibold mb-5'>
             ¡Forma parte del equipo!
@@ -38,8 +38,10 @@ const Recruitment = () => {
             </NavLink>
           </div>
         </aside>
-        <img src={image} alt='' className='col-12 col-md-6' />
-        <div className='col-12  d-flex d-md-none  justify-content-center mt-auto'>
+        <div className='d-flex col-12 col-md-6 align-items-center'>
+          <img src={image} alt='' className='col-12' />
+        </div>
+        <div className='col-12 d-flex d-md-none justify-content-center mt-auto'>
           <NavLink to='/joinus'>
             <button className='btn btn-outline-light btn-lg px-5'>
               Unete al equipo ➔

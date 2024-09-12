@@ -24,7 +24,7 @@ const OurTeam = () => {
               title='Facebook video'
             />
           </div>
-          <div className='text-light text-justify my-sm-4 my-lg-0 col-11 col-lg-5'>
+          <div className='lead-lg text-light text-justify my-sm-4 my-lg-0 col-11 col-lg-5'>
             <p>{team.content[0].value}</p>
           </div>
         </div>

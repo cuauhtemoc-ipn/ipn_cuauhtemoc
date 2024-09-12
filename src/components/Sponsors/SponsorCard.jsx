@@ -95,7 +95,7 @@ const SponsorCard = () => {
       </div>
       <div className='row justify-content-center align-items-center mx-0'>
         <div className='d-flex text-light px-5 mb-4 mb-lg-0 col-12 col-md-11 col-lg-6'>
-          <p className='lead text-justify'>
+          <p className='lead-lg text-justify'>
             ¿Te apasiona la innovación aeroespacial? ¿Buscas una forma de ser
             parte de un futuro emocionante? Nuestro equipo está buscando
             patrocinadores que compartan nuestra visión de impulsar la

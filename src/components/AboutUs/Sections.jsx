@@ -161,11 +161,11 @@ const Subs = () => {
 
   const Sectext = (
     <div
-      className='row d-none d-md-flex border border-4 border-white bg-gray p-4 p-sm-5 mx-auto mb-5 mb-lg-0 col-11 col-md-10 col-lg-5'
+      className='row d-none d-md-flex border border-4 border-white bg-gray bg-opacity-50 p-4 p-sm-4 p-lg-5 mx-auto mb-5 mb-lg-0 col-11 col-md-10 col-lg-5'
       key={selectedSection}
       style={fadeInStyle}
     >
-      <p className='lead text-justify'>
+      <p className='lead-lg text-justify'>
         {sections[selectedSection].text}
       </p>
     </div>
@@ -214,11 +214,11 @@ const Subs = () => {
       </div>
 
       <div
-        className='row border border-4 border-white bg-gray p-4 p-sm-5 mx-auto m-5 col-11 col-md-10 col-lg-5'
+        className='row border border-4 border-white bg-gray bg-opacity-50 p-4 p-sm-5 mx-auto m-5 col-11 col-md-10 col-lg-5'
         key={selectedSection}
         style={fadeInStyle}
       >
-        <p className='lead text-justify'>
+        <p className='text-justify'>
           {sections[selectedSection].text}
         </p>
       </div>
