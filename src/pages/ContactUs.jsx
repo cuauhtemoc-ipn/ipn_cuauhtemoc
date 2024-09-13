@@ -5,7 +5,7 @@ import backgroundImage from '@/assets/background.png'
 
 const ContactUs = () => {
   return (
-    <div className='container-xxl h-full py-4 align-content-center'>
+    <div className='container-xxl h-full py-4 my-5 align-content-center'>
       <div
         className='background-image'
         style={{

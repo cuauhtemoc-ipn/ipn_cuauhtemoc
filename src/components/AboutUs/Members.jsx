@@ -20,10 +20,10 @@ const Members = () => {
             />
           </div>
         </div>
-        <div className='mx-auto col-12 col-sm-7 d-flex flex-column justify-items-center'>
+        <div className='d-flex flex-column justify-items-center mx-auto col-12 col-sm-7'>
           <h5>{member.name}</h5>
           <h5>{member.section}</h5>
-          <div className='text-light ratio ratio-21x9 ratio-md-21x9 ratio-lg-16x9 overflow-auto mb-2'>
+          <div className='text-light ratio custom-ratio ratio-md-21x9 ratio-lg-16x9 overflow-auto mb-2'>
             <p className='text-justify pe-2'>
               {member.content.find(item => item.type === 'text').value}
             </p>
