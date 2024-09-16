@@ -32,9 +32,9 @@ const ProjectCard = ({ data }) => {
   return (
     <div className='col-10 col-md-5 col-lg-3 px-3 mb-4 card-container'>
       <div className='card-info d-flex flex-column h-100'>
-        <a className='card-img-container mb-3' href={data.href}>
+        <NavLink to={data.href} className='card-img-container mb-3'>
           <img src={updateUrl(data.src, 400)} className='col-12' />
-        </a>
+        </NavLink>
         <div className='text-light text-justify'>
           <h4 className='font-weight-bold h4 text-center my-4'>{data.title}</h4>
           <p className='lead-lg'>
