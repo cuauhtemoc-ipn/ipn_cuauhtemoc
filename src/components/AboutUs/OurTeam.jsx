@@ -5,7 +5,7 @@ const OurTeam = () => {
   const team = info.data[0]
 
   return (
-    <div className='container-lg d-flex flex-column justify-content-center h-full py-4 my-5 my-lg-0'>
+    <div className='container-lg d-flex flex-column py-4 my-5'>
       <div className='row mx-0'>
         <div className='row align-items-center mx-0 my-5'>
           <h1 className='display-3 text-center text-light fw-semibold'>
