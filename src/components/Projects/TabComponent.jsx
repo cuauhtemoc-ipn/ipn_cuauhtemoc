@@ -2,6 +2,32 @@
 import GalleryCarousel from './GalleryCarousel'
 
 const TabComponent = ({ entry, index, activeTab, reference }) => {
+  const updateUrl = (url, height) => {
+    const newHeight = height
+
+    // Extract the width (w) and height (h) parameters from the URL using stricter regular expressions
+    const widthMatch = url.match(/w(\d+)(?=-h\d+)/) // Look for "w" followed by digits and "-h"
+    const heightMatch = url.match(/h(\d+)(?=-s)/) // Look for "h" followed by digits and "-s"
+
+    if (widthMatch && heightMatch) {
+      const currentWidth = parseInt(widthMatch[1], 10)
+      const currentHeight = parseInt(heightMatch[1], 10)
+
+      // Calculate the proportional new width
+      const newWidth = Math.round((currentWidth / currentHeight) * newHeight)
+
+      // Replace the old width and height with the new values, keeping boundaries intact
+      const updatedUrl = url
+        .replace(/w\d+(?=-h\d+)/, `w${newWidth}`)
+        .replace(/h\d+(?=-s)/, `h${newHeight}`)
+
+      return updatedUrl
+    }
+
+    // Return the original URL if no width/height parameters are found
+    return url
+  }
+
   const loadScores = entry => {
     const data = []
     entry.scores.forEach((score, index) => {
@@ -32,7 +58,7 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
         data.push(
           <div className='d-none d-lg-block col-lg-6 p-2 p-lg-4 align-content-center'>
             <img
-              src={element.value}
+              src={updateUrl(element.value, 300)}
               alt='Image'
               className='w-100'
               key={'img' + index}
@@ -59,7 +85,7 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
         data.push(
           <div className='d-lg-none col-10 p-2 p-lg-4 align-content-center'>
             <img
-              src={element.value}
+              src={updateUrl(element.value, 300)}
               alt='Image'
               className='w-100'
               key={'sm-img' + index}
@@ -101,7 +127,7 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
         className='col-10 col-lg-8 p-4'
         key={`ConclusionImage-${entry.edition}`}
       >
-        <img src={entry.conclusionImage} alt='Image' className='w-100' />
+        <img src={updateUrl(entry.conclusionImage, 400)} alt='Image' className='w-100' />
       </div>
     )
 
