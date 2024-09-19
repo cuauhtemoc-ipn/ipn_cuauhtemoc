@@ -8,7 +8,7 @@ import Contact from '../components/Home/Contact'
 
 const Home = () => {
   const updateUrl = url => {
-    const newWidth = window.innerWidth
+    const newHeight = window.innerHeight
 
     // Extract the width (w) and height (h) parameters from the URL using stricter regular expressions
     const widthMatch = url.match(/w(\d+)(?=-h\d+)/) // Look for "w" followed by digits and "-h"
@@ -19,8 +19,7 @@ const Home = () => {
       const currentHeight = parseInt(heightMatch[1], 10)
 
       // Calculate the proportional new width
-      const newHeight = Math.round((currentHeight / currentWidth) * newWidth)
-
+      const newWidth = Math.round((currentWidth / currentHeight) * newHeight)
       // Replace the old width and height with the new values, keeping boundaries intact
       const updatedUrl = url
         .replace(/w\d+(?=-h\d+)/, `w${newWidth}`)
