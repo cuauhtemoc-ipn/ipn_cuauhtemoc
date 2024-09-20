@@ -32,8 +32,12 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
     const data = []
     entry.scores.forEach((score, index) => {
       data.push(
-        <p key={'score' + index} className='text-light h2 text-center p-2'>
-          {`${score.place}° lugar a nivel ${score.type}`}
+        <p
+          key={'score' + index}
+          className='text-secondary display-4 text-center p-2 shadow-sm'
+          style={{ 'text-shadow': '2px 2px 10px black' }}
+        >
+          <strong>{`${score.place}° lugar a nivel ${score.type}`}</strong>
         </p>
       )
     })
@@ -76,9 +80,7 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
             className='d-lg-none col-10 p-2 p-lg-4 align-content-center'
             key={'sm-text' + index}
           >
-            <p className='text-light lh-lg text-justify'>
-              {element.value}
-            </p>
+            <p className='text-light lh-lg text-justify'>{element.value}</p>
           </div>
         )
       } else if (element.type === 'image') {
@@ -118,7 +120,9 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
         className='col-10 col-lg-12 p-4 align-content-center'
         key={`Conclusion-${entry.edition}`}
       >
-        <p className='text-light lead-lg lh-lg text-justify'>{entry.conclusion}</p>
+        <p className='text-light lead-lg lh-lg text-justify'>
+          {entry.conclusion}
+        </p>
       </div>
     )
 
@@ -127,7 +131,11 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
         className='col-10 col-lg-8 p-4'
         key={`ConclusionImage-${entry.edition}`}
       >
-        <img src={updateUrl(entry.conclusionImage, 400)} alt='Image' className='w-100' />
+        <img
+          src={updateUrl(entry.conclusionImage, 400)}
+          alt='Image'
+          className='w-100'
+        />
       </div>
     )
 
