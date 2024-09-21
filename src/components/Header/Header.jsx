@@ -1,7 +1,40 @@
-import { NavLink } from 'react-router-dom'
+import React, { useRef, useEffect } from 'react'
+import { NavLink, useLocation } from 'react-router-dom'
 import logo from '@/assets/horizontal_logo.svg'
 
 const Header = () => {
+  const navbarCollapseRef = useRef(null)
+  const navbarToggleRef = useRef(null)
+  const location = useLocation()
+
+  // Efecto para colapsar el menú al cambiar de ruta
+  useEffect(() => {
+    if (navbarCollapseRef.current.classList.contains('show')) {
+      navbarCollapseRef.current.classList.remove('show')
+    }
+  }, [location])
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      // Si el clic no fue dentro del navbar ni del toggle button, se colapsa
+      if (
+        navbarCollapseRef.current &&
+        !navbarCollapseRef.current.contains(event.target) &&
+        !navbarToggleRef.current.contains(event.target)
+      ) {
+        if (navbarCollapseRef.current.classList.contains('show')) {
+          navbarCollapseRef.current.classList.remove('show')
+        }
+      }
+    }
+
+    document.addEventListener('click', handleClickOutside)
+
+    return () => {
+      document.removeEventListener('click', handleClickOutside)
+    }
+  }, [])
+
   const linkIsActive = isActive => {
     return isActive
       ? 'text-decoration-none text-light border-bottom border-light border-2 p-1'
@@ -22,6 +55,7 @@ const Header = () => {
         aria-controls='main-nav'
         aria-expanded='false'
         aria-label='Toggle navigation'
+        ref={navbarToggleRef}
       >
         <span className='navbar-toggler-icon navbar-toggler-icon-bg-primary navbar-toggler-border-color-light' />
       </button>
@@ -29,9 +63,10 @@ const Header = () => {
       <div
         className='collapse navbar-collapse justify-content-end align-center w-auto'
         id='main-nav'
+        ref={navbarCollapseRef}
       >
         <ul className='list-inline d-md-flex m-0'>
-          <li className='m-4'>
+          <li className='nav-item m-4'>
             <NavLink
               to='/'
               className={({ isActive }) => linkIsActive(isActive)}
@@ -39,7 +74,7 @@ const Header = () => {
               Inicio
             </NavLink>
           </li>
-          <li className='m-4'>
+          <li className='nav-item m-4'>
             <NavLink
               to='/aboutUs'
               className={({ isActive }) => linkIsActive(isActive)}
@@ -60,7 +95,10 @@ const Header = () => {
             </a>
             <ul className='dropdown-menu dropdown-menu-dark'>
               <li>
-                <NavLink className='dropdown-item' to='/projects/cansat_competition'>
+                <NavLink
+                  className='dropdown-item'
+                  to='/projects/cansat_competition'
+                >
                   CanSat Competition
                 </NavLink>
               </li>
@@ -70,7 +108,10 @@ const Header = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink className='dropdown-item' to='/projects/picosatelites_puebla'>
+                <NavLink
+                  className='dropdown-item'
+                  to='/projects/picosatelites_puebla'
+                >
                   Picosatélites Puebla
                 </NavLink>
               </li>
