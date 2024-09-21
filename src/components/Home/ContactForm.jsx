@@ -9,6 +9,8 @@ const schema = yup
   .object({
     firstName: yup.string().required('Es necesario ingresar tu nombre'),
     lastName: yup.string().required('Es necesario ingresar tu apellido'),
+    organization: yup.string(),
+    phone: yup.string(),
     email: yup.string().required('Ingesa un email para contactarte'),
     message: yup.string().required('Escribe tu mensaje')
   })
@@ -68,7 +70,7 @@ const ContactForm = () => {
                 {...register('firstName', { required: true, maxlength: 20 })}
                 className='rounded-3 my-2 p-2 border border-0'
               />
-              <p className='text-gray text-center'>
+              <p className='text-warning text-center'>
                 {errors.firstName?.message}
               </p>
             </div>
@@ -85,10 +87,44 @@ const ContactForm = () => {
                 {...register('lastName', { required: true, maxlength: 20 })}
                 className='rounded-3 my-2 p-2 border border-0'
               />
-              <p className='text-gray text-center'>
+              <p className='text-warning text-center'>
                 {errors.lastName?.message}
               </p>
             </div>
+          </div>
+
+          <div className='d-flex flex-column col-12'>
+            <label htmlFor='organization' className='text-light'>
+              Empresa u organizacion (Opcional)
+            </label>
+            <input
+              type='text'
+              name='organization'
+              placeholder='Organización'
+              id='organization'
+              {...register('organization')}
+              className='rounded-3 my-2 p-2 border border-0'
+            />
+            <p className='text-warning text-center'>
+              {errors.organization?.message}
+            </p>
+          </div>
+
+          <div className='d-flex flex-column col-12'>
+            <label htmlFor='phone' className='text-light'>
+              Teléfono (Opcional)
+            </label>
+            <input
+              type='text'
+              name='phone'
+              placeholder='55 1234 5678'
+              id='phone'
+              {...register('phone')}
+              className='rounded-3 my-2 p-2 border border-0'
+            />
+            <p className='text-warning text-center'>
+              {errors.phone?.message}
+            </p>
           </div>
 
           <div className='d-flex flex-column col-12'>
@@ -103,7 +139,7 @@ const ContactForm = () => {
               {...register('email')}
               className='rounded-3 my-2 p-2 border border-0'
             />
-            <p className='text-gray text-center'>{errors.email?.message}</p>
+            <p className='text-warning text-center'>{errors.email?.message}</p>
           </div>
 
           <div className='d-flex flex-column col-12'>
@@ -118,7 +154,9 @@ const ContactForm = () => {
               className='rounded-3 my-2 p-2 border border-0'
               rows='3'
             />
-            <p className='text-gray text-center'>{errors.message?.message}</p>
+            <p className='text-warning text-center'>
+              {errors.message?.message}
+            </p>
           </div>
 
           <button

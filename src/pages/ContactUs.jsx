@@ -2,6 +2,7 @@ import React from 'react'
 import ContactForm from '@/components/Home/ContactForm'
 import rocketImage from '@/assets/Rocket.png'
 import backgroundImage from '@/assets/background.png'
+import Privacy from '../components/Home/Privacy'
 
 const ContactUs = () => {
   return (
@@ -19,6 +20,7 @@ const ContactUs = () => {
           <img src={rocketImage} alt='Rocket' />
         </div>
       </div>
+      <Privacy />
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import ContactForm from './ContactForm'
 import rocketImage from '@/assets/Rocket.png'
+import Privacy from './Privacy'
 
 const Contact = () => {
   return (
@@ -11,6 +12,7 @@ const Contact = () => {
         <div className='col-6 d-none d-md-flex justify-content-center'>
           <img src={rocketImage} alt='Rocket' />
         </div>
+        <Privacy />
       </div>
     </div>
   )
