@@ -34,7 +34,7 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
       data.push(
         <p
           key={'score' + index}
-          className='text-secondary display-4 text-center p-2 shadow-sm'
+          className='text-light display-4 text-center p-2 shadow-sm'
           style={{ 'text-shadow': '2px 2px 10px black' }}
         >
           <strong>{`${score.place}° lugar a nivel ${score.type}`}</strong>
