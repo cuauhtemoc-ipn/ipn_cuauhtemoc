@@ -7,7 +7,7 @@
         "content": [
           {
             "type": "text",
-            "value": "Texto para la sección de Aerodinámica"
+            "value": "Responsables del diseño y fabricación del paracaídas, aerofreno y otros mecanismos de recuperación para garantizar un descenso estable del CanSat, además del análisis CFD (Dinámica de Fluidos Computacional)."
           }
         ],
         "images": [
@@ -24,7 +24,7 @@
         "content": [
           {
             "type": "text",
-            "value": "Texto para la sección de CDH"
+            "value": "Es la sección encargada del diseño e implementación de sistemas de comunicaciones, desarrollo de software de telemetría así como la programación de sensores y microcontroladores. Realizamos el análisis y procesamiento de datos de telemetría, así como también los sistemas de comunicación remota y su implementación en satélites tipo CanSat."
           }
         ],
         "images": [
@@ -41,7 +41,7 @@
         "content": [
           {
             "type": "text",
-            "value": "Texto para la sección de EPS"
+            "value": "Encargada de cálculos y diseño de sistemas de potencia que darán vida a todos y cada uno de los sensores y actuadores del cansat para su correcto funcionamiento a lo largo de la misión; además del diseño de los circuitos impresos que lleva cada uno de los modelos."
           }
         ],
         "images": [
@@ -58,7 +58,7 @@
         "content": [
           {
             "type": "text",
-            "value": "Texto para la sección de Mecánica"
+            "value": "La sección de mecánica es responsable del diseño conceptual y la construcción de los picosatélites y rovers. Su principal objetivo es garantizar que las estructuras resistan los esfuerzos físicos a los que serán sometidos durante las misiones, asegurando que cada sensor y placa no sufra daños en el proceso. Además, se encarga del diseño de mecanismos móviles, como liberadores de paracaídas, estabilizadores de cámaras y sistemas de amortiguación."
           }
         ],
         "images": [
