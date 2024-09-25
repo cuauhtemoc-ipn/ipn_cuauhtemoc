@@ -1,6 +1,6 @@
 import React from 'react'
 import ContactForm from './ContactForm'
-import rocketImage from '@/assets/Rocket.png'
+import Pollito1 from '@/assets/Pollito1.png'
 import Privacy from './Privacy'
 
 const Contact = () => {
@@ -9,8 +9,8 @@ const Contact = () => {
       <div className='row mt-5 mt-md-0'>
         <ContactForm />
 
-        <div className='col-6 d-none d-md-flex justify-content-center'>
-          <img src={rocketImage} alt='Rocket' />
+        <div className='col-6 d-none d-md-flex align-items-center'>
+          <img src={Pollito1} alt='Rocket' className='col-12' />
         </div>
         <Privacy />
       </div>

@@ -15,12 +15,12 @@ const Sponsor = () => {
     {
       href: 'https://altair.com/altair-mexico',
       src: Altair,
-      text: 'Known as a premier tourist destination around the world, Mexico is a multicultural country brimming with history, tradition, and beauty. Additionally, Mexico has increasingly become a global hub for STEM graduates. At our Mexico City office, employees can enjoy a collaborative, flexible work environment that prioritizes team communication and places an emphasis on a modern work/life balance.'
+      text: 'Altair, líder mundial en inteligencia computacional, nos proporciona herramientas para analizar y optimizar proyectos, además de recursos para aprender a usar sus softwares de simulación, HPC e IA. La empresa también ofrece soluciones para diversas industrias, como la automotriz, aeroespacial y la manufactura, ayudándoles a innovar, mejorar la eficiencia y reducir el impacto ambiental. Su objetivo es impulsar la innovación y decisiones inteligentes a través de la ciencia computacional, creando un futuro más conectado y sostenible.'
     },
     {
       href: 'https://www.ansys.com/',
       src: ANSYS,
-      text: 'For more than 50 years, Ansys software has enabled innovators across industries to push boundaries with the predictive power of simulation. From sustainable transportation and advanced semiconductors, to satellite systems and life-saving medical devices, the next great leaps in human advancement will be powered by Ansys.'
+      text: 'Ansys, líder en software de simulación, nos equipa con herramientas para analizar y probar la resistencia de nuestros proyectos a diferentes condiciones, además de ofrecer recursos para aprender a usar sus softwares. Sus soluciones, que van desde el transporte sostenible hasta los dispositivos médicos, permiten a los innovadores de diversas industrias avanzar en la creación de los próximos grandes saltos en la evolución humana, impulsados por la potencia predictiva de la simulación.'
     },
     {
       href: 'https://www.ipn.mx/cda/',
@@ -30,7 +30,7 @@ const Sponsor = () => {
     {
       href: 'https://www.esimetic.ipn.mx/',
       src: Esime,
-      text: 'Ser la Escuela rectora de la educación tecnológica en México, en el área aeronáutica, espacial y automotriz, en la generación, aplicación, innovación, difusión y transferencia del conocimiento científico y tecnológico, derivado de actividades de investigación, creada para contribuir al desarrollo económico, sustentable, social y político de la nación'
+      text: 'La ESIME, Unidad Ticomán, es una institución educativa líder en México en el área aeroespacial, automotriz y aeronáutica, dedicada a la formación integral de profesionales de alto nivel. Su compromiso con la investigación y la innovación tecnológica busca contribuir al desarrollo económico, social y político del país. La ESIME, cuna de Cuauhtémoc IPN Aeroespacial, nos ha brindado la oportunidad de acceder a su laboratorio de integración y pruebas aeroespaciales, un espacio crucial para el desarrollo de proyectos en el sector.'
     },
     {
       href: 'https://www.grupossc.com/',
@@ -45,12 +45,12 @@ const Sponsor = () => {
     {
       href: 'https://www.ipn.mx/',
       src: IPN,
-      text: 'En el Instituto Politécnico Nacional encontrarás una variedad de programas académicos que te ayudarán a mejorar y desarrollar tu experiencia de aprendizaje. Somos líderes en la generación, aplicación, difusión y transferencia del conocimiento científico y tecnológico. El IPN se especializa en ingeniería, física, matemáticas, nuevas tecnologías, ciencias médicas y biológicas, así como en ciencias sociales; estamos seguros de que encontrarás algo acorde a tus necesidades académicas y de desarrollo profesional.'
+      text: 'El Instituto Politécnico Nacional (IPN), la institución pública líder en educación tecnológica de México, ha sido un pilar fundamental en nuestro desarrollo. Nos ha brindado innumerables oportunidades para fortalecer nuestro proyecto y alcanzar las competencias necesarias para destacar en las competiciones. El apoyo del IPN, enfocado en la generación, aplicación, difusión y transferencia del conocimiento científico y tecnológico, nos impulsa a ser cada día mejores como equipo y profesionales.'
     },
     {
       href: 'https://pcb-mexico.com/',
       src: PCB,
-      text: 'En PCB México también damos el servicio de clonado de tarjeta. Es un servicio que es bastante requerido cuando las tarjetas se dañan o se te perdió la documentación o por alguna razón el diseñador no te proporcionó los documentos completos. Nosotros podemos crear una tarjeta a partir de que nos des una tarjeta física.'
+      text: 'PCB México, especialistas en tarjetas de circuitos impresos (PCB) de FR4, Flex, Arlon, Rogers, Aluminio y CEM1, es crucial para nuestro proyecto, brindándonos la impresión de las placas de cada uno de los modelos. Su trabajo no solo asegura la construcción de nuestros prototipos, sino que también nos ayuda a evitar que nuestros productos se quemen o se doblen, mejorando su durabilidad y funcionalidad. Además, optimizan el proceso de manufactura y reducen costos mediante la selección de materiales y características adecuados.'
     }
   ]
   return (

@@ -77,13 +77,9 @@
         "team": "https://lh3.googleusercontent.com/pw/AP1GczOMpnE8THKXZO2-U_KLbqLBUvRC5PGrJCLBWMAvLPb9LxXHjjW3z7CCFOaA5vQQA5mxMS9wdsJdKx9-SD7xZtUF-ehN_6CKM-kWZF6aiDz1aS6IVGVw9I-5wWTvMqVt6IkuVDeGfsnN-G_jUk34jA0F=w1419-h917-s-no-gm"
       },
       {
-        "name": "CanSat Competition",
-        "edition": 2018,
+        "name": "Puebla",
+        "edition": 2022,
         "scores": [
-          {
-            "place": 19,
-            "type": "Internacional"
-          },
           {
             "place": 1,
             "type": "Nacional"
@@ -203,118 +199,106 @@
         "team": "https://lh3.googleusercontent.com/pw/AP1GczOMpnE8THKXZO2-U_KLbqLBUvRC5PGrJCLBWMAvLPb9LxXHjjW3z7CCFOaA5vQQA5mxMS9wdsJdKx9-SD7xZtUF-ehN_6CKM-kWZF6aiDz1aS6IVGVw9I-5wWTvMqVt6IkuVDeGfsnN-G_jUk34jA0F=w1419-h917-s-no-gm"
       },
       {
-        "name": "CanSat Competition",
-        "edition": 2019,
+        "name": "Querétaro",
+        "edition": 2023,
         "scores": [
-          {
-            "place": 5,
-            "type": "Internacional"
-          },
           {
             "place": 1,
             "type": "Nacional"
           }
         ],
-        "mainImage": "https://lh3.googleusercontent.com/pw/AP1GczPZzbl97UuB2ZELM1YMsKBePJv7cKtyumvDQdK_8iGWeoBz2ak9jR1dWyate9HzmltbG_7iAiupuWV0_bB8BMGALpsrKRpn1SeIbbnuWvn1TBThbS1bz1Sy-b9CjOwH4he0u1ouwrfi9q427Etw-FZa=w1381-h917-s-no-gm",
+        "mainImage": "https://lh3.googleusercontent.com/pw/AP1GczOBboU5EK9-IDppKahFupEKUFZYNvC5RjVS9M1i9J1gPKAsBffQHWbFtZHXwHM-HILU2531UiLRQPFE7uIl7nJanpa0Q5An8tLU1Cc5vTSxy8meceB9Lod651RAIxaGJVyvAnkb91CudckD6vfzfMmk=w1250-h938-s-no?authuser=0",
         "conclusion": "El proyecto demostró un desempeño sobresaliente en varias áreas clave, logrando un éxito significativo tanto a nivel regional como mundial. El comportamiento aerodinámico del planeador, el buen funcionamiento de los mecanismos empleados y el desempeño de los componentes electrónicos del CanSat demostraron el trabajo realizado por el equipo. La transmisión de datos del contenedor y el software de vuelo del contenedor funcionaron adecuadamente, al igual que la recolección de datos y el descenso del contenedor. La estación base también sobresalió en la representación gráfica de los datos. Aunque se identificó una limitación en la transmisión y detección de paquetes de datos del planeador, el equipo logró colocar el proyecto en primer lugar a nivel latinoamericano y en quinto lugar a nivel mundial. La experiencia adquirida y la formación de un equipo apasionado desde cero subraya el éxito del esfuerzo y la importancia de las pruebas tempranas y el prototipado en el diseño.",
-        "conclusionImage": "https://lh3.googleusercontent.com/pw/AP1GczPAE6wzHwhmDAvjA3TN5GFtdD07NC3FLK1Vhuht8Q686fqUvlBBvq8amCF-XQcAsYiLzgjmXgFBmZP6bTfytUrZb8OOmhCB5tm3-l458YMlB9mNDXUWapH6-WeSICYdDM58xHpxAupiJbDDR5GcZplD=w1228-h917-s-no-gm",
+        "conclusionImage": "https://lh3.googleusercontent.com/pw/AP1GczO4Y9mb8RiHuJThN1tPY8uzknHGwyeJOFBj2Gw_wJSn04BXl-rAClz6Xj83TPKDHWj5btCN2yhgLoNDwfXpWvSceYlc4Rqaj-l4Fd-WCvEFJxJICBuEca8yjvEvf8PkwjFFuEkVOUPFx7je7tMfR3iq=w1666-h938-s-no?authuser=0",
         "content": [
           {
             "type": "text",
-            "value": "La misión de 2017 simuló un planeador explorador impulsado por energía solar viajando a través de la atmósfera de un planeta, tomando muestras de la composición atmosférica durante el vuelo. El sistema CanSat se compuso de dos componentes principales: un planeador y un contenedor de reentrada que proporcione protección al planeador durante el ascenso, el despliegue cercano al apogeo y la reentrada/descenso inicial."
+            "value": "La misión para nuestro rover en la competencia de picosatélites 2023 presentó nuevos retos. A diferencia de ediciones anteriores, en esta edición los requerimientos redujeron tanto las dimensiones como el peso del rover, lo que supuso un desafío para el equipo. La categoría de la misión 'COMEBACK', consistía en que el rover ascendiera a una altitud de 500 metros con la ayuda de un dron, enviando telemetría durante el ascenso y el descenso, para luego aterrizar y dirigirse hacia un punto meta."
           },
           {
             "type": "image",
-            "value": "https://lh3.googleusercontent.com/pw/AP1GczMJRiJa2rrrZv0spRam5O7r7tiBwikTySkYWzi69hM8OcPscY1nQud5TSDYvc-oVxV2E6QXtktPtQKWpVWDDD1fvNvogRlWO1RTshx9ICM725XD-x7gtRjULpxZ5VD2wsBJwRFAZPbnk11Ex-iu8jxN=w960-h720-s-no-gm"
+            "value": "https://lh3.googleusercontent.com/pw/AP1GczPYXHph0dkSCQ0pFCB6s08_HBApRi24tidfnWZcby30UL0kjD3qEBwQ5ah5bl9rTczbJOmpAhF2eqztmzXlk4czR-JH9guuFrpqFE6A2flF0lWQvDuo8TO1BsppQsvLAq30lOiA1yFI-q1mv0Ffyvpx=w938-h938-s-no?authuser=0"
           },
           {
             "type": "image",
-            "value": "https://lh3.googleusercontent.com/pw/AP1GczOkOj9zPi32MIdZD3djhl_4Py6DsregGdUNge4NR96-3WPkIAeVWdDrLM6H7pz9-G0yTmWOW7g-HgCf-b-TSK_3-weJoNprVY25E-hLfcxFylQ7tvEWe4c2fM1lVJgac5xakaZCP0y5IYtYAwFuOWko=w611-h917-s-no-gm"
+            "value": "https://lh3.googleusercontent.com/pw/AP1GczMLqmButhnZCPRXEk0Ru0IoyMDYtoSqgjSWRLOFzcJYEWYET-WkdIPXlOMLQqV52i4OPC1ANKo2RForFQfYeumm1cLSgMBpfQwey_XjLi89H5yvR-DpgPvW-or79qv8i17Udypj56DXtW3uoUMXI3FI=w528-h938-s-no?authuser=0"
           },
           {
             "type": "text",
-            "value": "Una vez separado del cohete, el contenedor descendió con el planeador asegurado en su interior. El contenedor liberó al planeador después del despliegue desde el cohete, protegiéndolo de la violenta liberación y proporcionando un entorno de liberación más estable y menos forzado. Una vez liberado, el planeador debía planear en un patrón circular con un diámetro no mayor a 1000 metros. Durante el vuelo, el planeador tomó muestras de la presión y temperatura del aire a una tasa de 1 muestra por segundo y transmitió los datos a una estación en tierra. El planeador también incluyó un magnetómetro y un tubo pitot para medir la dirección y la velocidad. Al aterrizar, la transmisión se detuvo automáticamente y se activó una baliza de audio para su recuperación."
+            "value": "Lo que destaca está misión de entre las de otras competencias en las que participa el equipo, es la programación de un algoritmo que ayude al rover a llegar a su punto meta, con la tarea de superar cualquier obstáculo en el trayecto, así como el desacople del paracaídas para que no fuera problema para cumplir la misión con éxito.  Al mismo tiempo, el rover debía cumplir con la misión habitual de los picosatélites, que es el envío y recepción de datos a lo largo de toda la misión."
           },
           {
             "type": "text",
-            "value": "El diseño del CanSat usó fibra de vidrio para construir las dos mitades del contenedor, las cuales se unieron mediante una bisagra de acero de bajo peso. Los componentes electrónicos se integraron en una de las paredes del contenedor, mientras que el servomotor se colocó en la tapa inferior. Para la carga útil, se utilizó un fuselaje de polipropileno y alas y estabilizadores de madera balsa. El diseño del planeador fue optimizado para reducir la resistencia aerodinámica del fuselaje y mejorar la estabilidad aerodinámica."
+            "value": "Lamentablemente, la misión no pudo completarse debido a un fallo en el dron. Sin embargo, para la evaluación de esta, se realizaron pruebas independientes con el rover. La primera prueba consistió en garantizar la transmisión y recepción de telemetría entre el rover y la estación terrena desde un edificio a otro, a una frecuencia de 1 Hz. Posteriormente, comprobando la telemetría, realizamos una prueba de caída desde un edificio para verificar el correcto despliegue del paracaídas."
           },
           {
             "type": "image",
-            "value": "https://lh3.googleusercontent.com/pw/AP1GczPzN362UX3DvryOc_UpQupL6vqyKCvZI0SJ0by8LDXn-lbe3pAiOlIfikpGo8Ak-r85OBNa1FiWgxaLg2a7ocWd7WZY7-GxOVJLB3vx3jMcMUSExpqkdqK_ezHQn4unUAv1QqUHvA1C4jHXqadW18Xl=w1376-h917-s-no-gm"
+            "value": "https://lh3.googleusercontent.com/pw/AP1GczPlBbbtFWULWwBwCam1S2OLxB34HVtGsoZw6FrswUPHHPMcQmU2f6zdKcPfo6sEYjujyqV-SnHtfYSfh4eI6v51izEiwJluNtekB8qfUKpKHM5Wrk2JKhH3Lg-BzM1xC9rpMaZGP3_5UBJ5mAU_GgU_=w1600-h875-s-no?authuser=0"
           },
           {
             "type": "image",
-            "value": "https://lh3.googleusercontent.com/pw/AP1GczNhhETp548WGWTa4RFtSjCdwWqTc4yYHFASME04Lwh0pyPcqB5Mrn7bcjFr--Hdo4mABPnX62Yl36brVD22xMZ-vpFKrNUrXNPF5_iI7cVrYiqahKSoZWhi3DZ1FXNEIjRtGWILwxlpBR7lKADj9qRG=w1376-h917-s-no-gm"
+            "value": "https://lh3.googleusercontent.com/pw/AP1GczObAiNKOYY0jtq9ITqgcRnxrljq7UJ-5tQONL5T3e7w8awW7UBDD0_aVZ06ABBZEyLzYIeoi9Oo0yiK2tVuMRtjBte6vuiYpW27ujtsT603RrgFPGikpFOmVFv6p7QeORmbr51nkS_l374NRb3SZhVi=w1600-h900-s-no?authuser=0"
           },
           {
             "type": "text",
-            "value": "El subsistema de comunicación y manejo de datos se caracterizó por una estructura eficiente para la transmisión y gestión de datos. Las antenas seleccionadas para el planeador y el contenedor ofrecen un bajo consumo de energía y permiten realizar la transmisión de telemetría a 1 Hz, la cual es  procesada por el software en la estación terrena. La interfaz de control en tierra, desarrollada en Java, permite graficar los datos y almacenarlos en archivos CSV, facilitando el análisis y la gestión de la información recogida durante la misión."
+            "value": "En este proyecto, se introdujo un diseño innovador para las llantas del rover, así como su estructura hexagonal, adaptada a los nuevos requerimientos. Estos cambios permitieron que el rover fuera más compacto, a la vez que su estructura demostró ser más resistente. La experiencia adquirida, junto con la formación de un equipo apasionado en el sector aeroespacial, resalta el éxito de nuestro esfuerzo y subraya la importancia de las pruebas tempranas y el prototipado, especialmente en una categoría tan distinta a la que acostumbra participar."
           }
         ],
         "images": [
-          "https://lh3.googleusercontent.com/pw/AP1GczO7i73cID75ILBFaZcN5Q7h6xJ971uMfQKFWiDnR6pcFJbi4LCsNdHFNe7r2N6vV5M8b9QhXnQmdqSPvLjAFH8Mme6j5VaaX9WYzzPML4dmVVjXYKN-iGAA0iN161znfWm4cLojeVrwIlgdFRG9Hn3A=w1223-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczPDCFurGnj_Sxoxdza_VdaVYyVRLjCg2wkW5X1shYpt65Fk9yN7KensRk4Udv1nrA1M0pyGQcF5rbRhbYDHykLd05q8ROzGLnpteHXEbzDcexGMIGebOZM0uKO265osag39nARdB23XWhJHwAru0JWw=w960-h540-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczOXkroox4S5GflhM8FvnICXBRNBoHnmnBo7yqwleS3l3Nlg7iPorga9A3b6UNruLBeUWrTZYwCY0wECd9UalCcxRgllFVKm7iXcIhexGUjg6DqC4Zfxh22v78m_z_bWCH8t1VpzMbmGl-iRDfuptbVC=w1377-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczPQK82-zzRFtefViTQgQOJUS4Ayt4dObd6aESz4ZCsu40kymtNrZ18JoC2KK1-gS_BJQZmGMrq3a_5dnpfzZFvfqnoa4Bj_80QkYctSWCfnxjwLOcO57i7SpCKI0d05yG47I8uD7Mkvq7eMkAm1HGTv=w960-h540-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczMRrfxwuM8f4e6ZLbgwKzMcRevijJ047nydD1Lm-PL-7fop5ASTYJpHOVb52RpPieLvZoh6CZ0dlKL-EMg6Tk7-PLy2eyZHQhdXP0OBmJrwrYCnahr3x7WtJ1f_PC2PCZIR3mdOTaBCSGO7n5UB4z37=w960-h540-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczPCJo4h0FHh4qs0bMewlpP50H-b7jceR2MbjTkbYhI6yVnzZtQuSU8KvROAFitW38twMHWYA9nFiHJP7lERVlNfYLUC0-A1-bQt4pRplGX8erj78WdoNHKoMlwiHn37ZPQGZd80xKUVtgETfiY6Ti2d=w1024-h768-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczMeR2TS4igPji_bdBh6HKKvdSzCvSflpk1Rl9KoScdMWgTR9bxyefsavPzW5zqY7ng-WsDYlZ-CJyNi5DvQfJKtzNRwXc4jR1mUMn-a0M8qWAS86UDtQHr6TUQKLznRI3nkqIrLPV9f_LtBVbNfNL3V=w1223-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczPheXVH4qhstoSuE_QBvE0lYFnTsZKasAwRqZPf4Hpz18PRa5HbeYBDlkJcgPfClOX_ygvXSv5IWm-RcvSR9_JAJNff7KfEeEG59y2KAtFPeTusLLIoNnoovQNJ-EHTDGN3kqtOEG1CB3cf00BFVLHn=w1378-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczOkOj9zPi32MIdZD3djhl_4Py6DsregGdUNge4NR96-3WPkIAeVWdDrLM6H7pz9-G0yTmWOW7g-HgCf-b-TSK_3-weJoNprVY25E-hLfcxFylQ7tvEWe4c2fM1lVJgac5xakaZCP0y5IYtYAwFuOWko=w611-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczNQocq6zTeWcBOk5b6zaIeXYgGz58gqnnJUn-7FkdaBHCPxqKx6PcnBFlgRxPIqHbtaI06e2miSLHpm3x8nn9WVwzcqNXv8g_lnvKw3BL5fOidn5axWyiKsR2_XBihMJ0yBrAImziUlDgZd9QTZFGZn=w1378-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczPUGNtQnv3gtrnwWg50UFpLVhrc2eitjRxoSOzyUpgMmSUYoj61_MSenQme-AGhoqsf09JLWvWp-YA5z-j9aKSeYxiTmdPlAmlOoNvtw2Ay1eiX1HAdp3-Lq26J7WjBwHJ49LYvk-5Qm8l59Zl14ICb=w611-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczOol80v4HwV0yooG-j2Gxi--MR0e4y6XYqA9kf6HeMsshmxcI1j58rmUGel0DAXxJPy_eriwCegT6Y8cMgasSL1mwzFsZOb1FH4ey9tx1bbLX3DYtosrKEp3kLlNnjedVY7Pn8V01yzmrqzdCbgy6OC=w1376-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczMIYL1DpuiKw3oLS85CPsUcRW3sIYkd3a9cHNxYfe-j2o7W_-J6_W_7TYLHv8OOfh8VZ2fZNcOB998VZA2ovUGHLHOmp2UL1sFDFDRdA8VDeyhkg33EgfOktiP1wo-mwccS323NVBLD7CjztGq5EPos=w1376-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczO2cXM_7k5bQuME4hYBF3W9l9uIzYQAvozCODtAxBHeSNCFF6b0iWAtPtc5IdE_ITdG3scWKNtOdxfigKuLvp397Wpjm8neX3GATRC3bNHcrf6-SgSt0mKnqDtB7L2og-uQPxseRKcgEwsiou6f20Su=w1376-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczMhOXBnoKBOu4III4kTdfbttY2iiaKqZ9dcGVwd7r7Om_C2pLE0yPdkQkO5eldy5m8Hsryuil2nZom8tVxQ7m4_bJprkvS9sdeV8eQNBcmySor1STYp0MmX0VtEAPVn9JfttG35aHGn6hf7revXTRfp=w1376-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczPzN362UX3DvryOc_UpQupL6vqyKCvZI0SJ0by8LDXn-lbe3pAiOlIfikpGo8Ak-r85OBNa1FiWgxaLg2a7ocWd7WZY7-GxOVJLB3vx3jMcMUSExpqkdqK_ezHQn4unUAv1QqUHvA1C4jHXqadW18Xl=w1376-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczON1Ln-N1rI2zQpqVxVcRnclH5OkhTUJqbkQmMjSHes1CuUgPniaMTIGcovIl16b42iPZ7wOV8xhUKN5b394kaHNTTHIDRogS1pdho8wPby15k85a2KREJ8lOVu5KVOD1UZy7mg9HG0IcOXbJn_F5BP=w1377-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczMXlldysURGoGmdZ9_A_iZPbQvB895Rhmjm3e_HeRSvMVd0Tf2byyF81qZhYU7x0UTzAz7UG3GpgNBexB-QJPhmH6wT8iP1h71Tr7vvRHETcJ5r-gd0UUHJDv8GAMmyJlLYI1B-ApwSY4GvKLlEqvF6=w1377-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczPAE6wzHwhmDAvjA3TN5GFtdD07NC3FLK1Vhuht8Q686fqUvlBBvq8amCF-XQcAsYiLzgjmXgFBmZP6bTfytUrZb8OOmhCB5tm3-l458YMlB9mNDXUWapH6-WeSICYdDM58xHpxAupiJbDDR5GcZplD=w1228-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczMRQ-lRktjVQVQMsmWneVkwu0ysLNHP93FCjJsUqPvFycqUp7DG1LzGbnT0boCtB4GOAwSLbEXWzQj9A9fRl0-AqsN7NI_6yVFazZxAik9h5vlMn2iw4bBVoHpTtkTp6ESIhqa2wloA58X8XpZh8h6o=w1378-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczMv9F3GuJo4u1YtWUXlG_Ds2suo3rs50R17kQM5ydXJ3ds7LXaa-7nbIwD0kH0Av1NoumAhhXJG_qs8LNwvATBKRSeJbmtyUsrMytgdxk_XbuQ-nouhUYMp24nVO1NrnlLnCjn1wn-rxa9Cw-kzkCtx=w1377-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczNTuspLu1X356JArLxBphiFd5FPNw3Xt6lKx8eryh81KeM6fY2w-5P8FpFjm4eVVJ14mhbyQtN2WNch_Jnn1YEgxlCSMfX8WU42aMeR8_6CdnLpSaORjw5n47irRUq6Kvv5FoZcsiBvhllNnBbkPQqj=w1377-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczPDCFurGnj_Sxoxdza_VdaVYyVRLjCg2wkW5X1shYpt65Fk9yN7KensRk4Udv1nrA1M0pyGQcF5rbRhbYDHykLd05q8ROzGLnpteHXEbzDcexGMIGebOZM0uKO265osag39nARdB23XWhJHwAru0JWw=w960-h540-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczOXkroox4S5GflhM8FvnICXBRNBoHnmnBo7yqwleS3l3Nlg7iPorga9A3b6UNruLBeUWrTZYwCY0wECd9UalCcxRgllFVKm7iXcIhexGUjg6DqC4Zfxh22v78m_z_bWCH8t1VpzMbmGl-iRDfuptbVC=w1377-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczPQK82-zzRFtefViTQgQOJUS4Ayt4dObd6aESz4ZCsu40kymtNrZ18JoC2KK1-gS_BJQZmGMrq3a_5dnpfzZFvfqnoa4Bj_80QkYctSWCfnxjwLOcO57i7SpCKI0d05yG47I8uD7Mkvq7eMkAm1HGTv=w960-h540-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczMRrfxwuM8f4e6ZLbgwKzMcRevijJ047nydD1Lm-PL-7fop5ASTYJpHOVb52RpPieLvZoh6CZ0dlKL-EMg6Tk7-PLy2eyZHQhdXP0OBmJrwrYCnahr3x7WtJ1f_PC2PCZIR3mdOTaBCSGO7n5UB4z37=w960-h540-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczPCJo4h0FHh4qs0bMewlpP50H-b7jceR2MbjTkbYhI6yVnzZtQuSU8KvROAFitW38twMHWYA9nFiHJP7lERVlNfYLUC0-A1-bQt4pRplGX8erj78WdoNHKoMlwiHn37ZPQGZd80xKUVtgETfiY6Ti2d=w1024-h768-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczMeR2TS4igPji_bdBh6HKKvdSzCvSflpk1Rl9KoScdMWgTR9bxyefsavPzW5zqY7ng-WsDYlZ-CJyNi5DvQfJKtzNRwXc4jR1mUMn-a0M8qWAS86UDtQHr6TUQKLznRI3nkqIrLPV9f_LtBVbNfNL3V=w1223-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczPheXVH4qhstoSuE_QBvE0lYFnTsZKasAwRqZPf4Hpz18PRa5HbeYBDlkJcgPfClOX_ygvXSv5IWm-RcvSR9_JAJNff7KfEeEG59y2KAtFPeTusLLIoNnoovQNJ-EHTDGN3kqtOEG1CB3cf00BFVLHn=w1378-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczOkOj9zPi32MIdZD3djhl_4Py6DsregGdUNge4NR96-3WPkIAeVWdDrLM6H7pz9-G0yTmWOW7g-HgCf-b-TSK_3-weJoNprVY25E-hLfcxFylQ7tvEWe4c2fM1lVJgac5xakaZCP0y5IYtYAwFuOWko=w611-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczNQocq6zTeWcBOk5b6zaIeXYgGz58gqnnJUn-7FkdaBHCPxqKx6PcnBFlgRxPIqHbtaI06e2miSLHpm3x8nn9WVwzcqNXv8g_lnvKw3BL5fOidn5axWyiKsR2_XBihMJ0yBrAImziUlDgZd9QTZFGZn=w1378-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczPUGNtQnv3gtrnwWg50UFpLVhrc2eitjRxoSOzyUpgMmSUYoj61_MSenQme-AGhoqsf09JLWvWp-YA5z-j9aKSeYxiTmdPlAmlOoNvtw2Ay1eiX1HAdp3-Lq26J7WjBwHJ49LYvk-5Qm8l59Zl14ICb=w611-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczOol80v4HwV0yooG-j2Gxi--MR0e4y6XYqA9kf6HeMsshmxcI1j58rmUGel0DAXxJPy_eriwCegT6Y8cMgasSL1mwzFsZOb1FH4ey9tx1bbLX3DYtosrKEp3kLlNnjedVY7Pn8V01yzmrqzdCbgy6OC=w1376-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczMIYL1DpuiKw3oLS85CPsUcRW3sIYkd3a9cHNxYfe-j2o7W_-J6_W_7TYLHv8OOfh8VZ2fZNcOB998VZA2ovUGHLHOmp2UL1sFDFDRdA8VDeyhkg33EgfOktiP1wo-mwccS323NVBLD7CjztGq5EPos=w1376-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczO2cXM_7k5bQuME4hYBF3W9l9uIzYQAvozCODtAxBHeSNCFF6b0iWAtPtc5IdE_ITdG3scWKNtOdxfigKuLvp397Wpjm8neX3GATRC3bNHcrf6-SgSt0mKnqDtB7L2og-uQPxseRKcgEwsiou6f20Su=w1376-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczMhOXBnoKBOu4III4kTdfbttY2iiaKqZ9dcGVwd7r7Om_C2pLE0yPdkQkO5eldy5m8Hsryuil2nZom8tVxQ7m4_bJprkvS9sdeV8eQNBcmySor1STYp0MmX0VtEAPVn9JfttG35aHGn6hf7revXTRfp=w1376-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczPzN362UX3DvryOc_UpQupL6vqyKCvZI0SJ0by8LDXn-lbe3pAiOlIfikpGo8Ak-r85OBNa1FiWgxaLg2a7ocWd7WZY7-GxOVJLB3vx3jMcMUSExpqkdqK_ezHQn4unUAv1QqUHvA1C4jHXqadW18Xl=w1376-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczON1Ln-N1rI2zQpqVxVcRnclH5OkhTUJqbkQmMjSHes1CuUgPniaMTIGcovIl16b42iPZ7wOV8xhUKN5b394kaHNTTHIDRogS1pdho8wPby15k85a2KREJ8lOVu5KVOD1UZy7mg9HG0IcOXbJn_F5BP=w1377-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczMXlldysURGoGmdZ9_A_iZPbQvB895Rhmjm3e_HeRSvMVd0Tf2byyF81qZhYU7x0UTzAz7UG3GpgNBexB-QJPhmH6wT8iP1h71Tr7vvRHETcJ5r-gd0UUHJDv8GAMmyJlLYI1B-ApwSY4GvKLlEqvF6=w1377-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczPAE6wzHwhmDAvjA3TN5GFtdD07NC3FLK1Vhuht8Q686fqUvlBBvq8amCF-XQcAsYiLzgjmXgFBmZP6bTfytUrZb8OOmhCB5tm3-l458YMlB9mNDXUWapH6-WeSICYdDM58xHpxAupiJbDDR5GcZplD=w1228-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczMRQ-lRktjVQVQMsmWneVkwu0ysLNHP93FCjJsUqPvFycqUp7DG1LzGbnT0boCtB4GOAwSLbEXWzQj9A9fRl0-AqsN7NI_6yVFazZxAik9h5vlMn2iw4bBVoHpTtkTp6ESIhqa2wloA58X8XpZh8h6o=w1378-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczMv9F3GuJo4u1YtWUXlG_Ds2suo3rs50R17kQM5ydXJ3ds7LXaa-7nbIwD0kH0Av1NoumAhhXJG_qs8LNwvATBKRSeJbmtyUsrMytgdxk_XbuQ-nouhUYMp24nVO1NrnlLnCjn1wn-rxa9Cw-kzkCtx=w1377-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczPDCFurGnj_Sxoxdza_VdaVYyVRLjCg2wkW5X1shYpt65Fk9yN7KensRk4Udv1nrA1M0pyGQcF5rbRhbYDHykLd05q8ROzGLnpteHXEbzDcexGMIGebOZM0uKO265osag39nARdB23XWhJHwAru0JWw=w960-h540-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczOXkroox4S5GflhM8FvnICXBRNBoHnmnBo7yqwleS3l3Nlg7iPorga9A3b6UNruLBeUWrTZYwCY0wECd9UalCcxRgllFVKm7iXcIhexGUjg6DqC4Zfxh22v78m_z_bWCH8t1VpzMbmGl-iRDfuptbVC=w1377-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczPQK82-zzRFtefViTQgQOJUS4Ayt4dObd6aESz4ZCsu40kymtNrZ18JoC2KK1-gS_BJQZmGMrq3a_5dnpfzZFvfqnoa4Bj_80QkYctSWCfnxjwLOcO57i7SpCKI0d05yG47I8uD7Mkvq7eMkAm1HGTv=w960-h540-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczMRrfxwuM8f4e6ZLbgwKzMcRevijJ047nydD1Lm-PL-7fop5ASTYJpHOVb52RpPieLvZoh6CZ0dlKL-EMg6Tk7-PLy2eyZHQhdXP0OBmJrwrYCnahr3x7WtJ1f_PC2PCZIR3mdOTaBCSGO7n5UB4z37=w960-h540-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczPCJo4h0FHh4qs0bMewlpP50H-b7jceR2MbjTkbYhI6yVnzZtQuSU8KvROAFitW38twMHWYA9nFiHJP7lERVlNfYLUC0-A1-bQt4pRplGX8erj78WdoNHKoMlwiHn37ZPQGZd80xKUVtgETfiY6Ti2d=w1024-h768-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczMeR2TS4igPji_bdBh6HKKvdSzCvSflpk1Rl9KoScdMWgTR9bxyefsavPzW5zqY7ng-WsDYlZ-CJyNi5DvQfJKtzNRwXc4jR1mUMn-a0M8qWAS86UDtQHr6TUQKLznRI3nkqIrLPV9f_LtBVbNfNL3V=w1223-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczPheXVH4qhstoSuE_QBvE0lYFnTsZKasAwRqZPf4Hpz18PRa5HbeYBDlkJcgPfClOX_ygvXSv5IWm-RcvSR9_JAJNff7KfEeEG59y2KAtFPeTusLLIoNnoovQNJ-EHTDGN3kqtOEG1CB3cf00BFVLHn=w1378-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczOkOj9zPi32MIdZD3djhl_4Py6DsregGdUNge4NR96-3WPkIAeVWdDrLM6H7pz9-G0yTmWOW7g-HgCf-b-TSK_3-weJoNprVY25E-hLfcxFylQ7tvEWe4c2fM1lVJgac5xakaZCP0y5IYtYAwFuOWko=w611-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczNQocq6zTeWcBOk5b6zaIeXYgGz58gqnnJUn-7FkdaBHCPxqKx6PcnBFlgRxPIqHbtaI06e2miSLHpm3x8nn9WVwzcqNXv8g_lnvKw3BL5fOidn5axWyiKsR2_XBihMJ0yBrAImziUlDgZd9QTZFGZn=w1378-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczPUGNtQnv3gtrnwWg50UFpLVhrc2eitjRxoSOzyUpgMmSUYoj61_MSenQme-AGhoqsf09JLWvWp-YA5z-j9aKSeYxiTmdPlAmlOoNvtw2Ay1eiX1HAdp3-Lq26J7WjBwHJ49LYvk-5Qm8l59Zl14ICb=w611-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczOol80v4HwV0yooG-j2Gxi--MR0e4y6XYqA9kf6HeMsshmxcI1j58rmUGel0DAXxJPy_eriwCegT6Y8cMgasSL1mwzFsZOb1FH4ey9tx1bbLX3DYtosrKEp3kLlNnjedVY7Pn8V01yzmrqzdCbgy6OC=w1376-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczMIYL1DpuiKw3oLS85CPsUcRW3sIYkd3a9cHNxYfe-j2o7W_-J6_W_7TYLHv8OOfh8VZ2fZNcOB998VZA2ovUGHLHOmp2UL1sFDFDRdA8VDeyhkg33EgfOktiP1wo-mwccS323NVBLD7CjztGq5EPos=w1376-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczO2cXM_7k5bQuME4hYBF3W9l9uIzYQAvozCODtAxBHeSNCFF6b0iWAtPtc5IdE_ITdG3scWKNtOdxfigKuLvp397Wpjm8neX3GATRC3bNHcrf6-SgSt0mKnqDtB7L2og-uQPxseRKcgEwsiou6f20Su=w1376-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczMhOXBnoKBOu4III4kTdfbttY2iiaKqZ9dcGVwd7r7Om_C2pLE0yPdkQkO5eldy5m8Hsryuil2nZom8tVxQ7m4_bJprkvS9sdeV8eQNBcmySor1STYp0MmX0VtEAPVn9JfttG35aHGn6hf7revXTRfp=w1376-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczPzN362UX3DvryOc_UpQupL6vqyKCvZI0SJ0by8LDXn-lbe3pAiOlIfikpGo8Ak-r85OBNa1FiWgxaLg2a7ocWd7WZY7-GxOVJLB3vx3jMcMUSExpqkdqK_ezHQn4unUAv1QqUHvA1C4jHXqadW18Xl=w1376-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczON1Ln-N1rI2zQpqVxVcRnclH5OkhTUJqbkQmMjSHes1CuUgPniaMTIGcovIl16b42iPZ7wOV8xhUKN5b394kaHNTTHIDRogS1pdho8wPby15k85a2KREJ8lOVu5KVOD1UZy7mg9HG0IcOXbJn_F5BP=w1377-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczMXlldysURGoGmdZ9_A_iZPbQvB895Rhmjm3e_HeRSvMVd0Tf2byyF81qZhYU7x0UTzAz7UG3GpgNBexB-QJPhmH6wT8iP1h71Tr7vvRHETcJ5r-gd0UUHJDv8GAMmyJlLYI1B-ApwSY4GvKLlEqvF6=w1377-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczPAE6wzHwhmDAvjA3TN5GFtdD07NC3FLK1Vhuht8Q686fqUvlBBvq8amCF-XQcAsYiLzgjmXgFBmZP6bTfytUrZb8OOmhCB5tm3-l458YMlB9mNDXUWapH6-WeSICYdDM58xHpxAupiJbDDR5GcZplD=w1228-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczMRQ-lRktjVQVQMsmWneVkwu0ysLNHP93FCjJsUqPvFycqUp7DG1LzGbnT0boCtB4GOAwSLbEXWzQj9A9fRl0-AqsN7NI_6yVFazZxAik9h5vlMn2iw4bBVoHpTtkTp6ESIhqa2wloA58X8XpZh8h6o=w1378-h917-s-no-gm",
-          "https://lh3.googleusercontent.com/pw/AP1GczMv9F3GuJo4u1YtWUXlG_Ds2suo3rs50R17kQM5ydXJ3ds7LXaa-7nbIwD0kH0Av1NoumAhhXJG_qs8LNwvATBKRSeJbmtyUsrMytgdxk_XbuQ-nouhUYMp24nVO1NrnlLnCjn1wn-rxa9Cw-kzkCtx=w1377-h917-s-no-gm"
+          "https://lh3.googleusercontent.com/pw/AP1GczNIZOJbZIbuJMrMfP8iCxV8NoXdUT8fDhy9PGvUQip6Q--plTutD5Jxr4XMk5UIdXgGqpSEKGrb_NModAtF05R90VkER40xoQ7UKlD3yi10YrtPl77uzEuE1sg7oc9gSNZIWbDvkhijETJNnabMcixr=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNNJ0xKdycAlT6IcUzb0x70LMk04qI0CkFLVLuUR-AphKqlwz21KsFhIEZXacm85yah7EtzsEF_Bh_utqcs7wGF8_r8ZGAtAtk739DX7lAq-QwtOY9ET6b5nbdM6_0AXxOPeWgyPg9KEkeDFATJK3-t=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPOO8Xgh3Puwox0JHBvIDZPsBIE_kkt-RORroLw485dpUOJRNwQo3yxBgrtuQ2kLonMlShEJT-VSdhp71RGvvCbgEu-wmF2S30ipeyCj_tXWtm3uDdaB34NfdlOFH66gD978nLi1tjv5dPgIzA0G9Rn=w704-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNhiZO41c89VGx7W4gGYGY8Q_oc6QSJbqb8IaHxhPoTtxy5rw50M3tglxaYx9swk0V-DDCASYn4WEalnYptG5m8lToZfl8Ityy7ngA2xVUwvhZbDpCOCoQ7mn-TZxAGMeKf1gEKfGW6GFADun16zwyo=w704-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOrRZ5oV3zubhvfSs1FX2riYLCiWvsh6J3vVh9WHVEQcxPeawhwyhgnuc-VsMqQC7Se3ncB5kMByHZx_8Ya1_hxTNC8a2FM-DX8uNk1yT7-_hOk6PxipVzcj5vuWwXbwkqDu9Xwv3QnctKhB_dnvKoF=w704-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPL4GywOK2ZFKA1fovSr1wPSHdeV5xMvwj590MySD-2Q8ZjjLXda7OPP2GTAZ6TnrLXUF9YCzClf65rheCWGk8P2K9Fw5q1TC-cdcoEZa7p-AQHs0L89GkmZsx8Y_iozGMdgz_r2V865AyclPpwfp8_=w704-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPvpeQGusdZWPuHwYvMMSu-Xj0jwh6PqXF5yXoRpgmM6P9RzxVGmuggGBqSFU-x-0wG1OwPGmGyoXOo5rocClFEvm4dHNm5D5AeVjnpZZM4OtoRSsLQ1D1LaF0evyO7Gwmv0Jtpz9ToNKJrTzWYiYdq=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPgNEOX7BrwHrR2EiGouuMvevaWV8_g-vFOnLkXIzYl8zG9tOL-RFTo0hREpFnqAzakO_OL3XE1hlmFwaxyEyReQyuonjtvZAWvHyb5Zmb8k9DyzJ8iJotGbE_YPDzDYUM9gYVyRbwlft8CbMvNsHwL=w704-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPFqhQkp3IOH4lrm4rry_a2zitsrPyTwJRTUDLlzjv1cjzFBAj5gB2SyxZYL6skZiBcYUPHh6F483EzsSCNE7l9RQD_pbiLunZD46Cx9fd1bM5VfWUNJuvugNOOG9cYj6fOpxxmHevhNCDVTEUPJGKA=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMBgPPeolb-4D1OGAZqWAft9DG9GOOkdD0QLbqCTTDfwCGku6ZtjGDnzfsojjd7cXBZ_PzLe5aeJvOjDZFb5TqSsDMcQOOrGMbpbzt3xs00WlhqPNXYAnYfqybHHAu2mgFv86es-K9VlOWog4vlzrHq=w704-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczObc3aygUqfpz7vQKfQeoA4ifjDkobb2UQ6tqf9SbU1_N3o4On4oWv8fLJxh_9YtQHKsmnsuTzyVsAxHoBZeBVkn_tuwOE9aNrwUvcZ-kndz253tMaag5H0m6DE3VKi-w-sO-5w6Urg1UVRRiWeSF7U=w704-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPSPlamGghOnPzCcrT46NFfewj98IP0CK7OiEDiGWMNBfNxGvOyNn7uwqaAIo9gc7rVQAPFLStZs_JM7ZqTYcTRy8sBTtHnUImURnsjlIYayLPEs-krElZ7QHxI7yGSmh3wa6aHi0dM_5cXZW0XIVAf=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOJHRAxADjn00P5ZMzzhrduWhye7XUjTM0McdsixwaSZb9kY3cur36bzrP6e4mrXFZ0yuViVcz0xQqU5F0Mj-TGQOk8bEE4iGdi79wOHaKVy_cHf-JRYgtC0ogURvSJemE1xf0sFB8uitNIIGUYXaX5=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN0Iz7zDZhBxJf31BULOKLVzxrazOdmvj4pdAc1vaCb0EHd8G9NGb14kAD7hSWFrKdO88Gr6XazbsV2gjTTurBxd5yM4jpQIldNvvsuP46B85gfSO-TjMoMIFnCFj61vkmvT9F6qX00AQUpqhXYg5yS=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPnFs0x6SszJFevRcpf2C5_eyJYN-0RM0xHmWJN2VbFAdOAsWTzUtp3slzFgT9cFcD9yU1cqg8_I2SAbxOojU0Ut5tTuhPuWyNtsEbfn0epmvWGYwW4SY4Wo1ziOdNj1l_ZMtOApD1Ix-KvmDTXS-7z=w1666-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPZUKa4RkqMEaUCyA79Y2IzbduxHHRKwevNNdW2_0aocAECVimt96Nl8Kuwkfhdj3fxZybhaOYYMn9Ns7qWVGUxwb_CFQr4aku0GXyNUjlwCswyIYnzWriFacGknKAQP6OGA-fvLZh0967Laqb5JJeV=w704-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNWEAcvNy7wHqFAZBsH4UISPmVvyWum3Xvn77UDKXtitAiDYft7YCgh9_XN9PBNC4zwThCe_N_bajBz1iUA8pDYkIgSd8v10VeQTmpDQ0e4rD3Ye4vAjjDuVqWEO2o_MmC8eWW6Y2vvGhr_oh8r9Bm3=w1600-h900-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNhCd80EzrFJO0TjkW9ybFnX4Bku_enDaU6rzQGeM8ErEMIA9w3T9ZIIoHoPIYa59FnMbdqaOy9ZL0wPqcsrikrhvb1qyF04dqt-vsG6n3e3ckffjnv0td42GwKZJfXvfe4f8Hqm-ilGSSSxTLWENPQ=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMw2809g7xd3X2XOBxOWakhe3sKdlSggaUQeU1iidxxbKkiBqe00zAlq4uufPVekLr4PWEr4FmyA2yP4e-X9Oau91W_xivUTbDlOYFfnCA-SgBEwNIanpRbttvyeweo4fRqGQ4WItGgjy4Dsx6_oOfw=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPtxHJONCWBp-M9ligYzEw0k4fpYRqd5NGOEI4q86EwLKU3TbV10kU6xST0zNfw1EwCnFG8yf-9EH4WPwUCZMQU6KkQA3T-X13LSwd96sbsMCDAhNs9uCEzgutr_LQ3hpRjqs9m4rhZ4KBuejMf6InB=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNrT6PC-8tLjCIs9d-p6fG18ygT6W5O5taPvXFvM1jmW3_GOG5uh89ElfAZTbEcrthXENTyMSwxEFbicxiNgFyyMrSNgQLNonIydC2lMaXyYnT800S47wr_gyNnVujDxz-FD6rIn1v2s2klxIOktD0k=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOz1PeASI1TAuJd2ODt9MRLEVTfPcYsdif894V8ltoFPOsfX-hkjVawlKAR2Sgx8mM2BZ9ONN_Wo1Ytb22jv83aeevv-lTDbjbNXB9cvjEh_DhD5llz52ZRVCcx2-zAlIdCzqr7HXxFqCxOjbWa4zsQ=w1250-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPKxdHRMgDQjzSWR3QVwaVPc_aU9XdBi_a6k9SgRB6OY3kWE9RHvOLvuZI1lgSQxh-SBWtA4L1t0IXddFl9IrqHMtAsjOCJP3aLrfbJoU6du7kDyxeqXxFcX-8WyBEeMYQC_5cO4sA96SiDmRzLiena=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNpcyB1bHNTTUO98p6YjbKf9NQGzqHA46ofWtQjRMe7Nb6caPhK4Xc4Y2AGceBezmErNHc4eBZM2t6ulCQ-zKI2lvgccb_-foGD3mmR8FY89ja7Ke0JA2aZW_oQkMBt53pgN830_fRIWiaEmqJj-v70=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczM6Reljax1zlNDVg9CuCWrxYOcgx89SoEBonjTBNmS_FEcSXQuGEA1Ucb4tWHSIaCxKsXQ3q1Q0Dmgt49ibZ22ZLq11vOCOFfmqs-L-YSWCDKolrLVlxtEaYReaiEItRBHNTAO0Gf4ehOxcdJnA24pT=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPn7ONMuPtORH1mxk8bCiVzU4ajP3xH6iuc1YAWc-08u0js_jVJfXvcOxTKnKIl3SymFA4Y4gT-EpXK3Cvy5UJyfJBZNFIbwzhT2x2CfB9I1QiDXnLJjrT8nsU7YzhT2wmgxRMX61-ukuOQQ0IclmsN=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPdQIzX02G78H2uYZIumTGOLsOWDaIruTyo8k2sUYtwQwQf4n4OmSDcK5qZqE0HsPda9Xijw_02ZxQwd9NKUM6-g80loHHB3ybJMY39dFJS8W16VMOhKvuSoToZXK2qV0Odw5HPgvoHrRUoIkv9iKSr=w1250-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNrV_ZUjZU0w4Qg2mqdQYO3DUmOoN0GsAr-kN34q8mHW4dIWwfRs8VPEYspPfUTODm0vk-zMQ8BWhxtoailnSpQNQ8XMnMR8E5cy91Fc6uFn0FMtauFJDLZzfvdV9a2Ew6mzky6oKkJ8F0dSBDraQAC=w1250-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNepYez_IFLd-qleEHbI1tUl96aQDnKYoY8XmiSJdEoBn3OdU__XXMyVJZEiKiMFYXPrhFm_PEt4a0hyX0xM3Kh_CATRzy2IAK7WOs5cuCm5wFe6p-4yHPcHv7bbzIx0teCoNPCgMLyeFi6e6quhYXH=w1248-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOST8yReqyFjk0LTjnPEuL1YoVy17oQiQBkZrj9rQq3-WZDT-6XLOxYsDnyUvIL82xOBRXSlsZ1tRP9dowIMnNtOeTY1kiFg_ShgYrEgCkj47m8zAE6Fvd25LczgiFVle-I-qOzaRe7Pm0wCbYS84LC=w704-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMb7BWTYNbptzHvABcDgzZZisCLRHQaBh7sakxkTFIw8OxaLQ44uQd14fBoDuKJE5pGoXQrq5X3pF2BmhywkmerPSpZcXQjOreJFRlrQ0RdJ5j4rga7_90VrXCIOZ63J-R27l7HNqYfAg4nUFFziBRa=w704-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMF1XkvLkHDHyhsCaE8V_kXrUqUN8yxbLn-9myuA4UaGRxUsdLBvtbRHqv0Bmq9SfQ4VkQSu_jGckzkG-TysLtzRboKTj_9_WqPnoimKGETY-I4M7uZUBKgxTfPHJ8u_X0w2dN_shvyDu_GjLyqWSy2=w938-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOMTrbd9kxkWoLfZ8dhd0je1iw4L2qTvSVUx2KYCVflZLLua24Z_RsrxV9pAxi2DRrv0avlj-y6O-tANiBS1iZqkRIvmAMPiOi0XMTv7UUVMm1PfVlOoFi6XnWrvRJzheQBGFuRohhEdmFxyqFfPWwe=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNVYVD7_Qc1l1dynT23XBBMl_vDbji2Od6wUFnDNmX-F7IlqLFqPMtAHIksqWwBgDrH_OUI_7jm52JN7TR8iJSxctxN8-ybj4WBn-K2w__uxt5GTjrMtLDJncFc_j8qCr7wNpQPjh_mI2w8SwldtLW4=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOpBikXeXZ3RAx1uC7v-OKl5BPmaIHjwS2AhX3wM1f2NL8tnaNajizNNN6QeSeeLo0ana87at65Eu4OYPkprR4S4heTeN2NEMC8wU8JE86zDEX3UQC7CZ175eWayYgy36F2dR_TMIza9rw_3WAoKVfL=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMRkCYe4APmonDXq9xlrL_0abFue6-BrdBIPEaOa_7hSsbkdi8UHNYB29Tmu1DZag_-RdZY1IX-jkzyy5D3palGqH6Pk82rO1Z3gxcC7x95ciXvW1Ar2IgUzjUuNg6ZCwbCSN7jiEJ3xq9-3AjhFrTU=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOBGT-U-ngUuFAlqD66IspxvqbCHTyRaGrUiMqi8cofpv9QBOYXDiYRS0N2kWzXNhxSztyK3mfxmIkGc9F2Lf9spCSUf5suM8MarTaPTAyt1OOR2PhLEHqTS81uHVMuCDUTZADOmx5-zOnmAaRu7jpM=w704-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczO7sQSoYsEkVQ2g-G-bL2wX9bG8I0_Zzt0fO92dSH64DcUPvaadEAG0JeBvxJ7IYG6cI8Wmt1lws760aEl6P8AQXTifkxWwRpWcK4b7FCDcHKD-FqjRq0raq3boBqnhm6FvQQXOLFxo_RLjdkLORoUU=w704-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMnW4FvFSfClFaHjphsVgwKGOF6M6H6b_XKHk8n_I6ToI0nirSw2Ecg1aLxvFHnY4PxHuDfc8_d0KqSFMgW_zOq-YrplmXqM2ClB1P2mkkQ4B1DJwFIZzlxvlKYk-oTbbQSVJMCzxCE1A_FMQQ00VHf=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMI2si9MzfTb01fAoFEW_gl7oG-cJ184YI9sIqyOAfhXpiLx_2j-wCaXCa_JbZ72vIenULOWjWqB5vvZlRNi8fYmDxh4CPbeWLKTfaepTBGImycXglIMAqHF7ZbMMFRIfAuxFOTpV-CZPyv_3yeQXeW=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMiOzsaitk-UX20JhGxHTjPZcyz2_X2olDOgFJXU9sCyJczlJVaApBTBdbov5_3tjfQWcPq-ilIp-DP_EXDJ92iUNVRvyLD6E_kVxRRsiQOAxuCVUmhZNbvnpg2A1zBQA2CI0su24w04SZ25ke1aCOd=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNY_tePQKItHwIlDiC9Jw91P0j07AAsRMarefzTzswT_YIMRofs0AYhgXZv4FIAFNxVcXcDRJ-qtVzDGSBssNQHxH6D4l2t1hDlfBLhQFaua91bMq3mm8lsPFJyu0NmBr0GALPblSeAGXJ1ZsatVnIa=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOpKhDAy604UGb9HGJors9r0zohKQMtfGkKGk8UImXduBaeyY7P7Ow8vVJi8wRalPzseCgqkooHRZrx33Y40Vl0jL9Pt4HhiQnBExkotwXDss1jP0n_EWqh5PwIuLhDkLJGCz5htiEOHfyPX910p3HL=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNPDigEGJN8jgiJbldYgWCGxvaWkE-a1xlAngKHQYVMKVsvnBw6Wu1XQXq-BPqXEYf4Iqsda0imkdj_wufOJi-W4s0VSDAtMh9vj-opz_i0SrOD8x_wkii1orPHP3O089EuBFO_25OpE39GzzliuvF1=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNYv4ouUA8dC8qVDfztMBrRGcBDlrKs_upOg-riq18RAr9JaJTLmDrHG-wC5m--46WEY8XGosu93_qNNJrj7tJS3VQQULH5X_GaKSFqeF5YiB_T5R9Sr1rQbbDizEFXSQt7Rb063DCGz8LRNxo6gHNi=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNhukW3fnuNiim59WfwMQrXRavz5VU6aFxKR5VfmFVADJ9rotrBTMa_QaGlw1NMUIGJYHKobUJPcxA6gtg62o94TwWnAjBkydYauwbRAPGa5oQ8RqVMbyLNZUX5liYMvLHVXY2EZgGi40DZ5ua2NeT5=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPPCBy-K0Msk1HZq_-EG6xNjxzkQ8Eoa-6cQNf9C5URzl4BJYNSMzK7Hh334JSVyJAnUYevj1fhP_A5H4idFpBkraE6Oud22j3ATuWLKawy_ZykliokGtsQLsGPKd8KZ94YseYav4avkWTK6eO_1VHE=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOT9n5PJDGVv9v2Xaay0ypakTfepzKWAzUH0TAn_KUHzseVQykOBCRo9qG9gZiPU-n6dvyAtmmhFqJeN-quE4m11SKG-x-RwREzL7C3kkD3NuSed9DHrdBPY970Md-IkyVhbZ_6OhlZRK4br-2fg725=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMCaK9DTpRAWU_BqxHAkeiia_dep7whTUvVknVZPJRaPZBLKL_CydrqpPmcn2fe1sqG6P1yZX2XZLZO8Kfr-mhb6b-Iiw_7aBqn5fpa_kjbgeW2kXOgcHyAnTpXoK0WxzkgiJnu4ar3hScHmbH4TG2m=w938-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczN38EzuQ3RQJNDlktxgf_J5HZmsf32TeqAt92XCtjRxst25d9780DIBoY5YCLUaYd35V_n8e8cOdPEzf0DtY8cR0MJ6_QpWHYrJOoNQJQak34w3RoapLTnVVTjz7kEAurvTyIRc9v7mEHQZVlx39tL9=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOhQLepW6aUQL5jDensDYHCA_fGSd6vwsQWxzoFXt1ADiB0u4tD3SvT4PKyJhxa6L4FyrEZFene6upJmIMxCoM0o8AMIE6Yi40L6bBZPE0yTC05KRdjTjgCsdfjZFRVxiMrVgn6jvoowMLN7zeFDrEu=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPug8LLuBvhEjH2QL5Uf6fs4Ne-8l627StN8acu5N_PT8Cf0zsxu-gYZiXeM_be1uATzVqBy3XZv__kzA79C_KHOadrttE1fP-YKwOBqY4RleEXoR5cB6ItD-h7X3tSCgIJDdzb3V7AoiTqJs_p-YuH=w528-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczP4O_rHBgBGL4pbTASbCvmxdOSsB2aPrr4ldZJ09Qcf164TN_7inuc7C16UyzTOZ77GrVKWor-PSsCH-F_4tZasIrKJ-DMoLyuqc8QehAruzv7l5NvoBHNO7nbquOm2i5q7fXLOa--mALcSkfsU-TDY=w704-h938-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczNyx3ws0Y4t5fyCK-hKoc1c7pmSJ8CqYGYbzzW8Kc2mspSQe-1EUyrqdN-hgI7Tgo6bN-Wn_34c1j-AYxAg4xG_bxfpBTC_6yo5d5uoWHOaeWpgfIJQZdC1Xv2E9FMqnqicll5EIzDK8xh6UPl6h3t4=w1666-h938-s-no?authuser=0"
         ],
         "team": "https://lh3.googleusercontent.com/pw/AP1GczOMpnE8THKXZO2-U_KLbqLBUvRC5PGrJCLBWMAvLPb9LxXHjjW3z7CCFOaA5vQQA5mxMS9wdsJdKx9-SD7xZtUF-ehN_6CKM-kWZF6aiDz1aS6IVGVw9I-5wWTvMqVt6IkuVDeGfsnN-G_jUk34jA0F=w1419-h917-s-no-gm"
       }
