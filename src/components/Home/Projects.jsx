@@ -21,8 +21,8 @@ const cardcontent = (
     <ProjectCard
       data={{
         src: 'https://lh3.googleusercontent.com/pw/AP1GczPuihq4PL6a8cO2NWdig083zuTnrsA61ZGLAiRsbgN_muuc57BFM3EUL0PG23-INcu3GI-R69qhmAgf_swQKfn4NYhgHmnvMVPU7souaTq3jLY1qJRY3O2D8u-Mvqddip7w-jBcCO-xYnZmbugQcl-s=w862-h863-s-no-gm?authuser=0',
-        title: 'Picosatélites Puebla',
-        text: 'Concurso Nacional de Picosatélites y vehículos Rover Come Back organizado por el Instituto Tecnológico de Puebla',
+        title: 'Picosatélites',
+        text: 'Concurso Nacional de Picosatélites y vehículos Rover Come Back',
         href: 'projects/picosatelites_puebla'
       }}
     />

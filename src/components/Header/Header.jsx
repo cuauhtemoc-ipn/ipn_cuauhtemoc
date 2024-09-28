@@ -112,7 +112,7 @@ const Header = () => {
                   className='dropdown-item'
                   to='/projects/picosatelites_puebla'
                 >
-                  Picosatélites Puebla
+                  Picosatélites
                 </NavLink>
               </li>
               <li>
