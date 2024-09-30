@@ -5,33 +5,53 @@ import { NavLink } from 'react-router-dom'
 import info from '@/assets/Members/info.json'
 
 const Members = () => {
-  const membcard = (member, index) => (
-    <div
-      key={index}
-      className='d-flex justify-content-center align-items-center my-4 col-11 col-sm-10 col-md-9 col-lg-6'
-    >
-      <div className='row justify-content-center align-items-center text-light border border-2 rounded mx-0 col-10 col-sm-12 col-lg-11 col-xl-10'>
-        <div className='col-10 col-sm-5 col-md-4 col-lg-5 px-0 mx-0 m-4 m-sm-0'>
-          <div className='ratio ratio-1x1'>
-            <img
-              src={member.content.find(item => item.type === 'image').value}
-              className='card-img object-fit-cover rounded'
-              alt={member.name}
-            />
+  const membcard = (member, index) => {
+    const ImportDrivePhoto = (driveUrl, height) => {
+      // Default URL in case no valid file ID is found
+      const defaultUrl =
+        'https://drive.google.com/file/d/1T95gfXdE9277ryMRxtHg9pkBLUDVRcNG/view?usp=drive_link'
+
+      // Try to extract the file ID from the Google Drive URL
+      const match = driveUrl.match(/\/d\/(.*)\//)
+      const fileId = match ? match[1] : defaultUrl.match(/\/d\/(.*)\//)[1]
+
+      // Construct the new URL with the specified height
+      const newUrl = `https://lh3.googleusercontent.com/d/${fileId}=h${height}`
+
+      return newUrl
+    }
+
+    return (
+      <div
+        key={index}
+        className='d-flex justify-content-center align-items-center my-4 col-11 col-sm-10 col-md-9 col-lg-6'
+      >
+        <div className='row justify-content-center align-items-center text-light border border-2 rounded mx-0 col-10 col-sm-12 col-lg-11 col-xl-10'>
+          <div className='col-10 col-sm-5 col-md-4 col-lg-5 px-0 mx-0 m-4 m-sm-0'>
+            <div className='ratio ratio-1x1'>
+              <img
+                src={ImportDrivePhoto(
+                  member.content.find(item => item.type === 'image').value,
+                  300
+                )}
+                className='card-img object-fit-cover rounded'
+                alt={member.name}
+              />
+            </div>
           </div>
-        </div>
-        <div className='d-flex flex-column justify-items-center mx-auto col-12 col-sm-7'>
-          <h5>{member.name}</h5>
-          <h5>{member.section}</h5>
-          <div className='text-light ratio custom-ratio ratio-md-21x9 ratio-lg-16x9 overflow-auto mb-2'>
-            <p className='text-justify pe-2'>
-              {member.content.find(item => item.type === 'text').value}
-            </p>
+          <div className='d-flex flex-column justify-items-center mx-auto col-12 col-sm-7'>
+            <h5>{member.name}</h5>
+            <h5>{member.section}</h5>
+            <div className='text-light ratio custom-ratio ratio-md-21x9 ratio-lg-16x9 overflow-auto mb-2'>
+              <p className='text-justify pe-2'>
+                {member.content.find(item => item.type === 'text').value}
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  )
+    )
+  }
 
   const collapseElement = useRef(null)
   const [isCollapsed, setIsCollapsed] = useState(false)
