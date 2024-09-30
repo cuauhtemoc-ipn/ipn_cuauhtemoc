@@ -91,7 +91,7 @@
         "content": [
           {
             "type": "text",
-            "value": "La misión de 2017 simuló un planeador explorador impulsado por energía solar viajando a través de la atmósfera de un planeta, tomando muestras de la composición atmosférica durante el vuelo. El sistema CanSat se compuso de dos componentes principales: un planeador y un contenedor de reentrada que proporcione protección al planeador durante el ascenso, el despliegue cercano al apogeo y la reentrada/descenso inicial."
+            "value": "La misión de para este año consistió en diseñar y manufacturar un CANSAT que envíe datos de telemetría y además, implementar un vehículo tipo Rover, con un peso máximo de 1kg, que permita su regreso de forma automática del lugar de aterrizaje hasta el punto de partida predefinido."
           },
           {
             "type": "image",
@@ -103,11 +103,11 @@
           },
           {
             "type": "text",
-            "value": "Una vez separado del cohete, el contenedor descendió con el planeador asegurado en su interior. El contenedor liberó al planeador después del despliegue desde el cohete, protegiéndolo de la violenta liberación y proporcionando un entorno de liberación más estable y menos forzado. Una vez liberado, el planeador debía planear en un patrón circular con un diámetro no mayor a 1000 metros. Durante el vuelo, el planeador tomó muestras de la presión y temperatura del aire a una tasa de 1 muestra por segundo y transmitió los datos a una estación en tierra. El planeador también incluyó un magnetómetro y un tubo pitot para medir la dirección y la velocidad. Al aterrizar, la transmisión se detuvo automáticamente y se activó una baliza de audio para su recuperación."
+            "value": "El lanzamiento de nuestro prototipo se hizo por medio de un dron, a una altura de 150 metros debido a condiciones climáticas, para esto el rover contaba con un sistema pasivo con el que al descender automáticamente desplegaba nuestro paracaídas, este debía disminuir la velocidad de descenso a un rango estimado de 12 a 5 m/s."
           },
           {
             "type": "text",
-            "value": "El diseño del CanSat usó fibra de vidrio para construir las dos mitades del contenedor, las cuales se unieron mediante una bisagra de acero de bajo peso. Los componentes electrónicos se integraron en una de las paredes del contenedor, mientras que el servomotor se colocó en la tapa inferior. Para la carga útil, se utilizó un fuselaje de polipropileno y alas y estabilizadores de madera balsa. El diseño del planeador fue optimizado para reducir la resistencia aerodinámica del fuselaje y mejorar la estabilidad aerodinámica."
+            "value": "Afortunadamente el aterrizaje de nuestro prototipo fue exitoso, lo que le benefició a nuestro equipo para estar dentro del ranking de ganadores. La transmisión y recepción de datos durante toda la misión se realizó a una frecuencia de 1 Hz, y toda nuestra trama telemetría se mostraba en nuestra estación terrena. Todos los mecanismos funcionaron de manera perfecta, gracias a esto el equipo se posicionó en primer lugar."
           },
           {
             "type": "image",
