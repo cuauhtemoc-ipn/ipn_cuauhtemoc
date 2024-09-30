@@ -295,15 +295,19 @@
         {
           "place": 8,
           "type": "Internacional"
+        },
+        {
+          "place": 3,
+          "type": "Nacional"
         }
       ],
       "mainImage": "https://lh3.googleusercontent.com/pw/AP1GczOeQPxgQeUaJiYPZZpC8EbTg3dyVWgM-3ctk9xl0QPc_Pi92ADC1edVVDNSYfI-j4ggUGjczIMLLz6kUc_mkdWf-2rdobnmbuZRbPKj0ojMKnPcIKJGksViMw1S7XZ7ZKm3jtYuGluO7bYYPstGDSKi=w750-h499-s-no?authuser=0",
-      "conclusion": "El proyecto catapultó al equipo al primer lugar a nivel regional y latinoamericano. El equipo demostró un notable avance desde su primera participación, ubicándose entre los primeros lugares al inicio de la competencia. La transmisión de datos durante el lanzamiento permitió simular las condiciones del CanSat, información valiosa para futuras participaciones. Tanto el diseño mecánico como la configuración de la estación terrena y la manufactura de las PCB, realizadas con profesionalidad, se destacaron como las mejores hasta la fecha, reflejando el compromiso del equipo con la mejora continua. Además, se identificaron áreas de mejora en el diseño y se aprendieron lecciones de los errores cometidos, preparando al equipo para una misión exitosa en el futuro.",
+      "conclusion": "A pesar de los numerosos desafíos que presentó esta misión, el equipo demostró un excelente desempeño, posicionándose en el 1° lugar a nivel Latinoamérica y 3° a nivel mundial.",
       "conclusionImage": "https://lh3.googleusercontent.com/pw/AP1GczOTBirTdjOjvMWdM6tPFTtePDy0ioEGnAdGBnGeYbZHpJMLI3Y30zh6NnpKBOyE_ff51Aec0kIyJkj3nB_8JEAntNZQtMfBEPFB5h7KE3BfD686vtsmesag_CcprLDP53OAf-0Dw4vnQAZjM2yHxp1W=w1251-h939-s-no?authuser=0",
       "content": [
         {
           "type": "text",
-          "value": "Para el 2019 la misión se centró en diseñar y construir un CanSat que contuviera una carga útil propulsada pasivamente y un contenedor desplegable con paracaídas, la carga útitl debía descender utilizando un sistema de control de descenso de recuperación de autogiro/helicóptero pasivo mientras transmitía distintos datos sobre la atmósfera mediante el uso de sensores para la telemetría."
+          "value": "La misión para esta edición consistió básicamente en simular la secuencia de aterrizaje de una sonda planetaria. Para ello, se diseñaron tanto el contenedor como el payload (sonda) del cohete, el cual fue lanzado a una altitud aproximada de entre 670 y 720 metros sobre el sitio de lanzamiento."
         },
         {
           "type": "image",
@@ -315,11 +319,11 @@
         },
         {
           "type": "text",
-          "value": "Al separarse del cohete, el contenedor inició su descenso con el paracíadas separándose la carga útil a una altura de 450 metros mientras éste iniciaba su autogiro mediante el aprovechamiento de las ráfagas de aire. Durante el desceneso, el conjunto del contenedor y carga útil debía descender a una velocidad de 20 metros por segundo, al momento de separarse, la carga útil empezó a descender a una velocidad entre 10 a 15 metros por segundo mientras tomaba muestras de la presión y temperatura del aire y transmitía los datos a una estación en tierra. Todos los componentes electrónicos estaban protegidos del ambiente a excepción de los sensores."
+          "value": "Tras la separación del cohete, el container descendió por medio de un paracaídas, reduciendo su velocidad de descenso aproximadamente a 15 m/s. A 500 metros de altitud, el Cansat debía desplegar el aerofreno, un mecanismo nuevo que se introdujo en esta edición de la competencia, con el fin de disminuir la velocidad de descenso a 20 m/s. Al alcanzar 200 metros, nuestro prototipo desplegó un segundo paracaídas para reducir la velocidad de descenso a 5 m/s. Una vez en tierra, el Cansat debía enderezar automáticamente y desplegar una bandera 500 mm por encima de la base una vez estando en posición vertical como indicador del final de la misión."
         },
         {
           "type": "text",
-          "value": "El diseño del CanSat se basó en la utilización de fibra de vidrio para las dos mitades del contenedor, unidas por una bisagra de acero ligera. Los componentes electrónicos se integraron en una pared del contenedor, mientras que el servomotor se colocó en la tapa inferior. La carga útil se construyó con un fuselaje de polipropileno y alas y estabilizadores de madera balsa, optimizando su diseño para reducir la resistencia aerodinámica y mejorar la estabilidad. Se optó por fibra de vidrio para las palas y aletas debido a interferencias de señal con la fibra de carbono. Para asegurar el despliegue de las palas, se incorporó un sistema de redundancia con un tejido elástico en la estructura del rotor."
+          "value": "Los datos de telemetría obtenidos por la sonda se transmitían a una frecuencia de 1Hz hacia la estación terrena por medio de la antena que tenía integrada. En la interfaz de la estación terrena se graficaban principalmente datos ambientales y de geolocalización, además de una animación de modelo del Cansat rotando en la pantalla principal. La conexión entre la antena y la estación terrena fue por medio de un puerto serial, y los datos obtenidos de la misión se guardaban en un archivo CSV para contar con un respaldo de la misión."
         },
         {
           "type": "image",
@@ -331,7 +335,7 @@
         },
         {
           "type": "text",
-          "value": "En la placa superior se ubicó la caja del paracaídas, desplegándose mediante un lastre aerodinámico enrollado alrededor del paracaídas, unido al contenedor por un solo nodo. La fuerza del aire arrastra el lastre, abriendo el paracaídas de forma rápida y estable. Se utilizó una Raspberry Pi W para el procesamiento de datos, aprovechando su potencia de procesamiento y eliminando la necesidad de electrónica adicional en el contenedor, encargángose de la recolección, procesamiento de datos de los sensores y generación de telemetría, siguiendo los estados del sistema durante la misión, todo siendo alimentado por una sola batería."
+          "value": "La misión se completó con éxito afortunadamente, se obtuvo la grabación de toda la misión tanto de la cámara principal como con la cámara adicional (bonus). Al aterrizar, la sonda y el contenedor se encontraron en perfecto estado, los mecanismos funcionaron de manera correcta lo que nos aseguró una buena posición en el ranking mundial."
         }
       ],
       "images": [

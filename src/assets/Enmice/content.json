@@ -216,12 +216,12 @@
           }
         ],
         "mainImage": "https://lh3.googleusercontent.com/pw/AP1GczPu-BiDK10cQEBxLlmwl_QX0uYxc9PF-75PzRhGLRJPT8T1-t97h4erU6amZlNaMPQ6tBCobclRAABFDE1DKmNdhcSImo83NzsxS-G5ZikiunnvZAyzg1oBzq7LzpJEeYHkRaTcMfkw9NZ-VfI3_8aU=w1246-h938-s-no?authuser=0",
-        "conclusion": "El proyecto demostró un desempeño sobresaliente en varias áreas clave, logrando un éxito significativo tanto a nivel regional como mundial. El comportamiento aerodinámico del planeador, el buen funcionamiento de los mecanismos empleados y el desempeño de los componentes electrónicos del CanSat demostraron el trabajo realizado por el equipo. La transmisión de datos del contenedor y el software de vuelo del contenedor funcionaron adecuadamente, al igual que la recolección de datos y el descenso del contenedor. La estación base también sobresalió en la representación gráfica de los datos. Aunque se identificó una limitación en la transmisión y detección de paquetes de datos del planeador, el equipo logró colocar el proyecto en primer lugar a nivel latinoamericano y en quinto lugar a nivel mundial. La experiencia adquirida y la formación de un equipo apasionado desde cero subraya el éxito del esfuerzo y la importancia de las pruebas tempranas y el prototipado en el diseño.",
+        "conclusion": "Aunque el lanzamiento no se pudo llevar a cabo debido a las condiciones ambientales, y a pesar de ser nuestra primera participación en esta competencia, obtuvimos dos primeros lugares y una mención honorífica al espíritu de equipo.",
         "conclusionImage": "https://lh3.googleusercontent.com/pw/AP1GczPiGO1OnMyCHH9DTGCrntOBRKn6LidXxiNaig-beSf-oDttO5roNJlcCOHQMursl9gXEGvzpNI0k74DmXJhC-MGfzrFJmjIcJcDfVVm4F9f9jJ8hiTLFzLTi5CUVu4iFHhqf3AOiG6VCTaYKIkM0GiM=w1250-h938-s-no?authuser=0",
         "content": [
           {
             "type": "text",
-            "value": "La misión de 2017 simuló un planeador explorador impulsado por energía solar viajando a través de la atmósfera de un planeta, tomando muestras de la composición atmosférica durante el vuelo. El sistema CanSat se compuso de dos componentes principales: un planeador y un contenedor de reentrada que proporcione protección al planeador durante el ascenso, el despliegue cercano al apogeo y la reentrada/descenso inicial."
+            "value": "La competencia consistió en diseñar un picosatélite con un sistema de container y payload, cuya misión principal era transportar y proteger un huevo de manera segura durante el ascenso y descenso del picosatélite."
           },
           {
             "type": "image",
@@ -233,11 +233,11 @@
           },
           {
             "type": "text",
-            "value": "Una vez separado del cohete, el contenedor descendió con el planeador asegurado en su interior. El contenedor liberó al planeador después del despliegue desde el cohete, protegiéndolo de la violenta liberación y proporcionando un entorno de liberación más estable y menos forzado. Una vez liberado, el planeador debía planear en un patrón circular con un diámetro no mayor a 1000 metros. Durante el vuelo, el planeador tomó muestras de la presión y temperatura del aire a una tasa de 1 muestra por segundo y transmitió los datos a una estación en tierra. El planeador también incluyó un magnetómetro y un tubo pitot para medir la dirección y la velocidad. Al aterrizar, la transmisión se detuvo automáticamente y se activó una baliza de audio para su recuperación."
+            "value": "Inicialmente, la competencia se iba a llevar a cabo en una zona costera, por lo que se contempló diseñar una estructura impermeable que protegiera los componentes electrónicos en caso de que el payload cayera al mar. Sin embargo, con el cambio de sede, esta idea fue descartada."
           },
           {
             "type": "text",
-            "value": "El diseño del CanSat usó fibra de vidrio para construir las dos mitades del contenedor, las cuales se unieron mediante una bisagra de acero de bajo peso. Los componentes electrónicos se integraron en una de las paredes del contenedor, mientras que el servomotor se colocó en la tapa inferior. Para la carga útil, se utilizó un fuselaje de polipropileno y alas y estabilizadores de madera balsa. El diseño del planeador fue optimizado para reducir la resistencia aerodinámica del fuselaje y mejorar la estabilidad aerodinámica."
+            "value": "Para esta edición, se planeaba lanzar el picosatélite mediante un cohete a aproximadamente 1 km de altura. Durante el descenso, el container y el payload descenderían con un paracaídas durante una primera fase. Posteriormente, el container desplegaría el payload, el cual continuaría su descenso de forma independiente, utilizando su propio paracaídas."
           },
           {
             "type": "image",
@@ -249,7 +249,7 @@
           },
           {
             "type": "text",
-            "value": "El subsistema de comunicación y manejo de datos se caracterizó por una estructura eficiente para la transmisión y gestión de datos. Las antenas seleccionadas para el planeador y el contenedor ofrecen un bajo consumo de energía y permiten realizar la transmisión de telemetría a 1 Hz, la cual es  procesada por el software en la estación terrena. La interfaz de control en tierra, desarrollada en Java, permite graficar los datos y almacenarlos en archivos CSV, facilitando el análisis y la gestión de la información recogida durante la misión."
+            "value": "El payload contaba con múltiples sensores para medir variables atmosféricas como altura, humedad, presión y ubicación, entre otros. Además, se integraron dos cámaras: una orientable que apuntaba en distintas direcciones durante el descenso y otra dedicada a capturar en video toda la trayectoria. Como se mencionó previamente, el payload incluía un mecanismo especial para asegurar la integridad del huevo a lo largo de la misión."
           }
         ],
         "images": [
