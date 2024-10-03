@@ -79,11 +79,12 @@ const Members = () => {
   return (
     <div className='container-lg bg-dark bg-opacity-75 px-0 py-4'>
       <div className='row justify-content-center mx-0'>
-        <div className='justify-content-center border-bottom border-4 border-primary mx-auto mb-5 col-7 col-sm-5 col-md-4 col-xl-3'>
+        <div className='justify-content-center border-bottom border-4 border-primary mx-auto col-7 col-sm-5 col-md-4 col-xl-3'>
           <h3 className='text-center text-primary display-5 fw-bold'>
-            Integrantes
+            Conoce al equipo
           </h3>
         </div>
+        <h2 className='display-5 text-light fw-semibold my-5'>Integrantes</h2>
         <div className='row justify-content-center align-items-center px-0 mx-0'>
           {info.data
             .slice(0, 6)
@@ -118,6 +119,15 @@ const Members = () => {
               </button>
             </div>
           )}
+        </div>
+        <h2 className='display-5 text-light fw-semibold my-5'>Faculty advisor</h2>
+        <div className='row justify-content-center mx-0'>
+          <img className='col-4 border border-2 rounded-4 px-0 mb-4' src='https://lh3.googleusercontent.com/pw/AP1GczPzz3VO1nR58lZMOZtjdsH0k5G5MOnLfteME22eMvNVuC9mKFAI0iVM5I9rn4hY8RxWgNMUk7uGYl-gL7J2fjoTQEjZMj3tJiZMALz0mHo3g7V1ZcvfTQePyU6WJGtsTD140jqJI5AtrglrqWcWrlXq=w938-h938-s-no?authuser=0' alt='Masctot Pico' />
+        </div>
+        <p className='lead-lg text-justify text-light col-10'>El profesor Héctor Díaz es el encargado del laboratorio de aeroespacial de la ESIME Ticomán así como quien nos ha permitido realizar la construcción de nuestros diferentes proyectos dentro de sus instalaciones, otorgando su asesoría y conocimiento.</p>
+        <h2 className='display-5 text-light fw-semibold my-5'>Nuestro laboratorio</h2>
+        <div className='row justify-content-center mx-0'>
+          <p className='lead-lg text-justify text-light col-10'>Este es nuestro laboratorio y sus diferentes áreas</p>
         </div>
       </div>
       <div className='row justify-content-center mx-0'>

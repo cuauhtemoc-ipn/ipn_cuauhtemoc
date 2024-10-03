@@ -1,6 +1,6 @@
 import React from 'react'
 import ContactForm from '@/components/Home/ContactForm'
-import rocketImage from '@/assets/Rocket.png'
+import Pollito4 from '@/assets/Pollito4.png'
 import Privacy from '../components/Home/Privacy'
 
 const ContactUs = () => {
@@ -40,14 +40,16 @@ const ContactUs = () => {
           // backgroundImage: `url(${backgroundImage})`
         }}
       />
-      <div className='row'>
-        <ContactForm />
-
-        <div className='col-6 d-none d-md-flex justify-content-center'>
-          <img src={rocketImage} alt='Rocket' />
+      <div className='container-lg h-full py-4 my-5'>
+        <div className='row mx-0 mt-5'>
+          <ContactForm />
+          <div className='d-none d-md-flex align-items-center col-6'>
+            <img className='mx-auto col-11 col-lg-10' src={Pollito4} alt='Masctot Pico' />
+          </div>
+          <Privacy />
+          <img className='row d-md-none mx-auto mt-4 col-10 col-sm-8' src={Pollito4} alt='Mascot with rocket' />
         </div>
       </div>
-      <Privacy />
     </div>
   )
 }
