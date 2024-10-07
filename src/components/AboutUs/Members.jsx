@@ -79,7 +79,7 @@ const Members = () => {
   return (
     <div className='container-lg bg-dark bg-opacity-75 px-0 py-4'>
       <div className='row justify-content-center mx-0'>
-        <div className='justify-content-center border-bottom border-4 border-primary mx-auto col-7 col-sm-5 col-md-4 col-xl-3'>
+        <div className='justify-content-center border-bottom border-4 border-primary mx-auto col-7 col-sm-5 col-md-6'>
           <h3 className='text-center text-primary display-5 fw-bold'>
             Conoce al equipo
           </h3>
@@ -120,14 +120,126 @@ const Members = () => {
             </div>
           )}
         </div>
-        <h2 className='display-5 text-light fw-semibold my-5'>Faculty advisor</h2>
-        <div className='row justify-content-center mx-0'>
-          <img className='col-4 border border-2 rounded-4 px-0 mb-4' src='https://lh3.googleusercontent.com/pw/AP1GczPzz3VO1nR58lZMOZtjdsH0k5G5MOnLfteME22eMvNVuC9mKFAI0iVM5I9rn4hY8RxWgNMUk7uGYl-gL7J2fjoTQEjZMj3tJiZMALz0mHo3g7V1ZcvfTQePyU6WJGtsTD140jqJI5AtrglrqWcWrlXq=w938-h938-s-no?authuser=0' alt='Masctot Pico' />
+        <h2 className='display-5 text-light fw-semibold my-5'>
+          Faculty advisor
+        </h2>
+        <div className='row text-light border border-3 border-white rounded-4 align-items-center p-4 p-lg-5 bg-gray bg-opacity-50 mx-auto col-11'>
+          <div className='flex-column col-6'>
+            <h2 className='d-flex justify-content-center'>
+              Dr. Héctor Díaz García
+            </h2>
+            <div className='d-flex justify-content-center'>
+              <img
+                className='shadow-lg rounded-4 col-10'
+                src='https://lh3.googleusercontent.com/pw/AP1GczPzz3VO1nR58lZMOZtjdsH0k5G5MOnLfteME22eMvNVuC9mKFAI0iVM5I9rn4hY8RxWgNMUk7uGYl-gL7J2fjoTQEjZMj3tJiZMALz0mHo3g7V1ZcvfTQePyU6WJGtsTD140jqJI5AtrglrqWcWrlXq=w938-h938-s-no?authuser=0'
+                alt='Masctot Pico'
+              />
+            </div>
+            <h5 className='d-flex justify-content-center'>
+              Jefe de laboratorio Aeroespacial
+            </h5>
+            <div className='card text-light border border-2 bg-dark bg-opacity-25'>
+              <div className='card-body'>
+                <h5 className='card-subtitle'>Teléfono</h5>
+                <p>(+52) XX-XXXX-XXXX</p>
+                <h5 className='card-subtitle'>Correo</h5>
+                <p>hectordiaz@ipn.mx</p>
+              </div>
+            </div>
+          </div>
+          <div className='col-6'>
+            <p className='lead-lg text-justify text-light col-12'>
+              El profesor Héctor Díaz es el encargado del laboratorio de
+              aeroespacial de la ESIME Ticomán así como quien nos ha permitido
+              realizar la construcción de nuestros diferentes proyectos dentro
+              de sus instalaciones, otorgando su asesoría y conocimiento.
+            </p>
+            <li className='lead-lg text-justify'>
+              Colaboración en el desarrollo de satélites nacionales
+            </li>
+            <li className='lead-lg text-justify'>
+              Participación en CanSat Competition 2017
+            </li>
+          </div>
         </div>
-        <p className='lead-lg text-justify text-light col-10'>El profesor Héctor Díaz es el encargado del laboratorio de aeroespacial de la ESIME Ticomán así como quien nos ha permitido realizar la construcción de nuestros diferentes proyectos dentro de sus instalaciones, otorgando su asesoría y conocimiento.</p>
-        <h2 className='display-5 text-light fw-semibold my-5'>Nuestro laboratorio</h2>
-        <div className='row justify-content-center mx-0'>
-          <p className='lead-lg text-justify text-light col-10'>Este es nuestro laboratorio y sus diferentes áreas</p>
+        <h2 className='display-5 text-light fw-semibold my-5'>
+          Nuestro laboratorio
+        </h2>
+
+        <div className='row text-light border border-3 border-white rounded-4 align-items-center p-4 p-lg-5 bg-gray bg-opacity-50 mx-auto col-11'>
+          <div
+            id='Labcarousel'
+            className='carousel slide mx-auto'
+            data-bs-ride='carousel'
+          >
+            <div className='carousel-inner'>
+              <div className='carousel-item active'>
+                <h2 className='d-flex justify-content-center'>
+                  Zona de Mecánica
+                </h2>
+                <img
+                  className='d-block w-50'
+                  src='https://lh3.googleusercontent.com/pw/AP1GczN286ceLhO9KSTDdga294vy4nOcNQF_dbUOD_24kZF105aFcFP5nQEizfvkfa7ErwB5Qk5vsz3-ATRPct7SRuHMJTucyCOtvN3bAJuyeyGbchLT26kjOuJJwU0e--UK1NY2pATCtVNXY543G2P-Pb1q=w1653-h938-s-no?authuser=0'
+                  alt='First slide'
+                />
+                <p className='lead-lg text-justify text-light col-12'>
+                  En esta sección del laboratorio se llevan a cabo el diseño
+                  estructural de nuestros proyectos así como los cálculos
+                  aerodinámicos para su correcto funcionamiento.
+                </p>
+              </div>
+              <div className='carousel-item'>
+                <h2 className='d-flex justify-content-center'>
+                  Zona de EPS
+                </h2>
+                <img
+                  className='d-block w-50'
+                  src='https://lh3.googleusercontent.com/pw/AP1GczMFRQVkLq34jP8UZBKHX8-oHRHQHXUZWaQ6U4lpOy9m_FjV5bOTLCEwnn3JDoGBDmu7wcusNJ6aGZetvzXPK0OOVXlqc91ljnWMgJfOi23EiXl5kmUIK-5Mvlm55gPjZc47Py2-eQvn2Qd3WmbGrSnD=w1421-h938-s-no?authuser=0'
+                  alt='Second slide'
+                />
+                <p className='lead-lg text-justify text-light col-12'>
+                  En esta sección del laboratorio.
+                </p>
+              </div>
+            </div>
+            <button
+              className='carousel-control-prev justify-content-start'
+              type='button'
+              data-bs-target='#Labcarousel'
+              data-slide='prev'
+            >
+              <span
+                className='carousel-control-prev-icon'
+                aria-hidden='true'
+              />
+              <span className='visually-hidden'>Previous</span>
+            </button>
+            <button
+              className='carousel-control-next justify-content-end'
+              type='button'
+              data-bs-target='#Labcarousel'
+              data-slide='next'
+            >
+              <span
+                className='carousel-control-next-icon'
+                aria-hidden='true'
+              />
+              <span className='visually-hidden'>Next</span>
+            </button>
+          </div>
+        </div>
+
+        <div className='row text-light border border-3 border-white rounded-4 align-items-center p-4 p-lg-5 bg-gray bg-opacity-50 mx-auto col-11'>
+          <div className='flex-column col-12'>
+            <h2 className='d-flex justify-content-center'>Zona de Mecánica</h2>
+            <div className='d-flex justify-content-center'>
+              <img
+                className='shadow-lg rounded-4 col-6'
+                src='https://lh3.googleusercontent.com/pw/AP1GczN286ceLhO9KSTDdga294vy4nOcNQF_dbUOD_24kZF105aFcFP5nQEizfvkfa7ErwB5Qk5vsz3-ATRPct7SRuHMJTucyCOtvN3bAJuyeyGbchLT26kjOuJJwU0e--UK1NY2pATCtVNXY543G2P-Pb1q=w1653-h938-s-no?authuser=0'
+                alt='Masctot Pico'
+              />
+            </div>
+          </div>
         </div>
       </div>
       <div className='row justify-content-center mx-0'>
