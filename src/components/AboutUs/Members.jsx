@@ -123,10 +123,10 @@ const Members = () => {
         <h2 className='display-5 text-light fw-semibold my-5'>
           Faculty advisor
         </h2>
-        <div className='row text-light border border-3 border-white rounded-4 align-items-center p-4 p-lg-5 bg-gray bg-opacity-50 mx-auto col-11'>
+        <div className='row text-light border border-4 border-white align-items-center p-4 p-lg-5 bg-gray bg-opacity-50 mx-auto col-11'>
           <div className='flex-column col-6'>
             <h2 className='d-flex justify-content-center'>
-              Dr. Héctor Díaz García
+              M. en C. Héctor Díaz García
             </h2>
             <div className='d-flex justify-content-center'>
               <img
@@ -138,14 +138,6 @@ const Members = () => {
             <h5 className='d-flex justify-content-center'>
               Jefe de laboratorio Aeroespacial
             </h5>
-            <div className='card text-light border border-2 bg-dark bg-opacity-25'>
-              <div className='card-body'>
-                <h5 className='card-subtitle'>Teléfono</h5>
-                <p>(+52) XX-XXXX-XXXX</p>
-                <h5 className='card-subtitle'>Correo</h5>
-                <p>hectordiaz@ipn.mx</p>
-              </div>
-            </div>
           </div>
           <div className='col-6'>
             <p className='lead-lg text-justify text-light col-12'>
