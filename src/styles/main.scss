@@ -200,3 +200,7 @@ $font-sizes: map-merge(
     aspect-ratio: 24 / 9;
   }
 }
+
+.custom-tooltip .react-tooltip-content {
+  text-align: justify !important;
+}

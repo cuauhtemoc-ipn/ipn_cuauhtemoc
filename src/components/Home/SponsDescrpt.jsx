@@ -22,7 +22,7 @@ const SpDescrpt = ({ data, index }) => {
         <Tooltip
           anchorSelect={`.tt-${uniqueId}`}
           place='bottom'
-          className='d-none d-lg-inline lead text-justify'
+          className='d-none d-lg-inline custom-tooltip'
         >
           <span dangerouslySetInnerHTML={fullTextForTooltip} />
         </Tooltip>
