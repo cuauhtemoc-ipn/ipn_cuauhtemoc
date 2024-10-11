@@ -111,6 +111,34 @@
             "value": "https://lh3.googleusercontent.com/pw/AP1GczN0XG19io0GGkKc0Kk8MCPiddm0KV_V0wyCRcDdkVFcNF97L9yYKbEE0N5bVypCe5HFQ1xrnyZdBm9ZdTgslJO1xEQQ2NO0ESOG64rIRVY-uqmtlNO39ozjWxF8_Bir-ATa2tbbILvWVJY6oume0AtF=w875-h250-s-no?authuser=0"
           }
         ]
+      },
+      {
+        "name": "Dassault Systèmes",
+        "page": "https://www.3ds.com/es/",
+        "content": [
+          {
+            "type": "text",
+            "value": "Mensaje o texto sobre cómo apoya Dassault."
+          },
+          {
+            "type": "image",
+            "value": "https://lh3.googleusercontent.com/pw/AP1GczO3z1-MlNgCetDAk2EhVMN0iNHqW-Cir0ESbMU_yRs_cBdexgc3_MXEcsmqx_mPXdcL5NDg_un4bAwpLdDWEegLxtWGqBlQGmXL5Te2w5-BKaQfvPcVrMFZ_XU0udYFKCsdHDHZik90Oxaz2xW_7nz2=w1200-h371-s-no?authuser=0"
+          }
+        ]
+      },
+      {
+        "name": "Altium",
+        "page": "https://www.altium.com/es",
+        "content": [
+          {
+            "type": "text",
+            "value": "Mensaje o texto sobre cómo apoya Altium."
+          },
+          {
+            "type": "image",
+            "value": "https://lh3.googleusercontent.com/pw/AP1GczP0SpqkDrJGiKKQshg03BQJ3c5rFkcw3Xh1q_zieSK9tqEIjgECZNMxgGdN6e6ng3gN37iOZasKiSB9rf0wMe9DoqKACxXAsj6mOr1e6Elg6-kWMJTu6cmsBtcX_mZaYJJ2d46omvTFNDva-wOfisg4=w1666-h938-s-no?authuser=0"
+          }
+        ]
       }
     ]
   }

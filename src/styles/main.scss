@@ -200,7 +200,25 @@ $font-sizes: map-merge(
     aspect-ratio: 24 / 9;
   }
 }
-
+/*
 .custom-tooltip .react-tooltip-content {
   text-align: justify !important;
+}*/
+
+.custom-tooltip {
+  width: 400px; /* Tamaño fijo del recuadro */
+  max-width: 400px;
+  padding: 10px;
+  text-align: justify; /* Justificación del texto */
+  white-space: normal;
+}
+
+.custom-tooltip span {
+  display: block;
+  text-align: justify; /* Asegura que el texto dentro del span esté justificado */
+}
+
+.custom-tooltip span::after {
+  display: inline-block;
+  width: 100%; 
 }

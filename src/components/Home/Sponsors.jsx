@@ -43,6 +43,16 @@ const Sponsor = () => {
       href: 'https://pcb-mexico.com/',
       src: 'https://lh3.googleusercontent.com/pw/AP1GczN0XG19io0GGkKc0Kk8MCPiddm0KV_V0wyCRcDdkVFcNF97L9yYKbEE0N5bVypCe5HFQ1xrnyZdBm9ZdTgslJO1xEQQ2NO0ESOG64rIRVY-uqmtlNO39ozjWxF8_Bir-ATa2tbbILvWVJY6oume0AtF=w875-h250-s-no?authuser=0',
       text: 'PCB México, especialistas en tarjetas de circuitos impresos (PCB) de FR4, Flex, Arlon, Rogers, Aluminio y CEM1, es crucial para nuestro proyecto, brindándonos la impresión de las placas de cada uno de los modelos. Su trabajo no solo asegura la construcción de nuestros prototipos, sino que también nos ayuda a evitar que nuestros productos se quemen o se doblen, mejorando su durabilidad y funcionalidad. Además, optimizan el proceso de manufactura y reducen costos mediante la selección de materiales y características adecuados.'
+    },
+    {
+      href: 'https://www.3ds.com/es/',
+      src: 'https://lh3.googleusercontent.com/pw/AP1GczNWTvA7FAcVKW0XrYmgAGAURDLGJEEmE1KGK8YmiMaLjJynfx6PiQgbQVeS7uW8l2jvx6BDyioM2XQoGTWnBc-yIJLyAZy6sVzfLGrjEy3czvZZeW7TcDq42YHxhfSxkoTY6-rhg-LHIV-jtXh-ZHsS=w1593-h482-s-no?authuser=0',
+      text: 'Mensaje o texto sobre cómo apoya Dassault.'
+    },
+    {
+      href: 'https://www.altium.com/es',
+      src: 'https://lh3.googleusercontent.com/pw/AP1GczNPDe5z31dMYJZV4KVPnIBffKC8_lh4xoqkGX42_hBSd86AjIVhKnjl39wfEBL0f7KgqRVpssW_tYsYkLCdy2whQ_Ycv11973H_lokGtSetnlcpJQKB3nHx3nco7GE1Hy_Va-CXutJe2oi9W5azzLvl=w400-h199-s-no?authuser=0',
+      text: 'Mensaje o texto sobre cómo apoya Altium.'
     }
   ]
   return (
