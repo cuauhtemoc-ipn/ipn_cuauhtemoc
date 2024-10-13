@@ -51,7 +51,7 @@ const Sponsor = () => {
     },
     {
       href: 'https://www.altium.com/es',
-      src: 'https://lh3.googleusercontent.com/pw/AP1GczNPDe5z31dMYJZV4KVPnIBffKC8_lh4xoqkGX42_hBSd86AjIVhKnjl39wfEBL0f7KgqRVpssW_tYsYkLCdy2whQ_Ycv11973H_lokGtSetnlcpJQKB3nHx3nco7GE1Hy_Va-CXutJe2oi9W5azzLvl=w400-h199-s-no?authuser=0',
+      src: 'https://lh3.googleusercontent.com/pw/AP1GczO4eygOCl3M_Xt6KXzENtLo0NYkJgm1vWHeUBgdX-i7mNnERFP5WYXycyR-P6b60C1uEHRjYCFjMKSkw_S6HXQQ5Eh23TR1wBEng5iH5P1YchvHbfRB4oCryX9qF1LR35QjAzFYUYuvE5An4ntoOKwK=w200-h90-s-no?authuser=0',
       text: 'Mensaje o texto sobre cómo apoya Altium.'
     }
   ]
