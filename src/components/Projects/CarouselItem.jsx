@@ -2,36 +2,25 @@
 import React from 'react'
 
 export default function CarouselItem ({ imgUrl, imgTitle, utility }) {
-  const updateUrl = (url, height) => {
-    const newHeight = height
+  const ImportDrivePhoto = (driveUrl, height) => {
+    // Default URL in case no valid file ID is found
+    const defaultUrl =
+      'https://drive.google.com/file/d/1T95gfXdE9277ryMRxtHg9pkBLUDVRcNG/view?usp=drive_link'
 
-    // Extract the width (w) and height (h) parameters from the URL using stricter regular expressions
-    const widthMatch = url.match(/w(\d+)(?=-h\d+)/) // Look for "w" followed by digits and "-h"
-    const heightMatch = url.match(/h(\d+)(?=-s)/) // Look for "h" followed by digits and "-s"
+    // Try to extract the file ID from the Google Drive URL
+    const match = driveUrl.match(/\/d\/(.*)\//)
+    const fileId = match ? match[1] : defaultUrl.match(/\/d\/(.*)\//)[1]
 
-    if (widthMatch && heightMatch) {
-      const currentWidth = parseInt(widthMatch[1], 10)
-      const currentHeight = parseInt(heightMatch[1], 10)
+    // Construct the new URL with the specified height
+    const newUrl = `https://lh3.googleusercontent.com/d/${fileId}=h${height}`
 
-      // Calculate the proportional new width
-      const newWidth = Math.round((currentWidth / currentHeight) * newHeight)
-
-      // Replace the old width and height with the new values, keeping boundaries intact
-      const updatedUrl = url
-        .replace(/w\d+(?=-h\d+)/, `w${newWidth}`)
-        .replace(/h\d+(?=-s)/, `h${newHeight}`)
-
-      return updatedUrl
-    }
-
-    // Return the original URL if no width/height parameters are found
-    return url
+    return newUrl
   }
 
   return (
     <div className='carousel-card'>
       <img
-        src={updateUrl(imgUrl, 200)}
+        src={ImportDrivePhoto(imgUrl, 200)}
         alt={imgTitle}
         className='d-block'
         style={{ height: '200px', cursor: 'pointer', marginInline: '10px' }}
