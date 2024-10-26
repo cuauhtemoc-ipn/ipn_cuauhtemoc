@@ -2,7 +2,7 @@
 import GalleryCarousel from './GalleryCarousel'
 
 const TabComponent = ({ entry, index, activeTab, reference }) => {
-  const updateUrl = (url, height) => {
+  const updateUrl1 = (url, height) => {
     const newHeight = height
 
     // Extract the width (w) and height (h) parameters from the URL using stricter regular expressions
@@ -26,6 +26,25 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
 
     // Return the original URL if no width/height parameters are found
     return url
+  }
+
+  const ImportDrivePhoto = (driveUrl, height) => {
+    // Default URL in case no valid file ID is found
+    const defaultUrl =
+      'https://drive.google.com/file/d/1T95gfXdE9277ryMRxtHg9pkBLUDVRcNG/view?usp=drive_link'
+
+    // Try to extract the file ID from the Google Drive URL
+    const match = driveUrl.match(/\/d\/(.*)\//)
+    const fileId = match ? match[1] : defaultUrl.match(/\/d\/(.*)\//)[1]
+    let newUrl = ''
+    // Construct the new URL with the specified height
+    if (height > 0) {
+      newUrl = `https://lh3.googleusercontent.com/d/${fileId}=h${height}`
+    } else {
+      newUrl = `https://lh3.googleusercontent.com/d/${fileId}`
+    }
+
+    return newUrl
   }
 
   const loadScores = entry => {
@@ -62,7 +81,7 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
         data.push(
           <div className='d-none d-lg-block col-lg-6 p-2 p-lg-4 align-content-center'>
             <img
-              src={updateUrl(element.value, 300)}
+              src={ImportDrivePhoto(element.value, 300)}
               alt='Image'
               className='w-100'
               key={'img' + index}
@@ -87,7 +106,7 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
         data.push(
           <div className='d-lg-none col-10 p-2 p-lg-4 align-content-center'>
             <img
-              src={updateUrl(element.value, 300)}
+              src={ImportDrivePhoto(element.value, 300)}
               alt='Image'
               className='w-100'
               key={'sm-img' + index}
@@ -132,7 +151,7 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
         key={`ConclusionImage-${entry.edition}`}
       >
         <img
-          src={updateUrl(entry.conclusionImage, 400)}
+          src={ImportDrivePhoto(entry.conclusionImage, 400)}
           alt='Image'
           className='w-100'
         />
@@ -156,7 +175,7 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
       </h2>
       <div className='d-flex justify-content-center'>
         <img
-          src={entry.mainImage}
+          src={ImportDrivePhoto(entry.mainImage, 0)}
           alt='Competition header image'
           className='col-10 col-md-7 m-3 align-self-center'
         />
@@ -200,7 +219,7 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
       </div>
       <div className='d-flex justify-content-center m-4'>
         <img
-          src={entry.team}
+          src={ImportDrivePhoto(entry.team, 0)}
           alt='Competition team image'
           className='col-10 m-4 align-self-center'
         />

@@ -22,6 +22,21 @@ export default function AutoplayCarousel ({
     setShowModal(true)
   }
 
+  const ImportDrivePhoto = (driveUrl) => {
+    // Default URL in case no valid file ID is found
+    const defaultUrl =
+      'https://drive.google.com/file/d/1T95gfXdE9277ryMRxtHg9pkBLUDVRcNG/view?usp=drive_link'
+
+    // Try to extract the file ID from the Google Drive URL
+    const match = driveUrl.match(/\/d\/(.*)\//)
+    const fileId = match ? match[1] : defaultUrl.match(/\/d\/(.*)\//)[1]
+
+    // Construct the new URL with the specified height
+    const newUrl = `https://lh3.googleusercontent.com/d/${fileId}`
+
+    return newUrl
+  }
+
   const handleCloseModal = () => setShowModal(false)
 
   const toggleExpanded = () => {
@@ -166,7 +181,7 @@ export default function AutoplayCarousel ({
       >
         <Modal.Body className='rounded'>
           <img
-            src={currentImage}
+            src={ImportDrivePhoto(currentImage)}
             alt='Expanded'
             className='d-block w-100'
             style={{ height: 'auto' }}

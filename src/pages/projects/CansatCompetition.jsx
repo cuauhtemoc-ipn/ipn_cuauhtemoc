@@ -42,9 +42,9 @@ const CansatCompetition = () => {
         }}
       />
       <ProjectDetailHeader
-        image={projectHeader}
-        name='CanSat Competition'
-        text='Organizada por la NASA, el U.S. Naval Research Laboratory y la American Astronautical Society entre otros, la CanSat Competition es una competencia de diseño, construcción y vuelo que brinda a los equipos la oportunidad de experimentar el ciclo de vida de diseño de un sistema aeroespacial. La competencia CanSat está diseñada para reflejar un programa aeroespacial típico a pequeña escala e incluye todos los aspectos de un programa aeroespacial, desde la revisión preliminar del diseño hasta la revisión posterior a la misión. La misión y sus requisitos están diseñados para reflejar diversos aspectos de misiones del mundo real, incluidos los requisitos de telemetría, comunicaciones y operaciones autónomas. Cada equipo es calificado a lo largo de la competencia en entregables del mundo real, como cronogramas, presentaciones de revisión de diseño y vuelos de demostración.'
+        image={content.image}
+        name={content.name}
+        text={content.description}
         url='https://cansatcompetition.com/'
       />
       <Tabs data={content.data} />
