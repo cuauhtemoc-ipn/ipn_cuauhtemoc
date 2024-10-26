@@ -43,7 +43,7 @@ const Subs = () => {
   // selected section, meanwhile setSelectedSection allows to change the value of
   // selectedSection. Using usestate we intialize the value of the variable with
   // the Aerodynamic section.
-  const [selectedSection, setSelectedSection] = useState('Aerodinámica')
+  const [selectedSection, setSelectedSection] = useState('Mecánica')
 
   // Here we create the function handleSectionChange which can take any value
   // that the user selects, the content of the function stablishes that

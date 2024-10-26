@@ -57,7 +57,7 @@ const Footer = () => {
                   to='/projects/picosatelites_puebla'
                   className='text-light link-light link-offset-2-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover'
                 >
-                  <li>Picosatélites Puebla</li>
+                  <li>Picosatélites</li>
                 </NavLink>
                 <NavLink
                   to='/projects/enmice'

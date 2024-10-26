@@ -6,7 +6,7 @@ const SpDescrpt = ({ data, index }) => {
   const dividetext = text => {
     const regex = new RegExp(`\\S.{0,${60 - 1}}\\S(?=\\s|$)|\\S+`, 'g')
     /* return { __html: text.match(/.{1,60}/g).join('<br>') } */
-    return { __html: text.match(regex).join('<br>') }
+    return { __html: text.match(regex).join(' ') }
   }
 
   const fullTextForTooltip = dividetext(data.text)
@@ -22,7 +22,7 @@ const SpDescrpt = ({ data, index }) => {
         <Tooltip
           anchorSelect={`.tt-${uniqueId}`}
           place='bottom'
-          className='d-none d-lg-inline lead text-justify'
+          className='d-none d-lg-inline lead custom-tooltip'
         >
           <span dangerouslySetInnerHTML={fullTextForTooltip} />
         </Tooltip>

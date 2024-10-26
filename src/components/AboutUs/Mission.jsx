@@ -162,7 +162,7 @@ const MissionVision = () => {
             </>
             )}
       </div>
-      <div className='row justify-content-between align-items-center mx-0'>
+      <div className='row justify-content-between align-items-center mx-0 mt-5'>
         {TextVision}
         {Visioncarousel}
       </div>

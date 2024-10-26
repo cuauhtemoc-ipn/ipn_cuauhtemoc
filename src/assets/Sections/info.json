@@ -1,6 +1,23 @@
 {
     "data": [
       {
+        "name": "Mecánica",
+        "btnImage": "https://lh3.googleusercontent.com/pw/AP1GczP4AGEVALxCAPn48kdpR0BJH3voRSR2RU9Xre2qi2aUlQmH4DGw_BBJR-PlUpkTm_9fEJ3RZxCypLAwJmHfn0qqDyr_5nuORVZdr8TlDEorTY5hVJmopBtxgYv5MoY2_Da3lz_DAsMemDHWmw77mqJW=w1251-h939-s-no?authuser=0",
+        "title": "Mechanical",
+        "content": [
+          {
+            "type": "text",
+            "value": "La sección de mecánica es responsable del diseño conceptual y la construcción de los picosatélites y rovers. Su principal objetivo es garantizar que las estructuras resistan los esfuerzos físicos a los que serán sometidos durante las misiones, asegurando que cada sensor y placa no sufra daños en el proceso. Además, se encarga del diseño de mecanismos móviles, como liberadores de paracaídas, estabilizadores de cámaras y sistemas de amortiguación."
+          }
+        ],
+        "images": [
+          "https://lh3.googleusercontent.com/pw/AP1GczMZfAGcu3m6fFBBmG4QfOeib54v3fPx_ZR8TQPxw2__Omedl0KTFdMZyCOFXbexxKG8cYZ7kv0CiXH4Go9XrSH-Q4yUYs-FzFfRUMC-6dBQaWc1H_IlgqFwfIwU8lqz3RZVSAsCUmAy8CN5G3X0Xsly=w1251-h939-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczOmMEC7T-rrnGTBxKX8bEh4HDCu-fvd7BFLKrwhCIcnzl_KASsHxJM-WtQoOaD-28E8LEak0WIUY1XExh9R-qQ4m9YUiFwhgeEOEH1zqMD7AFdBQEdg44BrgMJh9PWCcEdnMFsa77l73gWAsUslrURr=w1251-h939-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMuOBrQC5QgCwGe0Jd_HirOMVvgZD9A6g4GMyCtNn8bvObEKD9Ji3ntTp4Iy5zuXnXfc7QxTwOY1J1hWoAVXy42F_zmiLzaouhJnB5RpQkxt-uAx_bXDa9a2PjjI-d0uTvXKIExwyMgPpn791RvuYZG=w704-h939-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMISikh7OcINMcmo4nq2Rz3xZBqr4EhPlCpXf-uWeTyYilmRlUYvOQ9e5Um-zWRHEAWOBEdpcPhe6bsUvrwuLcHYNJrRVJ00VDyUQdx0ciealVEN_GeNyoYs1CFRqLfylNzzCQSbRpOmmaqGr3IbnZy=w704-h939-s-no?authuser=0"
+        ]
+      },
+      {
         "name": "Aerodinámica",
         "btnImage": "https://lh3.googleusercontent.com/pw/AP1GczP0nN2EmUx83ZWmxxwH7hhBeGMvifSgt9yplH0UcYelrGg-lPe4VR7g3tl3hbRaaJ97kdTkrGoEJ6tRVk_mK0c4FoqTmQkuqvOtxJ9PLxJ3WGGY4ELNe91IAEx_X3ss7guzXLqprNuYNPkt0b3Keoyk=w527-h384-s-no?authuser=0",
         "title": "Aerodynamic",
@@ -15,23 +32,6 @@
           "https://lh3.googleusercontent.com/pw/AP1GczPEc3J5wX4Xho9A7X98oUA0PMj7--rZhJRRyuwwOMOL5voQH0rb2F7F0JRuW2MFpjq-bY-PYYXL4-U0PsHGYNzmuVdt7o6g4i7pEOThudpgQ6SPhGaxzrMISzs_IuQKAobfUcmN51gwslX0G8Yehf2Q=w704-h939-s-no?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczOnkEte7ERuBtWiAhupiIkbrJkn86g3cM4dhZ-FONwAqovukqNemqs8VzfFw9yn31IeYwuk0zgH7oBv_5ieeG7a-oSJzWKBXzU1uKVEd2I2R_N4LxRFQ4XGru_lZJt-d92TMPAyB53trCeHt8A3GjvR=w704-h939-s-no?authuser=0",
           "https://lh3.googleusercontent.com/pw/AP1GczObCdww0cONEG7vx2PQUjII6hratmuP8-HTzYN40FA46tTEFzeV7c75y8MSwPJ2cpilawc2_vtGdKm6FyfEGWGdtQTxUH4FMXqWPlAoTOj5dR7vGnr-GckSzkruhO-VDb472dAsZk82NwmkrTXajVxq=w528-h939-s-no?authuser=0"
-        ]
-      },
-      {
-        "name": "CDH",
-        "btnImage": "https://lh3.googleusercontent.com/pw/AP1GczOPRxpS2bE5hcwjntPH_ZMtBisqElzO1N-l58RkFQOeFShTsJ1QECPDibqimRn-dO3jZwY6CJZNdXM9Kz6wA9DwQM0fu9hU4wDqUjCN1Xekdt0HEnZjDIRsW1OkvWdAVfXEa3xgFCaesa4fwNgO4io3=w1600-h900-s-no?authuser=0",
-        "title": "CDH",
-        "content": [
-          {
-            "type": "text",
-            "value": "Es la sección encargada del diseño e implementación de sistemas de comunicaciones, desarrollo de software de telemetría así como la programación de sensores y microcontroladores. Realizamos el análisis y procesamiento de datos de telemetría, así como también los sistemas de comunicación remota y su implementación en satélites tipo CanSat."
-          }
-        ],
-        "images": [
-          "https://lh3.googleusercontent.com/pw/AP1GczPafPm2KgwofEvIiGc-yKZWlsmac5oHn2jIPnDX8uGI_fUli1eZgTluUqzaOgq5sIpokxtef6yqi9wyicXUoGhJd2TZdoZwUqpYk3MfN6WZk_JleQxbsBr-r9PFcLgnYQcFx5io_TX7rooFkfLkLdl4=w1024-h768-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczPUJbzbom0hrnD89v3WjWwf-TqtDNkvSBqmS0aKSSEZahmR9vXR70P6oqUTJRSrX88znrCPBkYdXyHZenK-eCqQpWh4n9hmuqtTxuumIVZkeGzSQSvMllWFxZ3uKJSuIEMAj9oB09Fa-QrG5XRgtcf4=w1251-h939-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczMVyQ6PZdOzfgOtAciPchG36fVaAahgaiQfUhOBABrf2KW48onQWPKIHqA2bflr38n4TiCQ8Sd2tPZuhm5mPUynwHINeXxrOgmAe9kzRafrrSdCPjc0_yzQPAzml9-dUnzcgUwsNNFl_DdODPduhvhJ=w1251-h939-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczPbAy7VkiQXaMjG5R3rTkGYORXFc5FQy2WcFUYS5NYH7G7MyLwZVhda-K-qEOyUmsfNMBlQeF1smd8j34PYGYkjhu5U2jS_-WfXd4a84WPSffKBzdL0-K7OwL7xGlyWf2yIeEId40PxsBZzuoVWGRaP=w1251-h939-s-no?authuser=0"
         ]
       },
       {
@@ -52,20 +52,20 @@
         ]
       },
       {
-        "name": "Mecánica",
-        "btnImage": "https://lh3.googleusercontent.com/pw/AP1GczP4AGEVALxCAPn48kdpR0BJH3voRSR2RU9Xre2qi2aUlQmH4DGw_BBJR-PlUpkTm_9fEJ3RZxCypLAwJmHfn0qqDyr_5nuORVZdr8TlDEorTY5hVJmopBtxgYv5MoY2_Da3lz_DAsMemDHWmw77mqJW=w1251-h939-s-no?authuser=0",
-        "title": "Mechanical",
+        "name": "CDH",
+        "btnImage": "https://lh3.googleusercontent.com/pw/AP1GczOPRxpS2bE5hcwjntPH_ZMtBisqElzO1N-l58RkFQOeFShTsJ1QECPDibqimRn-dO3jZwY6CJZNdXM9Kz6wA9DwQM0fu9hU4wDqUjCN1Xekdt0HEnZjDIRsW1OkvWdAVfXEa3xgFCaesa4fwNgO4io3=w1600-h900-s-no?authuser=0",
+        "title": "CDH",
         "content": [
           {
             "type": "text",
-            "value": "La sección de mecánica es responsable del diseño conceptual y la construcción de los picosatélites y rovers. Su principal objetivo es garantizar que las estructuras resistan los esfuerzos físicos a los que serán sometidos durante las misiones, asegurando que cada sensor y placa no sufra daños en el proceso. Además, se encarga del diseño de mecanismos móviles, como liberadores de paracaídas, estabilizadores de cámaras y sistemas de amortiguación."
+            "value": "Es la sección encargada del diseño e implementación de sistemas de comunicaciones, desarrollo de software de telemetría así como la programación de sensores y microcontroladores. Realizamos el análisis y procesamiento de datos de telemetría, así como también los sistemas de comunicación remota y su implementación en satélites tipo CanSat."
           }
         ],
         "images": [
-          "https://lh3.googleusercontent.com/pw/AP1GczMZfAGcu3m6fFBBmG4QfOeib54v3fPx_ZR8TQPxw2__Omedl0KTFdMZyCOFXbexxKG8cYZ7kv0CiXH4Go9XrSH-Q4yUYs-FzFfRUMC-6dBQaWc1H_IlgqFwfIwU8lqz3RZVSAsCUmAy8CN5G3X0Xsly=w1251-h939-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczOmMEC7T-rrnGTBxKX8bEh4HDCu-fvd7BFLKrwhCIcnzl_KASsHxJM-WtQoOaD-28E8LEak0WIUY1XExh9R-qQ4m9YUiFwhgeEOEH1zqMD7AFdBQEdg44BrgMJh9PWCcEdnMFsa77l73gWAsUslrURr=w1251-h939-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczMuOBrQC5QgCwGe0Jd_HirOMVvgZD9A6g4GMyCtNn8bvObEKD9Ji3ntTp4Iy5zuXnXfc7QxTwOY1J1hWoAVXy42F_zmiLzaouhJnB5RpQkxt-uAx_bXDa9a2PjjI-d0uTvXKIExwyMgPpn791RvuYZG=w704-h939-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczMISikh7OcINMcmo4nq2Rz3xZBqr4EhPlCpXf-uWeTyYilmRlUYvOQ9e5Um-zWRHEAWOBEdpcPhe6bsUvrwuLcHYNJrRVJ00VDyUQdx0ciealVEN_GeNyoYs1CFRqLfylNzzCQSbRpOmmaqGr3IbnZy=w704-h939-s-no?authuser=0"
+          "https://lh3.googleusercontent.com/pw/AP1GczPafPm2KgwofEvIiGc-yKZWlsmac5oHn2jIPnDX8uGI_fUli1eZgTluUqzaOgq5sIpokxtef6yqi9wyicXUoGhJd2TZdoZwUqpYk3MfN6WZk_JleQxbsBr-r9PFcLgnYQcFx5io_TX7rooFkfLkLdl4=w1024-h768-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPUJbzbom0hrnD89v3WjWwf-TqtDNkvSBqmS0aKSSEZahmR9vXR70P6oqUTJRSrX88znrCPBkYdXyHZenK-eCqQpWh4n9hmuqtTxuumIVZkeGzSQSvMllWFxZ3uKJSuIEMAj9oB09Fa-QrG5XRgtcf4=w1251-h939-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczMVyQ6PZdOzfgOtAciPchG36fVaAahgaiQfUhOBABrf2KW48onQWPKIHqA2bflr38n4TiCQ8Sd2tPZuhm5mPUynwHINeXxrOgmAe9kzRafrrSdCPjc0_yzQPAzml9-dUnzcgUwsNNFl_DdODPduhvhJ=w1251-h939-s-no?authuser=0",
+          "https://lh3.googleusercontent.com/pw/AP1GczPbAy7VkiQXaMjG5R3rTkGYORXFc5FQy2WcFUYS5NYH7G7MyLwZVhda-K-qEOyUmsfNMBlQeF1smd8j34PYGYkjhu5U2jS_-WfXd4a84WPSffKBzdL0-K7OwL7xGlyWf2yIeEId40PxsBZzuoVWGRaP=w1251-h939-s-no?authuser=0"
         ]
       }
     ]
