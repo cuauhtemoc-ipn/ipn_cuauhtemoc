@@ -26,7 +26,7 @@ const ProjectDetailHeader = ({ image, name, text, url }) => {
           <img src={ImportDrivePhoto(image, 500)} className='img-fluid' alt='Competition banner' />
         </div>
         <div className='text-light col-12 col-md-9 col-lg-7'>
-          <h1 className='display-2 mb-4  fw-bold'>{name}</h1>
+          <h1 className='display-3 text-center text-light fw-semibold '>{name}</h1>
           <p className='text-justify lead-lg lg-lg'>{text}</p>
           <div className='text-center mt-4'>
             <button

@@ -1,6 +1,5 @@
 import React from 'react'
 import ProjectDetailHeader from '@/components/Projects/ProjectDetailHeader'
-import projectHeader from '@/assets/CansatCompetition/comp_header.png'
 import Tabs from '../../components/Projects/Tabs'
 import content from '@/assets/CansatCompetition/content.json'
 
