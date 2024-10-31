@@ -13,7 +13,7 @@ const SponsorCard = () => {
         <div className='border-bottom'>
           <a href={sponsor.page} className='ratio ratio-4x3' target='blank'>
             <img
-              src={sponsor.content.find(item => item.type === 'image').value}
+              src={sponsor.imagesecond}
               className='card-img object-fit-contain p-2'
               alt={sponsor.name}
             />
@@ -24,7 +24,7 @@ const SponsorCard = () => {
             <div className='overflow-auto h-75'>
               <h5 className='card-title'>{sponsor.name}</h5>
               <p className='card-text text-justify'>
-                {sponsor.content.find(item => item.type === 'text').value}
+                {sponsor.description}
               </p>
             </div>
             <div className='d-flex justify-content-center my-auto'>
