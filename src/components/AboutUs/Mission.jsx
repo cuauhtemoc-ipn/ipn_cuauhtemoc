@@ -1,7 +1,7 @@
 /* eslint-disable no-new */
 import React, { useEffect, useRef, useState } from 'react'
 import { Carousel } from 'bootstrap'
-import info from '@/assets/MissionVision/info.json'
+import info from '@/content/MissionVision.json'
 
 const MissionVision = () => {
   const missionvision = info.data.reduce((acc, misvis) => {

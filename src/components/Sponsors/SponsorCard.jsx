@@ -1,4 +1,4 @@
-import info from '@/assets/Sponsors/info.json'
+import info from '@/content/Sponsors.json'
 import ContactForm from '@/components/Home/ContactForm'
 import Privacy from '../Home/Privacy'
 import Pollito3 from '@/assets/Pollito3.png'

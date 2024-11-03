@@ -1,7 +1,7 @@
 /* eslint-disable no-new */
 import React, { useState, useEffect, useRef } from 'react'
 import { Carousel } from 'bootstrap'
-import info from '@/assets/Sections/info.json'
+import info from '@/content/Sections.json'
 
 const Subs = () => {
   const sections = info.data.reduce((acc, section) => {
