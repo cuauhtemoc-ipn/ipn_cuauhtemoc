@@ -1,4 +1,7 @@
 {
+  "name": "CanSat CUCEI",
+  "description": "Organizado por el Centro Universitario de Ciencias Exactas e Ingenierías (CUCEI) de la Universidad de Guadalajara, el concurso CanSat CUCEI es una competencia de diseño, construcción y lanzamiento de pequeños satélites. Los equipos deben desarrollar satélites del tamaño de una lata de refresco que simulan misiones aeroespaciales, incluyendo la captura de datos y telemetría durante el vuelo y el aterrizaje. La competencia replica un programa aeroespacial a pequeña escala, donde los equipos son evaluados en diferentes fases del proyecto, como la planificación, diseño, ejecución y análisis post-lanzamiento​",
+  "image": "https://drive.google.com/file/d/17g4ElEYbA3FXizIjRPsYYbkMqw1tG9sm/view?usp=drive_link",
   "data": [
     {
       "name": "CanSat CUCEI",

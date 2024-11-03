@@ -1,4 +1,7 @@
 {
+  "name": "Picosatélites",
+  "description": "La Competencia Nacional de Picosatélites, permite a los estudiantes diseñar y lanzar pequeños satélites llamados CANSAT, simulando misiones espaciales reales. Los equipos deben desarrollar tecnologías que recojan datos de telemetría durante el vuelo y transmitan la información a una estación en tierra. Este evento fomenta el aprendizaje interdisciplinario en áreas como electrónica y aeronáutica, ofreciendo una experiencia completa en el ciclo de vida de un proyecto espacial, desde la planificación hasta el análisis post-lanzamiento, bajo los estándares de UNISEC México.",
+  "image": "https://drive.google.com/file/d/1ewEVpLfOJvm0hB4QH-RJYDA_h_OmNH1Q/view?usp=drive_link",
   "data": [
     {
       "name": "Puebla",

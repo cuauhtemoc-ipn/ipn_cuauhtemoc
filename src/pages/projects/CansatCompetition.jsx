@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectDetailHeader from '@/components/Projects/ProjectDetailHeader'
 import Tabs from '../../components/Projects/Tabs'
-import content from '@/assets/CansatCompetition/content.json'
+import content from '@/content/CansatCompetition.json'
 
 const CansatCompetition = () => {
   const updateUrl = url => {
