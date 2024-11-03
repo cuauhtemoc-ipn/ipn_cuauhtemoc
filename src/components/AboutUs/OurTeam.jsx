@@ -1,5 +1,5 @@
 import React from 'react'
-import info from '@/assets/OurTeam/info.json'
+import info from '@/content/OurTeam.json'
 
 const OurTeam = () => {
   const team = info.data[0]

@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
 import { Tooltip } from 'react-tooltip'
-import info from '@/assets/Sponsors/info.json'
+import info from '@/content/Sponsors.json'
 
 const SpDescrpt = () => {
   const dividetext = text => {

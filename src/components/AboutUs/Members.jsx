@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { Collapse } from 'bootstrap'
 import { NavLink } from 'react-router-dom'
-import info from '@/assets/Members/info.json'
+import info from '@/content/Members.json'
 
 const Members = () => {
   const membcard = (member, index) => {
