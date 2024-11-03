@@ -1,88 +1,105 @@
-# IPN Cuauhtémoc Website
 
-Welcome to the repository for the IPN Cuauhtémoc website. Our team is focused on CanSat and other aerospace-related competitions. This site is built using React, Bootstrap, and Vite.
+# Sitio Web IPN Cuauhtémoc
 
-## Table of Contents
+Bienvenido al repositorio del sitio web de IPN Cuauhtémoc. Nuestro equipo está enfocado en CanSat y otras competencias relacionadas con la industria aeroespacial. Este sitio está construido usando React, Bootstrap y Vite.
 
-- [IPN Cuauhtémoc Website](#ipn-cuauhtémoc-website)
-  - [Table of Contents](#table-of-contents)
-  - [Project Overview](#project-overview)
-  - [Technologies Used](#technologies-used)
-  - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-    - [Running the Development Server](#running-the-development-server)
-  - [Folder Structure](#folder-structure)
-  - [Available Scripts](#available-scripts)
+## Tabla de Contenidos
 
-## Project Overview
+- [Sitio Web IPN Cuauhtémoc](#sitio-web-ipn-cuauhtémoc)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+  - [Resumen del Proyecto](#resumen-del-proyecto)
+  - [Tecnologías Utilizadas](#tecnologías-utilizadas)
+  - [Comenzando](#comenzando)
+    - [Prerrequisitos](#prerrequisitos)
+    - [Instalación](#instalación)
+    - [Ejecutando el Servidor de Desarrollo](#ejecutando-el-servidor-de-desarrollo)
+  - [Estructura de Carpetas](#estructura-de-carpetas)
+  - [Scripts Disponibles](#scripts-disponibles)
+  - [Contenido de la Página Web](#contenido-de-la-página-web)
 
-This website serves as the online presence of the IPN Cuauhtémoc team, showcasing our projects, team members, and achievements in aerospace competitions.
+## Resumen del Proyecto
 
-## Technologies Used
+Este sitio web sirve como la presencia en línea del equipo IPN Cuauhtémoc, mostrando nuestros proyectos, miembros del equipo y logros en competencias aeroespaciales.
 
-- **React**: A JavaScript library for building user interfaces.
-- **Bootstrap**: A CSS framework for responsive design.
-- **Vite**: A fast build tool and development server.
-- **Alias**: An alias `@` has been defined for the `src` folder to simplify imports.
+## Tecnologías Utilizadas
 
-## Getting Started
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **Bootstrap**: Framework CSS para diseño responsivo.
+- **Vite**: Herramienta rápida de desarrollo y construcción.
+- **Alias**: Se ha definido un alias `@` para la carpeta `src` para simplificar las importaciones.
 
-### Prerequisites
+## Comenzando
 
-Make sure you have the following installed on your local development machine:
+### Prerrequisitos
 
-- **Node.js** (version 14 or higher)
-- **npm** (version 6 or higher) or **yarn** (version 1.22 or higher)
+Asegúrate de tener los siguientes programas instalados en tu máquina de desarrollo:
 
-### Installation
+- **Node.js** (versión 14 o superior)
+- **npm** (versión 6 o superior) o **yarn** (versión 1.22 o superior)
 
-1. **Clone the repository**:
+### Instalación
+
+1. **Clona el repositorio**:
     ```sh
-    git clone https://github.com/your-username/ipn-cuauhtemoc-website.git
+    git clone https://github.com/tu-usuario/ipn-cuauhtemoc-website.git
     cd ipn-cuauhtemoc-website
     ```
 
-2. **Install dependencies**:
+2. **Instala las dependencias**:
     ```sh
     npm install
     ```
-    or
+    o
     ```sh
     yarn install
     ```
 
-### Running the Development Server
+### Ejecutando el Servidor de Desarrollo
 
-Start the development server:
+Inicia el servidor de desarrollo:
     ```sh
     npm run dev
     ```
 
-The site will be available at http://localhost:5173.
+El sitio estará disponible en http://localhost:5173.
 
-## Folder Structure
+## Estructura de Carpetas
 
-Here is an overview of the folder structure:
+Aquí tienes una vista general de la estructura de carpetas:
 
+```plaintext
 ipn-cuauhtemoc-website/
-├── public/              # Static assets
+├── public/              # Archivos estáticos
 ├── src/
-│   ├── assets/          # Images, fonts, etc.
-│   ├── components/      # Reusable components
-│   ├── pages/           # Page components
-│   ├── routes/          # File to rerouting Single Page Application
-│   ├── App.jsx          # Root component
-│   └── main.jsx         # Entry point for React
+│   ├── assets/          # Imágenes, fuentes, etc.
+│   ├── components/      # Componentes reutilizables
+│   ├── content/         # Contenido de la página (ver explicación abajo)
+│   ├── pages/           # Componentes de página
+│   ├── routes/          # Archivo para el enrutamiento de la SPA
+│   ├── App.jsx          # Componente raíz
+│   └── main.jsx         # Punto de entrada de React
 ├── .gitignore
-├── index.html           # HTML template
+├── index.html           # Plantilla HTML
 ├── package.json
 └── README.md
+```
 
-## Available Scripts
-In the project directory, you can run:
+## Scripts Disponibles
 
-- npm run dev or yarn dev: Starts the development server.
-- npm run build or yarn build: Builds the app for production.
-- npm run serve or yarn serve: Serves the built app (after build).
+En el directorio del proyecto, puedes ejecutar los siguientes comandos:
 
+- `npm run dev` o `yarn dev`: Inicia el servidor de desarrollo.
+- `npm run build` o `yarn build`: Construye la aplicación para producción.
+- `npm run serve` o `yarn serve`: Sirve la aplicación construida (después de ejecutar `build`).
+
+## Contenido de la Página Web
+
+Dentro de la carpeta `src/content`, se encuentran los archivos JSON que contienen la información dinámica del sitio web. Aquí puedes cambiar la información de la página, que incluye:
+
+- **Competencias**: Listado de competencias en las que participa el equipo.
+- **Información de los Miembros del Equipo**: Perfiles de cada miembro, con su nombre, sección, foto y pequeña reseña.
+- **Misión y Visión**: Descripción de la misión y visión del equipo.
+- **Descripción de las Subsecciones del Equipo**: Información sobre diferentes secciones dentro del equipo.
+- **Patrocinadores**: Detalles de los patrocinadores y sus contribuciones.
+
+Para mostrar imágenes en la página, agrega el enlace de la imagen desde Google Drive. Asegúrate de que la imagen o la carpeta que contiene las imágenes esté configurada para "compartir con todos" con la opción de "ver" activada para que sean visibles en el sitio web.
