@@ -1,280 +1,221 @@
 {
-    "data": [
-      {
-        "name": "CanSat CUCEI",
-        "edition": 2017,
-        "scores": [
-          {
-            "place": 2,
-            "type": "Nacional"
-          }
-        ],
-        "mainImage": "https://lh3.googleusercontent.com/pw/AP1GczPQ0Cz1x6dmyq1L4752NsKrazbYMg_vy0WEMnsmZjcZ9TkPV7AB8-OT2izfZXv-aVTYWj1IiIrU0y3s58voYOLz7UfXS7pKLqZFN5jknPKHkeoPoNGEqN_pbpnzUTZSsDBbmfGQASqkxw41pWU0ESVG=w865-h576-s-no-gm?authuser=0",
-        "conclusion": "El proyecto demostró un desempeño sobresaliente en varias áreas clave, logrando un éxito significativo tanto a nivel regional como mundial. El comportamiento aerodinámico del planeador, el buen funcionamiento de los mecanismos empleados y el desempeño de los componentes electrónicos del CanSat demostraron el trabajo realizado por el equipo. La transmisión de datos del contenedor y el software de vuelo del contenedor funcionaron adecuadamente, al igual que la recolección de datos y el descenso del contenedor. La estación base también sobresalió en la representación gráfica de los datos. Aunque se identificó una limitación en la transmisión y detección de paquetes de datos del planeador, el equipo logró colocar el proyecto en primer lugar a nivel latinoamericano y en quinto lugar a nivel mundial. La experiencia adquirida y la formación de un equipo apasionado desde cero subraya el éxito del esfuerzo y la importancia de las pruebas tempranas y el prototipado en el diseño.",
-        "conclusionImage": "https://lh3.googleusercontent.com/pw/AP1GczPQ0Cz1x6dmyq1L4752NsKrazbYMg_vy0WEMnsmZjcZ9TkPV7AB8-OT2izfZXv-aVTYWj1IiIrU0y3s58voYOLz7UfXS7pKLqZFN5jknPKHkeoPoNGEqN_pbpnzUTZSsDBbmfGQASqkxw41pWU0ESVG=w865-h576-s-no-gm?authuser=0",
-        "content": [
-          {
-            "type": "text",
-            "value": "La misión de 2017 simuló una sonda ingresando en la atmósfera del planeta, tomando muestras de la composición atmosférica para evaluar las condiciones ambientales del aire. El sistema CanSat se compuso de una carga útil con sensores que medían la presencia de contaminantes durante un descenso controlado mediante el uso de un paracaidas."
-          },
-          {
-            "type": "image",
-            "value": "https://lh3.googleusercontent.com/pw/AP1GczMV7FMvCKTBUKPhS7l7nVD52zzmulLvLoX6KWITwYB7KDvmUJLHZwrJ9rEi8IWEOi5iua7C8EP5DuVQbfatY4DDqUsxA9T-Q161fnqOTICWFlTFzJ-VchrTWR4ORLIe5f_wiIyEb6P5lB--9DUgGZrO=w960-h719-s-no-gm?authuser=0"
-          },
-          {
-            "type": "image",
-            "value": "https://lh3.googleusercontent.com/pw/AP1GczNn5j8TinF5OIsS9HxEGcm26iECAMU6Nc5XcYqzK7_L1zZF6ayMZSXyHe4nZXZLUoN7rXJAnEkawBPY79GaAjKRsujRW_REu6htMkK2PN-T4I76mCIWFpE2vQr5ShZrTHUrUVXf3aHbg1M3de8KdJuX=w688-h917-s-no-gm?authuser=0"
-          },
-          {
-            "type": "text",
-            "value": "Una vez separado del cohete, el contenedor descendió con el planeador asegurado en su interior. El contenedor liberó al planeador después del despliegue desde el cohete, protegiéndolo de la violenta liberación y proporcionando un entorno de liberación más estable y menos forzado. Una vez liberado, el planeador debía planear en un patrón circular con un diámetro no mayor a 1000 metros. Durante el vuelo, el planeador tomó muestras de la presión y temperatura del aire a una tasa de 1 muestra por segundo y transmitió los datos a una estación en tierra. El planeador también incluyó un magnetómetro y un tubo pitot para medir la dirección y la velocidad. Al aterrizar, la transmisión se detuvo automáticamente y se activó una baliza de audio para su recuperación."
-          },
-          {
-            "type": "text",
-            "value": "El diseño del CanSat usó fibra de vidrio para construir las dos mitades del contenedor, las cuales se unieron mediante una bisagra de acero de bajo peso. Los componentes electrónicos se integraron en una de las paredes del contenedor, mientras que el servomotor se colocó en la tapa inferior. Para la carga útil, se utilizó un fuselaje de polipropileno y alas y estabilizadores de madera balsa. El diseño del planeador fue optimizado para reducir la resistencia aerodinámica del fuselaje y mejorar la estabilidad aerodinámica."
-          },
-          {
-            "type": "image",
-            "value": "https://lh3.googleusercontent.com/pw/AP1GczPUpwK9dYqYkNYAXfiUFCUteenMn_dVxMnRVcoJ4pJSeT7Wu3rkPs_nUpDRMTp2T7Yx7gjAQFblXRMlbfh26YtP-LsItSjdzxlB6TpyZinug5yDeq7ZIWOYm6e8Pn9POEqTrDmtfOIA54c68Ne_UZMY=w1376-h917-s-no-gm?authuser=0"
-          },
-          {
-            "type": "image",
-            "value": "https://lh3.googleusercontent.com/pw/AP1GczO1Yah7f4VeyUuiwkbD73Y6KcBbk1v2ZsAYREcdqQ1T7KIBbdOf4N_8HLBBisXPE75eKogMxvqCATj64vXbqgAH8_3sB1v8rtNNQ91ZieprvaDI3q4n5eanscX9IewQl_6H1-jAuP0xpSEWyJClV4Z6=w1223-h917-s-no-gm?authuser=0"
-          },
-          {
-            "type": "text",
-            "value": "El subsistema de comunicación y manejo de datos se caracterizó por una estructura eficiente para la transmisión y gestión de datos. Las antenas seleccionadas para el planeador y el contenedor ofrecen un bajo consumo de energía y permiten realizar la transmisión de telemetría a 1 Hz, la cual es  procesada por el software en la estación terrena. La interfaz de control en tierra, desarrollada en Java, permite graficar los datos y almacenarlos en archivos CSV, facilitando el análisis y la gestión de la información recogida durante la misión."
-          }
-        ],
-        "images": [
-          "https://lh3.googleusercontent.com/pw/AP1GczNiHAKq_kZgxaCWQShQh5lVdXrHUGoXcSDLt3LIt5XvNYPj3qnwbutCHZAhDvF-Nu9uPm193QqS-xOWf7u3dqjqbr61m6OFc-0e1hdlMBcxa8Jx04rZRZBg9Ec_tu_2ILGu8eH0uJFFKS1odxP3wOVb=w1223-h917-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczNX7X-F5KorLaa2VvWULkgp4axTFKtuLH86BpDe1-qUi3AhJPViJ4uclGTU7L0Z_5Zaf-HCeAOfbWhaedoT2TWqxSjVM-rjQFgGTgVC-OrA4q9d1LaRDa5tPd_sL_zoEUhk62BSzbAxz7y7_4M6SrPu=w1223-h917-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczO1Yah7f4VeyUuiwkbD73Y6KcBbk1v2ZsAYREcdqQ1T7KIBbdOf4N_8HLBBisXPE75eKogMxvqCATj64vXbqgAH8_3sB1v8rtNNQ91ZieprvaDI3q4n5eanscX9IewQl_6H1-jAuP0xpSEWyJClV4Z6=w1223-h917-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczNn5j8TinF5OIsS9HxEGcm26iECAMU6Nc5XcYqzK7_L1zZF6ayMZSXyHe4nZXZLUoN7rXJAnEkawBPY79GaAjKRsujRW_REu6htMkK2PN-T4I76mCIWFpE2vQr5ShZrTHUrUVXf3aHbg1M3de8KdJuX=w688-h917-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczMMtcw9jek1Ny5BjU_NGPgdJVsMtNECgzHVW_gy7jNrn6qaaT2BBdBu2O5eyaCTqKxTP8GVr1Lcq7ztDa0O4glZMi3g-AD-knuFmHoFYjmnPXQrdYGYSUNnoJhT-EM_fXT8D06ST8HKNteddUhBhlkq=w688-h917-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczMumQ3-8X-nD4RaiaNlRpIcyNbU5PggYqwMP_cxeSBvpYMcTL0vmdMttNAFvpb8QA9H_ESIK6udeSxaX8vulDA9uhtk3F7bHQdpqCM1SeQue7ev_gWHgXWAAGZQtFa-iEL5BIaY24B49_C84LiTuPSr=w688-h917-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczOaNXI37ourl7oKgDWulair7lKkjzsa2CiMfVb98ccLcCsvkrbxWkrCQU8okIvSyBygmI3d_bc8CG3B8H98hVxqSiUA2JtXtNDLSb5VKRTMaCUV4OfMVT_NDnoWfvq_4fEr1mTA4nd_nC2dNLzkETub=w688-h917-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczPpVR4jX9RRXHRaOOh6jgBOPXxFkDvPFcLyeWAzHu0DtOsTeP8Veg2W4--9UxpMmrcMXCqoNqHQQR0H5lMhDhF5WY1YBJ4jfkxJxEUCepAd2VkW1NmDA_uBl12SRpzlDAahPFcHNkLMhPKFf773kxW_=w688-h917-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczMafWzxYmcDQxR6Eq4NFaMmbLxmMXYAQYVdkyy5mi1j-wnI1q3vU2zp_gw3rqRewALw57x8MZT7C0DU_zGiFzeSGJI6i9DEU8Z9xayy72C07j9Sfsoc18yA3Opw8Iwlc-QSu6srjodZv-nmq-aXZ4Nj=w688-h917-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczOrW2xuFwwhphOp6P3H6hSAPLHTz6MijucVbzwFIrTWtum_EjKyeGV9sQZk7_0PedhUVYpniLpclrnlXjHWWhPxYE2rZtv_s8nFbpA7CoWwCuocJ4xr3g5B_ClIUtNcC5xGihe7to8zkp9jqTawC8pb=w688-h917-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczNpFrMs-msd1i4vE3FHF_AJhthBs0gQsnHqwWIWjmT6fLioABleP3-7RWRp2WAVk7n-G5oJt2H6adlHBRP4u-eKFWpeF5p2aC08n18xBotvwXAZCxru8oJZ-CLW0MH8Vdc-9hFBMcxPT2BKQkbskbVi=w688-h917-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczOem0JuXTej1bc2-fcK6yYxLGlBTx1Mlrw9EXDg8Jm3oebV__2nSPy-Rf3qOr4wk9C6Po1bh9uOfOo5dur-VVqud2mAJWi2duHf9aL4wHk0SiBn3UIF4I4LKq0wgumQYczkyXjpQJ29rL6TY6eeH8Tk=w688-h917-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczPUpwK9dYqYkNYAXfiUFCUteenMn_dVxMnRVcoJ4pJSeT7Wu3rkPs_nUpDRMTp2T7Yx7gjAQFblXRMlbfh26YtP-LsItSjdzxlB6TpyZinug5yDeq7ZIWOYm6e8Pn9POEqTrDmtfOIA54c68Ne_UZMY=w1376-h917-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczPQ0Cz1x6dmyq1L4752NsKrazbYMg_vy0WEMnsmZjcZ9TkPV7AB8-OT2izfZXv-aVTYWj1IiIrU0y3s58voYOLz7UfXS7pKLqZFN5jknPKHkeoPoNGEqN_pbpnzUTZSsDBbmfGQASqkxw41pWU0ESVG=w865-h576-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczMV7FMvCKTBUKPhS7l7nVD52zzmulLvLoX6KWITwYB7KDvmUJLHZwrJ9rEi8IWEOi5iua7C8EP5DuVQbfatY4DDqUsxA9T-Q161fnqOTICWFlTFzJ-VchrTWR4ORLIe5f_wiIyEb6P5lB--9DUgGZrO=w960-h719-s-no-gm?authuser=0"
-        ],
-        "team": "https://lh3.googleusercontent.com/pw/AP1GczN-bOq1swG-NA8qu6tc179G93SxPlRwXVtHp9JYULV1kuY6ABx2DrUz1E6_7QVKUf-OcOGo--QSnDOaOTjZl9RUMlV2ZlYNiZOEmz_z1hbdo9GCi-23kuJI7IWC6G1vx_q635HdhC_miJ1OLEf9WrYB=w1920-h816-s-no-gm?authuser=0"
-      },
-      {
-        "name": "CanSat CUCEI",
-        "edition": 2018,
-        "scores": [
-          {
-            "place": 2,
-            "type": "Nacional"
-          }
-        ],
-        "mainImage": "https://lh3.googleusercontent.com/pw/AP1GczPOaVxoLv6T-5qKHaWKr1uZBZqAdrZ6yG7I8U9tWA0pwb8iyooGiEhIRPC61TNdo3UsFQxoD-borVChD_AVRrN5yapY50Rp-6KHeQ6VS2ISBwctmZYFFfE3gUxSnIvrJ28Xi_ddEkLJnZOYSgoehavG=w1080-h680-s-no?authuser=0",
-        "conclusion": "El equipo demostró su capacidad de innovación al implementar soluciones simples y efectivas para resolver problemas, incluso en situaciones de alta presión. Su ingenio permitió al equipo obtener un lugar destacado al finalizar la competencia. El despliegue del CanSat y la liberación del paracaídas se realizaron con éxito, logrando un descenso adecuado. Aunque se identificaron algunas limitaciones en la transmisión de datos, se tomaron notas para futuras mejoras. A pesar de esta dificultad, el equipo logró posicionar su proyecto en segundo lugar a nivel nacional, un logro significativo que permitirá optimizar el sistema de transmisión de datos en futuras competiciones.",
-        "conclusionImage": "https://lh3.googleusercontent.com/pw/AP1GczPW6KERL7PRIystMoa0BjO6OI5ZMYQ28WdE6x4GJPFeWLZDrXz9v_qPa1fQ25JqsUzg0aVe-hgFOKvVjL9dQuNmuWlmx2N_rCfr8Q2cC97LU24R7ns-46Ld8OPNWumP5AP3meGKRoAsz1kcGY2ddFBl=w1251-h939-s-no?authuser=0",
-        "content": [
-          {
-            "type": "text",
-            "value": "La misión de 2018 consitió en controlar el descenso del CanSat de forma autónoma (sin recibir órdenes desde la estación terrena) con el fin de aterrizar en el punto desde el que comenzó la misión. La competencia consiste en crear un CanSat, un satélite en miniatura con la forma y tamaño de una lata de refresco (355 ml) con masa aproximada de 500 gr, capaz de transmitir datos y completar una misión ya sea recoger datos o efectuar retornos controlados a partir de 500 metros de altura."
-          },
-          {
-            "type": "image",
-            "value": "https://lh3.googleusercontent.com/pw/AP1GczPfHqyP83YmcnmkdZBS5u2kNWiUVjjdY6_Ttn43J_-2PMCX5BKzAyVHjHYD_WEWYGZxmZiYvCG5fGwTL0F40Usx5wVFrfAgfVhC9mGc3uzZigzlRbKx3NpLQHwgdYMGYrwG3qS4ftI-CLOx6MKv2cj9=w1040-h584-s-no?authuser=0"
-          },
-          {
-            "type": "image",
-            "value": "https://lh3.googleusercontent.com/pw/AP1GczPxXJOLlbH60Z5Pq8XTM4BfiLakbij1yQ6zg3O9memkySoUvnZaUQ6EaLvdCQlTAa2ZU0gZ18yDl6XR1Wdksw_8v5CQ8aNm5OaEdk7FFrxdUVFfnSs5BViWKVNYE4CGjodCFKTnuayve-mdEWuNKaKa=w751-h939-s-no?authuser=0"
-          },
-          {
-            "type": "text",
-            "value": "El CanSat debía realizar un descenso controlado y autónomo desde un drone en vuelo hasta el punto de despegue, con un radio de tolerancia de 40 metros. Tras la liberación del drone, el CanSat despliega su paracaídas y el sistema de dirección de descenso en un máximo de 3 segundos, utilizando un solo actuador para ambos procesos. El CanSat desciende de forma autónoma hacia el punto de despegue, transmitiendo datos hasta su aterrizaje, momento en el que se interrumpe la transmisión. El éxito de la misión se mide por la precisión del aterrizaje dentro de la zona de tolerancia y el tiempo de despliegue del paracaídas y el sistema de dirección."
-          },
-          {
-            "type": "text",
-            "value": "El diseño del CanSat se basó en fibra de vidrio para su estructura principal. La carga útil incorporó una toma de aire en la parte inferior, fabricada en ABS mediante impresión 3D. En la parte superior, un eje de sujeción permitió enganchar el CanSat al drone, con un servomotor ubicado en el centro que acciona el sistema de liberación. Debajo del eje se encuentraba el paracaídas, controlado por un sistema de dirección de cuerdas que permite orientar su descenso. Este sistema de dirección constaba de dos engranes de diferente diámetro, generando tensión diferencial en las cuerdas de sujeción y provocando la rotación del paracaídas en la dirección deseada."
-          },
-          {
-            "type": "image",
-            "value": "https://lh3.googleusercontent.com/pw/AP1GczMtVDoEByREVmzEBrouSCOE-VCzCHuiel58cLV89q5vUpS623kLHXKiT4mdcRoeDvZew5QMm54RXo86ykQ-qLXc4RgUVmRqEIiUQX4mbGz-zsDKNnAsRQ1rTOiaCevUON7j3uDI-p1xqjh5JKZoL8iU=w751-h939-s-no?authuser=0"
-          },
-          {
-            "type": "image",
-            "value": "https://lh3.googleusercontent.com/pw/AP1GczNhMAmQPo6PANPHujzjmQU6gIomDRyQIvGqI4k5FvVzANMvqKtQQtCIdtq9VaWYachnlzApGOdtWnQuf8QdUqOKMx6nzrGzC0s49L8fyhzf6jKciyarww5qcK3uDusyvpnmDUXNgv_pHfOfYgHcgcei=w1251-h939-s-no?authuser=0"
-          },
-          {
-            "type": "text",
-            "value": "Para determinar la ubicación del CanSat, se implementó un sistema de GPS que transmitía datos de posición a la estación terrena. Además, se incluyó un buzzer que emitía un sonido cuando el CanSat se encontraba a una altura cercana a cero. El sistema también recopilaba y transmitía datos de temperatura interna y externa, presión atmosférica relativa, humedad relativa del aire, altura, posición y voltaje de alimentación eléctrica. Para la selección de los componentes, se realizaron análisis de variables como voltaje de operación, peso, corriente, y dimensiones, buscando las mejores características para la operación. Los datos recibidos se mostraban en tiempo real en la estación terrena, con gráficas de telemetría que relacionaban las variables con el tiempo y la altura."
-          }
-        ],
-        "images": [
-          "https://lh3.googleusercontent.com/pw/AP1GczMoDmkiwPrTn7ZvjD5DkM3A178BuV28twcMK3dEsO_2gDMWt_p_KlUQMFw--IwCyFXFfwiilcqtrdnnDUwlYj1NF60S_UUQY63E8YNrpDaF3zcxuPXwiqARvhaPfTvqZAO4Jx8Z-_aspCDro-Ut4k4F=w528-h939-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczP_q95aQv8qWZpTTl7UZK4VKRyan2j9g72qcj9-ApeY6VwVvFkccUgLmfi-hh9H6czvsv9sRxMkFiCmAUhI-5GmEYT43b3ckO1aZsHD_-W84szOx0bdxCufANXtxGZuvkm495nuUMLUw0hMm48IBV_H=w1669-h939-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczO-GE_im4wPQJl9Kwb-8OGslR413aRZTkl2CRgZtpoGX8SVy2KQunz3Ra-IIj88jMBlXdZVOoc4zDgVUAiScraH_R5fzClUv4wR1BKNLyn_iJNC7ZzXhh2y8bpGZYOgoAlC2H88kp_5MoPpdyFHSkXU=w528-h939-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczPH8mNDzVYpENuciVelxRm_QRhRPxzl28U2zgR6KOMLyUCQROHs9uUN4CASODVc4sYMM0eassiaGWPxg0pmhlKL3eBESxq-g4_IxfDk2PK7JgVhiwWBUnyV3CRmyla8bu4VEc60ydqTIjbbF1BBC33Y=w528-h939-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczNCwb56NhwEBBbOz7K-uO9U-TAGgP457yLI-YNpHczu1c-AV85ifRVjx6SNZB1YXcVym2ylS0p-LTyV58RyQPTAMrM3chUuz2Tzc00lWacQ4KhU15pv6wgEbQGEWtvqLK68qJZCExuNnreKjBCt1x7C=w528-h939-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczOYrJ475PEYAGOUmw0N9ddI4LjJEFOsCr4zBiWr_wRUM9-isTzo4hfmXNJL_KEQUfTO46ukJvKsaxJF8T5kVbDpEsDi8WKt4Xp99SiFG9tFWrOILiPLxHOpFFILRTw6rWY2bGFIOJVglgy276omRrQQ=w528-h939-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczPPZ3Ty6C1F6BcPWjGCg3k4jF0fx-oojiHse6_594DKAcBtd_Pj0UCnNqttf2FML4-ESUtNJbq9q5YA6K6Ft0hZtz-_FuQXOdCCZyd1IB3-L9BhRh2JewFDcQ_zYoffjwyYmY0dodAiK15cU_KATCik=w1669-h939-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczOzPSuO-1KSDz3JU3pmoON-Wfuf-ifvHJFkgc_5C5O24-Br862ZCo6M890LTbj6k2xpltpJWCTjmMzCt_UOywJWWw3iAxobqyShTh1bU3vd8DwfSYoXyfRUSyr8w4gu0Uk3r29F-3LoLWeClmiM2DRB=w1251-h939-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczPF60MmkmKfrPAgS_7k7rQP4B0SYN3JEZcZupVTbXsYJwkkLbgxLBNypJ1vWDLAfs0bjriuNF6yq67O1hEjpGut3ty7NYBcpnQe7Vfi-nPFKo32YgEMU2SGiH0wTovKdmySgVK7z_0Lqmo1G-Yb2Ueq=w1251-h939-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczPYfEXzTJpZto6kZKxx_ImSxFpLBqOR3radan3IauagDmwzzqnNhzsNs_wr2KC0IiyWYPAgpD9WA25Vl4gf4hW_wuw8OFRqyrm-Y57f4wrOF0SAF1BlxEZfqWd1nd7uCwC0mYJriRWkadikVdF1ul06=w528-h939-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczM4EU2a3rKTNll-8Yw51eIt5TEjMF00jMVlFFq0BhB5gD5o94UJj6D1pchEB1tQuLEmR0XoDXF5sv1j3m-QvodDkklsnqdD_LCKZeFKNEAo0EPDk30jbnOt1PkEjRyypXb7H035fU0F1HAq7sVOA2DU=w1251-h939-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczNt8UyVEFFwdY9n034Eaj5VTSTMEdkl_D4BXMIPYQrn7elYRxBARTYxIbZdA5Rlm0PPAN_qtiKbF110mjeJyNwUarvE7-DbA0STKkcyjotezKPNI92bUSiP9wZEJ0r6miOT4PfV1fnMHrDxBlK9c4N4=w1251-h939-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczNZuwvUUDzLMNlhYhbf3ijIEoV0NWIOL03Jai-6Fc45kXIkkaWEQjUe8u8NQpAestmcqOkoeyPC9gpIi_OiytdJI-SXz0vHItNuKdr2TlsyFiX23EVg1OroD8Qaj-WmxO68YtiAaqf5c5F_pW2Nwiwv=w1251-h939-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczO2V8R2grzJC-F6H9KoBU_gz6zvq-WciGRVLId8hE6wQ7swHzqjIJmFy9DQRFO5CzVMyNCthb4y0bzIggyH54W-CAHVJhnnbcWL0UZNiekwYeBYUMMhjmQt3Pq82ilE3dtFbTEVAMh1LHWwJgjHp_U1=w1040-h780-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczOr0aTmj3VPC6JIdYtvOIUYfmO0sudUMzoBUGCVWAKD_eL5UAzq5DS-cmY50MOkIiGAzrcSgt3GOpDMCSBR64nKIkrFRxq7aSjou8hMuJu7mY1_LvHMXtDnni0zumRlyInzM_ehfchVTsgFAWWcEhyI=w1280-h719-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczMgs89_NoEPzi8qgyJgH6cz75OIy7eyqs2AilYD12tuuryKZEXiRwyvSGKXqDloPYsH5nzRdyuwry9SaGFZDvugXni5UtKXo6_R7FUoikelofX01qFFveDWS2jrRa_AXgVTJBTHWV8gJws4xnuQyMOG=w1040-h584-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczOLEe7DuIjDcJ0tN3Ds99hm_SzREdvwBtz0tJaL-49AIEj369liGexTNmvA8MTwp8Bf18XUyRilcgGWjuyRl-d1FMUTDNa3q4SNffZGiZqjDT5-IimbZxhiNKLrt2rRDC0xhf6oPgZkdPUrFvfZXIgM=w1040-h584-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczN7MKwYoeX6S08i_6ujUllto2OkYOIdo3AFucBap3OHSGgdfg5nDKV7UxYUmgoxZv7bs7LGbkzwjM7U8SGU-WLQCr1dcCa58YB0MT-T7vSJbQPSZE73O7ut9aEr34Qk56E7YPfTrjsvMPgGyxjmFpOG=w1040-h780-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczNEk445QJR-BZwryY_XLZoj5w7dSwYnawUc4BQJ48N3LDRFc5W6oyJgfks8qY6mHl5VNKy8UOorc-KHjCNHb1E4hzNYr4Tm8hUA1cE34WmOS9fzsHHxdNhnTgNQubnbkpJbKrJHPoJpbUJfGW27Vp8O=w1040-h780-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczMCWwMjIlX70p786o8xC7qVGaXFWohwUoBVMnmFLTeNW5TCsGKEOYTlMtP6j9RcN4NwIHnbjDLu9HOSaSwrACydXD39S33ca30stQI0A4INsZeeNruzANptM_HRwjC6xWvFwxMNHxTwszv6cgMuNY1a=w704-h939-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczONR1YJkXAxKCtMD8c9vF9mugSLjhBDqyEoi8g1kfT-8P8csJDQze-qUq0rMaZOAWUvHmWRRJYtCzgkQmYiV2Rz-IQB1DJ3KX7G6EWrAnJrAMSSszXb8uFZS7hTxtae5wtYWxTjCPITLhfyuu1JaA85=w1280-h720-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczM1u-8DTDgsmtoksmTM2ztWNNqEe5BJnxYOZBHUkYgedGGshd1ZES0kStvNK-pFPLnVLaO3PAAtjQUichvUZLgxvp9Xqfw2b1cHZpLxtB3smyNYAG489DFC3BOccjkGJLuPUQsbsLakWF7YS8aub4ds=w1280-h720-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczOqtuKQ09PVJCMGqyoGhfaT1zWUkNwknmpjq4vdJDF0f4K772SQDs_7KncY57fz-vcbeI4YaikeSVOdjPr0JFgqtefKy4zg5YTdD8-HrkXNGVgK2QHJBZB9wPpiy3EprCVt1q9D-um-IMwosi_5s7sW=w528-h939-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczOzJDAgvGI6u7WdAPfcCtQUf6U5MAR-C2q_i_m8mD5m1gxtIV7HVqcQeR5DjHAKtmR0DH2TweooEXvEv_FIrJcdFemAyyzgwOT82uXnrBt3_WVut4tqN83WZDVWZzu74tiuehnC8ye3vgsCRNYT40O5=w1251-h939-s-no?authuser=0"
-        ],
-        "team": "https://lh3.googleusercontent.com/pw/AP1GczPSsrcqFUBXzy0zOo4ikpcWADLoWJ6y_DRRWJ3oZtFF0nAZQF9jlMblcywta8B-VGq-wAwDWTK-sRwPnKeCjPaHIJ4YfIcE9jEM8ZUlC9CIGIePe1-QIVZMhZJOOo96J_Ku1Wj2UgLYsIXTZMz_H5zA=w771-h324-s-no?authuser=0"
-      },
-      {
-        "name": "CanSat CUCEI",
-        "edition": 2019,
-        "scores": [
-          {
-            "place": 2,
-            "type": "Nacional"
-          }
-        ],
-        "mainImage": "https://lh3.googleusercontent.com/pw/AP1GczOBOI9dQuOdLPNyIatzwPXJyrTPISDddHES1N0ZRkEUT7QvFiZUxh_QfZrwdGetlZQta2Fx8jsW5VPgh9TNkv_XYmMB5B7w2-QeIiHn07W08ySW0xmwK3jb5d9apbHCmISilKlm3XG4Jiah2OFwHrxp=w1152-h864-s-no?authuser=0",
-        "conclusion": "El proyecto demostró un desempeño sobresaliente en varias áreas clave, logrando un éxito significativo tanto a nivel regional como mundial. El comportamiento aerodinámico del planeador, el buen funcionamiento de los mecanismos empleados y el desempeño de los componentes electrónicos del CanSat demostraron el trabajo realizado por el equipo. La transmisión de datos del contenedor y el software de vuelo del contenedor funcionaron adecuadamente, al igual que la recolección de datos y el descenso del contenedor. La estación base también sobresalió en la representación gráfica de los datos. Aunque se identificó una limitación en la transmisión y detección de paquetes de datos del planeador, el equipo logró colocar el proyecto en primer lugar a nivel latinoamericano y en quinto lugar a nivel mundial. La experiencia adquirida y la formación de un equipo apasionado desde cero subraya el éxito del esfuerzo y la importancia de las pruebas tempranas y el prototipado en el diseño.",
-        "conclusionImage": "https://lh3.googleusercontent.com/pw/AP1GczMM-eYjct_o8Y3LyJtVEoQGK4px3bD4WqSfLISZ-EcQP-N6zxCmaGRdWYA2mXqXYo0XZ23XrKpNSQylxjdLtueXQoQJojH1qE0JKh5Eppi7j6wLzLf0B8QaPsWMJoF-DlAKlLIKawGMm7SR525tcYr7=w1152-h864-s-no?authuser=0",
-        "content": [
-          {
-            "type": "text",
-            "value": "La misión de 2017 simuló un planeador explorador impulsado por energía solar viajando a través de la atmósfera de un planeta, tomando muestras de la composición atmosférica durante el vuelo. El sistema CanSat se compuso de dos componentes principales: un planeador y un contenedor de reentrada que proporcione protección al planeador durante el ascenso, el despliegue cercano al apogeo y la reentrada/descenso inicial."
-          },
-          {
-            "type": "image",
-            "value": "https://lh3.googleusercontent.com/pw/AP1GczNGu9BGx_I-Rd6nsmxHBmpilq3JqzOijTezItJGSJW3mUacKyxDKMjLCpiCs6uH-4A2EoqPgx7koJO03cHuX4285Xor4RiIILfCJFleB8phddQofP2-tmp7yjYHb1SEtZYzTkkkwgjMGFoaV8UhANuc=w1409-h939-s-no?authuser=0"
-          },
-          {
-            "type": "image",
-            "value": "https://lh3.googleusercontent.com/pw/AP1GczNliSa6xyHArMPwHj6U6l1OKGKM-Qoeeu_cEXR1-iAT5eXXVb7lMxoy-4Y6Mj_UISfa--vRvmmhs9LzL6G5dBnbLOY69H2PcGGiAG1x4-cIMgr30EiECmNHEnOtqGCkVl2vluSQJcft6geky9pj_oLc=w1409-h939-s-no?authuser=0"
-          },
-          {
-            "type": "text",
-            "value": "Una vez separado del cohete, el contenedor descendió con el planeador asegurado en su interior. El contenedor liberó al planeador después del despliegue desde el cohete, protegiéndolo de la violenta liberación y proporcionando un entorno de liberación más estable y menos forzado. Una vez liberado, el planeador debía planear en un patrón circular con un diámetro no mayor a 1000 metros. Durante el vuelo, el planeador tomó muestras de la presión y temperatura del aire a una tasa de 1 muestra por segundo y transmitió los datos a una estación en tierra. El planeador también incluyó un magnetómetro y un tubo pitot para medir la dirección y la velocidad. Al aterrizar, la transmisión se detuvo automáticamente y se activó una baliza de audio para su recuperación."
-          },
-          {
-            "type": "text",
-            "value": "El diseño del CanSat usó fibra de vidrio para construir las dos mitades del contenedor, las cuales se unieron mediante una bisagra de acero de bajo peso. Los componentes electrónicos se integraron en una de las paredes del contenedor, mientras que el servomotor se colocó en la tapa inferior. Para la carga útil, se utilizó un fuselaje de polipropileno y alas y estabilizadores de madera balsa. El diseño del planeador fue optimizado para reducir la resistencia aerodinámica del fuselaje y mejorar la estabilidad aerodinámica."
-          },
-          {
-            "type": "image",
-            "value": "https://lh3.googleusercontent.com/pw/AP1GczMv1k0nKTr1R8OT0NNXXF7fkgb0_HjgDPjxgpNRDmpW533_eK8tTlV5B2OWZJ-N4OXULhPrDT16c3pJLocr4Ur0becxXZZRY_L0uBqcE_RIcmn5raNqpOpKh-6Iw546ObK0vxjTFM_pPrFn6kXmrZym=w960-h720-s-no?authuser=0"
-          },
-          {
-            "type": "image",
-            "value": "https://lh3.googleusercontent.com/pw/AP1GczPEipCPAq6AwhoOWg5kkexYxeY7lZiuIAP4uZEpbZb_290giKXr1k5wiRiIILFscbA4fjJlFLI31P1B0YsGE6WGE7Md7p52gpLZ2GiU5Pnu94GnXE6E-k_COTrc2mAyU8SK0otDESDuDxA2Q01wP9Wq=w1409-h939-s-no?authuser=0"
-          },
-          {
-            "type": "text",
-            "value": "El subsistema de comunicación y manejo de datos se caracterizó por una estructura eficiente para la transmisión y gestión de datos. Las antenas seleccionadas para el planeador y el contenedor ofrecen un bajo consumo de energía y permiten realizar la transmisión de telemetría a 1 Hz, la cual es  procesada por el software en la estación terrena. La interfaz de control en tierra, desarrollada en Java, permite graficar los datos y almacenarlos en archivos CSV, facilitando el análisis y la gestión de la información recogida durante la misión."
-          }
-        ],
-        "images": [
-          "https://lh3.googleusercontent.com/pw/AP1GczOl3PcQlGQcR9LMw80VUQVkOY8Y1qL9BZwt5IvE-8lyQ0O8vgq-Z_KrCM0bAwAOg6_Cu_dNhKen-a_jM7QoEfMZwuReSO_2yiLWazdA8X8XuSYB08_pZk2HQM5sDfo1R0K4eElvc2Kt7BnlqDg_HIRt=w939-h939-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczMAMTfESitio6GSo3JT-I07eYPQkoGHwhpbOpw4Gz9HKeG463JKP3kEdfCEIDLffSH0o9aQQBB21yiiza6uWEN-V_esHZA-_AP6IUo1xUp0Z8Cqn_L9KJ-ldA5nfI9oabKRoJHJ88NvyM8i7vyANTqF=w1251-h939-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczPVmg6L0dBiERSlxrj6yHMwoi23VxvcVXR_mFvE69Cc0ekX_RTnYytmW1NvRNwMwW9eOpvp1i16GI8dDPCfiD-nTPOladA_D518pbA9fyxDjXqlol5S5LVuug4QQhV-oq7_QL9SKvaqfktseZACU2ze=w1152-h864-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczO6aKMBW-M8oDLL2TO37pkyi1SCWvMLYgP1lWKPU78gZMo_meghyB-Vvu6LXBHa7z20vhj5wgsM1UD9xfI1N23rnolkBlJchmYJcesr3YFS-TaLeL-N_otKlYO2vDdrJrI0aoV_WEFSMpaTjfXadzey=w1152-h864-s-no?authuser=0"
-
-        ],
-        "team": "https://lh3.googleusercontent.com/pw/AP1GczOMpnE8THKXZO2-U_KLbqLBUvRC5PGrJCLBWMAvLPb9LxXHjjW3z7CCFOaA5vQQA5mxMS9wdsJdKx9-SD7xZtUF-ehN_6CKM-kWZF6aiDz1aS6IVGVw9I-5wWTvMqVt6IkuVDeGfsnN-G_jUk34jA0F=w1419-h917-s-no-gm"
-      },
-      {
-        "name": "CanSat CUCEI",
-        "edition": 2023,
-        "scores": [
-          {
-            "place": 2,
-            "type": "Nacional"
-          }
-        ],
-        "mainImage": "https://lh3.googleusercontent.com/pw/AP1GczPgGQ6Z7kk-Va_8O3mnwx95W2jzWfCQcy--2to6XEkKXcDryH2q-5wvce-UUfH6kXChhFsWkQNAEimWXRZKs-IahNwK6cknoILXXZ5SwSQqfkFkrEyLr9Tu8Fkgbci073dCAyiVyTrxos11m2Hr7UTr=w1408-h938-s-no?authuser=0",
-        "conclusion": "A pesar de los fallos operacionales, nuestro Cansat demostró que cumplía con todos los requerimientos que la competencia pedía tanto estructurales como a nivel de comunicaciones, y con las experiencias vividas se pudo tener presente nuevas formas acciones que podíamos tener en cuenta para futuras misiones nacionales e internacionales.",
-        "conclusionImage": "https://lh3.googleusercontent.com/pw/AP1GczOT4H7g-CXsg6rXsvPUtnEe9LTJu1nW8a6i4os9aDGBs98KMN78hK2iEQXyO6SV0jfph-TUCiUqaOqCp_y_4ID2mubYHu6rbtD-GCvdNiBGiNMlZ69214oAxioaslU_tI5xkh6wyMf7G8iq2KkhiOxg=w1408-h938-s-no?authuser=0",
-        "content": [
-          {
-            "type": "text",
-            "value": "La misión consistía en diseñar un satélite del tamaño de una lata de 355 ml con un peso entre 300 y 500 gramos, el cual fue ascendido con ayuda de un dron a una altura de 500 metros. Este satélite debía realizar un descenso y aterrizaje autodirigido, además del envió de datos de telemetría básica como presión, altitud, humedad y localización GPS."
-          },
-          {
-            "type": "image",
-            "value": "https://lh3.googleusercontent.com/pw/AP1GczPi_a5PsTW2_1TCDDmtP_Us-yY0Vll8wipavabYltj_VYOdwsJ1usQ2p6grsEzsqTIgFUaZF7Mq-B4GucZO4HhGKieNbsj_N8GYNag7D_lgDEQSr1rFYz9RW4Gdp-16_QuApYlZdZwmA-MweYk-YLWj=w1666-h938-s-no?authuser=0"
-          },
-          {
-            "type": "image",
-            "value": "https://lh3.googleusercontent.com/pw/AP1GczNnen-kwhdQ5il6_YG4uWVV7b3zFvY1VUNrgZQ7h-QtUMVzFdh8_E0KSofu90Q9aoTxvYoSYWg4qmBxN9nAsbrSfOTcrbsUqboFRFzNAS-QuP6vzBpgOYRhWv5qVHy8Pj5LyEd8En20H5tSJ76GVZdf=w1408-h938-s-no?authuser=0"
-          },
-          {
-            "type": "text",
-            "value": "El Cansat debía detectar de forma autónoma la altura máxima. Para ello, se diseñó un sistema de desacople del dron que, al detectar la altura de 500 metros, activará el descenso, lo cual requiere la separación del dron y el despliegue del paracaídas."
-          },
-          {
-            "type": "text",
-            "value": "Uno de los retos más importantes fue manejar las dimensiones y el peso, además de encontrar la manera de situar los componentes electrónicos en una placa de tan solo 6 centimetros de diámetro."
-          },
-          {
-            "type": "image",
-            "value": "https://lh3.googleusercontent.com/pw/AP1GczO1v_8RlaBqryALP5Y5IFmPREWdiN3HA2ZIF3JMG6f6sd3Bq9mfL4-RMdcS2C5VP8ppM2aPcjPv4QxDLnXw8sVce6yeeWvbNgf4g7JNqmuKKagPvV1z0dIknrbhLcgLnktOs1i6ULiLzr3GcV2VJ2nq=w1408-h938-s-no?authuser=0"
-          },
-          {
-            "type": "image",
-            "value": "https://lh3.googleusercontent.com/pw/AP1GczMjPLZlJ0PSlfQte4Sb17f1DPDOwGUsCucCZin5fM7x_PgmrFLPinzfqhKnopkiYlTfe-QZ5HAuqcVbRzjw-38qupJNMaBkzOliqpwAx784ITuzAwHn-kuHlb7Zz7IMs6-SZBDEXYw6Qc5rnh_alp7N=w1408-h938-s-no?authuser=0"
-          },
-          {
-            "type": "text",
-            "value": "Sin embargo, un fallo en el dron que ascendía el Cansat ocasionó que este cayera desde 200 metros. A partir de esta experiencia, aprendimos que debíamos implementar un condicional que, aunque el satélite no alcanzará su altura máxima, activará su sistema de descenso al detectar un descenso brusco en la altitud."
-          }
-        ],
-        "images": [
-          "https://lh3.googleusercontent.com/pw/AP1GczPG_ZVrfqzC02v5l8yQUhLPmZ3HGQGQ8woRznnqhaN4qb9tDUDSSxLW7xiMtJVRSfHuJcFIEESVnLm1tljsr-AWPwUl4x4ZRtmhKnmzQ5USO5eta6ZdAk_NJ-M2lDvJI3jnMKaAp2Xmv1qe36jk8nZ3=w704-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczNkskT-5g0oYE9GvVxAzhe0f_Mem5FCplUcKUBumhB2Etosa-6KtQj0Uj5LT_A_Ys5-_2BhVsLB2Lc1S1U-_QcYQmjLtihoAgQt0JIsI4-NkWbKsQIqQ6aTDpzk03LT3VF82X7ORHuTzIgzsSZiuSzP=w1408-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczOmn8zZGksjkaPcB2kgEBvnmN21h6YtVDe-YAWpzeU7k2BCRntL1MBWdEujzjEVH-cLGAHLm8GYJxdJX1Uehlz8skl8rl_HreHRhar0Xd7AU6OFprbmnFEiVDvBCe994lNBIOA0DP6xsQdsI4_engZX=w1408-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczP4OvFmDxJQfduA70gvsZo8In014dw9RTBwbEsqm_FNFh7PGiEgzaGDUHroj8UWBTfKrnMdUCKTsxNs1uU-KPZYqkJhjdIdqxlmYXB88NrFZwjarOESBepy7uZx06XoX3i1dJzpWCIXMxdXIYtpBohp=w1408-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczNzbWZl2V6QV0ZRM9rXlGmiSxw1qRXLiGS2Y7PQ55iouZngbRB0MnAOEp3H46UcWPxqkU1NH5JkCGAQPEdhMnp6O6LL0e8fnH_nMeCffKGp8Tmo3QzlNrq6YGQRGODo4Kmkx5BMaSGg3spJJhpeTifm=w1408-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczPZ5U4n5EqfiBN6tcTmropeEYOZPO6nZwdU9lEFtCFg1eHJZ5n0UCBtSjxPFLmILiZswI2bbeNwjbOWP5zRNd2F9B69GMqE-ujJHLJhgvsKk7El6N70h0PfdsQyt1Siu6LWLpc2p9s6bGNXgUfgNlRW=w1408-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczNYMxH6la4dowlam-NsACtf5w4aN2wjHCTqWLYAzw89BHMuo4z6ndmfqQurpv8jvzdo3ZNO1_U9sZwy-dD-d7GFWwVDYn4HRRW4VbIgHmE2iTd-4n7nil4E1Vb6WfKw_iAUAqBUc-MwD_bHBxNocCSM=w1408-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczP7XltDUMLl2DboxBFnP5dI2Q0YwlWBlgaTRvuqMipxDK5tvuIu9Y52IFNgOg2LWAHYpGuzVhcf3nXsFRLmPyH_4se2tLBgqMAHy-MvfKr-cV9_f-wKZzgKKK_-P0vuNgppiWngf9jbzw55pMJs7mV9=w704-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczOhlltl_7452gEBHqDbIeUZpjxf8jGMrXpzOr0mZVhfMhxdAtprEP9J5_zBnWe7dFlIHB5nz1BX_Nf5ExO5M7M-UuOyuqkxFIyWnIsP5PD7fu9dObQRH7eNgJA6YTpO48RaQ5xQ3z3AtFCcW9JUlGDS=w704-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczN5DBFAj8p2wUPZYpx3SA5Es056OIzfvYE2B7tTtF8IR1StdXE45rGr80xX4_shK-Ob6yHTttKpyFRXuOXkR5itrEkohs-bp5qgtvpoyjKTp4r7qdPV67PznKFWVf0u27_tpk7ix-pREneK5TdfE7ib=w704-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczPyVs69r0DBtkYBEivDn9r-eOuJkwnYGloF_ABKnowMpuSiPWaBvmHA620YBcRlnEN-qgI0Wb_z5ZIfxZSkg7aOwtF5UZB4LJbRpgKVG3qtAHMON6cAhgaJCullVYu2NbjA4XMYZrIZZfOup3Ey-dBn=w704-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczM_t2nQtS2HvPqgT-LjRfdlGeI0EEmvQYeuyc4bcjghlzH5zKCkQBD18Pou-46xsR37Ko1OVTL3CmPzWWdZU0OxMQrAc88ggS3tQe9Oq6KrqxpDr32UpQgaIlwkVhzxui5cgoGhxYKhcJRJuZeUKD4C=w704-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczOAKN1Is77ibXaK1Led5EDNTiFYuPuxOBm9WTBgGzxoB9iVd7gS2qA-azoCwTM87m8FcKMOSLa6-Q3ACpWukA2GMvLincSPcSIA7X6uBE4kPnu8lMXDx5KsZgNb6ZOtpXj8v0XQaaqdd7jOB6jUyYNQ=w704-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczMlBaRjfa61GVBd4fI1Vb0k--7MJj_VvH4GR9_1I9Trz5oWLtt43oAn2mCUSnQqWcO-BwojMljqxi555OPRQ7qr8O9GCpetmWrwT3BeRKdy0smmjsyk7llROSmY6WNKMWkolwc50gH27Xa_yPCOdPxz=w704-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczMozMneKjoL2paHunNEggnFbMRN-pP1IOhSU_Qmy4VigcMDCrN4j2m109JPPrp72dxkGKgfm-uXmoq3FcsFTOsSUw8RKBxkXqgVSRCpk309l5vfDz8pQAbjMf8jhaVIe_JyTR6XNRXyLSl4Y7PQgxVQ=w704-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczP--RgIGc5zh92E2hfEpaJBDs292uKzxfeal_aTiyzKK40xnAkUXRLgvnHeN1M2IO_TV_LYIBRBdaG-QOgEwDEVdvCJPyPUFuUIiZW7U2n62VRl1qZgpkhbGnwgheq78vPytNV74TUHrSs_TATp1sG9=w1250-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczPmM-WnP3GL6y6OWTFBCl2o84sm0jfnKFKkpRIOXnUQjZlqCffXOlMHZOHoNjrqz6SkSpgDh-SjK-uC_cHFnPjqpzGmVFUVs6B_P6BGnULu7GrOCfFlHPttFgZSupunlnJQ57E6qdfWWz7-L03nstMH=w704-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczMZdWw-w2qfhVmYoe_BdG8PdB5DdT6SFYZ2B_sfgHIWkej44ZJkQoGwzfp5mXIQMvCf9MmMJFNYvOP2CDDd-c66TxEcfZlQwgx6kO4cZ2G18cHu5NhV9eYxRnL9dX6XAoy9fYv8naA0turlbsBX56tw=w529-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczPR8wAmBhOf6HBeW7Zj7wi-2llODTX2WD72BZyp2O5gRYrKf-_q5Km9NV6RB8hwWE2JBrhoIhUSEQj4pveODa1_zv4DcE988tfUvus4COPTR-ZPyQGAdVfoEIILIK4mb5jq8QxEorfm1h3o2PeT5-3k=w704-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczNHY5fYJm92iXxX9sB3K48Gt8Oj4ehhKtYjURtDwUj3jZWD5kVgLmBuhRhV4OXZvNeCOl9Zym5NvyNRQ4BVJUoHGhU7qxsV_HeKKTf_GgvohYK1ft8NrvsN-s832dmUcKZjnE3S4OcHkrhay8TyQsV9=w704-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczNKh0QQaKcvM_QtK5NxbuCULZGGPGB9DRk-VFJ96iCqsECrvzt4BNTb2NMgp9iyh8s3l_23L9xvaRnx6pDWka7KmM6lg3KIvO6CdBvT7EkUDsjuIveNgr9tq725r1yUZhalPt1Y1WzNhcLoojD-CwtP=w704-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczPzX-9-5Qu-lAfCza90j70rT9bpuuPK0aejiOcgzRXdTgzlcdHTKM_lhHLzVMukgaww3_xt1sxTSBhlW3X_VuMaB0kc9LgKXOY9ONf6iW34TbfMxVoemv_JYjuWXVfpUCSB4YJcB5zlnts7jj8aTQAM=w1250-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczPOMlhFpvruwCZid1aXbSIr_NszOjtjZR9v8k9IlJD0c6RzcWV2YfnqdhEpCPy0963QLaXzni4lZ3dTHL0VNAfyBoipKEH708iMMckmbuRQzIlym_YMLg9yW1gCvsiZgFh53xhOugHKtPMK3fnKXQMC=w704-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczORn7jiMikIfriwEdbLcbt1AIYMJDZ0rvjSr-xHcZEahPxYT_v6sAILHIRDQRy8oQoYN4Fx2WXVmW1VtEv2Znaqv-xV9-1Hgdh-j7dFoC-WgPTHiYgKZd-NXDTjtNaQz4XhwahZEYtwTShuaky06pnj=w704-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczN8K6YfjWQ2k_CP13eTaeJwDTSU1FZ1cGRt0vHvXi0LhWVryHSvDWpayFmmT2mUXeF41pl9O9C6pHG_BYrm_t_Ieq4nhgSbBgkVkyaOD4WaPEAPnZ3XOHRyrNNVXb40s7T09Clxa2eDqLqW48r9xOd0=w529-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczNT1Fek_MJg5Eht5RckpOVxlzV7ITkP4S4uCRmjYOXuxTN6QXKnqsPWz0o7-L5Dx2rBnsbOU1wnV8ZrE8DflwTb8hroIxooiVn2Cp0SZ8s7c2UDO1pzL-Y83jitacFwk7uJHaW4aXgNgfnkrIlnrDyp=w1250-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczN1REJlkP6uW2Z_gMWk9Yu_y7CdE1SDAdFNtYi2Vps0boXaIqNLfMpY7WalYo2bH2jV8y7XnLpHBO4-2EQDbBAJOIRLN5CqsXFX5klfhopiJPY3bTcjoiKWPSRUz-BxKofLwX86UoiS2verr2vYVFAy=w704-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczOaI8GQ7K_bpjgssr0ol3IYv_f_oy3JFtUtvoAnP70-Xb-59HFrQPNqfap5P7hfiYdaIGbZ-eRjHjGY5HIvIjMH1iehULvQb_UtP0LPm7Rawb5yepW8iq1TdEz8ES3gyLQ8LQmDADX29Eo2iBUhAZWN=w704-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczO1aLH307AQY8lYpYEDNiUD7oLXlLZ4ao8edNmzyqXX-w6YwMkHCLbatbMxES0veshPUq0enG5zw7GEMg_aWLCxNP_K5IY9dE1DKnE7xBdSZFdihCBM9jnvwl7BXU9ZnxZMP_Wk2nw4J0CW9DiUZdpp=w704-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczM6hN2ueFN-QzWEp-2DE-69q2qF2YvLwaB-MaDevcd95PJZfQaPp-wv9B0iKy-S9Too839xSD7jXCrKtFNo5pF_H47LWa8MCbgChGrdf74c72doPne7-AtOy6YrSf8kQ8DMDKhfmMVvs6j5fAsRVNNi=w704-h938-s-no?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczPNvZ14v0z_OiyBC6umQSoeI3FGJpTatjtNsD5qUU2brX7ZmrB2hk6VqCJQoztb3OAGy94DhKhAfdXE6YQIunt8_uw0T4VjTJNIqUoRybifgMSN5_eCU9FFF6l7KQIjeUO1D1-W15R7e3Zi1RixW2Qm=w1250-h938-s-no?authuser=0"
-        ],
-        "team": "https://lh3.googleusercontent.com/pw/AP1GczOMpnE8THKXZO2-U_KLbqLBUvRC5PGrJCLBWMAvLPb9LxXHjjW3z7CCFOaA5vQQA5mxMS9wdsJdKx9-SD7xZtUF-ehN_6CKM-kWZF6aiDz1aS6IVGVw9I-5wWTvMqVt6IkuVDeGfsnN-G_jUk34jA0F=w1419-h917-s-no-gm"
-      }
-    ]
-  }
-  
+  "data": [
+    {
+      "name": "CanSat CUCEI",
+      "edition": 2017,
+      "scores": [
+        {
+          "place": 2,
+          "type": "Nacional"
+        }
+      ],
+      "mainImage": "https://drive.google.com/file/d/1lvV482yjtCw6KdyOTc6sElQFjnnkFW6I/view?usp=drive_link",
+      "conclusion": "El proyecto demostró un desempeño sobresaliente en varias áreas clave, logrando un éxito significativo tanto a nivel regional como mundial. El comportamiento aerodinámico del planeador, el buen funcionamiento de los mecanismos empleados y el desempeño de los componentes electrónicos del CanSat demostraron el trabajo realizado por el equipo. La transmisión de datos del contenedor y el software de vuelo del contenedor funcionaron adecuadamente, al igual que la recolección de datos y el descenso del contenedor. La estación base también sobresalió en la representación gráfica de los datos. Aunque se identificó una limitación en la transmisión y detección de paquetes de datos del planeador, el equipo logró colocar el proyecto en primer lugar a nivel latinoamericano y en quinto lugar a nivel mundial. La experiencia adquirida y la formación de un equipo apasionado desde cero subraya el éxito del esfuerzo y la importancia de las pruebas tempranas y el prototipado en el diseño.",
+      "conclusionImage": "https://drive.google.com/file/d/1lvV482yjtCw6KdyOTc6sElQFjnnkFW6I/view?usp=drive_link",
+      "content": [
+        {
+          "type": "text",
+          "value": "La misión de 2017 simuló una sonda ingresando en la atmósfera del planeta, tomando muestras de la composición atmosférica para evaluar las condiciones ambientales del aire. El sistema CanSat se compuso de una carga útil con sensores que medían la presencia de contaminantes durante un descenso controlado mediante el uso de un paracaidas."
+        },
+        {
+          "type": "image",
+          "value": "https://drive.google.com/file/d/17-SNppk_xNokIjCRxAR_97keD1QrKJD6/view?usp=drive_link"
+        },
+        {
+          "type": "image",
+          "value": "https://drive.google.com/file/d/1LLHFx9EE-gxOP9tkCtHeKEEjR0D00PkE/view?usp=drive_link"
+        },
+        {
+          "type": "text",
+          "value": "Una vez separado del cohete, el contenedor descendió con el planeador asegurado en su interior. El contenedor liberó al planeador después del despliegue desde el cohete, protegiéndolo de la violenta liberación y proporcionando un entorno de liberación más estable y menos forzado. Una vez liberado, el planeador debía planear en un patrón circular con un diámetro no mayor a 1000 metros. Durante el vuelo, el planeador tomó muestras de la presión y temperatura del aire a una tasa de 1 muestra por segundo y transmitió los datos a una estación en tierra. El planeador también incluyó un magnetómetro y un tubo pitot para medir la dirección y la velocidad. Al aterrizar, la transmisión se detuvo automáticamente y se activó una baliza de audio para su recuperación."
+        },
+        {
+          "type": "text",
+          "value": "El diseño del CanSat usó fibra de vidrio para construir las dos mitades del contenedor, las cuales se unieron mediante una bisagra de acero de bajo peso. Los componentes electrónicos se integraron en una de las paredes del contenedor, mientras que el servomotor se colocó en la tapa inferior. Para la carga útil, se utilizó un fuselaje de polipropileno y alas y estabilizadores de madera balsa. El diseño del planeador fue optimizado para reducir la resistencia aerodinámica del fuselaje y mejorar la estabilidad aerodinámica."
+        },
+        {
+          "type": "image",
+          "value": "https://drive.google.com/file/d/1bl1ihOz09Q_o8Y_tMuqNHFglUaf4D0jv/view?usp=drive_link"
+        },
+        {
+          "type": "image",
+          "value": "https://drive.google.com/file/d/1ZqNPgWJmJBFH5Ydcq4O_UO3elXF29984/view?usp=drive_link"
+        },
+        {
+          "type": "text",
+          "value": "El subsistema de comunicación y manejo de datos se caracterizó por una estructura eficiente para la transmisión y gestión de datos. Las antenas seleccionadas para el planeador y el contenedor ofrecen un bajo consumo de energía y permiten realizar la transmisión de telemetría a 1 Hz, la cual es  procesada por el software en la estación terrena. La interfaz de control en tierra, desarrollada en Java, permite graficar los datos y almacenarlos en archivos CSV, facilitando el análisis y la gestión de la información recogida durante la misión."
+        }
+      ],
+      "images": [
+        "https://drive.google.com/file/d/1w6qJ1AxC_O0t5T71fE4MhITyw0Cm28tu/view?usp=drive_link",
+        "https://drive.google.com/file/d/1IRZPzaa7vTFfcVJsTIn_JmJMNV5DHnvY/view?usp=drive_link",
+        "https://drive.google.com/file/d/1ohbkK8NFEqMa69yMmWqalZGTzLDYJCf8/view?usp=drive_link",
+        "https://drive.google.com/file/d/1kWnBoS8cIz40vTq502cznqcMXEKvY7Pd/view?usp=drive_link",
+        "https://drive.google.com/file/d/19hyK8BBYObRmt_eIfamzrirIMKlU72iY/view?usp=drive_link",
+        "https://drive.google.com/file/d/1-O-fZh4rysAR2xKeov8uB8acBj7Uyaq-/view?usp=drive_link",
+        "https://drive.google.com/file/d/1tGW97Mi1XwKUsxLGAYCOTxY4WGg-bT6I/view?usp=drive_link",
+        "https://drive.google.com/file/d/1LLHFx9EE-gxOP9tkCtHeKEEjR0D00PkE/view?usp=drive_link",
+        "https://drive.google.com/file/d/1Pv31IASJMIWh_N8b8X8hmsqYduVB-8w8/view?usp=drive_link",
+        "https://drive.google.com/file/d/1ZqNPgWJmJBFH5Ydcq4O_UO3elXF29984/view?usp=drive_link",
+        "https://drive.google.com/file/d/1q8Mymh40KoZAcirnC-OrglQMIfRKTgel/view?usp=drive_link",
+        "https://drive.google.com/file/d/14ezfTfJus6cQeUHwxp7Ho3tchpGZRs5t/view?usp=drive_link",
+        "https://drive.google.com/file/d/17-SNppk_xNokIjCRxAR_97keD1QrKJD6/view?usp=drive_link",
+        "https://drive.google.com/file/d/1lvV482yjtCw6KdyOTc6sElQFjnnkFW6I/view?usp=drive_link",
+        "https://drive.google.com/file/d/1bl1ihOz09Q_o8Y_tMuqNHFglUaf4D0jv/view?usp=drive_link"
+      ],
+      "team": "https://drive.google.com/file/d/14xTM9OFldQ-eAdGRUCmdUKIBk3zOtZwC/view?usp=drive_link"
+    },
+    {
+      "name": "CanSat CUCEI",
+      "edition": 2018,
+      "scores": [
+        {
+          "place": 2,
+          "type": "Nacional"
+        }
+      ],
+      "mainImage": "https://drive.google.com/file/d/1HxZt2jJte8zpfMUyoIHpj12knU3ozK7j/view?usp=drive_link",
+      "conclusion": "El equipo demostró su capacidad de innovación al implementar soluciones simples y efectivas para resolver problemas, incluso en situaciones de alta presión. Su ingenio permitió al equipo obtener un lugar destacado al finalizar la competencia. El despliegue del CanSat y la liberación del paracaídas se realizaron con éxito, logrando un descenso adecuado. Aunque se identificaron algunas limitaciones en la transmisión de datos, se tomaron notas para futuras mejoras. A pesar de esta dificultad, el equipo logró posicionar su proyecto en segundo lugar a nivel nacional, un logro significativo que permitirá optimizar el sistema de transmisión de datos en futuras competiciones.",
+      "conclusionImage": "https://drive.google.com/file/d/1lkjpQPaVod7uCQriRbU7G8LXkQqfxP7_/view?usp=drive_link",
+      "content": [
+        {
+          "type": "text",
+          "value": "La misión de 2018 consitió en controlar el descenso del CanSat de forma autónoma (sin recibir órdenes desde la estación terrena) con el fin de aterrizar en el punto desde el que comenzó la misión. La competencia consiste en crear un CanSat, un satélite en miniatura con la forma y tamaño de una lata de refresco (355 ml) con masa aproximada de 500 gr, capaz de transmitir datos y completar una misión ya sea recoger datos o efectuar retornos controlados a partir de 500 metros de altura."
+        },
+        {
+          "type": "image",
+          "value": "https://drive.google.com/file/d/15YwT90CYESWk1mxJphHcKo2qvshEuADI/view?usp=drive_link"
+        },
+        {
+          "type": "image",
+          "value": "https://drive.google.com/file/d/1pvDMUpTkxJAyB7ntfEaPZgmFZYkyjmge/view?usp=drive_link"
+        },
+        {
+          "type": "text",
+          "value": "El CanSat debía realizar un descenso controlado y autónomo desde un drone en vuelo hasta el punto de despegue, con un radio de tolerancia de 40 metros. Tras la liberación del drone, el CanSat despliega su paracaídas y el sistema de dirección de descenso en un máximo de 3 segundos, utilizando un solo actuador para ambos procesos. El CanSat desciende de forma autónoma hacia el punto de despegue, transmitiendo datos hasta su aterrizaje, momento en el que se interrumpe la transmisión. El éxito de la misión se mide por la precisión del aterrizaje dentro de la zona de tolerancia y el tiempo de despliegue del paracaídas y el sistema de dirección."
+        },
+        {
+          "type": "text",
+          "value": "El diseño del CanSat se basó en fibra de vidrio para su estructura principal. La carga útil incorporó una toma de aire en la parte inferior, fabricada en ABS mediante impresión 3D. En la parte superior, un eje de sujeción permitió enganchar el CanSat al drone, con un servomotor ubicado en el centro que acciona el sistema de liberación. Debajo del eje se encuentraba el paracaídas, controlado por un sistema de dirección de cuerdas que permite orientar su descenso. Este sistema de dirección constaba de dos engranes de diferente diámetro, generando tensión diferencial en las cuerdas de sujeción y provocando la rotación del paracaídas en la dirección deseada."
+        },
+        {
+          "type": "image",
+          "value": "https://drive.google.com/file/d/1UVAcQqFpnxB-Zs6Wrbq1d_mDGdHPSH35/view?usp=drive_link"
+        },
+        {
+          "type": "image",
+          "value": "https://drive.google.com/file/d/1F9zdBy0R2TQ44mCD88grrIep1hCD-mwf/view?usp=drive_link"
+        },
+        {
+          "type": "text",
+          "value": "Para determinar la ubicación del CanSat, se implementó un sistema de GPS que transmitía datos de posición a la estación terrena. Además, se incluyó un buzzer que emitía un sonido cuando el CanSat se encontraba a una altura cercana a cero. El sistema también recopilaba y transmitía datos de temperatura interna y externa, presión atmosférica relativa, humedad relativa del aire, altura, posición y voltaje de alimentación eléctrica. Para la selección de los componentes, se realizaron análisis de variables como voltaje de operación, peso, corriente, y dimensiones, buscando las mejores características para la operación. Los datos recibidos se mostraban en tiempo real en la estación terrena, con gráficas de telemetría que relacionaban las variables con el tiempo y la altura."
+        }
+      ],
+      "images": [
+        "https://drive.google.com/file/d/15YwT90CYESWk1mxJphHcKo2qvshEuADI/view?usp=drive_link",
+        "https://drive.google.com/file/d/1HxZt2jJte8zpfMUyoIHpj12knU3ozK7j/view?usp=drive_link",
+        "https://drive.google.com/file/d/1FEQenLXdHTeoWXs8ctbsGRIPKdMT8Tlv/view?usp=drive_link",
+        "https://drive.google.com/file/d/1hPuPtHUXXoL02IudmzOkV6BVUK7ez2c_/view?usp=drive_link",
+        "https://drive.google.com/file/d/1gEK-5QqETgxx76CrXPcYZWO0dErTtVWK/view?usp=drive_link",
+        "https://drive.google.com/file/d/1UVAcQqFpnxB-Zs6Wrbq1d_mDGdHPSH35/view?usp=drive_link",
+        "https://drive.google.com/file/d/1lkjpQPaVod7uCQriRbU7G8LXkQqfxP7_/view?usp=drive_link",
+        "https://drive.google.com/file/d/1oLzqVFG71BoJeHbYBj2TmuLilz53VVw_/view?usp=drive_link",
+        "https://drive.google.com/file/d/1OlrH_YlXrP0sDV4om4oAEUvA9km7Gu0r/view?usp=drive_link",
+        "https://drive.google.com/file/d/1pLHeopvXAmjlXQ_t2cumJRaaDwqnKLPQ/view?usp=drive_link",
+        "https://drive.google.com/file/d/1pvDMUpTkxJAyB7ntfEaPZgmFZYkyjmge/view?usp=drive_link",
+        "https://drive.google.com/file/d/1K2vBeaClect4fnuRDzJjFe4caAMuy4L-/view?usp=drive_link",
+        "https://drive.google.com/file/d/1F9zdBy0R2TQ44mCD88grrIep1hCD-mwf/view?usp=drive_link",
+        "https://drive.google.com/file/d/126Kkh2s6he2GAkGyAdIKkH4jd80hylwm/view?usp=drive_link",
+        "https://drive.google.com/file/d/1hb5h3iwN6Lwmb-081TrnIJmWJSHXihKw/view?usp=drive_link",
+        "https://drive.google.com/file/d/13BV0bdIA0e8whsA_7IYH8r6bsWXTSA6X/view?usp=drive_link",
+        "https://drive.google.com/file/d/1HxZt2jJte8zpfMUyoIHpj12knU3ozK7j/view?usp=drive_link, https://drive.google.com/file/d/1NXtBG2d6QyTd7i9RDA9ecPhQXORPddjM/view?usp=drive_link",
+        "https://drive.google.com/file/d/1dMD4vDUsjzHIzXOSehak7_UzSOL6BkQV/view?usp=drive_link",
+        "https://drive.google.com/file/d/1rEKDxZuRorDZOdBKQy5PbhfKkWYp9yqv/view?usp=drive_link",
+        "https://drive.google.com/file/d/1ADI3peOwOuQlvnCd-wGnpemfCmqPyeHE/view?usp=drive_link",
+        "https://drive.google.com/file/d/1aBM2ASKyUtPGznNrSFfRjfBDKakGh3h4/view?usp=drive_link"
+      ],
+      "team": "https://drive.google.com/file/d/12Wza_2IzWRIOed1k9yevpcsUOlDMpmdj/view?usp=drive_link"
+    },
+    {
+      "name": "CanSat CUCEI",
+      "edition": 2023,
+      "scores": [
+        {
+          "place": 2,
+          "type": "Nacional"
+        }
+      ],
+      "mainImage": "https://lh3.googleusercontent.com/pw/AP1GczPgGQ6Z7kk-Va_8O3mnwx95W2jzWfCQcy--2to6XEkKXcDryH2q-5wvce-UUfH6kXChhFsWkQNAEimWXRZKs-IahNwK6cknoILXXZ5SwSQqfkFkrEyLr9Tu8Fkgbci073dCAyiVyTrxos11m2Hr7UTr=w1408-h938-s-no?authuser=0",
+      "conclusion": "A pesar de los fallos operacionales, nuestro Cansat demostró que cumplía con todos los requerimientos que la competencia pedía tanto estructurales como a nivel de comunicaciones, y con las experiencias vividas se pudo tener presente nuevas formas acciones que podíamos tener en cuenta para futuras misiones nacionales e internacionales.",
+      "conclusionImage": "https://lh3.googleusercontent.com/pw/AP1GczOT4H7g-CXsg6rXsvPUtnEe9LTJu1nW8a6i4os9aDGBs98KMN78hK2iEQXyO6SV0jfph-TUCiUqaOqCp_y_4ID2mubYHu6rbtD-GCvdNiBGiNMlZ69214oAxioaslU_tI5xkh6wyMf7G8iq2KkhiOxg=w1408-h938-s-no?authuser=0",
+      "content": [
+        {
+          "type": "text",
+          "value": "La misión consistía en diseñar un satélite del tamaño de una lata de 355 ml con un peso entre 300 y 500 gramos, el cual fue ascendido con ayuda de un dron a una altura de 500 metros. Este satélite debía realizar un descenso y aterrizaje autodirigido, además del envió de datos de telemetría básica como presión, altitud, humedad y localización GPS."
+        },
+        {
+          "type": "image",
+          "value": "https://lh3.googleusercontent.com/pw/AP1GczPi_a5PsTW2_1TCDDmtP_Us-yY0Vll8wipavabYltj_VYOdwsJ1usQ2p6grsEzsqTIgFUaZF7Mq-B4GucZO4HhGKieNbsj_N8GYNag7D_lgDEQSr1rFYz9RW4Gdp-16_QuApYlZdZwmA-MweYk-YLWj=w1666-h938-s-no?authuser=0"
+        },
+        {
+          "type": "image",
+          "value": "https://lh3.googleusercontent.com/pw/AP1GczNnen-kwhdQ5il6_YG4uWVV7b3zFvY1VUNrgZQ7h-QtUMVzFdh8_E0KSofu90Q9aoTxvYoSYWg4qmBxN9nAsbrSfOTcrbsUqboFRFzNAS-QuP6vzBpgOYRhWv5qVHy8Pj5LyEd8En20H5tSJ76GVZdf=w1408-h938-s-no?authuser=0"
+        },
+        {
+          "type": "text",
+          "value": "El Cansat debía detectar de forma autónoma la altura máxima. Para ello, se diseñó un sistema de desacople del dron que, al detectar la altura de 500 metros, activará el descenso, lo cual requiere la separación del dron y el despliegue del paracaídas."
+        },
+        {
+          "type": "text",
+          "value": "Uno de los retos más importantes fue manejar las dimensiones y el peso, además de encontrar la manera de situar los componentes electrónicos en una placa de tan solo 6 centimetros de diámetro."
+        },
+        {
+          "type": "image",
+          "value": "https://lh3.googleusercontent.com/pw/AP1GczO1v_8RlaBqryALP5Y5IFmPREWdiN3HA2ZIF3JMG6f6sd3Bq9mfL4-RMdcS2C5VP8ppM2aPcjPv4QxDLnXw8sVce6yeeWvbNgf4g7JNqmuKKagPvV1z0dIknrbhLcgLnktOs1i6ULiLzr3GcV2VJ2nq=w1408-h938-s-no?authuser=0"
+        },
+        {
+          "type": "image",
+          "value": "https://lh3.googleusercontent.com/pw/AP1GczMjPLZlJ0PSlfQte4Sb17f1DPDOwGUsCucCZin5fM7x_PgmrFLPinzfqhKnopkiYlTfe-QZ5HAuqcVbRzjw-38qupJNMaBkzOliqpwAx784ITuzAwHn-kuHlb7Zz7IMs6-SZBDEXYw6Qc5rnh_alp7N=w1408-h938-s-no?authuser=0"
+        },
+        {
+          "type": "text",
+          "value": "Sin embargo, un fallo en el dron que ascendía el Cansat ocasionó que este cayera desde 200 metros. A partir de esta experiencia, aprendimos que debíamos implementar un condicional que, aunque el satélite no alcanzará su altura máxima, activará su sistema de descenso al detectar un descenso brusco en la altitud."
+        }
+      ],
+      "images": [
+        "https://lh3.googleusercontent.com/pw/AP1GczPG_ZVrfqzC02v5l8yQUhLPmZ3HGQGQ8woRznnqhaN4qb9tDUDSSxLW7xiMtJVRSfHuJcFIEESVnLm1tljsr-AWPwUl4x4ZRtmhKnmzQ5USO5eta6ZdAk_NJ-M2lDvJI3jnMKaAp2Xmv1qe36jk8nZ3=w704-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczNkskT-5g0oYE9GvVxAzhe0f_Mem5FCplUcKUBumhB2Etosa-6KtQj0Uj5LT_A_Ys5-_2BhVsLB2Lc1S1U-_QcYQmjLtihoAgQt0JIsI4-NkWbKsQIqQ6aTDpzk03LT3VF82X7ORHuTzIgzsSZiuSzP=w1408-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczOmn8zZGksjkaPcB2kgEBvnmN21h6YtVDe-YAWpzeU7k2BCRntL1MBWdEujzjEVH-cLGAHLm8GYJxdJX1Uehlz8skl8rl_HreHRhar0Xd7AU6OFprbmnFEiVDvBCe994lNBIOA0DP6xsQdsI4_engZX=w1408-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczP4OvFmDxJQfduA70gvsZo8In014dw9RTBwbEsqm_FNFh7PGiEgzaGDUHroj8UWBTfKrnMdUCKTsxNs1uU-KPZYqkJhjdIdqxlmYXB88NrFZwjarOESBepy7uZx06XoX3i1dJzpWCIXMxdXIYtpBohp=w1408-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczNzbWZl2V6QV0ZRM9rXlGmiSxw1qRXLiGS2Y7PQ55iouZngbRB0MnAOEp3H46UcWPxqkU1NH5JkCGAQPEdhMnp6O6LL0e8fnH_nMeCffKGp8Tmo3QzlNrq6YGQRGODo4Kmkx5BMaSGg3spJJhpeTifm=w1408-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczPZ5U4n5EqfiBN6tcTmropeEYOZPO6nZwdU9lEFtCFg1eHJZ5n0UCBtSjxPFLmILiZswI2bbeNwjbOWP5zRNd2F9B69GMqE-ujJHLJhgvsKk7El6N70h0PfdsQyt1Siu6LWLpc2p9s6bGNXgUfgNlRW=w1408-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczNYMxH6la4dowlam-NsACtf5w4aN2wjHCTqWLYAzw89BHMuo4z6ndmfqQurpv8jvzdo3ZNO1_U9sZwy-dD-d7GFWwVDYn4HRRW4VbIgHmE2iTd-4n7nil4E1Vb6WfKw_iAUAqBUc-MwD_bHBxNocCSM=w1408-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczP7XltDUMLl2DboxBFnP5dI2Q0YwlWBlgaTRvuqMipxDK5tvuIu9Y52IFNgOg2LWAHYpGuzVhcf3nXsFRLmPyH_4se2tLBgqMAHy-MvfKr-cV9_f-wKZzgKKK_-P0vuNgppiWngf9jbzw55pMJs7mV9=w704-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczOhlltl_7452gEBHqDbIeUZpjxf8jGMrXpzOr0mZVhfMhxdAtprEP9J5_zBnWe7dFlIHB5nz1BX_Nf5ExO5M7M-UuOyuqkxFIyWnIsP5PD7fu9dObQRH7eNgJA6YTpO48RaQ5xQ3z3AtFCcW9JUlGDS=w704-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczN5DBFAj8p2wUPZYpx3SA5Es056OIzfvYE2B7tTtF8IR1StdXE45rGr80xX4_shK-Ob6yHTttKpyFRXuOXkR5itrEkohs-bp5qgtvpoyjKTp4r7qdPV67PznKFWVf0u27_tpk7ix-pREneK5TdfE7ib=w704-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczPyVs69r0DBtkYBEivDn9r-eOuJkwnYGloF_ABKnowMpuSiPWaBvmHA620YBcRlnEN-qgI0Wb_z5ZIfxZSkg7aOwtF5UZB4LJbRpgKVG3qtAHMON6cAhgaJCullVYu2NbjA4XMYZrIZZfOup3Ey-dBn=w704-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczM_t2nQtS2HvPqgT-LjRfdlGeI0EEmvQYeuyc4bcjghlzH5zKCkQBD18Pou-46xsR37Ko1OVTL3CmPzWWdZU0OxMQrAc88ggS3tQe9Oq6KrqxpDr32UpQgaIlwkVhzxui5cgoGhxYKhcJRJuZeUKD4C=w704-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczOAKN1Is77ibXaK1Led5EDNTiFYuPuxOBm9WTBgGzxoB9iVd7gS2qA-azoCwTM87m8FcKMOSLa6-Q3ACpWukA2GMvLincSPcSIA7X6uBE4kPnu8lMXDx5KsZgNb6ZOtpXj8v0XQaaqdd7jOB6jUyYNQ=w704-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczMlBaRjfa61GVBd4fI1Vb0k--7MJj_VvH4GR9_1I9Trz5oWLtt43oAn2mCUSnQqWcO-BwojMljqxi555OPRQ7qr8O9GCpetmWrwT3BeRKdy0smmjsyk7llROSmY6WNKMWkolwc50gH27Xa_yPCOdPxz=w704-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczMozMneKjoL2paHunNEggnFbMRN-pP1IOhSU_Qmy4VigcMDCrN4j2m109JPPrp72dxkGKgfm-uXmoq3FcsFTOsSUw8RKBxkXqgVSRCpk309l5vfDz8pQAbjMf8jhaVIe_JyTR6XNRXyLSl4Y7PQgxVQ=w704-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczP--RgIGc5zh92E2hfEpaJBDs292uKzxfeal_aTiyzKK40xnAkUXRLgvnHeN1M2IO_TV_LYIBRBdaG-QOgEwDEVdvCJPyPUFuUIiZW7U2n62VRl1qZgpkhbGnwgheq78vPytNV74TUHrSs_TATp1sG9=w1250-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczPmM-WnP3GL6y6OWTFBCl2o84sm0jfnKFKkpRIOXnUQjZlqCffXOlMHZOHoNjrqz6SkSpgDh-SjK-uC_cHFnPjqpzGmVFUVs6B_P6BGnULu7GrOCfFlHPttFgZSupunlnJQ57E6qdfWWz7-L03nstMH=w704-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczMZdWw-w2qfhVmYoe_BdG8PdB5DdT6SFYZ2B_sfgHIWkej44ZJkQoGwzfp5mXIQMvCf9MmMJFNYvOP2CDDd-c66TxEcfZlQwgx6kO4cZ2G18cHu5NhV9eYxRnL9dX6XAoy9fYv8naA0turlbsBX56tw=w529-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczPR8wAmBhOf6HBeW7Zj7wi-2llODTX2WD72BZyp2O5gRYrKf-_q5Km9NV6RB8hwWE2JBrhoIhUSEQj4pveODa1_zv4DcE988tfUvus4COPTR-ZPyQGAdVfoEIILIK4mb5jq8QxEorfm1h3o2PeT5-3k=w704-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczNHY5fYJm92iXxX9sB3K48Gt8Oj4ehhKtYjURtDwUj3jZWD5kVgLmBuhRhV4OXZvNeCOl9Zym5NvyNRQ4BVJUoHGhU7qxsV_HeKKTf_GgvohYK1ft8NrvsN-s832dmUcKZjnE3S4OcHkrhay8TyQsV9=w704-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczNKh0QQaKcvM_QtK5NxbuCULZGGPGB9DRk-VFJ96iCqsECrvzt4BNTb2NMgp9iyh8s3l_23L9xvaRnx6pDWka7KmM6lg3KIvO6CdBvT7EkUDsjuIveNgr9tq725r1yUZhalPt1Y1WzNhcLoojD-CwtP=w704-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczPzX-9-5Qu-lAfCza90j70rT9bpuuPK0aejiOcgzRXdTgzlcdHTKM_lhHLzVMukgaww3_xt1sxTSBhlW3X_VuMaB0kc9LgKXOY9ONf6iW34TbfMxVoemv_JYjuWXVfpUCSB4YJcB5zlnts7jj8aTQAM=w1250-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczPOMlhFpvruwCZid1aXbSIr_NszOjtjZR9v8k9IlJD0c6RzcWV2YfnqdhEpCPy0963QLaXzni4lZ3dTHL0VNAfyBoipKEH708iMMckmbuRQzIlym_YMLg9yW1gCvsiZgFh53xhOugHKtPMK3fnKXQMC=w704-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczORn7jiMikIfriwEdbLcbt1AIYMJDZ0rvjSr-xHcZEahPxYT_v6sAILHIRDQRy8oQoYN4Fx2WXVmW1VtEv2Znaqv-xV9-1Hgdh-j7dFoC-WgPTHiYgKZd-NXDTjtNaQz4XhwahZEYtwTShuaky06pnj=w704-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczN8K6YfjWQ2k_CP13eTaeJwDTSU1FZ1cGRt0vHvXi0LhWVryHSvDWpayFmmT2mUXeF41pl9O9C6pHG_BYrm_t_Ieq4nhgSbBgkVkyaOD4WaPEAPnZ3XOHRyrNNVXb40s7T09Clxa2eDqLqW48r9xOd0=w529-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczNT1Fek_MJg5Eht5RckpOVxlzV7ITkP4S4uCRmjYOXuxTN6QXKnqsPWz0o7-L5Dx2rBnsbOU1wnV8ZrE8DflwTb8hroIxooiVn2Cp0SZ8s7c2UDO1pzL-Y83jitacFwk7uJHaW4aXgNgfnkrIlnrDyp=w1250-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczN1REJlkP6uW2Z_gMWk9Yu_y7CdE1SDAdFNtYi2Vps0boXaIqNLfMpY7WalYo2bH2jV8y7XnLpHBO4-2EQDbBAJOIRLN5CqsXFX5klfhopiJPY3bTcjoiKWPSRUz-BxKofLwX86UoiS2verr2vYVFAy=w704-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczOaI8GQ7K_bpjgssr0ol3IYv_f_oy3JFtUtvoAnP70-Xb-59HFrQPNqfap5P7hfiYdaIGbZ-eRjHjGY5HIvIjMH1iehULvQb_UtP0LPm7Rawb5yepW8iq1TdEz8ES3gyLQ8LQmDADX29Eo2iBUhAZWN=w704-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczO1aLH307AQY8lYpYEDNiUD7oLXlLZ4ao8edNmzyqXX-w6YwMkHCLbatbMxES0veshPUq0enG5zw7GEMg_aWLCxNP_K5IY9dE1DKnE7xBdSZFdihCBM9jnvwl7BXU9ZnxZMP_Wk2nw4J0CW9DiUZdpp=w704-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczM6hN2ueFN-QzWEp-2DE-69q2qF2YvLwaB-MaDevcd95PJZfQaPp-wv9B0iKy-S9Too839xSD7jXCrKtFNo5pF_H47LWa8MCbgChGrdf74c72doPne7-AtOy6YrSf8kQ8DMDKhfmMVvs6j5fAsRVNNi=w704-h938-s-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AP1GczPNvZ14v0z_OiyBC6umQSoeI3FGJpTatjtNsD5qUU2brX7ZmrB2hk6VqCJQoztb3OAGy94DhKhAfdXE6YQIunt8_uw0T4VjTJNIqUoRybifgMSN5_eCU9FFF6l7KQIjeUO1D1-W15R7e3Zi1RixW2Qm=w1250-h938-s-no?authuser=0"
+      ],
+      "team": "https://lh3.googleusercontent.com/pw/AP1GczOMpnE8THKXZO2-U_KLbqLBUvRC5PGrJCLBWMAvLPb9LxXHjjW3z7CCFOaA5vQQA5mxMS9wdsJdKx9-SD7xZtUF-ehN_6CKM-kWZF6aiDz1aS6IVGVw9I-5wWTvMqVt6IkuVDeGfsnN-G_jUk34jA0F=w1419-h917-s-no-gm"
+    }
+  ]
+}
