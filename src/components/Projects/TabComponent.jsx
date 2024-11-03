@@ -36,6 +36,32 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
     })
     return data
   }
+
+  const loadOrgChart = entry => {
+    if (entry.team === '') {
+      return null
+    } else {
+      return (
+        <div>
+          <div className='row m-0 p-0 justify-content-center'>
+            <div className=' border-bottom border-4 border-primary mx-5 d-flex col-6 col-sm-4 col-xl-3  justify-content-center'>
+              <h3 className='text-primary display-5 my-2 fw-bold d-flex'>
+                El equipo
+              </h3>
+            </div>
+          </div>
+          <div className='d-flex justify-content-center m-4'>
+            <img
+              src={ImportDrivePhoto(entry.team, 0)}
+              alt='Competition team image'
+              className='col-10 m-4 align-self-center'
+            />
+          </div>
+        </div>
+      )
+    }
+  }
+
   const loadDescriptions = entry => {
     const newOrder = generateSeries(entry.content.length)
     const data = []
@@ -184,20 +210,7 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
           reference={reference}
         />
       </div>
-      <div className='row m-0 p-0 justify-content-center'>
-        <div className=' border-bottom border-4 border-primary mx-5 d-flex col-6 col-sm-4 col-xl-3  justify-content-center'>
-          <h3 className='text-primary display-5 my-2 fw-bold d-flex'>
-            El equipo
-          </h3>
-        </div>
-      </div>
-      <div className='d-flex justify-content-center m-4'>
-        <img
-          src={ImportDrivePhoto(entry.team, 0)}
-          alt='Competition team image'
-          className='col-10 m-4 align-self-center'
-        />
-      </div>
+      {loadOrgChart(entry)}
     </div>
   )
 }
