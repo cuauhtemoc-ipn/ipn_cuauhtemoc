@@ -277,13 +277,13 @@ const Subs = () => {
   return (
     <div className='container-lg bg-dark bg-opacity-75 px-0 py-4'>
       <div className='row justify-content-center mx-0'>
-        <div className='justify-content-center border-bottom border-4 border-primary mx-auto mb-5 col-6 col-sm-4 col-lg-3'>
+        <div className='justify-content-center border-bottom border-4 border-primary my-5 col-6 col-sm-4 col-lg-3'>
           <h3 className='text-center text-primary display-5 fw-bold'>
             Secciones
           </h3>
         </div>
         <div className='row dynamic-sections text-light px-0 mx-0'>
-          <div className='row d-none d-md-flex buttons justify-content-center align-items-center px-0 mx-0 mb-5'>
+          <div className='row d-none d-md-flex buttons justify-content-center align-items-center px-0 mx-0 my-5'>
             {Object.keys(sections).map(section => (
               <div
                 key={section}
@@ -313,7 +313,7 @@ const Subs = () => {
             className='row px-0 mx-0'
           >
             <h2
-              className='d-none d-md-block text-center mb-5'
+              className='d-none d-md-block text-center my-5'
               key={selectedSection}
               style={fadeInStyle}
             >
