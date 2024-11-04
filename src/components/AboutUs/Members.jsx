@@ -136,15 +136,17 @@ const Members = () => {
               />
             </div>
             <h5 className='fst-italic d-flex justify-content-center'>
-              Jefe de laboratorio Aeroespacial
+              Responsable del Laboratorio de Integración y Pruebas Aeroespaciales
             </h5>
           </div>
           <div className='col-6'>
             <p className='lead-lg text-justify text-light col-12'>
-              El profesor Héctor Díaz es el encargado del laboratorio de
-              aeroespacial de la ESIME Ticomán así como quien nos ha permitido
-              realizar la construcción de nuestros diferentes proyectos dentro
-              de sus instalaciones, otorgando su asesoría y conocimiento.
+              Con más de 35 años de experiencia en el sector, el profesor Díaz
+              ha guiado a múltiples equipos estudiantiles en competencias
+              nacionales e internacionales, incluyendo CANSAT y Fórmula SAE.
+              Desde 2017, ha sido un asesor clave para el equipo Cuauhtémoc,
+              brindando su conocimiento y apoyo en el desarrollo de proyectos
+              aeroespaciales dentro de su laboratorio.
             </p>
             <li className='lead-lg text-justify'>
               Colaboración en el desarrollo de satélites nacionales
