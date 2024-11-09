@@ -4,6 +4,21 @@ import Privacy from '../Home/Privacy'
 import Pollito3 from '@/assets/Pollito3.png'
 
 const SponsorCard = () => {
+  const ImportDrivePhoto = (driveUrl, height) => {
+    // Default URL in case no valid file ID is found
+    const defaultUrl =
+      'https://drive.google.com/file/d/1Q7By_xG9r3a8Zr47j6b1HG7yAm91GIHO/view?usp=drive_link'
+
+    // Try to extract the file ID from the Google Drive URL
+    const match = driveUrl.match(/\/d\/(.*)\//)
+    const fileId = match ? match[1] : defaultUrl.match(/\/d\/(.*)\//)[1]
+
+    // Construct the new URL with the specified height
+    const newUrl = `https://lh3.googleusercontent.com/d/${fileId}=h${height}`
+
+    return newUrl
+  }
+
   const card = (sponsor, index) => (
     <div
       key={index}
@@ -13,7 +28,7 @@ const SponsorCard = () => {
         <div className='border-bottom'>
           <a href={sponsor.page} className='ratio ratio-4x3' target='blank'>
             <img
-              src={sponsor.imagesecond}
+              src={ImportDrivePhoto(sponsor.imagesecond, 250)}
               className='card-img object-fit-contain p-2'
               alt={sponsor.name}
             />

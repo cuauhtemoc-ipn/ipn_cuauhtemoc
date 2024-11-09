@@ -25,7 +25,7 @@ export default function AutoplayCarousel ({
   const ImportDrivePhoto = (driveUrl) => {
     // Default URL in case no valid file ID is found
     const defaultUrl =
-      'https://drive.google.com/file/d/1T95gfXdE9277ryMRxtHg9pkBLUDVRcNG/view?usp=drive_link'
+      'https://drive.google.com/file/d/1Q7By_xG9r3a8Zr47j6b1HG7yAm91GIHO/view?usp=drive_link'
 
     // Try to extract the file ID from the Google Drive URL
     const match = driveUrl.match(/\/d\/(.*)\//)

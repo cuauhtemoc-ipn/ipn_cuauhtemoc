@@ -9,6 +9,20 @@ const SpDescrpt = () => {
     /* return { __html: text.match(/.{1,60}/g).join('<br>') } */
     return { __html: text.match(regex).join(' ') }
   }
+  const ImportDrivePhoto = (driveUrl, height) => {
+    // Default URL in case no valid file ID is found
+    const defaultUrl =
+      'https://drive.google.com/file/d/1Q7By_xG9r3a8Zr47j6b1HG7yAm91GIHO/view?usp=drive_link'
+
+    // Try to extract the file ID from the Google Drive URL
+    const match = driveUrl.match(/\/d\/(.*)\//)
+    const fileId = match ? match[1] : defaultUrl.match(/\/d\/(.*)\//)[1]
+
+    // Construct the new URL with the specified height
+    const newUrl = `https://lh3.googleusercontent.com/d/${fileId}=h${height}`
+
+    return newUrl
+  }
 
   const sponsordescrpt = (sponsor, index) => {
     const fullTextForTooltip = dividetext(sponsor.description)
@@ -23,7 +37,7 @@ const SpDescrpt = () => {
         <div className='text-center px-sm-4 px-md-0 my-4 col-5 col-sm-5 col-md-8'>
           <a href={sponsor.page} className={`tt-${uniqueId}`} target='_blank'>
             <img
-              src={sponsor.imagemain}
+              src={ImportDrivePhoto(sponsor.imagemain, 200)}
               className='img-fluid px-sm-4 px-md-0'
               alt={sponsor.name}
             />
