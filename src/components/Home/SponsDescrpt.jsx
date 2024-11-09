@@ -13,7 +13,7 @@ const SpDescrpt = () => {
   const sponsordescrpt = (sponsor, index) => {
     const fullTextForTooltip = dividetext(sponsor.description)
 
-    const uniqueId = `tooltip-${index}-${sponsor.name}`
+    const uniqueId = `tooltip-${index}`
 
     return (
       <div
