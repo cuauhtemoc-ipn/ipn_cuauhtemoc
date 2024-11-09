@@ -1,5 +1,5 @@
 import React from 'react'
-import logo1 from '@/assets/main_logo.svg'
+import logo from '@/assets/main_logo.svg'
 import name from '@/assets/team_name.svg'
 import { NavLink } from 'react-router-dom'
 import insta from '@/assets/instalogo.png'
@@ -15,7 +15,7 @@ const Footer = () => {
           <div className='px-3 mb-5 mb-md-0 col-7 col-md-12'>
             <div>
               <img
-                src={logo1}
+                src={logo}
                 className='img-fluid mx-auto d-block'
                 alt='IPN Cuauhtemoc image'
               />

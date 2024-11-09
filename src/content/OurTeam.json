@@ -5,12 +5,7 @@
         "video": [
             "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FCuauhtemocIPN%2Fvideos%2F678636179874314%2F&show_text=false&width=560&t=0"
           ],
-        "content": [
-          {
-            "type": "text",
-            "value": "Cuauhtémoc es más que un equipo de estudiantes, somos un grupo de alumnos de diferentes carreras apasionados por el sector aeroespacial, enfocados en el diseño y la manufactura de picosatélites. Nos dedicamos a explorar y llevar la ingeniería aeroespacial a nuevas fronteras a través de proyectos y competencias tanto nacionales como internacionales poniendo en alto a nuestro país y a nuestra institución. Si al igual que nosotros te interesa el espacio, la tecnología y los retos de la ingeniería, te invitamos a conocer más sobre nuestro equipo. Síguenos para descubrir cómo, desde la universidad, estamos impactando en la investigación y la educación científica. ¡Únete a esta misión y sé parte del futuro aeroespacial con Cuauhtémoc!"
-          }
-        ]
+        "description": "Cuauhtémoc es más que un equipo de estudiantes, somos un grupo de alumnos de diferentes carreras apasionados por el sector aeroespacial, enfocados en el diseño y la manufactura de picosatélites. Nos dedicamos a explorar y llevar la ingeniería aeroespacial a nuevas fronteras a través de proyectos y competencias tanto nacionales como internacionales poniendo en alto a nuestro país y a nuestra institución. Si al igual que nosotros te interesa el espacio, la tecnología y los retos de la ingeniería, te invitamos a conocer más sobre nuestro equipo. Síguenos para descubrir cómo, desde la universidad, estamos impactando en la investigación y la educación científica. ¡Únete a esta misión y sé parte del futuro aeroespacial con Cuauhtémoc!"
       }
     ]
   }

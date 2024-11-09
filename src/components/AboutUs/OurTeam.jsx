@@ -25,7 +25,7 @@ const OurTeam = () => {
             />
           </div>
           <div className='lead-lg text-light text-justify my-sm-4 my-lg-0 col-11 col-lg-5'>
-            <p>{team.content[0].value}</p>
+            <p>{team.description}</p>
           </div>
         </div>
       </div>

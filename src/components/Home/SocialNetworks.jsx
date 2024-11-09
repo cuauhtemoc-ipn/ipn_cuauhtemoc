@@ -2,7 +2,7 @@ import React from 'react'
 import insta from '@/assets/instalogo.png'
 import linkedin from '@/assets/linkedinlogo.png'
 import face from '@/assets/facebooklogo.svg'
-import Pollo from '@/assets/Pollomundo.png'
+import Pico from '@/assets/Picomundo.png'
 
 const Social = () => {
   return (
@@ -57,7 +57,7 @@ const Social = () => {
         </div>
         <div className='mt-5 mt-md-0 col-12 col-md-6'>
           <img
-            src={Pollo}
+            src={Pico}
             className='row mx-auto col-8 col-md-9 col-lg-10 col-xl-9 col-xxl-7'
           />
         </div>

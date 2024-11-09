@@ -108,6 +108,21 @@ const Subs = () => {
     animation: 'fadeIn 1s ease-in-out'
   }
 
+  const ImportDrivePhoto = (driveUrl, height) => {
+    // Default URL in case no valid file ID is found
+    const defaultUrl =
+      'https://drive.google.com/file/d/1Q7By_xG9r3a8Zr47j6b1HG7yAm91GIHO/view?usp=drive_link'
+
+    // Try to extract the file ID from the Google Drive URL
+    const match = driveUrl.match(/\/d\/(.*)\//)
+    const fileId = match ? match[1] : defaultUrl.match(/\/d\/(.*)\//)[1]
+
+    // Construct the new URL with the specified height
+    const newUrl = `https://lh3.googleusercontent.com/d/${fileId}=h${height}`
+
+    return newUrl
+  }
+
   const Imgcarousel = (
     <div className='row d-none d-md-flex content justify-content-center align-items-center mx-0 col-lg-7'>
       <div
@@ -128,7 +143,7 @@ const Subs = () => {
               <div className='ratio ratio-16x9'>
                 <div className='d-flex justify-content-center align-items-center'>
                   <img
-                    src={imageName}
+                    src={ImportDrivePhoto(imageName, 600)}
                     className='d-block img-fluid h-100'
                     alt={`${selectedSection} ${index}`}
                   />
@@ -242,7 +257,7 @@ const Subs = () => {
                 <div className='ratio ratio-16x9'>
                   <div className='d-flex justify-content-center align-items-center'>
                     <img
-                      src={imageName}
+                      src={ImportDrivePhoto(imageName, 600)}
                       className='d-block img-fluid h-100'
                       alt={`${selectedSection} imagen ${index + 1}`}
                     />
@@ -299,7 +314,7 @@ const Subs = () => {
                     <span className='lead lh-lg'>{section}</span>
                     <div className='ratio ratio-1x1'>
                       <img
-                        src={sections[section].btnImage}
+                        src={ImportDrivePhoto(sections[section].btnImage, 300)}
                         className='img-fluid object-fit-cover rounded-4'
                         alt={`${sections[section].title} image`}
                       />

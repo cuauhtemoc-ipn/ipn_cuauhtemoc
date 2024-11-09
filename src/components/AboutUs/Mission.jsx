@@ -24,6 +24,21 @@ const MissionVision = () => {
     }
   }, [])
 
+  const ImportDrivePhoto = (driveUrl, height) => {
+    // Default URL in case no valid file ID is found
+    const defaultUrl =
+      'https://drive.google.com/file/d/1Q7By_xG9r3a8Zr47j6b1HG7yAm91GIHO/view?usp=drive_link'
+
+    // Try to extract the file ID from the Google Drive URL
+    const match = driveUrl.match(/\/d\/(.*)\//)
+    const fileId = match ? match[1] : defaultUrl.match(/\/d\/(.*)\//)[1]
+
+    // Construct the new URL with the specified height
+    const newUrl = `https://lh3.googleusercontent.com/d/${fileId}=h${height}`
+
+    return newUrl
+  }
+
   const Missioncarousel = (
     <div
       id='Missioncarousel'
@@ -39,7 +54,7 @@ const MissionVision = () => {
             className={`carousel-item ratio ratio-16x9 ${index === 0 ? 'active' : ''}`}
           >
             <div className='d-flex justify-content-center align-items-center'>
-              <img src={imageName} className='d-block h-100' alt='...' />
+              <img src={ImportDrivePhoto(imageName, 600)} className='d-block h-100' alt='...' />
             </div>
           </div>
         ))}
@@ -91,7 +106,7 @@ const MissionVision = () => {
             className={`carousel-item ratio ratio-16x9 ${index === 0 ? 'active' : ''}`}
           >
             <div className='d-flex justify-content-center align-items-center'>
-              <img src={imageName} className='d-block h-100' alt='...' />
+              <img src={ImportDrivePhoto(imageName, 600)} className='d-block h-100' alt='...' />
             </div>
           </div>
         ))}
