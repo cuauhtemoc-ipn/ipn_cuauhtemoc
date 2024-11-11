@@ -61,14 +61,14 @@
         "page": "https://www.3ds.com/es/",
         "imagemain": "https://drive.google.com/file/d/1iRnZo8ycmGHfA9oJ4M97knz14Zw0yhV4/view?usp=drive_link",
         "imagesecond": "https://drive.google.com/file/d/1DEs27FsbcbZd0D_IscpvlbE2SiISf6dU/view?usp=sharing",
-        "description": "Mensaje o texto sobre cómo apoya Dassault."
+        "description": "Dassault Systèmes nos apoya con sus soluciones de diseño y simulación 3D, lo cual facilita el desarrollo de componentes complejos en nuestros proyectos aeroespaciales. Su software nos permite visualizar, probar y perfeccionar cada detalle de nuestros diseños antes de su construcción final."
       },
       {
         "name": "Altium",
         "page": "https://www.altium.com/es",
         "imagemain": "https://drive.google.com/file/d/1rxENu2VMAyz-cN179pGwj0LT6Tc9k91y/view?usp=drive_link",
         "imagesecond": "https://drive.google.com/file/d/1_RmWbi1UNNwbyaEnTW4U4fvRSEnSxpCF/view?usp=drive_link",
-        "description": "Mensaje o texto sobre cómo apoya Altium."
+        "description": "Altium es un socio clave que nos apoyo con software para diseñar y simular las placas de circuito impreso para nuestros proyectos con precisión y calidad, asegurando que cada prototipo cumpla con los estándares requeridos para su óptimo funcionamiento."
       }
     ]
   }

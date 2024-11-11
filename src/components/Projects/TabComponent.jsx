@@ -81,7 +81,7 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
         data.push(
           <div className='d-none d-lg-block col-lg-6 p-2 p-lg-4 align-content-center'>
             <img
-              src={ImportDrivePhoto(element.value, 300)}
+              src={ImportDrivePhoto(element.value, 500)}
               alt='Image'
               className='w-100'
               key={'img' + index}
