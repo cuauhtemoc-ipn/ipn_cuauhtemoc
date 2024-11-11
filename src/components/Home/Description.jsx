@@ -11,7 +11,8 @@ const Descrpt = () => {
           <img src={lead} className='img-fluid' alt='IPN Cuauhtemoc image' />
         </div>
         <div className='text-light mt-lg-5 col-12 col-md-9 col-lg-6'>
-          <h3 className='display-6 fw-bold'>Somos</h3>
+          <h1 className='hidden-heading'>IPN Cuauhtémoc Aeroespacial</h1>
+          <h2 className='display-6 fw-bold'>Somos</h2>
           <img src={name} className='img-fluid mb-4' alt='IPN Cuauhtemoc' />
           <p className='lead-lg text-justify'>
             Una organización de estudiantes del Instituto Politécnico Nacional,
