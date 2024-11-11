@@ -5,22 +5,22 @@ import { NavLink } from 'react-router-dom'
 import info from '@/content/Members.json'
 
 const Members = () => {
+  const ImportDrivePhoto = (driveUrl, height) => {
+    // Default URL in case no valid file ID is found
+    const defaultUrl =
+      'https://drive.google.com/file/d/1T95gfXdE9277ryMRxtHg9pkBLUDVRcNG/view?usp=drive_link'
+
+    // Try to extract the file ID from the Google Drive URL
+    const match = driveUrl.match(/\/d\/(.*)\//)
+    const fileId = match ? match[1] : defaultUrl.match(/\/d\/(.*)\//)[1]
+
+    // Construct the new URL with the specified height
+    const newUrl = `https://lh3.googleusercontent.com/d/${fileId}=h${height}`
+
+    return newUrl
+  }
+
   const membcard = (member, index) => {
-    const ImportDrivePhoto = (driveUrl, height) => {
-      // Default URL in case no valid file ID is found
-      const defaultUrl =
-        'https://drive.google.com/file/d/1T95gfXdE9277ryMRxtHg9pkBLUDVRcNG/view?usp=drive_link'
-
-      // Try to extract the file ID from the Google Drive URL
-      const match = driveUrl.match(/\/d\/(.*)\//)
-      const fileId = match ? match[1] : defaultUrl.match(/\/d\/(.*)\//)[1]
-
-      // Construct the new URL with the specified height
-      const newUrl = `https://lh3.googleusercontent.com/d/${fileId}=h${height}`
-
-      return newUrl
-    }
-
     return (
       <div
         key={index}
@@ -44,7 +44,7 @@ const Members = () => {
             <h5>{member.section}</h5>
             <div className='text-light ratio custom-ratio ratio-md-21x9 ratio-lg-16x9 overflow-auto mb-2'>
               <p className='text-justify pe-2'>
-                {member.content.find(item => item.type === 'text').value}
+                {member.description}
               </p>
             </div>
           </div>
@@ -120,40 +120,41 @@ const Members = () => {
             </div>
           )}
         </div>
-        <h2 className='display-5 text-light fw-semibold my-5'>
+        <h2
+          className='display-5 text-light fw-semibold my-5'
+        >
           Faculty advisor
         </h2>
         <div className='row text-light border border-4 border-white align-items-center p-4 p-lg-5 my-4 bg-gray bg-opacity-50 mx-auto col-11'>
           <div className='flex-column col-6'>
             <h2 className='d-flex justify-content-center'>
-              M. en C. Héctor Díaz García
+              {info.faculty.name}
             </h2>
             <div className='d-flex justify-content-center'>
               <img
                 className='shadow-lg rounded-4 col-10'
-                src='https://lh3.googleusercontent.com/pw/AP1GczPzz3VO1nR58lZMOZtjdsH0k5G5MOnLfteME22eMvNVuC9mKFAI0iVM5I9rn4hY8RxWgNMUk7uGYl-gL7J2fjoTQEjZMj3tJiZMALz0mHo3g7V1ZcvfTQePyU6WJGtsTD140jqJI5AtrglrqWcWrlXq=w938-h938-s-no?authuser=0'
+                src={ImportDrivePhoto(info.faculty.content.find(item => item.type === 'image').value, 300)}
                 alt='Masctot Pico'
               />
             </div>
             <h5 className='fst-italic d-flex justify-content-center'>
-              Responsable del Laboratorio de Integración y Pruebas Aeroespaciales
+              {info.faculty.name}
             </h5>
           </div>
           <div className='col-6'>
             <p className='lead-lg text-justify text-light col-12'>
-              Con más de 35 años de experiencia en el sector, el profesor Díaz
-              ha guiado a múltiples equipos estudiantiles en competencias
-              nacionales e internacionales, incluyendo CANSAT y Fórmula SAE.
-              Desde 2017, ha sido un asesor clave para el equipo Cuauhtémoc,
-              brindando su conocimiento y apoyo en el desarrollo de proyectos
-              aeroespaciales dentro de su laboratorio.
+              {info.faculty.description}
             </p>
-            <li className='lead-lg text-justify'>
-              Colaboración en el desarrollo de satélites nacionales
-            </li>
-            <li className='lead-lg text-justify'>
-              Participación en CanSat Competition 2017
-            </li>
+            <ul>
+              {info.faculty.list.map((item, index) => (
+                <li
+                  key={index}
+                  className='lead-lg text-justify'
+                >
+                  {item}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
         {/*

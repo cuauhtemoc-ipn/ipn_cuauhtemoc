@@ -1,7 +1,7 @@
 import info from '@/content/Sponsors.json'
 import ContactForm from '@/components/Home/ContactForm'
 import Privacy from '../Home/Privacy'
-import Pollito3 from '@/assets/Pollito3.png'
+import Pico3 from '@/assets/Pico3.png'
 
 const SponsorCard = () => {
   const ImportDrivePhoto = (driveUrl, height) => {
@@ -78,12 +78,12 @@ const SponsorCard = () => {
             nuestra visión y las oportunidades de patrocinio. ¡Únete a nosotros
             y prepárate para despegar hacia el futuro de la aeroespacial!
           </p>
-          <img className='row d-none d-md-block mx-auto col-10' src={Pollito3} />
+          <img className='row d-none d-md-block mx-auto col-10' src={Pico3} />
         </div>
         <ContactForm />
       </div>
       <Privacy />
-      <img className='row d-md-none mx-auto mt-4 col-11 col-sm-8' src={Pollito3} />
+      <img className='row d-md-none mx-auto mt-4 col-11 col-sm-8' src={Pico3} />
     </div>
   )
 }

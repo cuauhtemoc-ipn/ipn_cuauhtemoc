@@ -6,7 +6,7 @@ import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 import join from '@/assets/join.svg'
-import Pollito2 from '@/assets/Pollito2.png'
+import Pico2 from '@/assets/Pico2.png'
 import ContactForm from '../Home/ContactForm'
 import Privacy from '../Home/Privacy'
 
@@ -110,7 +110,7 @@ const Recruitment = () => {
                   habilidades, y contactarte al respecto. ¡Esperamos saber de ti
                   pronto!
                 </p>
-                <img className='row d-none d-md-block mx-auto col-10' src={Pollito2} />
+                <img className='row d-none d-md-block mx-auto col-10' src={Pico2} />
               </div>
               <div className='contact-container col-12 col-md-6'>
                 <form onSubmit={handleSubmit(whenSubmit)} className='d-block '>
@@ -283,7 +283,7 @@ const Recruitment = () => {
             </div>
             )}
         <Privacy />
-        <img className='row d-md-none mx-auto mt-4 col-11 col-sm-8' src={Pollito2} />
+        <img className='row d-md-none mx-auto mt-4 col-11 col-sm-8' src={Pico2} />
       </div>
     </div>
   )

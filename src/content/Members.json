@@ -3,11 +3,8 @@
     {
       "name": "Josue Salvador Mendoza Estevez",
       "section": "Team Lead",
+      "description": "Soy un apasionado estudiante de ingeniería aeronáutica, interesado en la exploración espacial y satélites. Crean en sus sueños, luchen por ellos y disfruten el proceso.",
       "content": [
-        {
-          "type": "text",
-          "value": "Soy un apasionado estudiante de ingeniería aeronáutica, interesado en la exploración espacial y satélites. Crean en sus sueños, luchen por ellos y disfruten el proceso."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/1ZAsoBC4eXYqh35hDNer0o2PASgfuzi41/view?usp=drive_link"
@@ -17,11 +14,8 @@
     {
       "name": "Yael Castrejón",
       "section": "SubTeam Lead",
+      "description": "Estudiante de Ingeniería con experiencia en diseño mecánico y liderazgo de proyectos. Mi enfoque en la gestión efectiva de equipos y la búsqueda del éxito colectivo alimentado por experiencia en distintos proyectos nacionales e internacionales, me impulsa a buscar oportunidades para lograr objetivos comunes en la industria aeroespacial.",
       "content": [
-        {
-          "type": "text",
-          "value": "Estudiante de Ingeniería con experiencia en diseño mecánico y liderazgo de proyectos. Mi enfoque en la gestión efectiva de equipos y la búsqueda del éxito colectivo alimentado por experiencia en distintos proyectos nacionales e internacionales, me impulsa a buscar oportunidades para lograr objetivos comunes en la industria aeroespacial."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/1TEYz6ve3VQI0w6UnfTPwZokdWMXIGHa6/view?usp=drive_link"
@@ -31,11 +25,8 @@
     {
       "name": "Tania Giselle Olmos Figueroa",
       "section": "Mecánica",
+      "description": "Apasionada por la aeronáutica, los dinosaurios y el diseño de estructuras avanzadas para su aplicación en entornos espaciales.",
       "content": [
-        {
-          "type": "text",
-          "value": "Apasionada por la aeronáutica, los dinosaurios y el diseño de estructuras avanzadas para su aplicación en entornos espaciales."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/1EYoBLnUEg3_Upl_1LhAYElzXrpozsiec/view?usp=drive_link"
@@ -45,11 +36,8 @@
     {
       "name": "Luis Antonio Romero de Jesús",
       "section": "Mecanica",
+      "description": "Apasionado por la aeronáutica, por el diseño y la mecánica.",
       "content": [
-        {
-          "type": "text",
-          "value": "Apasionado por la aeronáutica, por el diseño y la mecánica."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/1raEY9YgrEvG3KipbOX-B8FqQ4FKCSh3l/view?usp=drive_link"
@@ -59,11 +47,8 @@
     {
       "name": "Greco Ramsés Aragorn Sainos Piña",
       "section": "Mecánica",
+      "description": "Estudiante de aeronáutica, fan de saber cómo funcionan los mecanismos de las cosas comunes y de las que podemos ver en el espacio, con ganas de poder manufacturar ideas y ponerlas a prueba en entornos competitivos.",
       "content": [
-        {
-          "type": "text",
-          "value": "Estudiante de aeronáutica, fan de saber cómo funcionan los mecanismos de las cosas comunes y de las que podemos ver en el espacio, con ganas de poder manufacturar ideas y ponerlas a prueba en entornos competitivos."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/1p6A_gThu6EAb1dn4n22PBry0Yus99bA5/view?usp=drive_link"
@@ -73,11 +58,8 @@
     {
       "name": "Rafael Alejandro Márquez Martínez",
       "section": "Mecanica",
+      "description": "Un amante de saber como funcionan las cosas. Armar y desarmar son los fuertes de está persona, como siempre me ha gustado el construir me he decidido por mecánica para poder plasmar mis pensamientos.",
       "content": [
-        {
-          "type": "text",
-          "value": "Un amante de saber como funcionan las cosas. Armar y desarmar son los fuertes de está persona, como siempre me ha gustado el construir me he decidido por mecánica para poder plasmar mis pensamientos."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/1Y25DuHqVdtSsFIBVewNEUffzdVY4Em_a/view?usp=sharing"
@@ -87,11 +69,8 @@
     {
       "name": "Rocío Nayeli Oliva González",
       "section": "Mecánica",
+      "description": "Soy una entusiasta del espacio. Me motiva el desafío de exploración espacial y la oportunidad de contribuir a proyectos innovadores a pequeña o gran escala.",
       "content": [
-        {
-          "type": "text",
-          "value": "Soy una entusiasta del espacio. Me motiva el desafío de exploración espacial y la oportunidad de contribuir a proyectos innovadores a pequeña o gran escala."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/1ZYJDZTJ_84S0CCDbY-r3SA2oP-kPezfk/view?usp=drive_link"
@@ -101,11 +80,8 @@
     {
       "name": "Alberto Yahir Aguilar Bautista",
       "section": "AeroMecanica",
+      "description": "quiet.",
       "content": [
-        {
-          "type": "text",
-          "value": "quiet."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/1-SCkk_v8EGMD5z2Tl12adeJEmpOWR66Q/view?usp=drive_link"
@@ -115,11 +91,8 @@
     {
       "name": "Cesar Eduardo Martínez Buhl",
       "section": "Aerodinámica",
+      "description": "Estudiante de Ingeniería Aeronáutica en la ESIME Ticomán, apasionado por el sector aeroespacial. Me gustan los videojuegos, los deportes y pasar tiempo con mis amigos. Emocionado por aprender muchas cosas nuevas en el equipo.",
       "content": [
-        {
-          "type": "text",
-          "value": "Estudiante de Ingeniería Aeronáutica en la ESIME Ticomán, apasionado por el sector aeroespacial. Me gustan los videojuegos, los deportes y pasar tiempo con mis amigos. Emocionado por aprender muchas cosas nuevas en el equipo."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/109K3SOSw_wdEEeo5FznmZprMD28Ql7Bs/view?usp=drive_link"
@@ -129,11 +102,8 @@
     {
       "name": "Grettel Itzel Téllez Rojas",
       "section": "Aerodinámica",
+      "description": "Estudiante de Ingeniería Aeronáutica, con un gran interés y pasión por el comportamiento de los distintos sistemas involucrados en el sector de aerodinámica, buscando innovar y perfeccionar los sistemas antes diseñados.",
       "content": [
-        {
-          "type": "text",
-          "value": "Estudiante de Ingeniería Aeronáutica, con un gran interés y pasión por el comportamiento de los distintos sistemas involucrados en el sector de aerodinámica, buscando innovar y perfeccionar los sistemas antes diseñados."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/1nyTKe2guNH60VnHFwemjwQrbRekhZZVa/view?usp=drive_link"
@@ -143,11 +113,8 @@
     {
       "name": "Francisco Javier De la cruz De la cruz",
       "section": "Aerodinámica",
+      "description": "Soy estudiante de Ingeniería Aeronáutica con una profunda pasión por los sistemas mecánicos y aerodinámicos. Mi interés por estas áreas me impulsa a buscar soluciones innovadoras y eficientes en el campo de la aeronáutica. Actualmente, estoy enfocado en cumplir con las visiones y objetivos del equipo Cuauhtémoc IPN, cumpliendo con el rol de diseñar y mejorar los sistemas aerodinámicos utilizados en las competencias para así contribuir al desarrollo de la tecnología aeroespacial.",
       "content": [
-        {
-          "type": "text",
-          "value": "Soy estudiante de Ingeniería Aeronáutica con una profunda pasión por los sistemas mecánicos y aerodinámicos. Mi interés por estas áreas me impulsa a buscar soluciones innovadoras y eficientes en el campo de la aeronáutica. Actualmente, estoy enfocado en cumplir con las visiones y objetivos del equipo Cuauhtémoc IPN, cumpliendo con el rol de diseñar y mejorar los sistemas aerodinámicos utilizados en las competencias para así contribuir al desarrollo de la tecnología aeroespacial."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/1Jr3kRiKHhP1tgUrg3q2iE2NNlMXTxpjK/view?usp=drive_link"
@@ -157,11 +124,8 @@
     {
       "name": "Adriana De la Mora Pineda",
       "section": "",
+      "description": "Estudiante de Aeronáutica con una inmensa curiosidad por saber como funcionan todas las cosas que estén relacionadas en el medio, y en el estudio y desarrollo de dispositivos electrónicos relacionados en el ámbito Aeroespacial.",
       "content": [
-        {
-          "type": "text",
-          "value": "Estudiante de Aeronáutica con una inmensa curiosidad por saber como funcionan todas las cosas que estén relacionadas en el medio, y en el estudio y desarrollo de dispositivos electrónicos relacionados en el ámbito Aeroespacial."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/18MgfNzm-hhGPWVyiQRLfFgCV8B1M1UBX/view?usp=drive_link"
@@ -171,11 +135,8 @@
     {
       "name": "Sofia Rojas Bravo",
       "section": "EPS",
+      "description": "More pasión more pasión more energy more footwork :)",
       "content": [
-        {
-          "type": "text",
-          "value": "More pasión more pasión more energy more footwork :)"
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/15Z4x7Aa_ybdupMfW8sZsgrhRvmlanffc/view?usp=drive_link"
@@ -185,11 +146,8 @@
     {
       "name": "Carlos Enrique Zamudio Ángeles",
       "section": "EPS",
+      "description": "Preguntar y resolver.",
       "content": [
-        {
-          "type": "text",
-          "value": "Preguntar y resolver."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/1275Z5c87PU3CruVreoVkxrsH7r35PXtK/view?usp=sharing"
@@ -199,11 +157,8 @@
     {
       "name": "Karla Fernanda Morfin Eligio",
       "section": "EPS",
+      "description": "Soy una estudiante de ingeniería aeronáutica con su habilidad enfocada al diseño y desarrollo del funcionamiento de los componentes electrónicos y PCB's.",
       "content": [
-        {
-          "type": "text",
-          "value": "Soy una estudiante de ingeniería aeronáutica con su habilidad enfocada al diseño y desarrollo del funcionamiento de los componentes electrónicos y PCB's."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/1ywqe2efG-WsLBiCGy-eIvN7UjUEIc_8F/view?usp=sharing"
@@ -213,11 +168,8 @@
     {
       "name": "Hugo Helamán Meneses Maldonado",
       "section": "EPS",
+      "description": "Estudiante de Ingeniería Mecatrónica en UPIITA y apasionado con todo lo relacionado a la tecnología. Mi fuerte es el diseño y creación de PCBs y me encanta la competitividad, en especial con mis amigos trabajando en equipo. Soy fan de las galletas.",
       "content": [
-        {
-          "type": "text",
-          "value": "Estudiante de Ingeniería Mecatrónica en UPIITA y apasionado con todo lo relacionado a la tecnología. Mi fuerte es el diseño y creación de PCBs y me encanta la competitividad, en especial con mis amigos trabajando en equipo. Soy fan de las galletas."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/1phuvTS26VSE1n5RAEByu2F_VORKql7Ii/view?usp=drive_link"
@@ -227,11 +179,8 @@
     {
       "name": "Diana Alejandra Morales Ortigoza",
       "section": "EPS",
+      "description": "Soy estudiante de ingeniería aeronáutica, proactiva, decidida y apasionada por la ciencia, el espacio, la tecnología y el conocimiento.",
       "content": [
-        {
-          "type": "text",
-          "value": "Soy estudiante de ingeniería aeronáutica, proactiva, decidida y apasionada por la ciencia, el espacio, la tecnología y el conocimiento."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/1j7rHdS0M7PhyOlRuw-uTionOQBO1xbUk/view?usp=drive_link"
@@ -241,11 +190,8 @@
     {
       "name": "Leslie Ariadna Rosas Hernández",
       "section": "EPS",
+      "description": "Actualmente soy estudiante de ingeniería aeronáutica, con una pasión constante en diseño de circuitos, mejora de electrónica de potencia y electrónica secuencial. Siempre teniendo la pasión de seguir actualizándome en nuevas tecnologías, estándares y metodologías para el diseño de circuitos electrónicos.",
       "content": [
-        {
-          "type": "text",
-          "value": "Actualmente soy estudiante de ingeniería aeronáutica, con una pasión constante en diseño de circuitos, mejora de electrónica de potencia y electrónica secuencial. Siempre teniendo la pasión de seguir actualizándome en nuevas tecnologías, estándares y metodologías para el diseño de circuitos electrónicos."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/1T95gfXdE9277ryMRxtHg9pkBLUDVRcNG/view?usp=drive_link"
@@ -255,11 +201,8 @@
     {
       "name": "Angel Gabriel Olvera Ramírez",
       "section": "EPS",
+      "description": "Ingeniero Aeronáutico en formación, entusiasta y comprometido a aplicar conocimientos para desarrollar proyectos innovadores, sostenibles y seguros en el sector aeroespacial, manteniéndome a la vanguardia de nuevas tecnologías y oportunidades.",
       "content": [
-        {
-          "type": "text",
-          "value": "Ingeniero Aeronáutico en formación, entusiasta y comprometido a aplicar conocimientos para desarrollar proyectos innovadores, sostenibles y seguros en el sector aeroespacial, manteniéndome a la vanguardia de nuevas tecnologías y oportunidades."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/1ineFo0iuz0CuYBaWQHqf3Hf72V3-h4MJ/view?usp=drive_link"
@@ -269,11 +212,8 @@
     {
       "name": "Mitzy Anahy Ortega Flores",
       "section": "EPS",
+      "description": "Hola! Soy una estudiante de ingeniería fotónica. Me apasiona resolver problemas que incluyan lo aeroespacial, la electrónica y la luz estudiada desde el punto de vista cuántico.",
       "content": [
-        {
-          "type": "text",
-          "value": "Hola! Soy una estudiante de ingeniería fotónica. Me apasiona resolver problemas que incluyan lo aeroespacial, la electrónica y la luz estudiada desde el punto de vista cuántico."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/1ipCX3CkFJgJBZaOz6GXSUm1ZnEiLeoZ6/view?usp=drive_link"
@@ -283,11 +223,8 @@
     {
       "name": "Kevin Antonio Gómez Duran",
       "section": "EPS",
+      "description": "Estudiante de Mecatrónica, con mucho interés y conocimiento en el área de la electrónica, mi objetivo es ceder todo lo que sé para así poder solucionar problemáticas.",
       "content": [
-        {
-          "type": "text",
-          "value": "Estudiante de Mecatrónica, con mucho interés y conocimiento en el área de la electrónica, mi objetivo es ceder todo lo que sé para así poder solucionar problemáticas."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/13fWM_eTZjXpfoZvd-ci3f8n-FMt7m7Uc/view?usp=drive_link"
@@ -297,11 +234,8 @@
     {
       "name": "Camila Lizeth Gómez Ortiz",
       "section": "CDH - GS",
+      "description": "Estudiante de Ingeniería Aeronáutica, apasionada por la ciencia, el conocimiento y los aviones.",
       "content": [
-        {
-          "type": "text",
-          "value": "Estudiante de Ingeniería Aeronáutica, apasionada por la ciencia, el conocimiento y los aviones."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/1enNctVbbjHKaIvsm2KTZ-pDVbGjstGcN/view?usp=drive_link"
@@ -311,11 +245,8 @@
     {
       "name": "Carlos Gonzalez Ramírez",
       "section": "CDH-GS",
+      "description": "Amante del espacio y la contribución a la investigación Aeroespacial, buscando mi formación integral como ingeniero aeronáutico.",
       "content": [
-        {
-          "type": "text",
-          "value": "Amante del espacio y la contribución a la investigación Aeroespacial, buscando mi formación integral como ingeniero aeronáutico."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/18fdSkecelwDTfzwVn0BxcydKZ8qtzqOJ/view?usp=drive_link"
@@ -325,11 +256,8 @@
     {
       "name": "Joshua Hernández Ramírez",
       "section": "CDH - FSW",
+      "description": "Adicto a aprender y al bellakeo. Estudiante de Ingeniería Aeronáutica en progreso y entusiasta del espacio y sus misterios. Como siempre me ha gustado la programación entré en Flight Software. Participé en CanSat Competition 2024 y quiero mucho a mis amigos.",
       "content": [
-        {
-          "type": "text",
-          "value": "Adicto a aprender y al bellakeo. Estudiante de Ingeniería Aeronáutica en progreso y entusiasta del espacio y sus misterios. Como siempre me ha gustado la programación entré en Flight Software. Participé en CanSat Competition 2024 y quiero mucho a mis amigos."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/1asoqhKjT_eu7jdZ9Cr5jIjO9VhxlEkUS/view?usp=drive_link"
@@ -339,11 +267,8 @@
     {
       "name": "Fernando Sinuhe Gómez López",
       "section": "CDH - FSW",
+      "description": "Aeronáutico en formación. Interesado por descubrir el espacio con muchas ansias de aprender y apasionado por la ingeniería. Actualmente involucrado en flight software buscando aplicar y optimizar nuevas ideas que faciliten nuestro contacto con el espacio.",
       "content": [
-        {
-          "type": "text",
-          "value": "Aeronáutico en formación. Interesado por descubrir el espacio con muchas ansias de aprender y apasionado por la ingeniería. Actualmente involucrado en flight software buscando aplicar y optimizar nuevas ideas que faciliten nuestro contacto con el espacio."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/16YY2fcLqn-Jj7PYwE09ZCKt3giXzpWWc/view?usp=drive_link"
@@ -353,11 +278,8 @@
     {
       "name": "Rueda Omar Vázquez Gómez",
       "section": "CDH - FSW",
+      "description": "Estudiante de Ingeniería Aeronáutica, que le encanta aprender y experimentar cosas nuevas siempre que se da la oportunidad. Me encargo de las antenas y de programar el Flight Software. Siempre hay que tomar todas las oportunidades posibles.",
       "content": [
-        {
-          "type": "text",
-          "value": "Estudiante de Ingeniería Aeronáutica, que le encanta aprender y experimentar cosas nuevas siempre que se da la oportunidad. Me encargo de las antenas y de programar el Flight Software. Siempre hay que tomar todas las oportunidades posibles."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/1K3UDXH9clWAWap4Edmb-_yH3t1LQBgOC/view?usp=drive_link"
@@ -367,11 +289,8 @@
     {
       "name": "Alejandra Nayeli Cruz Aguilar",
       "section": "CDH - FSW",
+      "description": "Estudiante de Ingeniería Aeronáutica. Fan de aprender de lo nuevo y de lo viejo. Apasionada de la exploración espacial. La curiosidad es mi impulso; mi objetivo: entender, explicar, solucionar y encontrar el éxito colectivo.",
       "content": [
-        {
-          "type": "text",
-          "value": "Estudiante de Ingeniería Aeronáutica. Fan de aprender de lo nuevo y de lo viejo. Apasionada de la exploración espacial. La curiosidad es mi impulso; mi objetivo: entender, explicar, solucionar y encontrar el éxito colectivo."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/1zIpmf9bnrrBeZihjQ_jP-RlTXylj9IfL/view?usp=drive_link"
@@ -381,11 +300,8 @@
     {
       "name": "Josua Emiliano Alamilla Jiménez",
       "section": "CDH-GS",
+      "description": "Emi supremi, intenso buscador de experiencias y conocimientos. Si mi vida vale algo, soy el resultado del tiempo. Fan de ponerle emi al final de cada palabremi.",
       "content": [
-        {
-          "type": "text",
-          "value": "Emi supremi, intenso buscador de experiencias y conocimientos. Si mi vida vale algo, soy el resultado del tiempo. Fan de ponerle emi al final de cada palabremi."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/19ajLFSpZ1DsAw2SbzvdV3tp9PY2rAZ3A/view?usp=drive_link"
@@ -395,11 +311,8 @@
     {
       "name": "José Carlos Gómez Cruz",
       "section": "CDH-GS",
+      "description": "Apasionado de la tecnología y actual estudiante de Ingeniería Aeronáutica. Involucrado en el desarrollo de la estación terrena. Lo que sea que desees si para ti vale la pena lucha por ello.",
       "content": [
-        {
-          "type": "text",
-          "value": "Apasionado de la tecnología y actual estudiante de Ingeniería Aeronáutica. Involucrado en el desarrollo de la estación terrena. Lo que sea que desees si para ti vale la pena lucha por ello."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/1Q-2OiCaauTLUL0yhNyZfQFgnvnZ0COSH/view?usp=sharing"
@@ -409,16 +322,28 @@
     {
       "name": "Carmen Paulina Garduño Chagolla",
       "section": "CDH-GS",
+      "description": "Holis soy Lina y actualmente soy estudiante de Ingeniería Mecatrónica en upiita, desde pequeña siempre me ha gustado el espacio y los misterios que esconde, soy una chica muy curiosa a la que le encanta aprender cosas nuevas todos los días y más si se trata sobre ciencia y tecnología. Participé en la reciente competencia ENMICE, la cual me hizo amar la programación, al igual que al equipo y la familia que me ha dio. Siempre hay que recordar luchar por nuestros sueños y no rendirnos, por más difícil que sea el camino siempre habrán cosas nuevas de las cuales aprender para mejorar y acercarnos cada vez más a nuestro objetivo.",
       "content": [
-        {
-          "type": "text",
-          "value": "Holis soy Lina y actualmente soy estudiante de Ingeniería Mecatrónica en upiita, desde pequeña siempre me ha gustado el espacio y los misterios que esconde, soy una chica muy curiosa a la que le encanta aprender cosas nuevas todos los días y más si se trata sobre ciencia y tecnología. Participé en la reciente competencia ENMICE, la cual me hizo amar la programación, al igual que al equipo y la familia que me ha dio. Siempre hay que recordar luchar por nuestros sueños y no rendirnos, por más difícil que sea el camino siempre habrán cosas nuevas de las cuales aprender para mejorar y acercarnos cada vez más a nuestro objetivo."
-        },
         {
           "type": "image",
           "value": "https://drive.google.com/file/d/1INm5n4S5Tl3sOWTVmFQn6Z_jSjVJAKDn/view?usp=sharing"
         }
       ]
     }
-  ]
+  ],
+  "faculty": {
+    "name": "M. en C. Héctor Díaz García",
+    "section": "Responsable del Laboratorio de Integración y Pruebas Aeroespaciales",
+    "description": "Con más de 35 años de experiencia en el sector aeroespacial, el profesor Díaz ha guiado a múltiples equipos estudiantiles en competenciasnacionales e internacionales, incluyendo CANSAT y Fórmula SAE. Desde 2017, ha sido un asesor clave para el equipo Cuauhtémoc, brindando su conocimiento y apoyo en el desarrollo de proyectos aeroespaciales dentro de su laboratorio.",
+    "list": [
+      "Colaboración en el desarrollo de satélites nacionales",
+      "Participación en las competencias del equipo"
+    ],
+    "content": [
+      {
+        "type": "image",
+        "value": "https://drive.google.com/file/d/13qM2HZjDCJxkXUCauP0EOOU_Ri9aSBoT/view?usp=drive_link"
+      }
+    ]
+  }
 }

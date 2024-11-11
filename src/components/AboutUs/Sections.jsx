@@ -8,7 +8,7 @@ const Subs = () => {
     acc[section.name] = {
       title: section.title,
       btnImage: section.btnImage,
-      text: section.content[0].value,
+      text: section.description,
       images: section.images
     }
     return acc

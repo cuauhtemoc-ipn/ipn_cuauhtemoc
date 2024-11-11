@@ -4,12 +4,7 @@
         "name": "Mecánica",
         "btnImage": "https://drive.google.com/file/d/1nI32HXCj24kBlothC_cxP1FAirH2SOXg/view?usp=sharing",
         "title": "Mechanical",
-        "content": [
-          {
-            "type": "text",
-            "value": "La sección de mecánica es responsable del diseño conceptual y la construcción de los picosatélites y rovers. Su principal objetivo es garantizar que las estructuras resistan los esfuerzos físicos a los que serán sometidos durante las misiones, asegurando que cada sensor y placa no sufra daños en el proceso. Además, se encarga del diseño de mecanismos móviles, como liberadores de paracaídas, estabilizadores de cámaras y sistemas de amortiguación."
-          }
-        ],
+        "description": "La sección de mecánica es responsable del diseño conceptual y la construcción de los picosatélites y rovers. Su principal objetivo es garantizar que las estructuras resistan los esfuerzos físicos a los que serán sometidos durante las misiones, asegurando que cada sensor y placa no sufra daños en el proceso. Además, se encarga del diseño de mecanismos móviles, como liberadores de paracaídas, estabilizadores de cámaras y sistemas de amortiguación.",
         "images": [
           "https://drive.google.com/file/d/1MPs5VgrukM9chFXHOn6w6VIkCoy8ihxp/view?usp=sharing",
           "https://drive.google.com/file/d/1qoJaBcf90KOF_9ft-Mg_VCUkPMalaToO/view?usp=sharing",
@@ -21,12 +16,7 @@
         "name": "Aerodinámica",
         "btnImage": "https://drive.google.com/file/d/14fsMYdTRFQucDSEMjp2KNChGiBnb25jq/view?usp=sharing",
         "title": "Aerodynamic",
-        "content": [
-          {
-            "type": "text",
-            "value": "Responsables del diseño y fabricación del paracaídas, aerofreno y otros mecanismos de recuperación para garantizar un descenso estable del CanSat, además del análisis CFD (Dinámica de Fluidos Computacional)."
-          }
-        ],
+        "description": "Responsables del diseño y fabricación del paracaídas, aerofreno y otros mecanismos de recuperación para garantizar un descenso estable del CanSat, además del análisis CFD (Dinámica de Fluidos Computacional).",
         "images": [
           "https://drive.google.com/file/d/1L3u2OvHReQdA1YkQefy-G16pEHsQ13vp/view?usp=sharing",
           "https://drive.google.com/file/d/1L3u2OvHReQdA1YkQefy-G16pEHsQ13vp/view?usp=sharing",
@@ -38,12 +28,7 @@
         "name": "EPS",
         "btnImage": "https://drive.google.com/file/d/15d4YkSrINTUFNf1jIaK4BfsMXJSoPS00/view?usp=sharing",
         "title": "EPS",
-        "content": [
-          {
-            "type": "text",
-            "value": "Encargada de cálculos y diseño de sistemas de potencia que darán vida a todos y cada uno de los sensores y actuadores del cansat para su correcto funcionamiento a lo largo de la misión; además del diseño de los circuitos impresos que lleva cada uno de los modelos."
-          }
-        ],
+        "description": "Encargada de cálculos y diseño de sistemas de potencia que darán vida a todos y cada uno de los sensores y actuadores del cansat para su correcto funcionamiento a lo largo de la misión; además del diseño de los circuitos impresos que lleva cada uno de los modelos.",
         "images": [
           "https://drive.google.com/file/d/1qzmsFfc05bL-73bhqe61xYyMUUiDzBR6/view?usp=sharing",
           "https://drive.google.com/file/d/1zqwAajZhdb9tSOcvlQMVZWhNqQFLXEHb/view?usp=sharing",
@@ -55,12 +40,7 @@
         "name": "CDH",
         "btnImage": "https://drive.google.com/file/d/1Q1NKi5z13WOWb0f1Q7PzXl_cic9PNPrK/view?usp=sharing",
         "title": "CDH",
-        "content": [
-          {
-            "type": "text",
-            "value": "Es la sección encargada del diseño e implementación de sistemas de comunicaciones, desarrollo de software de telemetría así como la programación de sensores y microcontroladores. Realizamos el análisis y procesamiento de datos de telemetría, así como también los sistemas de comunicación remota y su implementación en satélites tipo CanSat."
-          }
-        ],
+        "description": "Es la sección encargada del diseño e implementación de sistemas de comunicaciones, desarrollo de software de telemetría así como la programación de sensores y microcontroladores. Realizamos el análisis y procesamiento de datos de telemetría, así como también los sistemas de comunicación remota y su implementación en satélites tipo CanSat.",
         "images": [
           "https://drive.google.com/file/d/18ul_x4Ebm41fKcir0Q1ukdejVnUZljwD/view?usp=sharing",
           "https://drive.google.com/file/d/1T5eWlbUg_ndBVZ33fuV79CO7VgheCRv4/view?usp=sharing",
