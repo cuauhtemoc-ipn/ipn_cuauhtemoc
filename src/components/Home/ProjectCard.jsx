@@ -22,7 +22,7 @@ const ProjectCard = ({ data }) => {
     <div className='col-10 col-md-5 col-lg-3 px-3 mb-4 card-container'>
       <div className='card-info d-flex flex-column h-100'>
         <NavLink to={data.href} className='card-img-container mb-3'>
-          <img src={ImportDrivePhoto(data.src, 400)} className='col-12' />
+          <img src={ImportDrivePhoto(data.src, 300)} className='col-12' />
         </NavLink>
         <div className='text-light text-justify'>
           <h4 className='font-weight-bold h4 text-center my-4'>{data.title}</h4>

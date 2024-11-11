@@ -37,7 +37,7 @@ const SpDescrpt = () => {
         <div className='text-center px-sm-4 px-md-0 my-4 col-5 col-sm-5 col-md-8'>
           <a href={sponsor.page} className={`tt-${uniqueId}`} target='_blank'>
             <img
-              src={ImportDrivePhoto(sponsor.imagemain, 200)}
+              src={ImportDrivePhoto(sponsor.imagemain, 120)}
               className='img-fluid px-sm-4 px-md-0'
               alt={sponsor.name}
             />

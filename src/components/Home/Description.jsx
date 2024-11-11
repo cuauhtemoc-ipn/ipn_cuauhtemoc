@@ -1,14 +1,28 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import lead from '@/assets/teamlead.svg'
 import name from '@/assets/team_name.svg'
 
 const Descrpt = () => {
+  const ImportDrivePhoto = (driveUrl, height) => {
+    // Default URL in case no valid file ID is found
+    const defaultUrl =
+      'https://drive.google.com/file/d/1Q7By_xG9r3a8Zr47j6b1HG7yAm91GIHO/view?usp=drive_link'
+
+    // Try to extract the file ID from the Google Drive URL
+    const match = driveUrl.match(/\/d\/(.*)\//)
+    const fileId = match ? match[1] : defaultUrl.match(/\/d\/(.*)\//)[1]
+
+    // Construct the new URL with the specified height
+    const newUrl = `https://lh3.googleusercontent.com/d/${fileId}=h${height}`
+
+    return newUrl
+  }
+
   return (
     <div className='container-xxl d-flex h-full py-4 my-5 my-lg-0 mt-lg-4'>
       <div className='row mx-0 justify-content-center align-items-center'>
         <div className='text-center col-12 col-md-6 col-lg-6 my-5 my-lg-0'>
-          <img src={lead} className='img-fluid' alt='IPN Cuauhtemoc image' />
+          <img src={ImportDrivePhoto('https://drive.google.com/file/d/1rjsCzeqpSbOAkL6Xcet3sl2CPNzqOVt3/view?usp=drive_link', 400)} className='img-fluid' alt='IPN Cuauhtemoc image' />
         </div>
         <div className='text-light mt-lg-5 col-12 col-md-9 col-lg-6'>
           <h1 className='hidden-heading'>IPN Cuauhtémoc Aeroespacial</h1>
