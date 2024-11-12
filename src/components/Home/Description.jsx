@@ -22,7 +22,7 @@ const Descrpt = () => {
     <div className='container-xxl d-flex h-full py-4 my-5 my-lg-0 mt-lg-4'>
       <div className='row mx-0 justify-content-center align-items-center'>
         <div className='text-center col-12 col-md-6 col-lg-6 my-5 my-lg-0'>
-          <img src={ImportDrivePhoto('https://drive.google.com/file/d/1rjsCzeqpSbOAkL6Xcet3sl2CPNzqOVt3/view?usp=drive_link', 400)} className='img-fluid' alt='IPN Cuauhtemoc image' />
+          <img src={ImportDrivePhoto('https://drive.google.com/file/d/1rjsCzeqpSbOAkL6Xcet3sl2CPNzqOVt3/view?usp=drive_link', 600)} className='img-fluid' alt='IPN Cuauhtemoc image' />
         </div>
         <div className='text-light mt-lg-5 col-12 col-md-9 col-lg-6'>
           <h1 className='hidden-heading'>IPN Cuauhtémoc Aeroespacial</h1>

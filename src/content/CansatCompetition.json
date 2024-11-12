@@ -392,6 +392,84 @@
     },
     {
       "name": "CanSat Competition",
+      "edition": 2021,
+      "scores": [
+        {
+          "place": 1,
+          "type": "Latinoamérica"
+        },
+        {
+          "place": 7,
+          "type": "Internacional"
+        }
+      ],
+      "mainImage": "https://drive.google.com/file/d/1XkBapvSd35SMiHvmz5FUhJywNX7gwSCO/view?usp=drive_link",
+      "conclusion": "A pesar de los retos de competir en plena pandemia, el equipo logró sacar adelante un proyecto sólido y bien pensado. Adaptándonos a las circunstancias, realizamos pruebas ambientales intensivas que permitieron validar el funcionamiento e integridad de los sistemas bajo condiciones similares a las que presentaría en el lanzamiento, probando que el CanSat podía soportar condiciones extremas sin problemas. Este proyecto demostró no solo nuestras habilidades técnicas, sino también una gran capacidad de adaptación y aprendizaje, dejando al equipo listo y motivado para enfrentar futuros desafíos en el ámbito aeroespacial.",
+      "conclusionImage": "https://drive.google.com/file/d/1N1wkEHDE0MLYMVLYHRr9hkEsIy2rSEEv/view?usp=sharing",
+      "content": [
+        {
+          "type": "text",
+          "value": "La misión del equipo se centró en desarrollar un CanSat con un sistema de descenso controlado mediante un mecanismo de autorrotación tipo semilla de arce para dos cargas científicas. Cada payload debía realizar mediciones de altitud, posición, temperatura, presión y tasa de rotación, transmitiendo estos datos en tiempo real mediante telemetría. Para cumplir con la misión, se analizaron y compararon distintas configuraciones para el contenedor y las cargas útiles, considerando sistemas de sensores divididos entre el contenedor y las cargas útiles, utilizando componentes clave como el sensor de temperatura y presión BMP-280 y el GPS NEO 6M."
+        },
+        {
+          "type": "image",
+          "value": "https://drive.google.com/file/d/1aoG2GsPpMF8GHCm_nIqsXU888eBhVrrn/view?usp=drive_link"
+        },
+        {
+          "type": "image",
+          "value": "https://drive.google.com/file/d/1Pjm-qOaD0RiANjYf8O0ukSRo9G62-f8f/view?usp=drive_link"
+        },
+        {
+          "type": "text",
+          "value": "Los sistemas de control de descenso tanto del contenedor como de las cargas se evaluaron a fondo, contando con una solución con un paracaídas para el contenedor y mecanismos de autorrotación compuestos de dos palas manufacturadas con impresión 3D para cada carga útil. La arquitectura del software de vuelo se diseñó para gestionar tareas e integrar sensores de manera óptima, mientras que el sistema de control en tierra se equipó con antenas configuradas para recibir datos de forma eficiente a través de una interfaz de diseño propio con una modalidad de simulación que permitía evaluar las distintas etapas de la misión."
+        },
+        {
+          "type": "text",
+          "value": "Uno de los retos más importantes encontrados en esta edición de la competencia fue que se realizó en medio de la pandemia de COVID-19, el equipo enfrentó desafíos importantes, como resultado de la necesidad de implementar procesos que aseguraran la sanidad y salud de los integrantes del equipo, así como las afectaciones a nivel mundial en el suministro de materiales y componentes electrónicos. ´Debido a estas condiciones, en lugar del lanzamiento en sitio, se realizaron pruebas ambientales rigurosas para validar el diseño y resistencia del CanSat, incluyendo: prueba de caída, para verificar la resistencia a las fuerzas G, prueba térmica, evaluando la exposición al calor durante periodos prolongados; prueba de vibración y la prueba de vacío."
+        },
+        {
+          "type": "image",
+          "value": "https://drive.google.com/file/d/1TRBTAv2YYDrhyIy5rx7wejudCRlMlwUA/view?usp=sharing"
+        }
+      ],
+      "images": [
+        "https://drive.google.com/file/d/1uNVrVGAqwKD7tU6-mKvcnPtkj8ZCZiGE/view?usp=drive_link",
+        "https://drive.google.com/file/d/1ie5k83p_xIv0TO8dGpbBSNTlQnmtVqmu/view?usp=drive_link",
+        "https://drive.google.com/file/d/1aoG2GsPpMF8GHCm_nIqsXU888eBhVrrn/view?usp=drive_link",
+        "https://drive.google.com/file/d/1KX7E11MeSj6Z22NGn-H9NQ_2XvLs6jJ2/view?usp=drive_link",
+        "https://drive.google.com/file/d/1Nb7MILfjM0DWrtOuIw7j--1oWbIQSs4e/view?usp=drive_link",
+        "https://drive.google.com/file/d/14ojsBKvnAU1u8w9y_S_oAhylVb7TXYdE/view?usp=drive_link",
+        "https://drive.google.com/file/d/1tbZ5bNZVq_7QrovqmX8-G12yhBhGLiw-/view?usp=drive_link",
+        "https://drive.google.com/file/d/199XEpV6m7rn1kEUN9cfCJBmUDNPfLqzr/view?usp=drive_link",
+        "https://drive.google.com/file/d/1kKwq5P99VVWm3cOy0tHh-O3oKqOTOcR0/view?usp=drive_link",
+        "https://drive.google.com/file/d/19AtXPhBHDjs6t5jE7CyH6aGchBJ-Hklp/view?usp=drive_link",
+        "https://drive.google.com/file/d/1WGd5xhng6SnpNXkbBsq2Ay9k5L41R3Vf/view?usp=drive_link",
+        "https://drive.google.com/file/d/1V2pSvcfNQzijllYpNGNqQONboRbmNYuY/view?usp=drive_link",
+        "https://drive.google.com/file/d/1CCakWf6vR19iEilZG-t4A3KNMBcysLTJ/view?usp=drive_link",
+        "https://drive.google.com/file/d/1Pjm-qOaD0RiANjYf8O0ukSRo9G62-f8f/view?usp=drive_link",
+        "https://drive.google.com/file/d/1XkBapvSd35SMiHvmz5FUhJywNX7gwSCO/view?usp=drive_link",
+        "https://drive.google.com/file/d/1wUYglmlMou6Lrl6kup7nu7dCiXC0raeg/view?usp=drive_link",
+        "https://drive.google.com/file/d/1SAQT3VfiKCGqFN7xgQkjKbrtbAOHn_P3/view?usp=drive_link",
+        "https://drive.google.com/file/d/1TRBTAv2YYDrhyIy5rx7wejudCRlMlwUA/view?usp=drive_link",
+        "https://drive.google.com/file/d/1-sBH7zsFPY49SfZ_U4jyQuiHo2f5IxO9/view?usp=drive_link",
+        "https://drive.google.com/file/d/1Jh3Lde7Ko2osZtyOwlBz5J5So--qHZ5K/view?usp=drive_link",
+        "https://drive.google.com/file/d/1u2LkOSKEcUASrlBjGWe-SPXLJZIM3_uM/view?usp=drive_link",
+        "https://drive.google.com/file/d/12st35ALe0l7JrXVxbzDfPrxXMpkPSA6D/view?usp=drive_link",
+        "https://drive.google.com/file/d/1N1wkEHDE0MLYMVLYHRr9hkEsIy2rSEEv/view?usp=drive_link",
+        "https://drive.google.com/file/d/1q1WCm-rpHaeRefAGABfuefne8KJrFgiC/view?usp=drive_link",
+        "https://drive.google.com/file/d/1H8-TRxOLD5aRL5QHZZtnRLwxDpqMjGws/view?usp=drive_link",
+        "https://drive.google.com/file/d/1bAv6I22viaxf6ga7WEnkCZHA4yn1jac_/view?usp=drive_link",
+        "https://drive.google.com/file/d/1Lw0c_6QAT-K8c6JwNCNv0pDHG0djsM2M/view?usp=drive_link",
+        "https://drive.google.com/file/d/10Ykvx7gyW5iKIqil5LcmIhizdS5-Kv1N/view?usp=drive_link",
+        "https://drive.google.com/file/d/1uKeXZESNnTvl8_nSTy8E8FsNi0a73mtz/view?usp=drive_link",
+        "https://drive.google.com/file/d/1izvhbeN7n9_pTVIC24votdinfVJaO3zt/view?usp=drive_link",
+        "https://drive.google.com/file/d/1mAEGXaKumh5rp4jcJSbqeKPELm7PDyY5/view?usp=drive_link",
+        "https://drive.google.com/file/d/161GUD4XMDhFKrnsrViyj6DKa9W2geVUP/view?usp=drive_link"
+      ],
+      "team": "https://drive.google.com/file/d/10aiampx1FGQGsW3mEIQYaoStMKGGylCk/view?usp=drive_link"
+    },
+    {
+      "name": "CanSat Competition",
       "edition": 2023,
       "scores": [
         {
