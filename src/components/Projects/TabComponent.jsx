@@ -203,11 +203,13 @@ const TabComponent = ({ entry, index, activeTab, reference }) => {
         </div>
 
         <GalleryCarousel
+          key={`carousel-${activeTab}`} // Ensure remount
           images={entry.images}
           index={index + 'car'}
           activeTab={activeTab}
           name={entry.edition}
           reference={reference}
+          id={'Carousel-' + activeTab}
         />
       </div>
       {loadOrgChart(entry)}

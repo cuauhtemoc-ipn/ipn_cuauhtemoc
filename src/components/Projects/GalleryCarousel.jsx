@@ -22,7 +22,7 @@ export default function AutoplayCarousel ({
     setShowModal(true)
   }
 
-  const ImportDrivePhoto = (driveUrl) => {
+  const ImportDrivePhoto = driveUrl => {
     // Default URL in case no valid file ID is found
     const defaultUrl =
       'https://drive.google.com/file/d/1Q7By_xG9r3a8Zr47j6b1HG7yAm91GIHO/view?usp=drive_link'
@@ -47,8 +47,10 @@ export default function AutoplayCarousel ({
     if (reference.current && name === activeTab) {
       const totalWidth = Array.from(reference.current.children).reduce(
         (acc, child) => {
-          const childWidth = child.offsetWidth
-          return acc + childWidth
+          const childStyle = window.getComputedStyle(child)
+          const marginLeft = parseFloat(childStyle.marginLeft)
+          const marginRight = parseFloat(childStyle.marginRight)
+          return acc + child.offsetWidth + marginLeft + marginRight
         },
         0
       )
@@ -95,7 +97,8 @@ export default function AutoplayCarousel ({
       </style>
       <div
         className={`collapse ${!isExpanded ? 'show' : ''}`}
-        id='collapseExample'
+        id={`collapseExample-${activeTab}`}
+
       >
         <div
           className={`carousel-track ${isHovered ? 'paused' : ''}`}
@@ -133,10 +136,10 @@ export default function AutoplayCarousel ({
           <a
             className='btn btn-outline-light'
             data-bs-toggle='collapse'
-            href='#collapseExample'
+            href={`#collapseExample-${activeTab}`}
             role='button'
             aria-expanded={isExpanded}
-            aria-controls='collapseExample'
+            aria-controls={`collapseExample-${activeTab}`}
             onClick={toggleExpanded} // Toggle the expanded state on click
           >
             {isExpanded ? 'Ver menos' : 'Ver todo'}
@@ -145,7 +148,7 @@ export default function AutoplayCarousel ({
       </div>
       <div
         className={`collapse ${isExpanded ? 'show' : ''}`}
-        id='collapseExample'
+        id={`collapseExample-${activeTab}`}
       >
         <div className='container-fluid d-flex flex-wrap gap-3 justify-content-around'>
           {Object.keys(images).map(detailKey => (
@@ -162,10 +165,10 @@ export default function AutoplayCarousel ({
           <a
             className='btn btn-outline-light'
             data-bs-toggle='collapse'
-            href='#collapseExample'
+            href={`#collapseExample-${activeTab}`}
             role='button'
             aria-expanded={isExpanded}
-            aria-controls='collapseExample'
+            aria-controls={`collapseExample-${activeTab}`}
             onClick={toggleExpanded} // Toggle the expanded state on click
           >
             {isExpanded ? 'Ver menos' : 'Ver todo'}

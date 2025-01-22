@@ -51,7 +51,7 @@ const Tabs = ({ data }) => {
           entry={entry}
           index={entry.edition}
           activeTab={activeTab}
-          key={index + 'content'}
+          key={`tab-content-${entry.edition}`}
           reference={references[index]}
         />
       )
