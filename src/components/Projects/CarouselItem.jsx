@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
 
-export default function CarouselItem ({ imgUrl, imgTitle, utility }) {
+export default function CarouselItem ({ imgUrl, imgTitle, utility, onLoad}) {
   const ImportDrivePhoto = (driveUrl, height) => {
     // Default URL in case no valid file ID is found
     const defaultUrl =
@@ -25,6 +25,7 @@ export default function CarouselItem ({ imgUrl, imgTitle, utility }) {
         className='d-block'
         style={{ height: '200px', cursor: 'pointer', marginInline: '10px' }}
         onClick={() => utility(imgUrl)}
+        onLoad={onLoad}
       />
     </div>
   )
