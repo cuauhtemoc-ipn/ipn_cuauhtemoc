@@ -47,7 +47,7 @@ const Recruitment = () => {
     console.log(data)
     emailjs
       .sendForm('contact_service', 'recruitment_form', form.current, {
-        publicKey: 'ZbCsu0DS45Vozgnve'
+        publicKey: 'rtnGE6aO6NJCgwYoo'
       })
       .then(
         () => {
