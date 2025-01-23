@@ -45,18 +45,29 @@ export default function AutoplayCarousel ({
 
   useEffect(() => {
     if (reference.current && name === activeTab) {
-      const totalWidth = Array.from(reference.current.children).reduce(
-        (acc, child) => {
-          const childStyle = window.getComputedStyle(child)
-          const marginLeft = parseFloat(childStyle.marginLeft)
-          const marginRight = parseFloat(childStyle.marginRight)
-          return acc + child.offsetWidth + marginLeft + marginRight
-        },
-        0
-      )
-      setCarouselWidth(totalWidth / 2)
-      setDuration(totalWidth ? totalWidth / 2 / 125 : 0)
-      setIsExpanded(false)
+      // Wait for all images to load
+      const imageLoadPromises = Object.keys(images).map((key) => {
+        return new Promise((resolve) => {
+          const img = new Image()
+          img.src = images[key]
+          img.onload = resolve
+        })
+      })
+
+      Promise.all(imageLoadPromises).then(() => {
+        const totalWidth = Array.from(reference.current.children).reduce(
+          (acc, child) => {
+            const childStyle = window.getComputedStyle(child)
+            const marginLeft = parseFloat(childStyle.marginLeft)
+            const marginRight = parseFloat(childStyle.marginRight)
+            return acc + child.offsetWidth + marginLeft + marginRight
+          },
+          0
+        )
+        setCarouselWidth(totalWidth / 2)
+        setDuration(totalWidth ? totalWidth / 2 / 125 : 0)
+        setIsExpanded(false)
+      })
     }
   }, [images, activeTab, reference, name])
 
