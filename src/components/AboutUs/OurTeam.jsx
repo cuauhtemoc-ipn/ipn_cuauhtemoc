@@ -14,8 +14,12 @@ const OurTeam = () => {
           </h1>
         </div>
         <div className='row justify-content-center align-items-center mx-0'>
-          <div className='embed-responsive d-flex justify-content-center col-12 col-lg-7'>
-            <video width='640' height='360' controls>
+          <div className='embed-responsive d-flex justify-content-center col-11 col-lg-7'>
+            <video
+              className='overflow-hidden'
+              controls
+              title='Our team video'
+            >
               <source src={camp} type='video/mp4' />
             </video>
           </div>
