@@ -44,7 +44,6 @@ const Recruitment = () => {
   const handleShowModal = () => setShowModal(true)
 
   const whenSubmit = data => {
-    console.log(data)
     emailjs
       .sendForm('contact_service', 'recruitment_form', form.current, {
         publicKey: 'rtnGE6aO6NJCgwYoo'
@@ -54,7 +53,7 @@ const Recruitment = () => {
           console.log('SUCCESS!')
         },
         error => {
-          console.log('FAILED...', error.text)
+          console.log('FAILED...', error)
         }
       )
 
@@ -113,7 +112,7 @@ const Recruitment = () => {
                 <img className='row d-none d-md-block mx-auto col-10' src={Pico2} />
               </div>
               <div className='contact-container col-12 col-md-6'>
-                <form onSubmit={handleSubmit(whenSubmit)} className='d-block '>
+                <form onSubmit={handleSubmit(whenSubmit)} className='d-block ' ref={form}>
                   <div className='row'>
                     <div className='d-flex flex-column col-6'>
                       <label htmlFor='firstName' className='text-light'>
