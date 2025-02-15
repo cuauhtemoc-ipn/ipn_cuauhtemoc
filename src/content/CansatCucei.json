@@ -142,6 +142,61 @@
     },
     {
       "name": "CanSat CUCEI",
+      "edition": 2019,
+      "scores": [
+        {
+          "place": 2,
+          "type": "Nacional"
+        }
+      ],
+      "mainImage": "https://drive.google.com/file/d/18w-9nhDFjfkAYSI6i21ypU6p-b0_gZkC/view?usp=sharing",
+      "conclusion": "El equipo destacó por su capacidad para innovar, aplicando soluciones prácticas y efectivas incluso bajo presión. Gracias a su creatividad, lograron un desempeño sobresaliente al concluir la competencia. El despliegue del CanSat y la liberación del paracaídas se ejecutaron correctamente, asegurando un descenso controlado. Aunque surgieron algunas dificultades en la transmisión de datos, se registraron observaciones para implementar mejoras en el futuro. A pesar de este reto, el equipo alcanzó el segundo lugar a nivel nacional, un logro importante que impulsará el perfeccionamiento del sistema de transmisión en próximas competiciones.",
+      "conclusionImage": "https://drive.google.com/file/d/15D1_3SgatW2WfmUhULp5BIj3smsRJGyJ/view?usp=sharing",
+      "content": [
+        {
+          "type": "text",
+          "value": "La misión de 2019 consistió en un descenso controlado de dos etapas buscando aterrizar en un punto muy cercano a donde inició la misión, esto mediante una primera etapa de control usando un planeador, el cual buscaría aproximarse lo mayor posible a dicho punto para posteriormente en una segunda etapa, aterrizar de forma segura con un paracaídas."
+        },
+        {
+          "type": "image",
+          "value": "https://drive.google.com/file/d/18aNgfMs0o6xK47MC9CYIGfhAWhbggLJe/view?usp=sharing"
+        },
+        {
+          "type": "image",
+          "value": "https://drive.google.com/file/d/1C98lCCV3PIPh-eEfI9d48UnsQS9e75F_/view?usp=sharing"
+        },
+        {
+          "type": "text",
+          "value": "Durante la misión el CanSat recibir telemetría desde el ascenso hasta la recuperación, liberar el planeador autónomamente a 500 metros, mantener un descenso controlado en un radio de 50 metros durante 300 metros, desplegar el paracaídas a 200 metros, aterrizar en un radio de 30 metros del punto de partida con el menor daño posible, recuperar el dispositivo exitosamente, inspeccionarlo visualmente y analizar los datos obtenidos durante toda la misión."
+        },
+        {
+          "type": "text",
+          "value": "La operación del CanSat consistía en dos fases para optimizar su descenso: primero, un planeador para dirigir el dispositivo al área óptima de aterrizaje, donde se libera y activa la segunda fase con un descenso controlado por paracaídas. Su estructura se divide en una parte principal, albergando sensores, servomotores, una fuente de alimentación y un Arduino Nano organizados en bandejas para maximizar el espacio, y una estructura secundaria conteniendo el planeador y el paracaídas, el cual se liberaría al girar un anillo de sujeción, activando así la fase final de descenso."
+        },
+        {
+          "type": "image",
+          "value": "https://drive.google.com/file/d/1OUqjVRHkbKOjV4O4LdPtlgoM4dWLl7Sp/view?usp=sharing"
+        },
+        {
+          "type": "image",
+          "value": "https://drive.google.com/file/d/1g9WZEzLdxLfbuYtTPday4097Tj0LZPwP/view?usp=drive_link"
+        },
+        {
+          "type": "text",
+          "value": "Los datos de telemetría fueron recibidos por la antena TL-ANT2415D y el XBee PRO S2C, conectados a la laptop. Posteriormente, el software de procesamiento en JAVA procesó estos datos mientras se generaba simultáneamente un archivo .csv. Finalmente, la representación gráfica de los datos procesados se mostró en la pantalla de la estación terrena al mismo tiempo que se almacenaban en el archivo .csv."
+        }
+      ],
+      "images": [
+        "https://drive.google.com/file/d/1VOeg5X7otdpkNOBoKtdT2slmRncgLpKS/view?usp=sharing",
+        "https://drive.google.com/file/d/109w8HjuoPtSHiXUoQhiRU8b29qxKF711/view?usp=sharing",
+        "https://drive.google.com/file/d/1synjxdkob997Cw-3jk3Yyhsy8UEiWTzv/view?usp=sharing",
+        "https://drive.google.com/file/d/1tp1ufbaeW__jxZ9NB6jLWkq3faY8UhhL/view?usp=sharing",
+        "https://drive.google.com/file/d/1tLlU0Uq5YSpkWjX8jTQ5cILvlasTxxnY/view?usp=sharing"
+      ],
+      "team": "https://drive.google.com/file/d/1ZXoSDridy415MkzsQdS23hL4aCijdVAS/view?usp=drive_link"
+    },
+    {
+      "name": "CanSat CUCEI",
       "edition": 2023,
       "scores": [
         {
